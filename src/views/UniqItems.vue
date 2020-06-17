@@ -71,6 +71,17 @@ export default {
   }
 }
 </script>
+<style>
+.filter-chooser .vs__search::placeholder,
+.filter-chooser .vs__dropdown-toggle,
+.filter-chooser .vs__dropdown-menu {
+  background: #FFFFFF;
+  border: none;
+  color: #394066;
+  text-transform: lowercase;
+  font-variant: small-caps;
+}
+</style>
 <style  lang="scss" scoped>
 #items-wrapper{
   display: grid;
@@ -82,15 +93,7 @@ export default {
 select{
   width: 150px
 }
-.filter-chooser .vs__search::placeholder,
-.filter-chooser .vs__dropdown-toggle,
-.filter-chooser .vs__dropdown-menu {
-  background: #FFFFFF;
-  border: none;
-  color: #394066;
-  text-transform: lowercase;
-  font-variant: small-caps;
-}
+
 .item-img{
   background: #000000;
   border-radius: 5px;
