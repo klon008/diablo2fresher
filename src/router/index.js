@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import UniqItems from '../views/UniqItems.vue'
 
 Vue.use(VueRouter)
 
@@ -8,15 +7,23 @@ Vue.use(VueRouter)
   {
     path: '/uniq_items',
     name: 'uniq_items',
-    component: UniqItems
+    component: () => import(/* webpackChunkName: "about" */ '../views/UniqItems.vue')
   },
   {
-    path: '/about',
+    path: '/rune_words',
     name: 'rune_words',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/RuneWords.vue')
+  },
+  {
+    path: '/runes',
+    name: 'runes',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/Runes.vue')
   }
 ]
 

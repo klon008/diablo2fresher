@@ -71,7 +71,7 @@ export default {
   }
 }
 </script>
-<style  lang="scss">
+<style  lang="scss" scoped>
 #items-wrapper{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
