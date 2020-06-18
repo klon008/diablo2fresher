@@ -1,4 +1,4 @@
-<template>
+<template> 
 	<div class="RuneWords">
 		<h1>Runewords</h1>
 		<span>Filter by: </span>
@@ -13,9 +13,12 @@
 			</div>
 			<div v-for="(item, index) in filteredJson" v-bind:key="index">
 				<div class="index">{{index+1}}</div>
-				<div class="name" v-html="item.name"></div>
-				<div class="stats" v-html="item.description"></div>
-				<div class="comments" v-html="item.Comments"></div>
+				<div class="name" 
+					v-html="item.name"></div>
+				<div class="stats" 
+					v-html="item.description"></div>
+				<div class="comments" 
+					v-html="item.Comments"></div>
 			</div>
 		</div>
 	</div>
@@ -54,7 +57,9 @@
 		mounted(){
 		},
 		created(){
-			axios.get('/json/qr.json')
+			let axiosPrefix = '';
+			if (process.env.NODE_ENV == 'production') axiosPrefix = '/diablo2fresher/dist';
+			axios.get(axiosPrefix+'/json/qr.json')
 			.then(response=>{
 				if (response && response.data) {
 					this.qrJson = response.data;

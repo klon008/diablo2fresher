@@ -1,10 +1,17 @@
 <template>
   <div id="app">
-    <canvas ref="canvas" id="canvas"></canvas>
+    <canvas 
+      ref="canvas" 
+      id="canvas" 
+    />
     <div class="content">
-      <img alt="Vue logo" src="./assets/aura-set-griswold.png">
-      <HelloWorld msg="Diablo 2 FResHER"/>
-      
+      <img 
+        alt="Vue logo" 
+        src="./assets/aura-set-griswold.png"
+      >
+      <HelloWorld 
+        msg="Diablo 2 FResHER" 
+      />      
     </div>
   </div>
 </template>
@@ -29,7 +36,7 @@
       var canvas = this.$refs.canvas;
       
       if (canvas.getContext) {
-        
+
         let AllStars = [];
 
         const redraw = () => {

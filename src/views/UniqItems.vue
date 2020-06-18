@@ -130,7 +130,9 @@
 
     },
     created(){
-      axios.get('/json/q.json')
+      let axiosPrefix = ''
+      if (process.env.NODE_ENV == 'production') axiosPrefix = '/diablo2fresher/dist';
+      axios.get(axiosPrefix + '/json/q.json')
       .then(response=>{
         if (response && response.data) {
           this.qrJson = response.data;
