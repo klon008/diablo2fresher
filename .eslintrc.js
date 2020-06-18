@@ -3,10 +3,6 @@ module.exports = {
   env: {
     node: true
   },
-  'extends': [
-    /*'plugin:vue/strongly-recommended',*/
-    'eslint:recommended'
-  ],
   rules: {
     'no-unused-vars': 'off',
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',

@@ -58,7 +58,7 @@
 		},
 		created(){
 			let axiosPrefix = '';
-			if (process.env.NODE_ENV == 'production') axiosPrefix = '/diablo2fresher/dist';
+			if (process.env.NODE_ENV == 'production') axiosPrefix = '/diablo2fresher';
 			axios.get(axiosPrefix+'/json/qr.json')
 			.then(response=>{
 				if (response && response.data) {
