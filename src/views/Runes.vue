@@ -6,7 +6,7 @@
 					<th colspan="2"> Rune</th>
 					<th align="center"> to Upgrade:</th>
 					<th> Socketed Properties</th>
-				</tr>
+				</tr>a
 			</thead>
 			<tbody>
 				<tr>
@@ -108,7 +108,7 @@
 				<tr>
 					<td> <a target="_blank" href="runes/Lum" title="Lum">Lum</a> - #17</td>
 					<td class="red"> <a target="_blank" href="img/runes/File:28px-Lum_Rune.png" class="image"><img alt="R-lum.gif" :src="`${publicPath}img/runes/28px-Lum_Rune.png`" width="30" height="31"></a></td>
-					<td align="center"> <a target="_blank" href="img/runes/File:28px-Io_Rune.png" class="image"><img alt="R-io po.gif" :src="`${publicPath}img/runes/28px-Io_Rune.png`" width="30" height="31"></a><a target="_blank" href="img/runes/File:28px-Io_Rune.png" class="image"><img alt="R-io po.gif" :src="`${publicPath}img/runes/28px-Io_Rune.png`" width="30" height="31"></a><a target="_blank" href="img/runes/File:28px-Io_Rune.png" class="image"><img alt="R-io po.gif" :src="`${publicPath}img/runes/28px-Io_Rune.png`" width="30" height="31"></a><a target="_blank" href="img/runes/Flawed_Topaz_(Diablo_II).gif" class="image"><img alt="Topaz-flawed.gif" :src="`${publicPath}Flawed_Topaz_(Diablo_II).gif`" width="19" height="21"></a></td>
+					<td align="center"> <a target="_blank" href="img/runes/File:28px-Io_Rune.png" class="image"><img alt="R-io po.gif" :src="`${publicPath}img/runes/28px-Io_Rune.png`" width="30" height="31"></a><a target="_blank" href="img/runes/File:28px-Io_Rune.png" class="image"><img alt="R-io po.gif" :src="`${publicPath}img/runes/28px-Io_Rune.png`" width="30" height="31"></a><a target="_blank" href="img/runes/File:28px-Io_Rune.png" class="image"><img alt="R-io po.gif" :src="`${publicPath}img/runes/28px-Io_Rune.png`" width="30" height="31"></a><a target="_blank" href="img/runes/Flawed_Topaz_(Diablo_II).gif" class="image"><img alt="Topaz-flawed.gif" :src="`${publicPath}img/runes/Flawed_Topaz_(Diablo_II).gif`" width="19" height="21"></a></td>
 					<td> <b>Weapon:</b> +10 Energy<br><b>Armor/Helm/Shield:</b> +10 Energy<br><b>Clvl Required:</b> 37</td>
 				</tr>
 				<tr>
