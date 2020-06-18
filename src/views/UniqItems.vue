@@ -1,7 +1,9 @@
 <template>
   <div class="uniq_items">
+
     <h2>UNIQUE ITEMS</h2>
     <div id="filter">
+      <!-- SEARCH BLOCK START -->
       <div class="inline_view_controls">
         <div>
           <span>Search by: </span>
@@ -9,10 +11,12 @@
         </div>
         <div>
           display as: 
-          <button class="fast-filter">row</button>
-          <button class="fast-filter">grid</button>
+          <button class="fast-filter" v-on:click="displayStyle='row'">row</button>
+          <button class="fast-filter"  v-on:click="displayStyle='grid'">grid</button>
         </div>
       </div>
+      <!-- SEARCH BLOCK END -->
+      <!-- FILTER CONTROLLER SHOW/HIDE BLOCK START -->
       <div class="inline_filter_control">
         <button class="fast-filter" v-on:click="showFilter = !showFilter">
           <template v-if="!showFilter">show filter</template>
@@ -20,7 +24,8 @@
         </button>
         <button class="fast-filter" v-if="filter!==''" v-on:click="filter=''">clear filter</button>
       </div>
-
+      <!-- FILTER CONTROLLER SHOW/HIDE BLOCK END -->
+      <!-- FILTER CONTROLLER BLOCK START -->
       <div class="filterlist_wrapper" v-show="showFilter">
         <div class="filterlist_row">
           <button v-on:click="setFilter(filter)" class="fast-filter" v-for="filter of justUniqueRow" :key="filter">{{ filter.match(/[^Unique]\S+/g)[0] }}</button>
@@ -41,16 +46,14 @@
           <span>Elite Unique:</span>
           <button v-on:click="setFilter(filter)" class="fast-filter" v-for="filter in uniqEliteTags('Elite Unique ')" :key="filter">{{ filter.replace('Elite Unique ', '') }}</button>
         </div>
-
       </div>
-      
+      <!-- FILTER CONTROLLER BLOCK END -->
     </div>
-
-    <div id="items-wrapper">
-
+    <!-- ITEMS STYLED GRID -->
+    <div id="items-wrapper" v-if="displayStyle=='grid'">
       <div v-for="item in dJson" v-bind:key="item.id" v-show="filteredJson(item)">
         <popper trigger="hover" :options="{placement: 'top'}">
-          <div class="popper" v-html="item.description">
+          <div class="popper description" v-html="item.description">
           </div>
           <div slot="reference" class="pop-item">
             <div class="item-img">
@@ -62,7 +65,24 @@
         </popper>
       </div>
     </div>
-  </div>
+    <!-- ROW STYLED ITEMS -->
+    <div id="items-wrapper" class="row-styled" v-else-if="displayStyle=='row'">
+      <div v-for="item in dJson" v-bind:key="item.id" v-show="filteredJson(item)">
+
+        <div slot="reference" class="pop-item">
+          <div class="item-img">
+            <img :src="('http://classic.battle.net' + item.img)" v-bind:alt="item.name">
+          </div>
+          <div class="name" v-html="item.name"></div>
+          <div class="subname" v-html="item.nameType"></div>
+        </div>
+        <div v-html="item.description" class="description">
+        </div>
+      </div>
+    </div>
+
+</div>
+
 </template>
 
 <script>
@@ -83,6 +103,7 @@
         filter: '',
         search: '',
         showFilter: false,
+        displayStyle: 'grid',
         classSpecific: [
         'Unique Amazon Items',
         'Unique Assassin Items',
@@ -203,6 +224,29 @@
   grid-auto-rows: 1fr;
   grid-gap: 20px;
   padding: 20px 0;
+  &.row-styled{
+    grid-template-columns: repeat(1, 1fr);
+    &>div{
+      display: flex;
+      align-items: center;
+      background: #000000;
+      border-radius: 5px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+    .pop-item{
+      cursor: pointer;
+      width: 350px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .description{
+      width: 100%;
+    }
+  }
 }
 select{
   width: 150px
