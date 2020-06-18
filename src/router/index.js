@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import Nprogress from 'nprogress'
+import 'nprogress/nprogress.css';
 
 Vue.use(VueRouter)
 
@@ -30,6 +32,20 @@ Vue.use(VueRouter)
 const router = new VueRouter({
   mode: 'history',
   routes
+})
+
+router.beforeResolve((to, from, next) => {
+  // If this isn't an initial page load.
+  if (to.name) {
+      // Start the route progress bar.
+      Nprogress.start()
+  }
+  next()
+})
+
+router.afterEach((to, from) => {
+  // Complete the animation of the route progress bar.
+  Nprogress.done()
 })
 
 export default router

@@ -1,7 +1,7 @@
 <template>
 	<div class="RuneWords">
 		<h1>Runewords</h1>
-		<span>Filter by: {{ filter }}</span>
+		<span>Filter by: </span>
 		<input type="text" v-model="filter">
 		
 		<div class="items">
@@ -11,7 +11,7 @@
 				<div class="items_header_h">Stats</div>
 				<div class="items_header_h">Comments</div>
 			</div>
-			<div v-for="(item, index) in qrJson" v-bind:key="index" v-show="checkFilter(item)">
+			<div v-for="(item, index) in filteredJson" v-bind:key="index">
 				<div class="index">{{index+1}}</div>
 				<div class="name" v-html="item.name"></div>
 				<div class="stats" v-html="item.description"></div>
@@ -23,7 +23,6 @@
 
 
 <script>
-	//import qrjson from '../assets/json/qr.json';
 	import axios from 'axios';
 	export default {
 		name: 'RuneWords',
@@ -32,6 +31,16 @@
 			return {
 				qrJson: [],
 				filter: '',
+			}
+		},
+		computed:{
+			filteredJson: function(){
+				return this.qrJson.filter((item)=>{
+					if (item.name.toLowerCase().indexOf(this.filter.toLowerCase()) == -1){
+						return false;	
+					}
+					return true;
+				});
 			}
 		},
 		methods: {

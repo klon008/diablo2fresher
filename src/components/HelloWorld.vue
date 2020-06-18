@@ -51,5 +51,6 @@ a {
   box-shadow: 0 0 15px #000000;
   padding: 15px;
   border-radius: 4px;
+  margin-bottom: 15px;
 }
 </style>
