@@ -23,7 +23,8 @@
 
 
 <script>
-	import qrjson from '../assets/json/qr.json';
+	//import qrjson from '../assets/json/qr.json';
+	import axios from 'axios';
 	export default {
 		name: 'RuneWords',
 
@@ -42,9 +43,15 @@
 			}
 		},
 		mounted(){
-			if (qrjson){
-				this.qrJson = qrjson;
-			}
+		},
+		created(){
+			axios.get('/json/qr.json')
+			.then(response=>{
+				if (response && response.data) {
+					this.qrJson = response.data;
+				}
+			});
+
 		}
 	}
 </script>
