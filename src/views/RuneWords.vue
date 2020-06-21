@@ -74,7 +74,8 @@
 .items_header{
 	display: table-header-group;
 	&>.items_header_h{
-		background: #4D0B0B;
+		background: transparent;
+		border: none;
 		vertical-align: center;
 		text-align: center;
 	}
@@ -92,8 +93,8 @@
 			padding-left: 1em;
 			padding-right: 1em;
 			display: table-cell;
-			background: #1A0303;
-			border: 1px solid #4D0B0B;
+			background: #000000;
+			border: 1px solid #202020;
 		}
 	}
 }

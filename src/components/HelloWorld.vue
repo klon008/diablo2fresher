@@ -1,6 +1,6 @@
 <template>
   <div class="column-content">
-    <h1>{{ msg }}</h1>
+    <!-- <h1>{{ msg }}</h1> -->
     <ul>
       <li><router-link to="/uniq_items">Unique Items</router-link></li>
       <li><router-link to="/rune_words">Runewors</router-link></li>
@@ -8,7 +8,9 @@
       <li><router-link to="/sets">Set Items</router-link></li>
     </ul>
     <router-view></router-view>
+    
   </div>
+  
 </template>
 
 <script>
@@ -32,6 +34,11 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
+  padding-right: 1em;
+  border-right: 1px solid #928a70;
+  &:last-child{
+    border-right: none;
+  }
 }
 a {
   font-family: ProximaNova,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -39,13 +46,16 @@ a {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  color: #4297b9;
+  color: #928a70;
+  
+  
+  
   &:hover{
-    color: #57b7dd;
+    color: #beb9ab;
   }
 }
 .column-content{
-  background-color: #690c24DF;
+  background-color: rgba(67, 74, 74, 0.87);
   width:100%;
   max-width: 1100px;
   margin: auto;

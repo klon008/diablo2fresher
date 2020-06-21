@@ -6,7 +6,7 @@
 					<th colspan="2"> Rune</th>
 					<th align="center"> to Upgrade:</th>
 					<th> Socketed Properties</th>
-				</tr>a
+				</tr>
 			</thead>
 			<tbody>
 				<tr>
@@ -225,14 +225,14 @@
 <style  lang="scss" scoped>
 table{
 	width: 100%;
-	background-color: #2D0606;
+	//background-color: #2D0606;
 	tr>td:nth-child(4){
 		text-align: left;
 		padding: 8px;
 	}
 	td{
-		background: #1A0303;
-		border: 1px solid #4D0B0B;
+		background: #000000;
+		border: 1px solid #202020;
 	}
 }
 </style>

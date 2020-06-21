@@ -6,7 +6,7 @@
       <div class="inline_view_controls">
         <div>
           <span>Search by:</span>
-          <input type="text" v-model.lazy="search" />
+          <input type="text" v-model="search" />
         </div>
         <div>
           display as:
@@ -28,7 +28,6 @@
       <div class="filterlist_wrapper" v-show="showFilter">
         <div class="filterlist_row">
           <span>Class-Specific Items :</span>
-          <!-- @FIXME: тут фильтр по тагу -->
           <button
             v-on:click="setFilter(filter.set)"
             class="fast-filter"
@@ -262,12 +261,17 @@ export default {
 select {
   width: 150px;
 }
-
+.row-styled{
+  .item-img{
+    margin-bottom:0;
+  }  
+}
 .item-img {
   background: #000000;
   border-radius: 5px;
   min-height: 116px;
   display: flex;
+  margin-bottom: 1em;
   justify-content: center;
   & > img {
     object-fit: contain;

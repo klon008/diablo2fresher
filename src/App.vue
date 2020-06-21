@@ -6,13 +6,21 @@
     />
     <div class="content">
       <img 
-        alt="Vue logo" 
-        src="./assets/aura-set-griswold.png"
+        class="tyrael"
+        alt="[fresher] tyrael" 
+        src="./assets/NXzL-unscreen.gif"
+      >
+      <img 
+        class="logo"
+        alt="[fresher] logo" 
+        src="./assets/DiabloIIf.png"
       >
       <HelloWorld 
-        msg="Diablo 2 FResHER" 
+        msg="Diablo 2 [FRESHER]" 
       />      
+      <footer>Copyright © 2020. All Rights Reserved | Created by klon_008</footer>
     </div>
+    
   </div>
 </template>
 
@@ -82,6 +90,17 @@
 </script>
 
 <style lang="scss">
+footer{
+  margin: 2em;
+}
+.tyrael{
+  display:block;
+  margin: -40px auto 0;
+}
+.logo{
+  display:block;
+  margin: -70px auto 15px;
+}
 #canvas{
   width: 100%;
   height: 100vh;
