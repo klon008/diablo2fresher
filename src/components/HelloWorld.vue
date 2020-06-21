@@ -2,9 +2,10 @@
   <div class="column-content">
     <h1>{{ msg }}</h1>
     <ul>
-      <li><router-link to="/uniq_items">Уникальные предметы</router-link></li>
-      <li><router-link to="/rune_words">Рунные слова</router-link></li>
-      <li><router-link to="/runes">Все Руны</router-link></li>
+      <li><router-link to="/uniq_items">Unique Items</router-link></li>
+      <li><router-link to="/rune_words">Runewors</router-link></li>
+      <li><router-link to="/runes">All Runes</router-link></li>
+      <li><router-link to="/sets">Set Items</router-link></li>
     </ul>
     <router-view></router-view>
   </div>
