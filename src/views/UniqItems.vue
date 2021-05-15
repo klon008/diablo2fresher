@@ -80,7 +80,7 @@
           <div class="popper description" v-html="item.description"></div>
           <div slot="reference" class="pop-item">
             <div class="item-img">
-              <img :src="('http://classic.battle.net' + item.img)" v-bind:alt="item.name" />
+              <img :src="(publicPath + item.img )" v-bind:alt="item.name" />
             </div>
             <div class="name" v-html="item.name"></div>
             <div class="subname" v-html="item.nameType"></div>
@@ -93,7 +93,7 @@
       <div v-for="item in dJson" v-bind:key="item.id" v-show="filteredJson(item)">
         <div slot="reference" class="pop-item">
           <div class="item-img">
-            <img :src="('http://classic.battle.net' + item.img)" v-bind:alt="item.name" />
+            <img :src="(publicPath+item.img)" v-bind:alt="item.name" />
           </div>
           <div class="name" v-html="item.name"></div>
           <div class="subname" v-html="item.nameType"></div>
@@ -116,6 +116,7 @@ export default {
   },
   data: function() {
     return {
+      publicPath: process.env.BASE_URL,
       dJson: [],
       uniqTags: [],
       filter: "",
@@ -180,10 +181,17 @@ export default {
             return true;
           }
         });
+        filteredJson.map(item => {
+          if (item.img && item.img[0] && item.img[0] == "/"){
+            item.img = item.img.substring(1);
+          }
+          return item;
+        })
         this.dJson = filteredJson;
 
         let uniqTags = [];
         for (let item of qjson) {
+          
           for (let tag of item.tags) {
             if (tag !== "unique" && uniqTags.indexOf(tag) == -1) {
               uniqTags.push(tag);
