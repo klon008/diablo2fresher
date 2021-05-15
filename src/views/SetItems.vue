@@ -32,7 +32,7 @@
             v-on:click="setFilter(filter.set)"
             class="fast-filter"
             v-for="filter in classSpecifical"
-            :key="filter"
+            :key="filter.id"
           >{{ filter.name }}</button>
         </div>
         <div class="filterlist_row">
@@ -41,7 +41,7 @@
             v-on:click="setFilter(filter)"
             class="fast-filter"
             v-for="filter in normalSets"
-            :key="filter"
+            :key="filter.id"
           >{{ filter}}</button>
         </div>
         <div class="filterlist_row">
@@ -50,7 +50,7 @@
             v-on:click="setFilter(filter)"
             class="fast-filter"
             v-for="filter in lodSets"
-            :key="filter"
+            :key="filter.id"
           >{{ filter}}</button>
         </div>
       </div>
@@ -95,7 +95,7 @@ import "vue-popperjs/dist/vue-popper.css";
 import axios from "axios";
 
 export default {
-  name: "UniqueItems",
+  name: "SetItems",
   components: {
     popper: Popper
   },
