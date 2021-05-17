@@ -113,7 +113,24 @@ Preset Mods:
 Open Wounds 5-10%`,
 'Comments':`Must be a "belt", the smaller of the two 12 slot types. No others will work.`,
 'group':'Blood Belt',
-                },{
+                },
+                {
+'Ing': `Magical Light Plated Boots
+or Battle Boots (Excep)
+or Mirrored Boots (Elite)
++ Jewel (any)
++ Eth Rune (#5)
++ Perfect Ruby`,
+'Items': `Blood Boots
+Preset Mods:
+1-3% Life Leech
++10-20 Hit Points
++5-10 Life Regeneration`,
+'Comments':`Potentially very useful boots, though you'd probably have to roll quite a few of them to get the faster run and resistance most characters demand from footwear. The boots are easily-obtained, and so are Eths, so this is almost a free recipe to run.`,
+'group':'Blood Boots',
+                },
+                
+                {
 'Ing': `Magical Spiked Shield
 or Barbed Shield (Excep)
 or Blade Barrier (Elite)
