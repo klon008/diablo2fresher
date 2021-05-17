@@ -46,7 +46,7 @@ Vue.use(VueRouter)
 ]
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: 'hash',
   base: 'diablo2fresher', //Удалить base если сайт будет на хостинге
   routes
 })

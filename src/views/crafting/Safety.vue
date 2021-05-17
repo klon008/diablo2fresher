@@ -131,7 +131,7 @@ Reduces Magical Damage 1-2
 5-10% Fire Resistance
 +10-30% Defense`,
 'Comments':`Greaves work.`,
-'group':'Safety Belt',
+'group':'Safety Boots',
                 },{
 'Ing': `Magical Kite Shield
 or Dragon Shield (Excep)
