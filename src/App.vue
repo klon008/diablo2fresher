@@ -1,10 +1,12 @@
 <template>
   <div id="app">
+    
     <canvas 
       ref="canvas" 
       id="canvas" 
     />
     <div class="content">
+      
       <img 
         class="tyrael"
         alt="[fresher] tyrael" 
@@ -17,8 +19,10 @@
       >
       <HelloWorld 
         msg="Diablo 2 [FRESHER]" 
-      />      
+      />
+      
       <footer>Copyright © 2020. All Rights Reserved | Created by klon_008</footer>
+      
     </div>
     
   </div>
@@ -26,7 +30,7 @@
 
 <script>
   import HelloWorld from './components/HelloWorld.vue'
-
+  
   class Star {
     constructor(x,y, speed = 100){
       this.x = x;
@@ -132,5 +136,13 @@ a{
   &::visited{
     color: #FEAF00;
   }
+}
+.vue-scroll-button {
+  background-color: #222; 
+  color: #fff;
+}
+
+.vue-scroll-button:hover {
+  background-color: #333; 
 }
 </style>
