@@ -24,7 +24,7 @@
       <footer>Copyright © 2020. All Rights Reserved | Created by klon_008</footer>
       
     </div>
-    
+    <v-scroll-to-top></v-scroll-to-top>
   </div>
 </template>
 
@@ -145,4 +145,43 @@ a{
 .vue-scroll-button:hover {
   background-color: #333; 
 }
+
+
+.popper{
+  pointer-events: none;
+}
+.inline_view_controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.inline_filter_control {
+  text-align: left;
+}
+.filterlist_row {
+  max-width: 800px;
+  margin: 10px auto;
+}
+.filterlist_wrapper {
+  font-size: 13px;
+}
+
+.fast-filter {
+  background: none !important;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: Arial, Helvetica, Sans-Serif;
+  font-size: 13px;
+  color: #928a70;
+  font-weight: bold;
+  padding: 5px;
+  &:hover {
+    color: #beb9ab;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
 </style>

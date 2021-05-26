@@ -42,13 +42,24 @@ Vue.use(VueRouter)
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/Crafting.vue')
+  },
+  {
+    path: '/bases',
+    name: 'bases',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/Bases.vue')
   }
 ]
 
 const router = new VueRouter({
   mode: 'hash',
   base: 'diablo2fresher', //Удалить base если сайт будет на хостинге
-  routes
+  routes,
+  scrollBehavior() {
+    document.getElementById('app').scrollIntoView();
+  }
 })
 
 router.beforeResolve((to, from, next) => {

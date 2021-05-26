@@ -1,6 +1,6 @@
 <template>
   <div class="uniq_items">
-    <h2>UNIQUE ITEMS</h2>
+    <h2>SET ITEMS</h2>
     <div id="filter">
       <!-- SEARCH BLOCK START -->
       <div class="inline_view_controls">
@@ -188,43 +188,6 @@ export default {
 </script>
 
 <style  lang="scss" scoped>
-.popper{
-  pointer-events: none;
-}
-.inline_view_controls {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.inline_filter_control {
-  text-align: left;
-}
-.filterlist_row {
-  max-width: 800px;
-  margin: 10px auto;
-}
-.filterlist_wrapper {
-  font-size: 13px;
-}
-
-.fast-filter {
-  background: none !important;
-  border: none;
-  text-decoration: underline;
-  cursor: pointer;
-  font-family: Arial, Helvetica, Sans-Serif;
-  font-size: 13px;
-  color: #928a70;
-  font-weight: bold;
-  padding: 5px;
-  &:hover {
-    color: #beb9ab;
-  }
-  &:focus {
-    outline: none;
-  }
-}
-
 #items-wrapper {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
