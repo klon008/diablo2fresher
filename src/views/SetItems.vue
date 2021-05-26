@@ -60,7 +60,8 @@
     <div id="items-wrapper" v-if="displayStyle=='grid'">
       <div v-for="item in dJson" v-bind:key="item.id" v-show="filteredJson(item)">
         <popper trigger="hover" :options="{placement: 'top'}">
-          <div class="popper description" v-html="item.description+'<br/><br/>'+item.partial"></div>
+          <div class="popper description" v-html="item.description+'<br/><br/>'
+          + '<span style=\'  color: #00c400;font-size: 1.1em;font-weight: 600;\'>'+ item.tags[2] + '</span><br/>'+item.partial"></div>
           <div slot="reference" class="pop-item">
             <div class="item-img">
               <img :src="(publicPath + item.img)" v-bind:alt="item.name" />
@@ -83,7 +84,7 @@
           
         </div>
         <div v-html="item.description" class="description"></div>
-        <div class="partial" v-html="item.partial"></div>
+        <div class="partial" v-html="'<span style=\'  color: #00c400;font-size: 1.1em;font-weight: 600;\'>'+ item.tags[2] + '</span><br/><br/>' + item.partial"></div>
       </div>
     </div>
   </div>
@@ -295,5 +296,6 @@ select {
   & > span {
     display: block;
   }
+  
 }
 </style>

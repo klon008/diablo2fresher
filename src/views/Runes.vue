@@ -160,49 +160,49 @@
 					<td> <b>Weapon:</b> +20% AR<br><b>Armor/Helm/Shield:</b> +5 to Max Resist Poison<br><b>Clvl Required:</b> 53</td>
 				</tr>
 				<tr>
-					<td> <a target="_blank" href="runes/Vex" title="Vex">Vex</a> - #26</td>
+					<td> <a target="_blank" href="runes/Vex" title="Vex">Vex</a> - #26 <span class="hight_rune">[HR]</span></td>
 					<td class="red"> <a target="_blank" href="img/runes/File:28px-Vex_Rune.png" class="image"><img alt="R-vex.gif" :src="`${publicPath}img/runes/28px-Vex_Rune.png`" width="30" height="31"></a></td>
 					<td align="center"> <a target="_blank" href="img/runes/File:28px-Gul_Rune.png" class="image"><img alt="R-gul.gif" :src="`${publicPath}img/runes/28px-Gul_Rune.png`" width="29" height="30"></a><a target="_blank" href="img/runes/File:28px-Gul_Rune.png" class="image"><img alt="R-gul.gif" :src="`${publicPath}img/runes/28px-Gul_Rune.png`" width="29" height="30"></a><a target="_blank" href="img/runes/Ruby_(Diablo_II).gif" class="image"><img alt="Ruby-normal.gif" :src="`${publicPath}img/runes/Ruby_(Diablo_II).gif`" width="25" height="25"></a></td>
 					<td> <b>Weapon:</b> 7% Mana Leech<br><b>Armor/Helm/Shield:</b> +5 to Max Fire Resist<br><b>Clvl Required:</b> 55</td>
 				</tr>
 				<tr>
-					<td> <a target="_blank" href="runes/Ohm" title="Ohm">Ohm</a> - #27</td>
+					<td> <a target="_blank" href="runes/Ohm" title="Ohm">Ohm</a> - #27 <span class="hight_rune">[HR]</span></td>
 					<td class="red"> <a target="_blank" href="img/runes/File:28px-Ohm_Rune.png" class="image"><img alt="R-ohm.gif" :src="`${publicPath}img/runes/28px-Ohm_Rune.png`" width="30" height="31"></a></td>
 					<td align="center"> <a target="_blank" href="img/runes/File:28px-Vex_Rune.png" class="image"><img alt="R-vex.gif" :src="`${publicPath}img/runes/28px-Vex_Rune.png`" width="30" height="31"></a><a target="_blank" href="img/runes/File:28px-Vex_Rune.png" class="image"><img alt="R-vex.gif" :src="`${publicPath}img/runes/28px-Vex_Rune.png`" width="30" height="31"></a><a target="_blank" href="img/runes/Emerald_(Diablo_II).gif" class="image"><img alt="Emerald-normal.gif" :src="`${publicPath}img/runes/Emerald_(Diablo_II).gif`" width="25" height="25"></a></td>
 					<td> <b>Weapon:</b> +50% Damage<br><b>Armor/Helm/Shield:</b> +5 to Max. Resist Cold<br><b>Clvl Required:</b> 57</td>
 				</tr>
 				<tr>
-					<td> <a target="_blank" href="runes/Lo" title="Lo">Lo</a> - #28</td>
+					<td> <a target="_blank" href="runes/Lo" title="Lo">Lo</a> - #28 <span class="hight_rune">[HR]</span></td>
 					<td class="red"> <a target="_blank" href="img/runes/File:28px-Lo_Rune.png" class="image"><img alt="R-lo.gif" :src="`${publicPath}img/runes/28px-Lo_Rune.png`" width="30" height="31"></a></td>
 					<td align="center"> <a target="_blank" href="img/runes/File:28px-Ohm_Rune.png" class="image"><img alt="R-ohm.gif" :src="`${publicPath}img/runes/28px-Ohm_Rune.png`" width="30" height="31"></a><a target="_blank" href="img/runes/File:28px-Ohm_Rune.png" class="image"><img alt="R-ohm.gif" :src="`${publicPath}img/runes/28px-Ohm_Rune.png`" width="30" height="31"></a><a target="_blank" href="img/runes/Diamond_(Diablo_II).gif" class="image"><img alt="Diamond-normal.gif" :src="`${publicPath}img/runes/Diamond_(Diablo_II).gif`" width="20" height="20"></a></td>
 					<td> <b>Weapon:</b> 20% Chance of Deadly Strike<br><b>Armor/Helm/Shield:</b> +5 to Max. Resist Lightning<br><b>Clvl Required:</b> 59</td>
 				</tr>
 				<tr>
-					<td> <a target="_blank" href="runes/Sur" title="Sur">Sur</a> - #29</td>
+					<td> <a target="_blank" href="runes/Sur" title="Sur">Sur</a> - #29 <span class="hight_rune">[HR]</span></td>
 					<td class="red"> <a target="_blank" href="img/runes/File:28px-Sur_Rune.png" class="image"><img alt="R-sur.gif" :src="`${publicPath}img/runes/28px-Sur_Rune.png`" width="30" height="31"></a></td>
 					<td align="center"> <a target="_blank" href="img/runes/File:28px-Lo_Rune.png" class="image"><img alt="R-lo.gif" :src="`${publicPath}img/runes/28px-Lo_Rune.png`" width="30" height="31"></a><a target="_blank" href="img/runes/File:28px-Lo_Rune.png" class="image"><img alt="R-lo.gif" :src="`${publicPath}img/runes/28px-Lo_Rune.png`" width="30" height="31"></a><a target="_blank" href="img/runes/Flawless_Topaz_(Diablo_II).gif" class="image"><img alt="Topaz-flawless.gif" :src="`${publicPath}img/runes/Flawless_Topaz_(Diablo_II).gif`" width="25" height="25"></a></td>
 					<td> <b>Weapon:</b> 20% Chance of Hit Blinds Target<br><b>Armor/Helm:</b> +5% total Mana<br><b>Shields:</b> +50 Mana<br><b>Clvl Required:</b> 61</td>
 				</tr>
 				<tr>
-					<td> <a target="_blank" href="runes/Ber" title="Ber">Ber</a> - #30</td>
+					<td> <a target="_blank" href="runes/Ber" title="Ber">Ber</a> - #30 <span class="hight_rune">[HR]</span></td>
 					<td class="red"> <a target="_blank" href="img/runes/File:28px-Ber_Rune.png" class="image"><img alt="R-ber.gif" :src="`${publicPath}img/runes/28px-Ber_Rune.png`" width="29" height="34"></a></td>
 					<td align="center"> <a target="_blank" href="img/runes/File:28px-Sur_Rune.png" class="image"><img alt="R-sur.gif" :src="`${publicPath}img/runes/28px-Sur_Rune.png`" width="30" height="31"></a><a target="_blank" href="img/runes/File:28px-Sur_Rune.png" class="image"><img alt="R-sur.gif" :src="`${publicPath}img/runes/28px-Sur_Rune.png`" width="30" height="31"></a><a target="_blank" href="img/runes/Flawless_Amethyst_(Diablo_II).gif" class="image"><img alt="Amethyst-flawless.gif" :src="`${publicPath}img/runes/Flawless_Amethyst_(Diablo_II).gif`" width="22" height="22"></a></td>
 					<td> <b>Weapon:</b> 20% Chance of Crushing Blow<br><b>Armor/Helm/Shield:</b> Damage Reduced by 8%<br><b>Clvl Required:</b> 63</td>
 				</tr>
 				<tr>
-					<td> <a target="_blank" href="runes/Jah" title="Jah">Jah</a> - #31</td>
+					<td> <a target="_blank" href="runes/Jah" title="Jah">Jah</a> - #31 <span class="hight_rune">[HR]</span></td>
 					<td class="red"> <a target="_blank" href="img/runes/File:28px-Jah_Rune.png" class="image"><img alt="R-jo.gif" :src="`${publicPath}img/runes/28px-Jah_Rune.png`" width="33" height="34"></a></td>
 					<td align="center"> <a target="_blank" href="img/runes/File:28px-Ber_Rune.png" class="image"><img alt="R-ber.gif" :src="`${publicPath}img/runes/28px-Ber_Rune.png`" width="29" height="34"></a><a target="_blank" href="img/runes/File:28px-Ber_Rune.png" class="image"><img alt="R-ber.gif" :src="`${publicPath}img/runes/28px-Ber_Rune.png`" width="29" height="34"></a><a target="_blank" href="img/runes/Flawless_Sapphire_(Diablo_II).gif" class="image"><img alt="Sapphire-flawless.gif" :src="`${publicPath}img/runes/Flawless_Sapphire_(Diablo_II).gif`" width="25" height="25"></a></td>
 					<td> <b>Weapon:</b> Ignores Target Defense<br><b>Armor/Helm:</b> +5% of total Hit Points<br><b>Shields:</b> +50 Hit Points<br><b>Clvl Required:</b> 65</td>
 				</tr>
 				<tr>
-					<td> <a target="_blank" href="runes/Cham" title="Cham">Cham</a> - #32</td>
+					<td> <a target="_blank" href="runes/Cham" title="Cham">Cham</a> - #32 <span class="hight_rune">[HR]</span></td>
 					<td class="red"> <a target="_blank" href="img/runes/File:28px-Cham_Rune.png" class="image"><img alt="R-cham.gif" :src="`${publicPath}img/runes/28px-Cham_Rune.png`" width="29" height="30"></a></td>
 					<td align="center"> <a target="_blank" href="img/runes/File:28px-Jah_Rune.png" class="image"><img alt="R-jo.gif" :src="`${publicPath}img/runes/28px-Jah_Rune.png`" width="33" height="34"></a><a target="_blank" href="img/runes/File:28px-Jah_Rune.png" class="image"><img alt="R-jo.gif" :src="`${publicPath}img/runes/28px-Jah_Rune.png`" width="33" height="34"></a><a target="_blank" href="img/runes/Flawless_Ruby_(Diablo_II).gif" class="image"><img alt="Ruby-flawless.gif" :src="`${publicPath}img/runes/Flawless_Ruby_(Diablo_II).gif`" width="25" height="25"></a></td>
 					<td> <b>Weapon:</b> 32% Chance of Hit Freezing Target for 3 seconds<br><b>Armor/Helm/Shield:</b> Cannot be Frozen<br><b>Clvl Required:</b> 67</td>
 				</tr>
 				<tr>
-					<td> <a target="_blank" href="runes/Zod" title="Zod">Zod</a> - #33</td>
+					<td> <a target="_blank" href="runes/Zod" title="Zod">Zod</a> - #33 <span class="hight_rune">[HR]</span></td>
 					<td class="red"> <a target="_blank" href="img/runes/File:28px-Zod_Rune.png" class="image"><img alt="R-zod.gif" :src="`${publicPath}img/runes/28px-Zod_Rune.png`" width="30" height="31"></a></td>
 					<td align="center"> <a target="_blank" href="img/runes/File:28px-Cham_Rune.png" class="image"><img alt="R-cham.gif" :src="`${publicPath}img/runes/28px-Cham_Rune.png`" width="29" height="30"></a><a target="_blank" href="img/runes/File:28px-Cham_Rune.png" class="image"><img alt="R-cham.gif" :src="`${publicPath}img/runes/28px-Cham_Rune.png`" width="29" height="30"></a><a target="_blank" href="img/runes/Flawless_Emerald_(Diablo_II).gif" class="image"><img alt="Emerald-flawless.gif" :src="`${publicPath}img/runes/Flawless_Emerald_(Diablo_II).gif`" width="25" height="25"></a></td>
 					<td> <b>Weapon:</b> Indestructible<br><b>Armor/Helm/Shield:</b> Indestructible<br><b>Clvl Required:</b> 69</td>
@@ -234,5 +234,8 @@ table{
 		background: #000000;
 		border: 1px solid #202020;
 	}
+}
+.hight_rune{
+	color: #f36f1f;
 }
 </style>
