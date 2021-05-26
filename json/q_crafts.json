@@ -1,193 +1,196 @@
 [
     {
         "header": "Safety Helm",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/b/b5/Crown_%28Diablo_II%29.gif",
+        "image": "img/items/armor/crn.gif",
         "bases": "Magic Crown/Grand Crown/Corona\nIth Rune •  Perfect Emerald •  Any Jewel",
         "help": "10-30% Enhanced Defense (varies)\nLightning Resist +5-10% (varies)\nMagic Damage Reduced by 1-2 (varies)\nDamage Reduced by 1-4 (varies)",
         "tags": "Safety"
     },
     {
         "header": "Safety Weapon",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/7/7a/Pike_%28Diablo_II%29.gif",
+        "image": "img/items/WEAPON/pik.gif",
         "bases": "Magic Javelin/Spear •  Sol Rune\nPerfect Emerald •  Any Jewel",
         "help": "5-10% Enhanced Defense (varies)\nMagic Damage Reduced by 1-2 (varies)\nDamage Reduced by 1-4 (varies)",
         "tags": "Safety"
     },
     {
         "header": "Safety Armor",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/8/83/Breast_Plate_%28Diablo_II%29.gif",
+        "image": "img/items/armor/brs.gif",
         "bases": "Magic Breast Plate/Cuirass/Great Hauberk\nEth Rune •  Perfect Emerald •  Any Jewel",
         "help": "10-30% Enhanced Defense (varies)\nHalf Freeze Duration\nMagic Damage Reduced by 1-2 (varies)\nDamage Reduced by 1-4 (varies)",
         "tags": "Safety"
     },
     {
         "header": "Safety Shield",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/6/66/Kite_Shield_%28Diablo_II%29.gif",
+        "image": "img/items/armor/kit.gif",
         "bases": "Magic Kite Shield/Dragon Shield/Monarch\nNef Rune •  Perfect Emerald •  Any Jewel",
         "help": "10-30% Enhanced Defense (varies)\nMagic Resistance +5-10% (varies)\nMagic Damage Reduced by 1-2 (varies)\nDamage Reduced by 1-4 (varies)",
         "tags": "Safety"
     },
     {
         "header": "Safety Gloves",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/c/c7/Gauntlets_%28Diablo_II%29.gif",
+        "image": "img/items/armor/hgl.gif",
         "bases": "Magic Gauntlets/War Gauntlets/Ogre Gauntlets\nRal Rune •  Perfect Emerald •  Any Jewel",
         "help": "10-30% Enhanced Defense (varies)\nCold Resist +5-10% (varies)\nMagic Damage Reduced by 1-2 (varies)\nDamage Reduced by 1-4 (varies)",
         "tags": "Safety"
     },
     {
         "header": "Safety Belt",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/a/a6/Sash_%28Diablo_II%29.gif",
+        "image": "img/items/armor/lbl.gif",
         "bases": "Magic Sash/Demonhide Sash/Spiderweb Sash\nTal Rune •  Perfect Emerald •  Any Jewel",
         "help": "10-30% Enhanced Defense (varies)\nPoison Resist +5-10% (varies)\nMagic Damage Reduced by 1-2 (varies)\nDamage Reduced by 1-4 (varies)",
         "tags": "Safety"
     },
     {
         "header": "Safety Boots",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/6/63/Greaves_%28Diablo_II%29.gif",
+        "image": "img/items/armor/hbt.gif",
         "bases": "Magic Greaves/War Boots/Myrmidon Boots\nOrt Rune •  Perfect Emerald •  Any Jewel",
         "help": "10-30% Enhanced Defense (varies)\nFire Resist +5-10% (varies)\nMagic Damage Reduced by 1-2 (varies)\nDamage Reduced by 1-4 (varies)",
         "tags": "Safety"
     },
     {
         "header": "Safety Amulet",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/2/2d/Amulet_3_%28Diablo_II%29.gif",
+        "image": "img/items/sets/ra/amu1.gif",
         "bases": "Magic Amulet •  Thul Rune\nPerfect Emerald •  Any Jewel",
         "help": "1-10% Increased Chance of Blocking (varies)\nMagic Damage Reduced by 1-2 (varies)\nDamage Reduced by 1-4 (varies)",
         "tags": "Safety"
     },
     {
         "header": "Safety Ring",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/9/91/Ring_4_%28Diablo_II%29.gif",
+        "image": "img/items/sets/ra/ring2.gif",
         "bases": "Magic Ring •  Amn Rune\nPerfect Emerald •  Any Jewel",
         "help": "+1-5 to Vitality (varies)\nMagic Damage Reduced by 1-2 (varies)\nDamage Reduced by 1-4 (varies)",
         "tags": "Safety"
     },
+
     {
         "header": "Caster Helm",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/a/a8/Mask_%28Diablo_II%29.gif",
+        "image": "img/items/armor/msk.gif",
         "bases": "Magic Mask/Death Mask/Demonhead\nNef Rune •  Perfect Amethyst •  Any Jewel",
         "help": "1-4% Mana Stolen per Hit (varies)\nRegenerate Mana 4-10% (varies)\n+10-20 Mana (varies)",
         "tags": "Caster"
     },
     {
         "header": "Caster Weapon",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/3/32/Gnarled_Staff_%28Diablo_II%29.gif",
+        "image": "img/items/WEAPON/cst.gif",
         "bases": "Magic Scepter/Staff/Wand\nTir Rune •  Perfect Amethyst •  Any Jewel",
         "help": "Increase Maximum Mana 1-5% (varies)\nRegenerate Mana 4-10% (varies)\n+10-20 Mana (varies)",
         "tags": "Caster"
     },
     {
         "header": "Caster Armor",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/a/a7/Light_Plate_%28Diablo_II%29.gif",
+        "image": "img/items/armor/ltp.gif",
         "bases": "Magic Light Plate/Mage Plate/Archon Plate\nTal Rune •  Perfect Amethyst •  Any Jewel",
         "help": "+1-3 Mana per Kill (varies)\nRegenerate Mana 4-10% (varies)\n+10-20 Mana (varies)",
         "tags": "Caster"
     },
     {
         "header": "Caster Shield",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/5/59/Small_Shield_%28Diablo_II%29.gif",
+        "image": "img/items/armor/sml.gif",
         "bases": "Magic Small Shield/Round Shield/Luna\nEth Rune •  Perfect Amethyst •  Any Jewel",
         "help": "5-10% Increased Chance of Blocking (varies)\nRegenerate Mana 4-10% (varies)\n+10-20 Mana (varies)",
         "tags": "Caster"
     },
     {
         "header": "Caster Gloves",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/d/dd/Leather_Gloves_%28Diablo_II%29.gif",
+        "image": "img/items/armor/lgl.gif",
         "bases": "Magic Leather Gloves/Demonhide Gloves/Bramble Mitts\nOrt Rune •  Perfect Amethyst •  Any Jewel",
         "help": "+1-3 Mana per Kill (varies)\nRegenerate Mana 4-10% (varies)\n+10-20 Mana (varies)",
         "tags": "Caster"
     },
     {
         "header": "Caster Belt",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/4/4a/Light_Belt_%28Diablo_II%29.gif",
+        "image": "img/items/armor/vbl.gif",
         "bases": "Magic Light Belt/Sharkskin Belt/Vampirefang Belt\nIth Rune •  Perfect Amethyst •  Any Jewel",
         "help": "5-10% Faster Cast Rate (varies)\nRegenerate Mana 4-10% (varies)\n+10-20 Mana (varies)",
         "tags": "Caster"
     },
     {
         "header": "Caster Boots",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/7/76/Boots_%28Diablo_II%29.gif",
+        "image": "img/items/armor/lbt.gif",
         "bases": "Magic Boots/Demonhide Boots/Wyrmhide Boots\nThul Rune •  Perfect Amethyst •  Any Jewel",
         "help": "Increase Maximum Mana 2-5% (varies)\nRegenerate Mana 4-10% (varies)\n+10-20 Mana (varies)",
         "tags": "Caster"
     },
     {
         "header": "Caster Amulet",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/8/88/Amulet_1_%28Diablo_II%29.gif",
+        "image": "img/items/sets/ra/amu1.gif",
         "bases": "Magic Amulet •  Ral Rune\nPerfect Amethyst •  Any Jewel",
         "help": "5-10% Faster Cast Rate (varies)\nRegenerate Mana 4-10% (varies)\n+10-20 Mana (varies)",
         "tags": "Caster"
     },
     {
         "header": "Caster Ring",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/2/22/Ring_1_%28Diablo_II%29.gif",
+        "image": "img/items/sets/ra/ring2.gif",
         "bases": "Magic Ring •  Amn Rune\nPerfect Amethyst •  Any Jewel",
         "help": "+1-5 to Energy (varies)\nRegenerate Mana 4-10% (varies)\n+10-20 Mana (varies)",
         "tags": "Caster"
     },
+
     {
         "header": "Hit Power Helm",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/5/55/Full_Helm_%28Diablo_II%29.gif",
+        "image": "img/items/armor/fhl.gif",
         "bases": "Magic Full Helm/Basinet/Giant Conch\nIth Rune •  Perfect Sapphire •  Any Jewel",
         "help": "+25-50 Defense vs. Missile (varies)\n5% Chance to Cast Level 4 Frost Nova When Struck\nAttacker Takes Damage of 3-7 (varies)",
         "tags": "Hit Power"
     },
     {
         "header": "Hit Power Weapon",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/9/9a/Mace_%28Diablo_II%29.gif",
+        "image": "img/items/WEAPON/mac.gif",
         "bases": "Magic Mace/Scepter/Staff/Wand\nTir Rune •  Perfect Sapphire •  Any Jewel",
         "help": "35-60% Enhanced Damage (varies)\n5% Chance to Cast Level 4 Frost Nova When Struck\nAttacker Takes Damage of 3-7 (varies)",
         "tags": "Hit Power"
     },
     {
         "header": "Hit Power Armor",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/2/23/Field_Plate_%28Diablo_II%29.gif",
+        "image": "img/items/armor/fld.gif",
         "bases": "Magic Field Plate/Sharktooth Armor/Kraken Shell\nNef Rune •  Perfect Sapphire •  Any Jewel",
         "help": "10-20% Faster Hit Recovery (varies)\n5% Chance to Cast Level 4 Frost Nova When Struck\nAttacker Takes Damage of 3-10 (varies)",
         "tags": "Hit Power"
     },
     {
         "header": "Hit Power Shield",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/5/5f/Gothic_Shield_%28Diablo_II%29.gif",
+        "image": "img/items/armor/gts.gif",
         "bases": "Magic Gothic Shield/Ancient Shield/Ward\nEth Rune •  Perfect Sapphire •  Any Jewel",
         "help": "5-10% Increased Chance of Blocking (varies)\n5% Chance to Cast Level 4 Frost Nova When Struck\nAttacker Takes Damage of 3-10 (varies)",
         "tags": "Hit Power"
     },
     {
         "header": "Hit Power Gloves",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/d/df/Chain_Gloves_%28Diablo_II%29.gif",
+        "image": "img/items/armor/mgl.gif",
         "bases": "Magic Chain Gloves/Heavy Bracers/Vambraces\nOrt Rune •  Perfect Sapphire •  Any Jewel",
         "help": "Knockback\n5% Chance to Cast Level 4 Frost Nova When Struck\nAttacker Takes Damage of 3-7 (varies)",
         "tags": "Hit Power"
     },
     {
         "header": "Hit Power Belt",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/4/41/Heavy_Belt_%28Diablo_II%29.gif",
+        "image": "img/items/armor/tbl.gif",
         "bases": "Magic Heavy Belt/Battle Belt/Troll Belt\nTal Rune •  Perfect Sapphire •  Any Jewel",
         "help": "5-10% Damage Taken Goes to Mana (varies)\n5% Chance to Cast Level 4 Frost Nova When Struck\nAttacker Takes Damage of 3-7 (varies)",
         "tags": "Hit Power"
     },
     {
         "header": "Hit Power Boots",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/b/b8/Chain_Boots_%28Diablo_II%29.gif",
+        "image": "img/items/armor/mbt.gif",
         "bases": "Magic Chain Boots/Mesh Boots/Boneweave Boots\nRal Rune •  Perfect Sapphire •  Any Jewel",
         "help": "+25-50 Defense vs. Missile (varies)\n5% Chance to Cast Level 4 Frost Nova When Struck\nAttacker Takes Damage of 3-7 (varies)",
         "tags": "Hit Power"
     },
     {
         "header": "Hit Power Amulet",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/a/a3/Amulet_2_%28Diablo_II%29.gif",
+        "image": "img/items/sets/ra/amu1.gif",
         "bases": "Magic Amulet •  Thul Rune\nPerfect Sapphire •  Any Jewel",
         "help": "Hit Causes Monster to Flee 3-11% (varies)\n5% Chance to Cast Level 4 Frost Nova When Struck\nAttacker Takes Damage of 3-10 (varies)",
         "tags": "Hit Power"
     },
     {
         "header": "Hit Power Ring",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/6/6a/Ring_2_%28Diablo_II%29.gif",
+        "image": "img/items/sets/ra/ring2.gif",
         "bases": "Magic Ring •  Amn Rune\nPerfect Sapphire •  Any Jewel",
         "help": "+1-5 to Dexterity (varies)\n5% Chance to Cast Level 4 Frost Nova When Struck\nAttacker Takes Damage of 3-6 (varies)",
         "tags": "Hit Power"
     },
+
     {
         "header": "Blood Helm",
         "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/b/b2/Helm_%28Diablo_II%29.gif",
@@ -204,49 +207,49 @@
     },
     {
         "header": "Blood Armor",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/0/09/Plate_Mail_%28Diablo_II%29.gif",
+        "image": "img/items/armor/plt.gif",
         "bases": "Magic Plate Mail/Templar Coat/Hellforge Plate\nThul Rune •  Perfect Ruby •  Any Jewel",
         "help": "+1-3 Life per Demon Kill (varies)\n1-3% Life Stolen per Hit (varies)\n+10-20 Life (varies)",
         "tags": "Blood"
     },
     {
         "header": "Blood Shield",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/6/66/Spiked_Shield_%28Diablo_II%29.gif",
+        "image": "img/items/armor/spk.gif",
         "bases": "Magic Spiked Shield/Barbed Shield/Blade Barrier\nIth Rune •  Perfect Ruby •  Any Jewel",
         "help": "Attacker Takes Damage of 4-7 (varies)\n1-3% Life Stolen per Hit (varies)\n+10-20 Life (varies)",
         "tags": "Blood"
     },
     {
         "header": "Blood Gloves",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/a/a8/Heavy_Gloves_%28Diablo_II%29.gif",
+        "image": "img/items/armor/vgl.gif",
         "bases": "Magic Heavy Gloves/Sharkskin Gloves/Vampirebone Gloves\nNef Rune •  Perfect Ruby •  Any Jewel",
         "help": "+5-10% Chance of Crushing Blow (varies)\n1-3% Life Stolen per Hit (varies)\n+10-20 Life (varies)",
         "tags": "Blood"
     },
     {
         "header": "Blood Belt",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/c/cb/Belt_%28Diablo_II%29.gif",
+        "image": "img/items/armor/mbl.gif",
         "bases": "Magic Belt/Mesh Belt/Mithril Coil\nTal Rune •  Perfect Ruby •  Any Jewel",
         "help": "+5-10% Chance of Open Wounds (varies)\n1-3% Life Stolen per Hit (varies)\n+10-20 Life (varies)",
         "tags": "Blood"
     },
     {
         "header": "Blood Boots",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/3/3f/Light_Plated_Boots_%28Diablo_II%29.gif",
+        "image": "img/items/armor/hbt.gif",
         "bases": "Magic Light Plated Boots/Battle Boots/Mirrored Boots\nEth Rune •  Perfect Ruby •  Any Jewel",
         "help": "Replenish Life +5-10 (varies)\n1-3% Life Stolen per Hit (varies)\n+10-20 Life (varies)",
         "tags": "Blood"
     },
     {
         "header": "Blood Amulet",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/2/2d/Amulet_3_%28Diablo_II%29.gif",
+        "image": "img/items/sets/ra/amu1.gif",
         "bases": "Magic Amulet •  Amn Rune\nPerfect Ruby •  Any Jewel",
         "help": "+5-10% Faster Run/Walk (varies)\n1-4% Life Stolen per Hit (varies)\n+10-20 Life (varies)",
         "tags": "Blood"
     },
     {
         "header": "Blood Ring",
-        "image": "https://static.wikia.nocookie.net/diablo_gamepedia/images/2/23/Ring_3_%28Diablo_II%29.gif",
+        "image": "img/items/sets/ra/ring2.gif",
         "bases": "Magic Ring •  Sol Rune\nPerfect Ruby •  Any Jewel",
         "help": "+1-5 to Strength (varies)\n1-3% Life Stolen per Hit (varies)\n+10-20 Life (varies)",
         "tags": "Blood"
