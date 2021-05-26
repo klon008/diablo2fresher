@@ -9,12 +9,22 @@
           <input type="text" v-model="search" />
         </div>
       </div>
-      <button class="fast-filter" v-on:click="showFaq=!showFaq">FAQ</button>
-      <button class="fast-filter" v-on:click="itemsFilter='All'">All Recipes</button>
-      <button class="fast-filter" v-on:click="itemsFilter='Blood'">Blood Recipes</button>
-      <button class="fast-filter" v-on:click="itemsFilter='Caster'">Caster Recipes</button>
-      <button class="fast-filter" v-on:click="itemsFilter='Hitpower'">Hitpower Recipes</button>
-      <button class="fast-filter" v-on:click="itemsFilter='Safety'">Safety Recipes</button>
+      <button class="fast-filter" v-on:click="showFaq = !showFaq">FAQ</button>
+      <button class="fast-filter" v-on:click="itemsFilter = 'All'">
+        All Recipes
+      </button>
+      <button class="fast-filter" v-on:click="itemsFilter = 'Blood'">
+        Blood Recipes
+      </button>
+      <button class="fast-filter" v-on:click="itemsFilter = 'Caster'">
+        Caster Recipes
+      </button>
+      <button class="fast-filter" v-on:click="itemsFilter = 'Hitpower'">
+        Hitpower Recipes
+      </button>
+      <button class="fast-filter" v-on:click="itemsFilter = 'Safety'">
+        Safety Recipes
+      </button>
       <div class="hint-text" v-show="showFaq">
         <pre>
 <strong>Ingredients:</strong> The mods on the item you use in the recipe have no effect on the crafted item you create. The affixes are re-rolled completely, using the base item so don't use a Cruel weapon and expect the Blood weapon you get out of that to have 350% damage.
@@ -34,22 +44,45 @@ All recipes work with the <strong>normal</strong>, <strong>exceptional</strong>,
 </pre>
       </div>
       <div class="items">
-        <div class="blood" v-show="itemsFilter=='All'||itemsFilter=='Blood'">
-          <h3>Blood</h3>
-          <Blood></Blood>
-        </div>
-        <div class="Caster" v-show="itemsFilter=='All'||itemsFilter=='Caster'">
-          <h3>Caster</h3>
-          <Caster></Caster>
-        </div>
-        <div class="blood" v-show="itemsFilter=='All'||itemsFilter=='Hitpower'">
-          <h3>Hitpower</h3>
-          <Hitpower></Hitpower>
-        </div>
-        
-        <div class="blood" v-show="itemsFilter=='All'||itemsFilter=='Safety'">
-          <h3>Safety</h3>
-          <Safety></Safety>
+        <div class="table">
+          <div class="header">
+            <div class="cell">Ingredients</div>
+            <div class="cell">Crafted Item</div>
+            <div class="cell">Comments</div>
+          </div>
+          <template
+            v-for="(groupedData, groupName) of qrJson"
+            
+          >
+            <div class="body" v-show="itemsFilter == 'All' || itemsFilter == groupName" v-bind:key="groupName">
+              <div class="row" v-show="search == ''||searchRes.indexOf(groupName) !== -1">
+                <div class="cell colspan-all">
+                  {{ groupName }}
+                </div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+              </div>
+              <div
+                v-for="row in groupedData"
+                v-bind:key="row.header"
+                class="row"
+                v-show="searchText(row)"
+              >
+                <div class="cell">
+                  <div style="text-align: center; width: 100%;margin-top:1em;"><img :src="publicPath + row.img" /></div>
+                  <pre v-html="row.Ing" class="ingr"></pre>
+                </div>
+                <div class="cell">
+                  <div style="text-align: center; width: 100%;margin-top:1em;"><img :src="publicPath + row.img" /></div>
+                  <div class="item-head_wrap">
+                    <strong class="item-head">{{ row.header }}</strong>
+                  </div>
+                  <pre v-html="row.Items"></pre>
+                </div>
+                <div class="cell" v-html="row.Comments"></div>
+              </div>
+            </div>
+          </template>
         </div>
       </div>
     </div>
@@ -60,46 +93,66 @@ All recipes work with the <strong>normal</strong>, <strong>exceptional</strong>,
 import Popper from "vue-popperjs";
 import "vue-popperjs/dist/vue-popper.css";
 import axios from "axios";
-import Blood from './crafting/Blood';
-import Caster from './crafting/Caster';
-import Hitpower from './crafting/Hitpower';
-import Safety from './crafting/Safety';
 
 export default {
   name: "Crafting",
-  components: {
-    Blood,
-    Caster,
-    Hitpower,
-    Safety
-  },
-  data: function() {
+  components: {},
+  data: function () {
     return {
       publicPath: process.env.BASE_URL,
-      itemsFilter: 'All',
+      itemsFilter: "All",
       showFaq: false,
       filter: "",
       search: "",
       showFilter: false,
       displayStyle: "grid",
+      qrJson: [],
+      searchRes: [],
     };
   },
   methods: {
+    searchText: function(inRow){
+        if (this.search == '') return true;
+        for(var index in inRow) { 
+            if (Object.hasOwnProperty.call(inRow, index)) {
+                var attr = inRow[index];
+                if (attr.toLowerCase().indexOf(this.search.toLowerCase()) !== -1) {
+                  this.searchRes.indexOf(inRow.type) === -1 ? this.searchRes.push(inRow.type):'';
+                  return true;
+                  }
+            }
+        }
+        return false;
+    },
+    groupBy(xs, key) {
+      return xs.reduce(function (rv, x) {
+        (rv[x[key]] = rv[x[key]] || []).push(x);
+        return rv;
+      }, {});
+    },
   },
   watch: {
-    search: function(val, oldVal) {
-      this.$emit('search', val);
-    }
+    search: function (val, oldVal) {
+      this.$emit("search", val);
+      this.searchRes = [];
+    },
   },
   computed: {},
   created() {
+    let axiosPrefix = "";
+    if (process.env.NODE_ENV == "production") axiosPrefix = "/diablo2fresher";
+    axios.get(axiosPrefix + "/json/resulted_craft.json").then((response) => {
+      if (response && response.data) {
+        this.qrJson = this.groupBy(response.data, "type");
+      }
+    });
   },
-  mounted() {}
+  mounted() {},
 };
 </script>
 
 <style  lang="scss" scoped>
-#filter{
+#filter {
   text-align: left;
 }
 .fast-filter {
@@ -119,18 +172,18 @@ export default {
     outline: none;
   }
 }
-.hint-text{
+.hint-text {
   text-align: left;
 }
-.hint-text pre{
+.hint-text pre {
   white-space: pre-wrap; /* css-3 */
   white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
   white-space: -pre-wrap; /* Opera 4-6 */
   white-space: -o-pre-wrap; /* Opera 7 */
   word-wrap: break-word;
 }
-.items{
-	width: 100%;
+.items {
+  width: 100%;
 }
 .table{
   display: table;
@@ -153,17 +206,6 @@ export default {
   }
   .row{
     display: table-row;
-    .colspan-all{
-      column-span: all;
-      &+.cell{
-        border-left: none;
-        border-right: none;
-        &+.cell{
-          border-left: none;
-        border-right: none;
-        }
-      }
-    }
     .cell{
       border: 1px solid #202020;
       display: table-cell;
@@ -173,6 +215,32 @@ export default {
         font-family: Avenir, Helvetica, Arial, sans-serif;
       }
     }
+    .colspan-all{
+      column-span: all;
+      border-right: none !important;
+      padding: 10px;
+      font-weight: bold;
+      &+.cell{
+        border-left: none;
+        border-right: none;
+        &+.cell{
+          border-left: none;
+        border-right: none;
+        }
+      }
+    }
+    
   }
+}
+.ingr:first-line{
+  font-weight: bold;
+  color: blue;
+}
+.item-head_wrap{
+    margin-top: 1em;
+}
+.item-head{
+
+  color: rgb(255, 165, 0);
 }
 </style>
