@@ -338,6 +338,9 @@ export default {
   margin-right: auto;
   border-radius: 5px;
   padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .item__image {
   padding-bottom: 15px;
