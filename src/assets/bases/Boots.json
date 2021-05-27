@@ -1,0 +1,62 @@
+[
+    {
+        "Image": "img/items/armor/lbt.gif",
+        "Name": "Boots",
+        "Min_MaxDefense": "2-3",
+        "MinStrength": "-",
+        "Durability": "12",
+        "AssassinKickDamage": "3-8",
+        "QualityLevel": "3",
+        "GroupTag": "Normal Boots",
+        "tag": "Boots",        
+        "difficult": "Normal"
+    },
+    {
+        "Image": "img/items/armor/vbt.gif",
+        "Name": "Heavy Boots",
+        "Min_MaxDefense": "5-6",
+        "MinStrength": "18",
+        "Durability": "14",
+        "AssassinKickDamage": "4-10",
+        "QualityLevel": "7",
+        "GroupTag": "Normal Boots",
+        "tag": "Boots",        
+        "difficult": "Normal"
+    },
+    {
+        "Image": "img/items/armor/mbt.gif",
+        "Name": "Chain Boots",
+        "Min_MaxDefense": "8-9",
+        "MinStrength": "30",
+        "Durability": "16",
+        "AssassinKickDamage": "6-12",
+        "QualityLevel": "12",
+        "GroupTag": "Normal Boots",
+        "tag": "Boots",        
+        "difficult": "Normal"
+    },
+    {
+        "Image": "img/items/armor/tbt.gif",
+        "Name": "Light Plated Boots",
+        "Min_MaxDefense": "9-11",
+        "MinStrength": "50",
+        "Durability": "18",
+        "AssassinKickDamage": "8-16",
+        "QualityLevel": "20",
+        "GroupTag": "Normal Boots",
+        "tag": "Boots",        
+        "difficult": "Normal"
+    },
+    {
+        "Image": "img/items/armor/hbt.gif",
+        "Name": "Greaves",
+        "Min_MaxDefense": "12-15",
+        "MinStrength": "70",
+        "Durability": "24",
+        "AssassinKickDamage": "10-20",
+        "QualityLevel": "27",
+        "GroupTag": "Normal Boots",
+        "tag": "Boots",        
+        "difficult": "Normal"
+    }
+]

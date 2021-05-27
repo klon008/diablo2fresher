@@ -1,0 +1,62 @@
+[
+    {
+        "Image": "img/items/armor/lbl.gif",
+        "Name": "Sash",
+        "Min_MaxDefense": "2",
+        "MinStrength": "-",
+        "Durability": "12",
+        "_Boxes": "8",
+        "QualityLevel": "3",
+        "GroupTag": "Normal Belts",
+        "tag": "Belts",
+        "difficult": "Normal"
+    },
+    {
+        "Image": "img/items/armor/vbl.gif",
+        "Name": "Light Belt",
+        "Min_MaxDefense": "3",
+        "MinStrength": "-",
+        "Durability": "14",
+        "_Boxes": "8",
+        "QualityLevel": "7",
+        "GroupTag": "Normal Belts",
+        "tag": "Belts",
+        "difficult": "Normal"
+    },
+    {
+        "Image": "img/items/armor/mbl.gif",
+        "Name": "Belt",
+        "Min_MaxDefense": "5",
+        "MinStrength": "25",
+        "Durability": "16",
+        "_Boxes": "12",
+        "QualityLevel": "12",
+        "GroupTag": "Normal Belts",
+        "tag": "Belts",
+        "difficult": "Normal"
+    },
+    {
+        "Image": "img/items/armor/tbl.gif",
+        "Name": "Heavy Belt",
+        "Min_MaxDefense": "6",
+        "MinStrength": "45",
+        "Durability": "18",
+        "_Boxes": "12",
+        "QualityLevel": "20",
+        "GroupTag": "Normal Belts",
+        "tag": "Belts",
+        "difficult": "Normal"
+    },
+    {
+        "Image": "img/items/armor/hbl.gif",
+        "Name": "Plated Belt",
+        "Min_MaxDefense": "8-11",
+        "MinStrength": "60",
+        "Durability": "24",
+        "_Boxes": "16",
+        "QualityLevel": "27",
+        "GroupTag": "Normal Belts",
+        "tag": "Belts",
+        "difficult": "Normal"
+    }
+]
