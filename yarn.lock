@@ -3469,7 +3469,7 @@ execa@^3.3.0:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-execa@^4.0.0, execa@^4.0.2:
+execa@^4.0.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/execa/-/execa-4.1.0.tgz#4e5491ad1572f2f17a77d388c6c857135b22847a"
   integrity sha512-j5W0//W7f8UxAn8hXVnwG8tLwdiUy4FJLcSupCg6maBYZDpyBvTApK7KyuI4bKj8KOh1r2YH+6ucuYtJv1bTZA==
@@ -8409,13 +8409,6 @@ vue-backtotop@^1.6.1:
   integrity sha512-/zbKVHrfs2gfuY/2r7n4jUGE0WrixXRNjYVOOmtPCpgnz2/1iNerczlWnbT2wnI/KJvfKMDp+sGza4CqDvElAQ==
   dependencies:
     vue "2.3.3"
-
-vue-cli-plugin-gh-pages-auto-deploy@~0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/vue-cli-plugin-gh-pages-auto-deploy/-/vue-cli-plugin-gh-pages-auto-deploy-0.4.0.tgz#3b1886814cc357eb45eff386fa744f519234ef3c"
-  integrity sha512-tEZ7OsfWQ/wEHUPw+EunKGFhf3lmdK/ojOWiQUc4/Gu8auILWv/Sc8P9TIHxh5RQJrpyV82GlXZbZmid58ZKHg==
-  dependencies:
-    execa "^4.0.2"
 
 vue-eslint-parser@^7.0.0:
   version "7.1.0"

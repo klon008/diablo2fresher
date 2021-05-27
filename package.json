@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "gh-pages-deploy": "node scripts/gh-pages-deploy.js"
+    "gh-pages-deploy": "node scripts/gh-pages-deploy.js",
+    "gh-pages": "git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "axios": "^0.19.2",
@@ -34,7 +35,6 @@
     "node-sass": "^4.14.1",
     "normalize.css": "^8.0.1",
     "sass-loader": "^8.0.2",
-    "vue-cli-plugin-gh-pages-auto-deploy": "~0.4.0",
     "vue-template-compiler": "^2.6.11"
   },
   "browserslist": [
