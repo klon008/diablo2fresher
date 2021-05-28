@@ -1,0 +1,82 @@
+[
+    {
+        "Image": "https://www.items7.com/images/cap.gif",
+        "Name": "Cap",
+        "Min_MaxDefense": "3-5",
+        "MinStrength": "-",
+        "Durability": "12",
+        "Sockets": "2",
+        "QualityLevel": "1",
+        "Text": "Normal Helms"
+    },
+    {
+        "Image": "https://www.items7.com/images/skullcap.gif",
+        "Name": "Skull Cap",
+        "Min_MaxDefense": "8-11",
+        "MinStrength": "15",
+        "Durability": "18",
+        "Sockets": "2",
+        "QualityLevel": "5",
+        "Text": "Normal Helms"
+    },
+    {
+        "Image": "https://www.items7.com/images/helm.gif",
+        "Name": "Helm",
+        "Min_MaxDefense": "15-18",
+        "MinStrength": "26",
+        "Durability": "24",
+        "Sockets": "2",
+        "QualityLevel": "11",
+        "Text": "Normal Helms"
+    },
+    {
+        "Image": "https://www.items7.com/images/fullhelm.gif",
+        "Name": "Full Helm",
+        "Min_MaxDefense": "23-26",
+        "MinStrength": "41",
+        "Durability": "30",
+        "Sockets": "2",
+        "QualityLevel": "15",
+        "Text": "Normal Helms"
+    },
+    {
+        "Image": "https://www.items7.com/images/greathelm.gif",
+        "Name": "Great Helm",
+        "Min_MaxDefense": "30-35",
+        "MinStrength": "63",
+        "Durability": "40",
+        "Sockets": "3",
+        "QualityLevel": "23",
+        "Text": "Normal Helms"
+    },
+    {
+        "Image": "https://www.items7.com/images/mask.gif",
+        "Name": "Mask",
+        "Min_MaxDefense": "9-27",
+        "MinStrength": "23",
+        "Durability": "20",
+        "Sockets": "3",
+        "QualityLevel": "19",
+        "Text": "Normal Helms"
+    },
+    {
+        "Image": "https://www.items7.com/images/crown.gif",
+        "Name": "Crown",
+        "Min_MaxDefense": "25-45",
+        "MinStrength": "55",
+        "Durability": "50",
+        "Sockets": "3",
+        "QualityLevel": "29",
+        "Text": "Normal Helms"
+    },
+    {
+        "Image": "https://www.items7.com/images/bonehelm.gif",
+        "Name": "Bone Helm",
+        "Min_MaxDefense": "33-36",
+        "MinStrength": "25",
+        "Durability": "40",
+        "Sockets": "2",
+        "QualityLevel": "22",
+        "Text": "Normal Helms"
+    }
+]

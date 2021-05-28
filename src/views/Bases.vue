@@ -45,7 +45,7 @@
             class="fast-filter"
             v-for="filter in WeaponsList"
             :key="filter"
-            :class="(filter == '1h-Axes')? '':'not-ready'"
+            :class="(['1h-Axes', '2h-Axes', 'Bows', 'Crossbows', 'Daggers', 'Javelins'].indexOf(filter) !== -1)? '':'not-ready'"
 
           >
             {{ filter }}
@@ -59,7 +59,7 @@
             v-for="filter in ClassSpecificArmor"
             :key="filter"
             
-            :class="(filter == '1h-Axes')? '':'not-ready'"
+            :class="(['1h-Axes', '2h-Axes', 'Bows', 'Crossbows', 'Daggers', 'Javelins'].indexOf(filter) !== -1)? '':'not-ready'"
           >
             {{ filter }}
           </button>
@@ -72,7 +72,7 @@
             v-for="filter in ClassSpecificWeapons"
             :key="filter"
             
-            :class="(filter == '1h-Axes')? '':'not-ready'"
+            :class="(['1h-Axes', '2h-Axes', 'Bows', 'Crossbows', 'Daggers', 'Javelins'].indexOf(filter) !== -1)? '':'not-ready'"
           >
             {{ filter }}
           </button>
@@ -145,6 +145,11 @@ import Shields from "../assets/bases/Shields.json";
 import Armor from "../assets/bases/Armor.json";
 import Helms from "../assets/bases/Helms.json";
 import o1hAxes from "../assets/bases/1hAxes.json";
+import o2hAxes from "../assets/bases/2hAxes.json";
+import Bows from "../assets/bases/Bows.json";
+import Crossbows from "../assets/bases/Crossbows.json";
+import Daggers from "../assets/bases/Daggers.json";
+import Javelins from "../assets/bases/Javelins.json";
 
 import Popper from "vue-popperjs";
 import "vue-popperjs/dist/vue-popper.css";
@@ -303,7 +308,8 @@ export default {
   },
   mounted() {},
   created() {
-    this.dJson = belts.concat(beltsElite, boots, bootsElite, gloves, Shields, Armor, Helms, o1hAxes);
+    this.dJson = belts.concat(beltsElite, boots, bootsElite, gloves, Shields, Armor, Helms, o1hAxes,
+    o2hAxes, Bows, Crossbows, Daggers, Javelins);
   },
 };
 </script>

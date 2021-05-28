@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="meow">
+        <div class="non_meow">
+            <a href="http://classic.battle.net/diablo2exp/items/weaponsandarmor.shtml">Arreat</a> |
+            <a href="https://www.convertjson.com/html-table-to-json.htm">html-table-to-json</a> |
+            <a href="https://jsonformatter.org/">jsonformatter</a>
+        </div>
+        <div class="non_meow">
+            <div class="oc_meow">
+                <div class="opp_meow">
+                    <label for="GroupTag">GroupTag</label>
+                    <input type="text" id="GroupTag" name="GroupTag" placeholter="GroupTag">
+                    <label for="tag">tag</label>
+                    <input type="text" id="tag" name="tag" placeholter="tag">
+                    <label for="difficult">difficult</label>
+                    <input type="text" id="difficult" name="difficult" placeholter="difficult">
+                    
+                </div>
+                <div class="opp_meow">
+                    <label for="json">json</label>
+                    <textarea name="images" id="images" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+        </div>
+        <textarea name="json" id="json" cols="30" rows="10"></textarea>
+        <button id="calc">calc</button>
+        <div id="result"></div>
+    </div>
+    <style>
+        .meow {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .meow>* {
+            margin-top: 2em;
+        }
+
+        .meow .op_meow {
+            display: flex;
+            flex-direction: column;
+        }
+        .opp_meow{
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+            padding: 2.5%
+        }
+
+        .oc_meow {
+            width: 100%;
+            display: flex;
+        }
+
+        .meow>input {
+            margin-top: 0.5em;
+            width: 15em;
+        }
+    </style>
+    <script type="text/ecmascript">
+
+        $(function () {
+            $('#calc').on('click', () => {
+
+                let far = $('#json').val();
+                let jsonf = JSON.parse(far);
+                let GroupTag = $('#GroupTag').val();
+                let tag = $('#tag').val();
+                let difficult = $('#difficult').val();
+                let images = $("#images").val().split(/\r?\n/);
+
+                for (let index = 0; index < jsonf.length; index++) {
+                    const item = jsonf[index];
+                    jsonf[index]['GroupTag'] = GroupTag;
+                    jsonf[index]['tag'] = tag;
+                    jsonf[index]['difficult'] = difficult;
+                    if (images[index]){
+                        jsonf[index]['Image'] = images[index];
+                    } else {
+                        jsonf[index]['Image'] = "";
+                    }
+                    
+                }
+                $('#result').html(JSON.stringify(jsonf, null, '\t'));
+            })
+        });
+    </script>
+</body>
+
+</html>

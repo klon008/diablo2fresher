@@ -1,0 +1,98 @@
+[
+    {
+        "Image": "https://www.items7.com/images/lightcrossbow.gif",
+        "Name": "Arbalest",
+        "Two_HandDamage": "14 to 27 (20.5 Avg)",
+        "LevelRequirement": "22",
+        "MinStrength": "52",
+        "MinDexterity": "61",
+        "Sockets": "3",
+        "SpeedbyClass": "[-10]\nAma, Asn, B, D, N, P, S - Normal",
+        "QualityLevel": "34",
+        "Data_field": "Exceptional Crossbows"
+    },
+    {
+        "Image": "https://www.items7.com/images/crossbow.gif",
+        "Name": "Siege Crossbow",
+        "Two_HandDamage": "20 to 42 (31 Avg)",
+        "LevelRequirement": "25",
+        "MinStrength": "80",
+        "MinDexterity": "70",
+        "Sockets": "4",
+        "SpeedbyClass": "[0]\nD, N, S - Normal\nAma, Asn, B, P - Slow",
+        "QualityLevel": "40",
+        "Data_field": "Exceptional Crossbows"
+    },
+    {
+        "Image": "https://www.items7.com/images/heavycrossbow.gif",
+        "Name": "Ballista",
+        "Two_HandDamage": "33 to 55 (44 Avg)",
+        "LevelRequirement": "25",
+        "MinStrength": "110",
+        "MinDexterity": "80",
+        "Sockets": "6",
+        "SpeedbyClass": "[10]\nB, D, N, P, S - Slow\nAma, Asn - Very Slow",
+        "QualityLevel": "47",
+        "Data_field": "Exceptional Crossbows"
+    },
+    {
+        "Image": "https://www.items7.com/images/repeatingcrossbow.gif",
+        "Name": "Chu-Ko-Nu",
+        "Two_HandDamage": "14 to 32 (23 Avg)",
+        "LevelRequirement": "25",
+        "MinStrength": "80",
+        "MinDexterity": "95",
+        "Sockets": "5",
+        "SpeedbyClass": "[-60]\nAma, Asn, B, D, N, P, S - Very Fast\n",
+        "QualityLevel": "54",
+        "Data_field": "Exceptional Crossbows"
+    },
+    {
+        "Image": "https://www.items7.com/images/lightcrossbow.gif",
+        "Name": "Pellet Bow",
+        "Two_HandDamage": "28 to 73 (50.5 Avg)",
+        "LevelRequirement": "42",
+        "MinStrength": "83",
+        "MinDexterity": "155",
+        "Sockets": "3",
+        "SpeedbyClass": "[-10]\nAma, Asn, B, D, N, P, S - Normal",
+        "QualityLevel": "57",
+        "Data_field": "Elite Crossbows"
+    },
+    {
+        "Image": "https://www.items7.com/images/crossbow.gif",
+        "Name": "Gorgon Crossbow",
+        "Two_HandDamage": "25 to 87 (56 Avg)",
+        "LevelRequirement": "50",
+        "MinStrength": "117",
+        "MinDexterity": "105",
+        "Sockets": "4",
+        "SpeedbyClass": "[0]\nD, N, S - Normal\nAma, Asn, B, P - Slow",
+        "QualityLevel": "67",
+        "Data_field": "Elite Crossbows"
+    },
+    {
+        "Image": "https://www.items7.com/images/heavycrossbow.gif",
+        "Name": "Colossus Crossbow",
+        "Two_HandDamage": "32 to 91 (61.5 Avg)",
+        "LevelRequirement": "56",
+        "MinStrength": "163",
+        "MinDexterity": "77",
+        "Sockets": "6",
+        "SpeedbyClass": "[10]\nB, D, N, P, S - Slow\nAma, Asn - Very Slow",
+        "QualityLevel": "75",
+        "Data_field": "Elite Crossbows"
+    },
+    {
+        "Image": "https://www.items7.com/images/repeatingcrossbow.gif",
+        "Name": "Demon Crossbow",
+        "Two_HandDamage": "26 to 40 (33 Avg)",
+        "LevelRequirement": "63",
+        "MinStrength": "141",
+        "MinDexterity": "98",
+        "Sockets": "5",
+        "SpeedbyClass": "[-60]\nAma, Asn, B, D, N, P, S - Very Fast\n",
+        "QualityLevel": "84",
+        "Data_field": "Elite Crossbows"
+    }
+]

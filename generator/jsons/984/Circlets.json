@@ -1,0 +1,46 @@
+[
+    {
+        "Image": "https://www.items7.com/images/circlet.gif",
+        "Name": "Circlet",
+        "Min_MaxDefense": "20-30",
+        "Durability": "35",
+        "RequiredLevel": "16",
+        "Sockets": "2",
+        "MagicLevel": "3",
+        "QualityLevel": "24",
+        "Text": "Circlets"
+    },
+    {
+        "Image": "https://www.items7.com/images/coronet.gif",
+        "Name": "Coronet",
+        "Min_MaxDefense": "30-40",
+        "Durability": "30",
+        "RequiredLevel": "39",
+        "Sockets": "2",
+        "MagicLevel": "8",
+        "QualityLevel": "52",
+        "Text": "Circlets"
+    },
+    {
+        "Image": "https://www.items7.com/images/tiara.gif",
+        "Name": "Tiara",
+        "Min_MaxDefense": "40-50",
+        "Durability": "25",
+        "RequiredLevel": "52",
+        "Sockets": "3",
+        "MagicLevel": "13",
+        "QualityLevel": "70",
+        "Text": "Circlets"
+    },
+    {
+        "Image": "https://www.items7.com/images/diadem.gif",
+        "Name": "Diadem",
+        "Min_MaxDefense": "50-60",
+        "Durability": "20",
+        "RequiredLevel": "64",
+        "Sockets": "3",
+        "MagicLevel": "18",
+        "QualityLevel": "85",
+        "Text": "Circlets"
+    }
+]
