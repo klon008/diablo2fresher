@@ -45,7 +45,7 @@
             class="fast-filter"
             v-for="filter in WeaponsList"
             :key="filter"
-            :class="(['1h-Axes', '2h-Axes', 'Bows', 'Crossbows', 'Daggers', 'Javelins'].indexOf(filter) !== -1)? '':'not-ready'"
+            :class="(['1h-Axes', '2h-Axes', 'Bows', 'Crossbows', 'Daggers', 'Javelins', 'Maces'].indexOf(filter) !== -1)? '':'not-ready'"
 
           >
             {{ filter }}
@@ -59,7 +59,7 @@
             v-for="filter in ClassSpecificArmor"
             :key="filter"
             
-            :class="(['1h-Axes', '2h-Axes', 'Bows', 'Crossbows', 'Daggers', 'Javelins'].indexOf(filter) !== -1)? '':'not-ready'"
+            :class="(['1h-Axes', '2h-Axes', 'Bows', 'Crossbows', 'Daggers', 'Javelins', 'Maces'].indexOf(filter) !== -1)? '':'not-ready'"
           >
             {{ filter }}
           </button>
@@ -72,7 +72,7 @@
             v-for="filter in ClassSpecificWeapons"
             :key="filter"
             
-            :class="(['1h-Axes', '2h-Axes', 'Bows', 'Crossbows', 'Daggers', 'Javelins'].indexOf(filter) !== -1)? '':'not-ready'"
+            :class="(['1h-Axes', '2h-Axes', 'Bows', 'Crossbows', 'Daggers', 'Javelins', 'Maces'].indexOf(filter) !== -1)? '':'not-ready'"
           >
             {{ filter }}
           </button>
@@ -150,6 +150,7 @@ import Bows from "../assets/bases/Bows.json";
 import Crossbows from "../assets/bases/Crossbows.json";
 import Daggers from "../assets/bases/Daggers.json";
 import Javelins from "../assets/bases/Javelins.json";
+import Maces from "../assets/bases/Maces.json";
 
 import Popper from "vue-popperjs";
 import "vue-popperjs/dist/vue-popper.css";
@@ -309,7 +310,7 @@ export default {
   mounted() {},
   created() {
     this.dJson = belts.concat(beltsElite, boots, bootsElite, gloves, Shields, Armor, Helms, o1hAxes,
-    o2hAxes, Bows, Crossbows, Daggers, Javelins);
+    o2hAxes, Bows, Crossbows, Daggers, Javelins, Maces);
   },
 };
 </script>
