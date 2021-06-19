@@ -1,0 +1,42 @@
+[
+    {
+        "Name": "Stag Bow",
+        "Two Hand Damage": "7 To 12 (9.5 Avg)",
+        "Level Requirement": 14,
+        "Min Strength": 30,
+        "Min Dexterity": 45,
+        "Sockets": 5,
+        "Class": "Bow",
+        "Speed for Amazon": "[0]\nFast",
+        "Quality Level": 18,
+        "GroupTag": "Normal Amazon Weapons",
+        "tag": "Amazon Weapons",
+        "difficult": "Normal",
+        "Image": "img/items/WEAPON/am1.gif"
+    },
+    {
+        "Name": "Reflex Bow",
+        "Two Hand Damage": "9 To 19 (14 Avg)",
+        "Level Requirement": 20,
+        "Min Strength": 35,
+        "Min Dexterity": 60,
+        "Sockets": 5,
+        "Class": "Bow",
+        "Speed for Amazon": "[10]\nFast",
+        "Quality Level": 27,
+        "GroupTag": "Normal Amazon Weapons",
+        "tag": "Amazon Weapons",
+        "difficult": "Normal",
+        "Image": "img/items/WEAPON/am2.gif"
+    },
+    { "Name": "Ashwood Bow", "Two Hand Damage": "16 To 29 (22.5 Avg)", "Level Requirement": 29, "Min Strength": 56, "Min Dexterity": 77, "Sockets": 5, "Class": "Bow", "Speed for Amazon": "[0]\nFast", "Quality Level": 39, "GroupTag": "Exceptional Amazon Weapons", "tag": "Amazon Weapons", "difficult": "Exceptional", "Image": "img/items/WEAPON/am1.gif" }, { "Name": "Ceremonial Bow", "Two Hand Damage": "19 To 41 (30 Avg)", "Level Requirement": 35, "Min Strength": 73, "Min Dexterity": 110, "Sockets": 5, "Class": "Bow", "Speed for Amazon": "[10]\nFast", "Quality Level": 47, "GroupTag": "Exceptional Amazon Weapons", "tag": "Amazon Weapons", "difficult": "Exceptional", "Image": "img/items/WEAPON/am2.gif" },
+    { "Name": "Matriarchal Bow", "Two Hand Damage": "20 To 47 (33.5 Avg)", "Level Requirement": 39, "Min Strength": 87, "Min Dexterity": 187, "Sockets": 5, "Class": "Bow", "Speed for Amazon": "[-10]\nFast", "Quality Level": 53, "GroupTag": "Elite Amazon Weapons", "tag": "Amazon Weapons", "difficult": "Elite", "Image": "img/items/WEAPON/am1.gif" }, { "Name": "Grand Matron Bow", "Two Hand Damage": "14 To 72 (43 Avg)", "Level Requirement": 58, "Min Strength": 108, "Min Dexterity": 152, "Sockets": 5, "Class": "Bow", "Speed for Amazon": "[10]\nFast", "Quality Level": 78, "GroupTag": "Elite Amazon Weapons", "tag": "Amazon Weapons", "difficult": "Elite", "Image": "img/items/WEAPON/am2.gif" },
+    
+    { "Name": "Maiden Spear", "Min/Max 2h Damage": "18 To 24 (21 Avg)", "Level Requirement": 14, "Min Strength": 54, "Min Dexterity": 40, "Rangeadder": 4, "Durability": 28, "Sockets": 6, "Class": "Spear", "Speed for Amazon": "[0]\nNormal", "Quality Level": 18, "GroupTag": "Normal Amazon Weapons", "tag": "Amazon Weapons", "difficult": "Normal", "Image": "img/items/WEAPON/am3.gif" }, { "Name": "Maiden Pike", "Min/Max 2h Damage": "23 To 55 (39 Avg)", "Level Requirement": 20, "Min Strength": 63, "Min Dexterity": 52, "Rangeadder": 4, "Durability": 25, "Sockets": 6, "Class": "Spear", "Speed for Amazon": "[10]\nNormal", "Quality Level": 27, "GroupTag": "Normal Amazon Weapons", "tag": "Amazon Weapons", "difficult": "Normal", "Image": "img/items/WEAPON/am4.gif" },
+    { "Name": "Ceremonial Spear", "Min/Max 2h Damage": "34 To 51 (42.5 Avg)", "Level Requirement": 32, "Min Strength": 101, "Min Dexterity": 80, "Rangeadder": 4, "Durability": 28, "Sockets": 6, "Class": "Spear", "Speed for Amazon": "[0]\nNormal", "Quality Level": 43, "GroupTag": "Exceptional Amazon Weapons", "tag": "Amazon Weapons", "difficult": "Exceptional", "Image": "img/items/WEAPON/am3.gif" }, { "Name": "Ceremonial Pike", "Min/Max 2h Damage": "42 To 101 (71.5 Avg)", "Level Requirement": 38, "Min Strength": 115, "Min Dexterity": 98, "Rangeadder": 4, "Durability": 25, "Sockets": 6, "Class": "Spear", "Speed for Amazon": "[20]\nNormal", "Quality Level": 51, "GroupTag": "Exceptional Amazon Weapons", "tag": "Amazon Weapons", "difficult": "Exceptional", "Image": "img/items/WEAPON/am4.gif" },
+    { "Name": "Matriarchal Spear", "Min/Max 2h Damage": "65 To 95 (80 Avg)", "Level Requirement": 45, "Min Strength": 114, "Min Dexterity": 142, "Rangeadder": 4, "Durability": 28, "Sockets": 6, "Class": "Spear", "Speed for Amazon": "[0]\nNormal", "Quality Level": 61, "GroupTag": "Elite Amazon Weapons", "tag": "Amazon Weapons", "difficult": "Elite", "Image": "img/items/WEAPON/am3.gif" }, { "Name": "Matriarchal Pike", "Min/Max 2h Damage": "37 To 153 (95 Avg)", "Level Requirement": 60, "Min Strength": 132, "Min Dexterity": 149, "Rangeadder": 4, "Durability": 25, "Sockets": 6, "Class": "Spear", "Speed for Amazon": "[20]\nNormal", "Quality Level": 81, "GroupTag": "Elite Amazon Weapons", "tag": "Amazon Weapons", "difficult": "Elite", "Image": "img/items/WEAPON/am4.gif" },
+    
+    { "Name": "Maiden Javelin", "Throw Damage": "6 To 22 (14 Avg)", "Min/Max 1h Damage": "8 To 14 (11 Avg)", "Level Requirement": 17, "Min Strength": 33, "Min Dexterity": 47, "Melee Rangeadder": 2, "Max Stack": 80, "Class": "Javelin", "Speed for Amazon": "[-10]\nVery Fast", "Quality Level": 23, "GroupTag": "Normal Amazon Weapons", "tag": "Amazon Weapons", "difficult": "Normal", "Image": "img/items/WEAPON/am5.gif" },
+    { "Name": "Ceremonial Javelin", "Throw Damage": "18 To 54 (36 Avg)", "Min/Max 1h Damage": "18 To 35 (26.5 Avg)", "Level Requirement": 26, "Min Strength": 25, "Min Dexterity": 109, "Melee Rangeadder": 2, "Max Stack": 80, "Class": "Javelin", "Speed for Amazon": "[-10]\nVery Fast", "Quality Level": 35, "GroupTag": "Exceptional Amazon Weapons", "tag": "Amazon Weapons", "difficult": "Exceptional", "Image": "img/items/WEAPON/am5.gif" },
+    { "Name": "Matriarchal Javelin", "Throw Damage": "35 To 66 (50.5 Avg)", "Min/Max 1h Damage": "30 To 54 (42 Avg)", "Level Requirement": 48, "Min Strength": 107, "Min Dexterity": 151, "Melee Rangeadder": 2, "Max Stack": 80, "Class": "Javelin", "Speed for Amazon": "[-10]\nVery Fast", "Quality Level": 65, "GroupTag": "Elite Amazon Weapons", "tag": "Amazon Weapons", "difficult": "Elite", "Image": "img/items/WEAPON/am5.gif" }
+]

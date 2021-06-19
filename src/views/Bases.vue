@@ -45,7 +45,7 @@
             class="fast-filter"
             v-for="filter in WeaponsList"
             :key="filter"
-            :class="(['1h-Axes', '2h-Axes', 'Bows', 'Crossbows', 'Daggers', 'Javelins', 'Maces'].indexOf(filter) !== -1)? '':'not-ready'"
+            :class="(dontIgnoreList.indexOf(filter) !== -1)? '':'not-ready'"
 
           >
             {{ filter }}
@@ -59,7 +59,7 @@
             v-for="filter in ClassSpecificArmor"
             :key="filter"
             
-            :class="(['1h-Axes', '2h-Axes', 'Bows', 'Crossbows', 'Daggers', 'Javelins', 'Maces'].indexOf(filter) !== -1)? '':'not-ready'"
+            :class="(dontIgnoreList.indexOf(filter) !== -1)? '':'not-ready'"
           >
             {{ filter }}
           </button>
@@ -72,7 +72,7 @@
             v-for="filter in ClassSpecificWeapons"
             :key="filter"
             
-            :class="(['1h-Axes', '2h-Axes', 'Bows', 'Crossbows', 'Daggers', 'Javelins', 'Maces'].indexOf(filter) !== -1)? '':'not-ready'"
+            :class="(dontIgnoreList.indexOf(filter) !== -1)? '':'not-ready'"
           >
             {{ filter }}
           </button>
@@ -151,6 +151,22 @@ import Crossbows from "../assets/bases/Crossbows.json";
 import Daggers from "../assets/bases/Daggers.json";
 import Javelins from "../assets/bases/Javelins.json";
 import Maces from "../assets/bases/Maces.json";
+import Polearms from "../assets/bases/Polearms.json";
+import Scepters from "../assets/bases/Scepters.json";
+import Spears from "../assets/bases/Spears.json";
+import Staves from "../assets/bases/Staves.json";
+import o1hSwors from "../assets/bases/1hSwords.json";
+import o2hSwors from "../assets/bases/2hSwords.json";
+import Throwing from "../assets/bases/Throwing.json";
+import Wands from "../assets/bases/Wands.json";
+import BarbarianHelms from "../assets/bases/BarbarianHelms.json";
+import DruidPelts from "../assets/bases/DruidPelts.json";
+import PaladinShields from "../assets/bases/PaladinShields.json";
+import NecromancerShrunkenHeads from "../assets/bases/NecromancerShrunkenHeads.json";
+import AmazonWeapons from "../assets/bases/AmazonWeapons.json";
+import AssassinKatars from "../assets/bases/AssassinKatars.json";
+import SorceressOrbs from "../assets/bases/SorceressOrbs.json";
+
 
 import Popper from "vue-popperjs";
 import "vue-popperjs/dist/vue-popper.css";
@@ -183,6 +199,8 @@ export default {
       search: "",
       showFilter: false,
       displayStyle: "grid",
+      dontIgnoreList: ['1h-Axes', '2h-Axes', 'Bows', 'Crossbows', 'Daggers', 'Javelins', 'Maces','Polearms', 'Scepters', 'Spears', 'Staves', 'Swords', 'Throwing', 'Wands',
+      'Barbarian Helms', 'Druid Pelts', 'Paladin Shields', 'Necromancer Shrunken Heads', 'Amazon Weapons', 'Assassin Katars', 'Sorceress Orbs'],
       ArmorsList: [
         { name: "Helms" },
         { name: "Armor" },
@@ -310,7 +328,8 @@ export default {
   mounted() {},
   created() {
     this.dJson = belts.concat(beltsElite, boots, bootsElite, gloves, Shields, Armor, Helms, o1hAxes,
-    o2hAxes, Bows, Crossbows, Daggers, Javelins, Maces);
+    o2hAxes, Bows, Crossbows, Daggers, Javelins, Maces, Polearms, Scepters, Spears, Staves, o1hSwors, o2hSwors, Throwing, Wands,
+    BarbarianHelms, DruidPelts, PaladinShields, NecromancerShrunkenHeads, AmazonWeapons, AssassinKatars, SorceressOrbs);
   },
 };
 </script>
@@ -340,7 +359,7 @@ export default {
   padding-bottom: 0;
 }
 .item_wrapper {
-  background: #000;
+  background: #020202;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
@@ -348,6 +367,11 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  cursor: pointer;
+  &:hover{
+    transform: translateY(-30px);
+  }
 }
 .item__image {
   padding-bottom: 15px;

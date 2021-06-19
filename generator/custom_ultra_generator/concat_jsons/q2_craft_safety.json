@@ -1,0 +1,129 @@
+[
+                {
+'Ing': `Magical Spear (any)
++ Jewel (any)
++ Sol Rune (#12)
++ Perfect Emerald`,
+'Items': `Safety Weapon
+Preset Mods:
+Reduced Damage 1-4
+Reduced Magic Damage 1-2
++5-10% Defense`,
+'Comments':`The added defense is new in v1.09.`,
+'group':'Safety Weapon',
+                },{
+'Ing': `Magical Crown
+or Grand Crown (Excep)
+or Corona (Elite)
++ Jewel (any)
++ Ith Rune (#6)
++ Perfect Emerald`,
+'Items': `Safety Helm
+Preset Mods:
+Reduces Damage 1-4
+Reduces Magic Damage 1-2
++5-10% Lightning Resistance
++10-30% Defense`,
+'Comments':``,
+'group':'Safety Headgear',
+                },{
+'Ing': `Magical Breast Plate
+or Curiass (Excep)
+or Great Hauberk (Elite)
++ Jewel (any)
++ Eth Rune (#5)
++ Perfect Emerald`,
+'Items': `Safety Body
+Preset Mods:
+Reduces Damage 3-9
+Reduces Magic Damage 2-5
+Half Freeze Duration
+Increased Defense 10-30%`,
+'Comments':`Nice for a character who don't need big Defense or resistances on Armor, though the damage reductions are so small in v1.09 that it's pretty lame now.`,
+'group':'Safety Armor',
+                },{
+'Ing': `Magical Gauntlets
+or War Gauntlets (Excep)
+or Ogre Gauntlets (Elite)
++ Jewel (any)
++ Ral Rune (#8)
++ Perfect Emerald`,
+'Items': `Safety Gloves
+Preset Mods:
+Reduces Damage 1-4
+Reduces Magical Damage 1-2
++5-10% Resist Cold
++10-33% Defense`,
+'Comments':``,
+'group':'Safety Gloves',
+                },{
+'Ing': `Magical Sash
+or Demonhide Sash
+or Spiderweb Sash
++ Jewel (any)
++ Tal Rune (#7)
++ Perfect Emerald`,
+'Items': `Safety Belt
+Preset Mods:
+Reduces Damage 3-9
+Reduces Magical Damage 2-5
+5-10% Resist Poison
++10-30% Defense`,
+'Comments':``,
+'group':'Safety Belt',
+                },{
+'Ing': `Magical Greaves
+or War Boots (Excep)
+or Myrmidon Boots (Elite)
++ Jewel (any)
++ Ort Rune (#9)
++ Perfect Emerald`,
+'Items': `Safety Boots
+Preset Mods:
+Reduces Damage 1-4
+Reduces Magical Damage 1-2
+5-10% Fire Resistance
++10-30% Defense`,
+'Comments':`Greaves work.`,
+'group':'Safety Boots',
+                },{
+'Ing': `Magical Kite Shield
+or Dragon Shield (Excep)
+or Monarch (Elite)
++ Jewel (any)
++ Nef Rune (#4)
++ Perfect Emerald`,
+'Items': `Safety Shield
+Preset Mods:
+Reduces Damage 1-4
+Reduces Magic Damage 1-2
+5-10% Resist Magic
++10-30% Defense`,
+'Comments':`Magical Resistance is a very rare property. Magical damage is only on a few skills, such as Berserk and Bone Spirit.`,
+'group':'Safety Shields',
+                },{
+'Ing': `Magical Amulet
++ Jewel (any)
++ Thul Rune (#10)
++ Perfect Emerald`,
+'Items': `Safety Amulet
+Preset Mods:
+Reduces Damage 1-4
+Reduces Magic Damage 1-2
++1-10% Blocking`,
+'Comments':``,
+'group':'Safety Jewelry',
+                },{
+'Ing': `Rare or Magical Ring
++ Jewel (any)
++ Amn Rune (#11)
++ Perfect Emerald`,
+'Items': `Safety Ring
+Preset Mods:
+Reduces Damage 1-4
+Reduces Magic Damage 1-2
++1-5 Vitality`,
+'Comments':``,
+'group':'Safety Jewelry',
+                }
+            ]

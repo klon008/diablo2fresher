@@ -1,0 +1,129 @@
+[
+                {
+'Ing': `Magical Blunt Weapon
++ 1 Jewel (any)
++ Tir Rune (#3)
++ Perfect Sapphire`,
+'Items': `Hitpower Weapon
+Preset Mods:
+5% chance of casting Slvl 4 Frost Nova when hit
+Attacker Takes 3-7 Damage
++35-60% Enhanced Damage`,
+'Comments':`"Blunt" = All maces, rods, etc. Everything that has 150% damage vs. Undead excluding Orbs.`,
+'group':'Hitpower Weapon',
+                },{
+'Ing': `Magical Full Helm
+or Basinet (Excep)
+or Giant Conch (Elite)
++ Jewel (any)
++ Ith Rune (#6)
++ Perfect Sapphire`,
+'Items': `Hitpower Helm
+Preset Mods:
+5% chance of casting Slvl 4 Frost Nova when hit
+Attacker takes 3-7 damage
++25-50 Defense vs. Missiles`,
+'Comments':`The defense vs. missiles is added in v1.09 with knockback removed.`,
+'group':'Hitpower Headgear',
+                },{
+'Ing': `Magical Field Plate
+or Sharktooth (Excep)
+or Kraken Shell (Elite)
++ Jewel (any)
++ Nef Rune (#4)
++ Perfect Sapphire`,
+'Items': `Hitpower Body Armor
+Preset Mods:
+5% chance of casting Slvl 4 Frost Nova when hit
+Attacker takes 3-10 damage
+10-20% Faster Hit Recovery`,
+'Comments':`Howling removed, FHR added, armor type changed to Field Plate.`,
+'group':'Hitpower Armor',
+                },{
+'Ing': `Magical Chain Gloves
+or Heavy Bracers (Excep)
+or Vambraces (Elite)
++ Jewel (any)
++ Ort Rune (#9)
++ Perfect Sapphire`,
+
+'Items': `Hitpower Gloves
+Preset Mods:
+5% chance of casting Slvl 4 Frost Nova when hit
++3-7 Damage to Attacker
+Knockback`,
+'Comments':`Knockback is added to your attack, a popular mod to many Bowazons.`,
+'group':'Hitpower Gloves',
+                },{
+'Ing': `Magical Heavy Belt
+or Battle Belt (Excep)
+or Troll Belt (Elite)
++ Jewel (any)
++ Tal Rune (#7)
++ Perfect Sapphire`,
+
+'Items': `Hitpower Belt
+Preset Mods:
+5% chance of casting Slvl 4 Frost Nova when hit
+Attacker takes 3-7 damage
+5-10% Damage to Mana`,
+'Comments':``,
+'group':'Hitpower Belt',
+                },{
+'Ing': `Magical Chain Boots
+or Mesh Boots (excep)
+or Boneweave (Elite)
++ Jewel (any)
++ Ral Rune (#8)
++ Perfect Sapphire`,
+
+'Items': `Hitpower Boots
+Preset Mods:
+5% chance of casting Slvl 4 Frost Nova when hit
+Attacker takes 3-7 damage
++25-60 Defense vs. Melee`,
+'Comments':``,
+'group':'Hitpower Boots',
+                },{
+'Ing': `Magical Gothic Shield
+or Ancient (Excep)
+or Ward (Elite)
++ Jewel (any)
++ Eth Rune (#5)
++ Perfect Sapphire`,
+
+'Items': `Hitpower Shield
+Preset Mods:
+5% chance of casting Slvl 4 Frost Nova when hit
+Attacker takes 3-10 damage
++5-10% Blocking`,
+'Comments':``,
+'group':'Hitpower Shield',
+                },{
+'Ing': `Magical Amulet
++ Jewel (any)
++ Thul Rune (#10)
++ Perfect Sapphire`,
+
+'Items': `Hitpower Amulet
+Preset Mods:
+5% chance of casting Slvl 4 Frost Nova when hit
+Attacker takes 3-10 damage
+5-15% Chance of Monster Flee`,
+'Comments':`Howling replaces Faster Hit Recovery in v1.09.`,
+'group':'Hitpower Jewelry',
+                },{
+'Ing': `Magical Ring
++ Jewel (any)
++ Amn Rune (#11)
++ Perfect Sapphire`,
+
+'Items': `Hitpower Ring
+Preset Mods:
+5% chance of casting Slvl 4 Frost Nova when hit
+Attacker takes 3-6 damage
++1-5 Dexterity`,
+'Comments':`+5-10 Dexterity was the mod pre v1.09.`,
+'group':'Hitpower Jewelry',
+                }
+            ]

@@ -1,0 +1,938 @@
+[
+    {
+        "name": "Ancient's Pledge",
+        "description": " +50% Enhanced Defense<br>\n<p>Cold Resist +43%<br>\nLightning Resist +48%<br>\nFire Resist +48%<br>\nPoison Resist +48%<br>\n10% Damage Taken Goes to Mana\n</p>\n",
+        "Comments": " Recipe is given by Qual-Kehk as a reward for completing <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Quests_Act_Five#Quest_Two:_Rescue_on_Mt._Arreat\" title=\"Quests Act Five\">the second quest in Act Five</a>.\n<p>Bonuses will stack on top of a Paladin's inherent shield properties.\n</p><p>See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Ancient%27s_Pledge\" title=\"Ancient's Pledge\">here</a>.\n</p>\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "RalOrtTal",
+        "runesDetailed": "Ral (8) + Ort (9) + Tal (7)",
+        "itemType": "Shields {3}",
+        "clvl": "Clvl Required: 21"
+    },
+    {
+        "name": "Beast",
+        "description": " Level 9 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Fanaticism\" title=\"Fanaticism\">Fanaticism</a> Aura When Equipped<br>\n<p>+40% Increased Attack Speed<br>\n+240-270% Enhanced Damage (varies)<br>\n20% Chance of Crushing Blow<br>\n25% Chance of Open Wounds<br>\n+3 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Werebear\" title=\"Werebear\">Werebear</a><br>\n+3 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Lycanthropy\" title=\"Lycanthropy\">Lycanthropy</a><br>\nPrevent Monster Heal<br>\n+25-40 To Strength (varies)<br>\n+10 To Energy<br>\n+2 To Mana After Each Kill<br>\nLevel 13 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Summon_Grizzly\" title=\"Summon Grizzly\">Summon Grizzly</a> (5 Charges)\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Beast\" title=\"Beast\"> here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "BerTirUmMalLum",
+        "runesDetailed": "Ber (30) + Tir (3) + Um (22) + Mal (23) + Lum (17)",
+        "itemType": "Axes, Hammers &amp; Scepters {5}",
+        "clvl": "Clvl Required: 63"
+    },
+    {
+        "name": "Black",
+        "description": " +15% Increased Attack Speed<br>\n<p>+120% Enhanced Damage<br>\n+200 to Attack Rating<br>\nAdds 3-14 Cold Damage (3 sec)<br>\n40% Chance of Crushing Blow<br>\nKnockback<br>\n+10 to Vitality<br>\nMagic Damage Reduced By 2<br>\nLevel 4 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Corpse_Explosion\" title=\"Corpse Explosion\">Corpse Explosion</a> (12 Charges)<br>\n</p>\n",
+        "Comments": " See it<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Black\" title=\"Black\"> here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "ThulIoNef Thul (10) + Io (16) + Nef (4)",
+        "runesDetailed": "Clubs, Hammers, Maces {3}",
+        "itemType": "Clvl Required: 35",
+        "clvl": ""
+    },
+    {
+        "name": "Bone",
+        "description": " 15% Chance To Cast level 10 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Bone_Armor\" title=\"Bone Armor\">Bone Armor</a> When Struck<br>\n<p>15% Chance To Cast level 10 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Bone_Spear\" title=\"Bone Spear\">Bone Spear</a> On Striking<br>\n+2 To Necromancer Skill Levels<br>\n+100-150 To Mana (varies) <br>\nAll Resistances +30<br>\nDamage Reduced By 7\n</p>\n",
+        "Comments": " Useful Necromancer bonuses.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "SolUmUm Sol (12) + Um (22) + Um (22)",
+        "runesDetailed": "Armor {3}",
+        "itemType": "Clvl Required: 47",
+        "clvl": ""
+    },
+    {
+        "name": "Bramble",
+        "description": " Level 15-21 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Thorns\" title=\"Thorns\">Thorns</a> Aura When Equipped (varies)<br>\n<p>+50% Faster Hit Recovery<br>\n+25-50% To Poison Skill Damage (varies)<br>\n+300 Defense<br>\nIncrease Maximum Mana 5%<br>\nRegenerate Mana 15%<br>\n+5% To Maximum Cold Resist<br>\nFire Resist +30%<br>\nPoison Resist +100%<br>\n+13 Life After Each Kill<br>\nLevel 13 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Spirit_of_Barbs\" title=\"Spirit of Barbs\">Spirit of Barbs</a> (33 Charges)\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Bramble\" title=\"Bramble\"> here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "RalOhmSurEth",
+        "runesDetailed": "Ral (8) + Ohm (27) + Sur (29) + Eth (5)",
+        "itemType": "Armor {4}",
+        "clvl": "Clvl Required: 61"
+    },
+    {
+        "name": "Brand",
+        "description": " 35% Chance To Cast Level 14 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Amplify_Damage\" title=\"Amplify Damage\">Amplify Damage</a> When Struck<br>\n<p>100% Chance To Cast Level 18 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Bone_Spear\" title=\"Bone Spear\">Bone Spear</a> On Striking<br>\nFires <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Exploding_Arrow\" title=\"Exploding Arrow\">Explosive Arrows or Bolts</a> (15)<br>\n+260-340% Enhanced Damage (varies)<br>\nIgnore Target's Defense<br>\n20% Bonus to Attack Rating<br>\n+280-330% Damage To Demons (varies)<br>\n20% Deadly Strike <br>\nPrevent Monster Heal<br>\nKnockback\n</p>\n",
+        "Comments": " Ladder Only\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "JahLoMalGul",
+        "runesDetailed": "Jah (31) + Lo (28) + Mal (23) + Gul (25)",
+        "itemType": "Missile Weapons {4}",
+        "clvl": "Clvl Required: 65"
+    },
+    {
+        "name": "Breath of the Dying",
+        "description": " 50% Chance To Cast Level 20 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Poison_Nova\" title=\"Poison Nova\">Poison Nova</a> When You Kill An Enemy<br>\n<p>Indestructible<br>\n+60% Increased Attack Speed<br>\n+350-400% Enhanced Damage (varies)<br>\n-25% Target Defense<br>\n+50 To Attack Rating<br>\n+200% Damage To Undead<br>\n+50 To Attack Rating Against Undead<br>\n7% Mana Stolen Per Hit<br>\n12-15% Life Stolen Per Hit (varies)<br>\nPrevent Monster Heal<br>\n+30 To All Attributes<br>\n+1 To Light Radius<br>\nRequirements -20%\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Breath_of_the_Dying\" title=\"Breath of the Dying\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "VexHelElEldZodEth",
+        "runesDetailed": "Vex (26) + Hel (15) + El (1) + Eld (2) + Zod (33) + Eth (5)",
+        "itemType": "All Weapons {6}",
+        "clvl": "Clvl Required: 69"
+    },
+    {
+        "name": "Call to Arms",
+        "description": " +1 To All Skills<br>\n<p>+40% Increased Attack Speed<br>\n+240-290% Enhanced Damage (varies)<br>\nAdds 5-30 Fire Damage<br>\n7% Life Stolen Per Hit<br>\n+2-6 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Battle_Command\" title=\"Battle Command\">Battle Command</a> (varies)<br>\n+1-6 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Battle_Orders\" title=\"Battle Orders\">Battle Orders</a> (varies)<br>\n+1-4 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Battle_Cry\" title=\"Battle Cry\">Battle Cry</a> (varies)<br>\nPrevent Monster Heal<br>\nReplenish Life +12<br>\n30% Better Chance of Getting Magic Items\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Call_to_Arms\" title=\"Call to Arms\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "AmnRalMalIstOhm",
+        "runesDetailed": "Amn (11) + Ral (8) + Mal (23) + Ist (24) + Ohm (27)",
+        "itemType": "Weapons {5}",
+        "clvl": "Clvl Required: 57"
+    },
+    {
+        "name": "Chains of Honor",
+        "description": " +2 To All Skills<br>\n<p>+200% Damage To Demons<br>\n+100% Damage To Undead<br>\n8% Life Stolen Per Hit<br>\n+70% Enhanced Defense<br>\n+20 To Strength<br>Replenish Life +7<br>\nAll Resistances +65<br>\nDamage Reduced By 8%<br>\n25% Better Chance of Getting Magic Items\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Chains_of_Honor\" title=\"Chains of Honor\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "DolUmBerIst Dol (14) + Um (22) + Ber (30) + Ist (24)",
+        "runesDetailed": "Armor {4}",
+        "itemType": "Clvl Required: 63",
+        "clvl": ""
+    },
+    {
+        "name": "Chaos",
+        "description": " 9% Chance To Cast Level 11 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Frozen_Orb\" title=\"Frozen Orb\">Frozen Orb</a> On Striking<br>\n<p>11% Chance To Cast Level 9 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Charged_Bolt\" title=\"Charged Bolt\">Charged Bolt</a> On Striking<br>\n+35% Increased Attacked Speed<br>\n+240-290% Enhanced Damage (varies)<br>\nAdds 216-471 Magic Damage<br>\n25% Chance of Open Wounds<br>\n+1 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Whirlwind\" title=\"Whirlwind\">Whirlwind</a><br>\n+10 To Strength<br>\n+15 Life After Each Demon Kill\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Chaos\" title=\"Chaos\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "FalOhmUm",
+        "runesDetailed": "Fal (19) + Ohm (27) + Um (22)",
+        "itemType": "Claws {3}",
+        "clvl": "Clvl Required: 57"
+    },
+    {
+        "name": "Crescent Moon",
+        "description": " 10% Chance To Cast Level 17 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Chain_Lightning\" title=\"Chain Lightning\">Chain Lightning</a> On Striking<br>\n<p>7% Chance To Cast Level 13 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Static_Field\" title=\"Static Field\">Static Field</a> On Striking<br>\n+20% Increased Attack Speed<br>\n+180-220% Enhanced Damage (varies)<br>\nIgnore Target's Defense<br>\n-35% To Enemy Lightning Resistance<br>\n25% Chance of Open Wounds<br>\n+9-11 Magic Absorb (varies)<br>\n+2 To Mana After Each Kill<br>\nLevel 18 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Summon_Spirit_Wolf\" title=\"Summon Spirit Wolf\">Summon Spirit Wolf</a> (30 Charges)\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Crescent_Moon_(Runeword)\" title=\"Crescent Moon (Runeword)\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "ShaelUmTir",
+        "runesDetailed": "Shael (13) + Um (22) + Tir (3)",
+        "itemType": "Axes, Polearms &amp; Swords {3}",
+        "clvl": "Clvl Required: 47"
+    },
+    {
+        "name": "Death",
+        "description": " Indestructible<br>\n<p>100% Chance To Cast Level 44 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Chain_Lightning\" title=\"Chain Lightning\">Chain Lightning</a> When You Die<br>\n25% Chance To Cast Level 18 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Glacial_Spike\" title=\"Glacial Spike\">Glacial Spike</a> On Attack<br>\n+300-385% Enhanced Damage (varies)<br>\n20% Bonus To Attack Rating<br>\n+50 To Attack Rating<br>\nAdds 1-50 Lightning Damage<br>\n7% Mana Stolen Per Hit<br>\n50% Chance of Crushing Blow<br>\n(0.5*Clvl)% Deadly Strike (Based on Character Level)<br>\n+1 To Light Radius<br>\nLevel 22 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Blood_Golem\" title=\"Blood Golem\">Blood Golem</a> (15 Charges)<br>\nRequirements -20%\n</p>\n",
+        "Comments": " Ladder Only\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "HelElVexOrtGul",
+        "runesDetailed": "Hel (15) + El (1) + Vex (26) + Ort (9) + Gul (25)",
+        "itemType": "Swords &amp; Axes {5}",
+        "clvl": "Clvl Required: 55"
+    },
+    {
+        "name": "Delirium",
+        "description": " 1% Chance To Cast lvl 50 Delirium When Struck<br>\n<p>6% Chance To Cast lvl 14 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Mind_Blast\" title=\"Mind Blast\">Mind Blast</a> When Struck<br>\n14% Chance To Cast lvl 13 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Terror\" title=\"Terror\">Terror</a> When Struck<br>\n11% Chance To Cast lvl 18 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Confuse\" title=\"Confuse\">Confuse</a> On Striking<br>\n+2 To All Skills<br>\n+261 Defense<br>\n+10 To Vitality<br>\n50% Extra Gold From Monsters<br>\n25% Better Chance of Getting Magic Items<br>\nLevel 17 Attract (60 Charges)\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Delirium\" title=\"Delirium\">here</a>. See it in action <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Delirium2\" title=\"Delirium2\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "LemIstIo",
+        "runesDetailed": "Lem (20) + Ist (24) + Io (16)",
+        "itemType": "Headgear (all types) {3}",
+        "clvl": "Clvl Required: 51"
+    },
+    {
+        "name": "Destruction",
+        "description": " 23% Chance To Cast Level 12 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Volcano\" title=\"Volcano\">Volcano</a> On Striking<br>\n<p>5% Chance To Cast Level 23 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Molten_Boulder\" title=\"Molten Boulder\">Molten Boulder</a> On Striking<br>\n100% Chance To Cast level 45 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Meteor\" title=\"Meteor\">Meteor</a> When You Die<br>\n15% Chance To Cast Level 22 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Nova\" title=\"Nova\">Nova</a> On Attack<br>\n+350% Enhanced Damage<br>\nIgnore Target's Defense<br>\nAdds 100-180 Magic Damage<br>\n7% Mana Stolen Per Hit<br>\n20% Chance Of Crushing Blow<br>\n20% Deadly Strike<br>\nPrevent Monster Heal<br>\n+10 To Dexterity\n</p>\n",
+        "Comments": " Ladder Only\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "VexLoBerJahKo",
+        "runesDetailed": "Vex (26) + Lo (28) + Ber (30) + Jah (31) + Ko (18)",
+        "itemType": "Polearms &amp; Swords {5}",
+        "clvl": "Clvl Required: 65"
+    },
+    {
+        "name": "Doom",
+        "description": " 5% Chance To Cast Level 18 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Volcano\" title=\"Volcano\">Volcano</a> On Striking<br>\n<p>Level 12 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Holy_Freeze\" title=\"Holy Freeze\">Holy Freeze</a> Aura When Equipped<br>\n+2 To All Skills<br>\n+45% Increased Attack Speed<br>\n+330-370% Enhanced Damage (varies)<br>\n-40-60% To Enemy Cold Resistance (varies)<br>\n20% Deadly Strike<br>\n25% Chance of Open Wounds<br>\nPrevent Monster Heal<br>\nFreezes Target +3<br>\nRequirements -20%\n</p>\n",
+        "Comments": " See it<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Doom\" title=\"Doom\"> here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "HelOhmUmLoCham",
+        "runesDetailed": "Hel (15) + Ohm (27) + Um (22) + Lo (28) + Cham (32)",
+        "itemType": "Axes, Hammers &amp; Polearms {5}",
+        "clvl": "Clvl Required: 67"
+    },
+    {
+        "name": "Dragon",
+        "description": " <b>Both</b><br>\n<p>20% Chance to Cast Level 18 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Venom_(skill)\" title=\"Venom (skill)\">Venom</a> When Struck<br>\n12% Chance To Cast Level 15 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Hydra\" title=\"Hydra\">Hydra</a> On Striking<br>\nLevel 14 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Holy_Fire\" title=\"Holy Fire\">Holy Fire</a> Aura When Equipped<br>\n+360 Defense<br>\n+230 Defense Vs. Missile<br>\n+3-5 To All Attributes (varies)<br>\n+(0.375*Clvl) To Strength (Based on Character Level)<br>\n+5% To Maximum Lightning Resist<br>\nDamage Reduced by 7<br>\n<b>Armor</b><br>\nIncrease Maximum Mana 5%<br>\n<b>Shields</b><br>\n+50 To Mana\n</p>\n",
+        "Comments": " Ladder Only\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "SurLoSol",
+        "runesDetailed": "Sur (29) + Lo (28) + Sol (12)",
+        "itemType": "Armor, Shields {3}",
+        "clvl": "Clvl Required: 61"
+    },
+    {
+        "name": "Dream",
+        "description": " <b>Both</b><br>\n<p>10% Chance To Cast Level 15 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Confuse\" title=\"Confuse\">Confuse</a> When Struck<br>\nLevel 15 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Holy_Shock\" title=\"Holy Shock\">Holy Shock</a> Aura When Equipped<br>\n+20-30% Faster Hit Recovery (varies)<br>\n+30% Enhanced Defense<br>\n+150-220 Defense (varies)<br>\n+10 To Vitality<br>\n+(0.625*Clvl) To Mana (Based On Character Level)<br>\nAll Resistances +5-20 (varies)<br>\n12-25% Better Chance of Getting Magic Items (varies)<br>\n<b>Headgear</b><br>\nIncrease Maximum Life 5%<br>\n<b>Shields</b><br>\n+50 To Life\n</p>\n",
+        "Comments": " Ladder Only\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "IoJahPul",
+        "runesDetailed": "Io (16) + Jah (31) + Pul (21)",
+        "itemType": "Headgear, Shields {3}",
+        "clvl": "Clvl Required: 65"
+    },
+    {
+        "name": "Duress",
+        "description": " 40% faster hit Recovery<br>\n<p>+10-20% Enhanced Damage (varies)<br>\nAdds 37-133 Cold Damage<br>\n15% Crushing Blow<br>\n33% Open Wounds<br>\n+150-200% Enhanced Defense (varies)<br>\n-20% Slower Stamina Drain<br>\nCold Resist +45%<br>\nLightning Resist +15%<br>\nFire Resist +15%<br>\nPoison Resist +15%\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Duress\" title=\"Duress\"> here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "ShaelUmThul",
+        "runesDetailed": "Shael (13) + Um (22) + Thul (10)",
+        "itemType": "Armor {3}",
+        "clvl": "Clvl Required: 47"
+    },
+    {
+        "name": "Edge",
+        "description": " Level 15 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Thorns\" title=\"Thorns\">Thorns</a> Aura When Equipped<br>\n<p>+35% Increased Attack Speed<br>\n+320-380% Damage To Demons (varies)<br>\n+280% Damage To Undead<br>\n+75 Poison Damage Over 5 Seconds<br>\n7% Life Stolen Per Hit<br>\nPrevent Monster Heal<br>\n+5-10 To All Attributes (varies)<br>\n+2 To Mana After Each Kill<br>\nReduces All Vendor Prices 15%\n</p>\n",
+        "Comments": " Ladder Only\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "TirTalAmn",
+        "runesDetailed": "Tir (3) + Tal (7) + Amn (11)",
+        "itemType": "Missile Weapons {3}",
+        "clvl": "Clvl Required: 25"
+    },
+    {
+        "name": "Enigma",
+        "description": " +2 To All Skills<br>\n<p>+45% Faster Run/Walk<br>\n+1 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Teleport\" title=\"Teleport\">Teleport</a><br>\n+750-775 Defense (Varies) <br>\n+(0.75*Clvl) To Strength (Based On Character Level)<br>\nIncrease Maximum Life 5%<br>\nDamage Reduced By 8%<br>\n+14 Life After Each Kill<br>\n15% Damage Taken Goes To Mana<br>\n(1*Clvl)% Better Chance of Getting Magic Items (Based On Character Level)\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Enigma\" title=\"Enigma\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "JahIthBer",
+        "runesDetailed": "Jah (31) + Ith (6) + Ber (30)",
+        "itemType": "Armor {3}",
+        "clvl": "Clvl Required: 65"
+    },
+    {
+        "name": "Enlightenment",
+        "description": " 5% Chance To Cast Level 15 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Blaze\" title=\"Blaze\">Blaze</a> When Struck<br>\n<p>5% Chance To Cast level 15 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Fire_Ball\" class=\"mw-redirect\" title=\"Fire Ball\">Fire Ball</a> On Striking<br>\n+2 To Sorceress Skill Levels<br>\n+1 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Warmth\" title=\"Warmth\">Warmth</a><br>\n+30% Enhanced Defense<br>\nFire Resist +30%<br>\nDamage Reduced By 7\n</p>\n",
+        "Comments": " Sorceress\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "PulRalSol",
+        "runesDetailed": "Pul (21) + Ral (8) + Sol (12)",
+        "itemType": "Armor {3}",
+        "clvl": "Clvl Required: 45"
+    },
+    {
+        "name": "Eternity",
+        "description": " Indestructible<br>\n<p>+260-310% Enhanced Damage (varies)<br>\n+9 To Minimum Damage<br>\n7% Life Stolen Per Hit<br>\n20% Chance of Crushing Blow<br>\nHit Blinds Target<br>\nSlows Target By 33%<br>\nReplenish Mana 16%<br>\nCannot Be Frozen<br>\n30% Better Chance Of Getting Magic Items<br>\nLevel 8 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Revive\" title=\"Revive\">Revive</a> (88 Charges)\n</p>\n",
+        "Comments": " See it<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Eternity\" title=\"Eternity\"> here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "AmnBerIstSolSur",
+        "runesDetailed": "Amn (11) + Ber (30) + Ist (24) + Sol (12) + Sur (29)",
+        "itemType": "All Melee Weapons {5}",
+        "clvl": "Clvl Required: 63"
+    },
+    {
+        "name": "Exile",
+        "description": " 15% Chance To Cast Level 5 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Life_Tap\" title=\"Life Tap\">Life Tap</a> On Striking<br>\n<p>Level 13-16 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Defiance\" title=\"Defiance\">Defiance</a> Aura When Equipped (varies)<br>\n+2 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Paladin_Offensive_Auras\" title=\"Paladin Offensive Auras\">Offensive Auras</a> (<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Paladin\" title=\"Paladin\">Paladin</a> Only)<br>\n+30% Faster Block Rate<br>\nFreezes Target<br>\n+220-260% Enhanced Defense (varies)<br>\nReplenish Life +7<br>\n+5% To Maximum Cold Resist<br>\n+5% To Maximum Fire Resist<br>\n25% Better Chance Of Getting Magic Items<br>\nRepairs 1 Durability every 4 seconds\n</p>\n",
+        "Comments": " Paladin Shields only. Inherent Paladin shield bonuses remain active.<br>\n<p>See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Exile\" title=\"Exile\">here</a>.\n</p>\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "VexOhmIstDol",
+        "runesDetailed": "Vex (26) + Ohm (27) + Ist (24) + Dol (14)",
+        "itemType": "Shields {4}",
+        "clvl": "Clvl Required: 57"
+    },
+    {
+        "name": "Faith",
+        "description": " Level 12-15 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Fanaticism\" title=\"Fanaticism\">Fanaticism</a> Aura When Equipped (varies)<br>\n<p>+1-2 To All Skills (varies)<br>\n+330% Enhanced Damage<br>\nIgnore Target's Defense<br>\n300% Bonus To Attack Rating<br>\n+75% Damage To Undead<br>\n+50 To Attack Rating Against Undead<br>\n+120 Fire Damage<br>\nAll Resistances +15<br>\n10% Reanimate As: Returned<br>\n75% Extra Gold From Monsters\n</p>\n",
+        "Comments": " Ladder Only\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "OhmJahLemEld",
+        "runesDetailed": "Ohm (27) + Jah (31) + Lem (20) + Eld (2)",
+        "itemType": "Missile Weapons {4}",
+        "clvl": "Clvl Required: 65"
+    },
+    {
+        "name": "Famine",
+        "description": " +30% Increased Attack Speed<br>\n<p>+320-370% Enhanced Damage (varies)<br>\nIgnore Target's Defense<br>\nAdds 180-200 Magic Damage<br>\nAdds 50-200 Fire Damage<br>\nAdds 51-250 Lightning Damage<br>\nAdds 50-200 Cold Damage<br>\n12% Life Stolen Per Hit<br>\nPrevent Monster Heal<br>\n+10 To Strength\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Famine\" title=\"Famine\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "FalOhmOrtJah",
+        "runesDetailed": "Fal (19) + Ohm (27) + Ort (9) + Jah (31)",
+        "itemType": "Axes &amp; Hammers {4}",
+        "clvl": "Clvl Required: 65"
+    },
+    {
+        "name": "Fortitude",
+        "description": " <b>Both</b><br>\n<p>20% Chance To Cast Level 15 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Chilling_Armor\" title=\"Chilling Armor\">Chilling Armor</a> when Struck<br>\n+25% Faster Cast Rate<br>\n+300% Enhanced Damage<br>\n+200% Enhanced Defense<br>\n+((8-12)*0.125*Clvl) To Life (Based on Character Level) (varies)<br>\nAll Resistances +25-30 (varies)<br>\n12% Damage Taken Goes To Mana<br>\n+1 To Light Radius<br>\n<b>Weapons</b><br>\n+9 To Minimum Damage<br>\n+50 To Attack Rating<br>\n20% Deadly Strike<br>\nHit Causes Monster To Flee 25%<br>\n<b>Armor</b><br>\n+15 Defense<br>\nReplenish Life +7<br>\n+5% To Maximum Lightning Resist<br>\nDamage Reduced By 7\n</p>\n",
+        "Comments": " Ladder Only\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "ElSolDolLo",
+        "runesDetailed": "El (1) + Sol (12) + Dol (14) + Lo (28)",
+        "itemType": "Weapons &amp; Armor {4}",
+        "clvl": "Clvl Required: 59"
+    },
+    {
+        "name": "Fury",
+        "description": " 40% Increased Attack Speed<br>\n<p>+209% Enhanced Damage<br>\nIgnores Target Defense<br>\n-25% Target Defense<br>\n20% Bonus to Attack Rating<br>\n6% Life Stolen Per Hit<br>\n33% Chance Of Deadly Strike<br>\n66% Chance Of Open Wounds<br>\n+5 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Frenzy\" title=\"Frenzy\">Frenzy</a> (<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Barbarian\" title=\"Barbarian\">Barbarian</a> Only)<br>\nPrevent Monster Heal\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Fury_(runeword)\" title=\"Fury (runeword)\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "JahGulEth",
+        "runesDetailed": "Jah (31) + Gul (25) + Eth (5)",
+        "itemType": "All Melee Weapons {3}",
+        "clvl": "Clvl Required: 65"
+    },
+    {
+        "name": "Gloom",
+        "description": " 15% Chance To Cast Level 3 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Dim_Vision\" title=\"Dim Vision\">Dim Vision</a> When Struck<br>\n<p>+10% Faster Hit Recovery<br>\n+200-260% Enhanced Defense (varies)<br>\n+10 To Strength<br>\nAll Resistances +45<br>\nHalf Freeze Duration<br>\n5% Damage Taken Goes To Mana<br>\n-3 To Light Radius\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Gloom\" title=\"Gloom\"> here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "FalUmPul",
+        "runesDetailed": "Fal (19)+ Um (22) + Pul (21)",
+        "itemType": "Armor {3}",
+        "clvl": "Clvl Required: 47"
+    },
+    {
+        "name": "Grief",
+        "description": " 35% Chance To Cast Level 15 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Venom_(skill)\" title=\"Venom (skill)\">Venom</a> On Striking<br>\n<p>+30-40% Increased Attack Speed (varies)<br>\nDamage +340-400 (varies)<br>\nIgnore Target's Defense<br>\n-25% Target Defense<br>\n+(1.875*Clvl)% Damage To Demons (Based on Character Level)<br>\nAdds 5-30 Fire Damage<br>\n-20-25% To Enemy Poison Resistance (varies)<br>\n20% Deadly Strike<br>\nPrevent Monster Heal<br>\n+2 To Mana After Each Kill<br>\n+10-15 Life After Each Kill (varies)\n</p>\n",
+        "Comments": " Ladder Only\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "EthTirLoMalRal",
+        "runesDetailed": "Eth (5) + Tir (3) + Lo (28) + Mal (23) + Ral (8)",
+        "itemType": "Swords &amp; Axes {5}",
+        "clvl": "Clvl Required: 59"
+    },
+    {
+        "name": "Hand of Justice",
+        "description": " 100% Chance To Cast Level 36 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Blaze\" title=\"Blaze\">Blaze</a> When You Level-Up<br>\n<p>100% Chance To Cast Level 48 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Meteor\" title=\"Meteor\">Meteor</a> When You Die<br>\nLevel 16 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Holy_Fire\" title=\"Holy Fire\">Holy Fire</a> Aura When Equipped<br>\n+33% Increased Attack Speed<br>\n+280-330% Enhanced Damage (varies)<br>\nIgnore Target's Defense<br>\n-20% To Enemy Fire Resistance<br>\n7% Life Stolen Per Hit<br>\n20% Deadly Strike<br>\nHit Blinds Target<br>\nFreezes Target +3\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Hand_of_Justice\" title=\"Hand of Justice\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "SurChamAmnLo",
+        "runesDetailed": "Sur (29) + Cham (32) + Amn (11) + Lo (28)",
+        "itemType": "All Weapons {4}",
+        "clvl": "Clvl Required: 67"
+    },
+    {
+        "name": "Harmony",
+        "description": " Level 10 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Vigor\" title=\"Vigor\">Vigor</a> Aura When Equipped<br>\n<p>+200-275% Enhanced Damage (varies)<br>\n+9 To Minimum Damage<br>\n+9 To Maximum Damage<br>\nAdds 55-160 Fire Damage<br>\nAdds 55-160 Lightning Damage<br>\nAdds 55-160 Cold Damage<br>\n+2-6 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Valkyrie\" title=\"Valkyrie\">Valkyrie</a> (varies)<br>\n+10 To Dexterity<br>\nRegenerate Mana 20%<br>\n+2 To Mana After Each Kill<br>\n+2 To Light Radius<br>\nLevel 20 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Revive\" title=\"Revive\">Revive</a> (25 Charges)\n</p>\n",
+        "Comments": " Ladder Only\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "TirIthSolKo",
+        "runesDetailed": "Tir (3) + Ith (6) + Sol (12) + Ko (18)",
+        "itemType": "Missile Weapons {4}",
+        "clvl": "Clvl Required: 39"
+    },
+    {
+        "name": "Heart of the Oak",
+        "description": " +3 To All Skills<br>\n<p>+40% Faster Cast Rate<br>\n+75% Damage To Demons<br>\n+100 To Attack Rating Against Demons<br>\nAdds 3-14 Cold Damage<br>\n7% Mana Stolen Per Hit<br>\n+10 To Dexterity<br>\nReplenish Life +20<br>\nIncrease Maximum Mana 15%<br>\nAll Resistances +30-40 (varies)<br>\nLevel 4 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Oak_Sage\" title=\"Oak Sage\">Oak Sage</a> (25 Charges)<br>\nLevel 14 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Raven\" title=\"Raven\">Raven</a> (60 Charges)\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Heart_of_the_Oak\" title=\"Heart of the Oak\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "KoVexPulThul",
+        "runesDetailed": "Ko (18) + Vex (26) + Pul (21) + Thul (10)",
+        "itemType": "Staves &amp; Maces {4}",
+        "clvl": "Clvl Required:55"
+    },
+    {
+        "name": "Holy Thunder",
+        "description": " +60% Enhanced Damage<br>\n<p>+10 to Maximum Damage<br>\n-25% Target Defense<br>\nAdds 5-30 Fire Damage<br>\nAdds 21-110 Lightning Damage<br>\n+75 Poison Damage over 5 secs<br>\n+3 to <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Holy_Shock\" title=\"Holy Shock\">Holy Shock</a> (<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Paladin\" title=\"Paladin\">Paladin</a> Only)<br>\n+5% to Maximum Lightning Resist<br>\nLightning Resist +60%<br>\nLevel 7 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Chain_Lightning\" title=\"Chain Lightning\">Chain Lightning</a> (60 charges)<br>\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Holy_Thunder\" title=\"Holy Thunder\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "EthRalOrtTal",
+        "runesDetailed": "Eth (5) + Ral (8) + Ort (9) + Tal (7)",
+        "itemType": "Scepters {4} Clvl Required: 23",
+        "clvl": ""
+    },
+    {
+        "name": "Honor",
+        "description": " +1 to all skills<br>\n<p>+160% Enhanced Damage<br>\n+9 to Minimum Damage<br>\n+9 to Maximum Damage<br>\n+250 Attack Rating<br>\n7% Life Stolen per Hit<br>\n25% Deadly Strike<br>\n+10 to Strength<br>\nReplenish life +10<br>\n+2 to Mana after each Kill<br>\n+1 to Light Radius\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Honor\" title=\"Honor\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "AmnElIthTirSol",
+        "runesDetailed": "Amn (11) + El (1) + Ith (6) + Tir (3) + Sol (12)",
+        "itemType": "All Melee Weapons {5}",
+        "clvl": "Clvl Required: 27"
+    },
+    {
+        "name": "Ice",
+        "description": " 100% Chance To Cast Level 40 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Blizzard\" title=\"Blizzard\">Blizzard</a> When You Level-up<br>\n<p>25% Chance To Cast Level 22 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Frost_Nova\" title=\"Frost Nova\">Frost Nova</a> On Striking<br>\nLevel 18 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Holy_Freeze\" title=\"Holy Freeze\">Holy Freeze</a> Aura When Equipped<br>\n+20% Increased Attack Speed<br>\n+140-210% Enhanced Damage (varies)<br>\nIgnore Target's Defense<br>\n+25-30% To Cold Skill Damage (varies)<br>\n7% Life Stolen Per Hit<br>\n-20% To Enemy Cold Resistance<br>\n20% Deadly Strike<br>\n(3.125*Clvl)% Extra Gold From Monsters (Based on Character Level)\n</p>\n",
+        "Comments": " Ladder Only\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "AmnShaelJahLo",
+        "runesDetailed": "Amn (11) + Shael (13) + Jah (31) + Lo (28)",
+        "itemType": "Missile Weapons {4}",
+        "clvl": "Clvl Required: 65"
+    },
+    {
+        "name": "Infinity",
+        "description": " 50% Chance To Cast Level 20 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Chain_Lightning\" title=\"Chain Lightning\">Chain Lightning</a> When You Kill An Enemy<br>\n<p>Level 12 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Conviction\" title=\"Conviction\">Conviction</a> Aura When Equipped<br>\n+35% Faster Run/Walk<br>\n+255-325% Enhanced Damage (varies)<br>\n-(45-55)% To Enemy Lightning Resistance (varies)<br>\n40% Chance of Crushing Blow<br>\nPrevent Monster Heal<br>\n+(0.5*Clvl) To Vitality (Based on Character Level)<br>\n30% Better Chance of Getting Magic Items<br>\nLevel 21 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Cyclone_Armor\" title=\"Cyclone Armor\">Cyclone Armor</a> (30 Charges)\n</p>\n",
+        "Comments": " Ladder Only\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "BerMalBerIst",
+        "runesDetailed": "Ber (30) + Mal (23) + Ber (30) + Ist (24)",
+        "itemType": "Polearms {4}",
+        "clvl": "Clvl Required: 63"
+    },
+    {
+        "name": "Insight",
+        "description": " Level 12-17 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Meditation\" title=\"Meditation\">Meditation</a> Aura When Equipped (varies)<br>\n<p>+35% Faster Cast Rate<br>\n+200-260% Enhanced Damage (varies)<br>\n+9 To Minimum Damage<br>\n180-250% Bonus to Attack Rating (varies)<br>\nAdds 5-30 Fire Damage<br>\n+75 Poison Damage Over 5 Seconds<br>\n+1-6 To Critical Strike (varies)<br>\n+5 To All Attributes<br>\n+2 To Mana After Each Kill<br>\n23% Better Chance of Getting Magic Items\n</p>\n",
+        "Comments": " Ladder Only\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "RalTirTalSol",
+        "runesDetailed": "Ral (8) + Tir (3) + Tal (7) + Sol (12)",
+        "itemType": "Polearms &amp; Staves {4}",
+        "clvl": "Clvl Required: 27"
+    },
+    {
+        "name": "King's Grace",
+        "description": " +100% Enhanced Damage<br>\n<p>+150 to Attack Rating<br>\n+100% Damage to Demons<br>\n+100 to Attack Rating against Demons<br>\n+50% Damage to Undead<br>\n+100 to Attack Rating against Undead<br>\nAdds 5-30 Fire Damage<br>\nAdds 3-14 Cold damage<br>\n7% Life stolen per hit\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/King%27s_Grace\" title=\"King's Grace\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "AmnRalThul Amn (11) + Ral (8) + Thul (10)",
+        "runesDetailed": "Swords &amp; Scepters {3}",
+        "itemType": "Clvl Required: 25",
+        "clvl": ""
+    },
+    {
+        "name": "Kingslayer",
+        "description": " +30% Increased Attack Speed<br>\n<p>+230-270% Enhanced Damage (varies)<br>\n-25% Target Defense<br>\n20% Bonus To Attack Rating<br>\n33% Chance of Crushing Blow<br>\n50% Chance of Open Wounds<br>\n+1 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Vengeance\" title=\"Vengeance\">Vengeance</a><br>\nPrevent Monster Heal<br>\n+10 To Strength<br>\n40% Extra Gold From Monsters\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Kingslayer\" title=\"Kingslayer\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "MalUmGulFal",
+        "runesDetailed": "Mal (23) + Um (22) + Gul (25) + Fal (19)",
+        "itemType": "Swords &amp; Axes {4}",
+        "clvl": "Clvl Required: 53"
+    },
+    {
+        "name": "Last Wish",
+        "description": " 6% Chance To Cast Level 11 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Fade\" title=\"Fade\">Fade</a> When Struck<br>\n<p>10% Chance To Cast Level 18 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Life_Tap\" title=\"Life Tap\">Life Tap</a> On Striking<br>\n20% Chance To Cast Level 20 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Charged_Bolt\" title=\"Charged Bolt\">Charged Bolt</a> On Attack<br>\nLevel 17 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Might\" title=\"Might\">Might</a> Aura When Equipped<br>\n+330-375% Enhanced Damage (varies)<br>\nIgnore Target's Defense<br>\n60-70% Chance of Crushing Blow (varies)<br>\nPrevent Monster Heal<br>\nHit Blinds Target<br>\n(0.5*Clvl)% Chance of Getting Magic Items (Based on Character Level)\n</p>\n",
+        "Comments": " Ladder Only\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "JahMalJahSurJahBer",
+        "runesDetailed": "Jah (31) + Mal (23) + Jah (31) + Sur (29) + Jah (31) + Ber (30)",
+        "itemType": "Axes, Hammers &amp; Swords {6}",
+        "clvl": "Clvl Required: 65"
+    },
+    {
+        "name": "Lawbringer",
+        "description": " 20% Chance To Cast Level 15 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Decrepify\" title=\"Decrepify\">Decrepify</a> On Striking<br>\n<p>Level 16-18 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Sanctuary_(skill)\" title=\"Sanctuary (skill)\">Sanctuary</a> Aura When Equipped (varies)<br>\n-50% Target Defense<br>\nAdds 150-210 Fire Damage<br>\nAdds 130-180 Cold Damage<br>\n7% Life Stolen Per Hit<br>\nSlain Monsters Rest In Peace<br>\n+200-250 Defense Vs. Missile (varies)<br>\n+10 To Dexterity<br>\n75% Extra Gold From Monsters\n</p>\n",
+        "Comments": " Ladder Only\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "AmnLemKo",
+        "runesDetailed": "Amn (11) + Lem (20) + Ko (18)",
+        "itemType": "Hammers, Scepters &amp; Swords {3}",
+        "clvl": "Clvl Required: 43"
+    },
+    {
+        "name": "Leaf",
+        "description": " +3 to Fire Skills<br>\n<p>Adds 5-30 Fire Damage<br>\n+3 to <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Inferno\" title=\"Inferno\">Inferno</a> (<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Sorceress\" title=\"Sorceress\">Sorceress</a> Only)<br>\n+3 to <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Warmth\" title=\"Warmth\">Warmth</a> (<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Sorceress\" title=\"Sorceress\">Sorceress</a> Only)<br>\n+3 to <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Fire_Bolt\" title=\"Fire Bolt\">Fire Bolt</a> (<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Sorceress\" title=\"Sorceress\">Sorceress</a> Only)<br>\n+(2*Clvl) Defence (Based on Character Level)<br>\nCold Resist +33%<br>\n+2 to Mana after each Kill<br>\n</p>\n",
+        "Comments": " See it<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Leaf\" title=\"Leaf\"> here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "TirRal",
+        "runesDetailed": "Tir (3) + Ral (8)",
+        "itemType": "Staves {2}",
+        "clvl": "Clvl Required: 19"
+    },
+    {
+        "name": "Lionheart",
+        "description": " +20% Enhanced Damage<br>\n<p>+25 To Strength<br>\n+15 To Dexterity<br>\n+20 To Vitality<br>\n+10 To Energy<br>\n+50 To Life<br>\nAll Resistances +30<br>\nRequirements -15%\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Lionheart\" title=\"Lionheart\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "HelLumFal",
+        "runesDetailed": "Hel (15) + Lum (17) + Fal (19)",
+        "itemType": "Armor {3}",
+        "clvl": "Clvl Required: 41"
+    },
+    {
+        "name": "Lore",
+        "description": " +1 to All Skills<br>\n<p>+10 to Energy<br>\nLightning Resist +30%<br>\nDamage Reduced by 7<br>\n+2 to Mana after each Kill<br>\n+2 to Light Radius\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Lore\" title=\"Lore\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "OrtSol",
+        "runesDetailed": "Ort (9) + Sol (12)",
+        "itemType": "Headgear {2}",
+        "clvl": "Clvl Required: 27"
+    },
+    {
+        "name": "Malice",
+        "description": " +33% Enhanced Damage<br>\n<p>+9 to Maximum Damage<br>\n-25% Target Defense<br>\n+50 to Attack Rating<br>\n100% Chance of Open wounds<br>\nPrevent Monster Heal<br>\n-100 to Monster Defense Per Hit<br>\nDrain Life -5\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Malice\" title=\"Malice\">here</a>. Life drain is the opposite of life regeneration, with this you will lose 1 hp about every 2 seconds.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "IthElEth",
+        "runesDetailed": "Ith (6) + El (1) + Eth (5)",
+        "itemType": "All Melee Weapons {3}",
+        "clvl": "Clvl Required: 15"
+    },
+    {
+        "name": "Melody",
+        "description": " +3 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Amazon_Bow_and_Crossbow_Skills\" title=\"Amazon Bow and Crossbow Skills\">Bow and Crossbow Skills</a> (<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Amazon\" title=\"Amazon\">Amazon</a> Only)<br>\n<p>+20% Increased Attack Speed<br>\n+50% Enhanced Damage<br>\n+300% Damage To Undead<br>\n+3 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Slow_Missiles\" title=\"Slow Missiles\">Slow Missiles</a> (<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Amazon\" title=\"Amazon\">Amazon</a> Only)<br>\n+3 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Dodge\" title=\"Dodge\">Dodge</a> (<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Amazon\" title=\"Amazon\">Amazon</a> Only)<br>\n+3 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Critical_Strike\" title=\"Critical Strike\">Critical Strike</a> (<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Amazon\" title=\"Amazon\">Amazon</a> Only)<br>\nKnockback<br>\n+10 To Dexterity<br>\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Melody\" title=\"Melody\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "ShaelKoNef",
+        "runesDetailed": "Shael (13) + Ko (18) + Nef (4)",
+        "itemType": "Missile Weapons {3}",
+        "clvl": "Clvl Required: 39"
+    },
+    {
+        "name": "Memory",
+        "description": " +3 To Sorceress Skill Levels<br>\n<p>+33% Faster Cast Rate<br>\n+9 To Minimum Damage<br>\n-25% Target Defence<br>\n+3 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Energy_Shield\" title=\"Energy Shield\">Energy Shield</a> (<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Sorceress\" title=\"Sorceress\">Sorceress</a> Only)<br>\n+2 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Static_Field\" title=\"Static Field\">Static Field</a> (<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Sorceress\" title=\"Sorceress\">Sorceress</a> Only)<br>\n+50% Enhanced Defense<br>\n+10 Vitality<br>\n+10 Energy<br>\nIncrease Maximum Mana 20%<br>\nMagic Damage Reduced By 7\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Memory\" title=\"Memory\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "LumIoSolEth",
+        "runesDetailed": "Lum (17) + Io (16) + Sol (12) + Eth (5)",
+        "itemType": "Staves {4}",
+        "clvl": "Clvl Required: 37"
+    },
+    {
+        "name": "Myth",
+        "description": " 3% Chance To Cast Level 1 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Howl\" title=\"Howl\">Howl</a> When Struck<br>\n<p>10% Chance To Cast Level 1 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Taunt\" title=\"Taunt\">Taunt</a> On Striking<br>\n+2 To Barbarian Skill Levels<br>\n+30 Defense Vs. Missile<br>\nReplenish Life +10<br>\nAttacker Takes Damage of 14<br>\nRequirements -15%\n</p>\n",
+        "Comments": " Barbarian\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "HelAmnNef",
+        "runesDetailed": "Hel (15) + Amn (11) + Nef (4)",
+        "itemType": "Armor {3}",
+        "clvl": "Clvl Required: 25"
+    },
+    {
+        "name": "Nadir",
+        "description": " +50% Enhanced Defense<br>\n<p>+10 Defense<br>\n+30 Defense vs. Missile<br>\n+5 to Strength<br>\n+2 to Mana after each Kill<br>\n-33% Extra Gold from Monsters<br>\n-3 to Light Radius<br>\nLevel 13 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Cloak_of_Shadows\" title=\"Cloak of Shadows\">Cloak of Shadows</a> (9 charges)<br>\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Nadir\" title=\"Nadir\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "NefTir",
+        "runesDetailed": "Nef (4) + Tir (3)",
+        "itemType": "Headgear (all types) {2}",
+        "clvl": "Clvl Required: 13"
+    },
+    {
+        "name": "Oath",
+        "description": " Indestructible<br>\n<p>30% Chance To Cast Level 20 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Bone_Spirit\" title=\"Bone Spirit\">Bone Spirit</a> On Striking<br>\n+50% Increased Attack Speed<br>\n+210-340% Enhanced Damage (varies)<br>\n+75% Damage To Demons<br>\n+100 To Attack Rating Against Demons<br>\nPrevent Monster Heal<br>\n+10 To Energy<br>\n+10-15 Magic Absorb (varies)<br>\nLevel 16 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Heart_of_Wolverine\" title=\"Heart of Wolverine\">Heart of Wolverine</a> (20 Charges)<br>\nLevel 17 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Iron_Golem\" title=\"Iron Golem\">Iron Golem</a> (14 Charges)\n</p>\n",
+        "Comments": " Ladder Only\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "ShaelPulMalLum",
+        "runesDetailed": "Shael (13) + Pul (21) + Mal (23) + Lum (17)",
+        "itemType": "Axes, Maces &amp; Swords {4}",
+        "clvl": "Clvl Required: 59"
+    },
+    {
+        "name": "Obedience",
+        "description": " 30% Chance To Cast Level 21 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Enchant\" title=\"Enchant\">Enchant</a> When You Kill An Enemy<br>\n<p>+40% Faster Hit Recovery<br>\n+370% Enhanced Damage<br>\n-25% Target Defense<br>\nAdds 3-14 Cold Damage (3 Seconds Duration,Normal)<br>\n-25% To Enemy Fire Resistance<br>\n40% Chance of Crushing Blow<br>\n+200-300 Defense (varies)<br>\n+10 To Strength<br>\n+10 To Dexterity<br>\nAll Resistances +20-30 (varies)<br>\nRequirements -20%\n</p>\n",
+        "Comments": " Ladder Only\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "HelKoThulEthFal",
+        "runesDetailed": "Hel (15) + Ko (18) + Thul (10) + Eth (5) + Fal (19)",
+        "itemType": "Polearms {5}",
+        "clvl": "Clvl Required: 41"
+    },
+    {
+        "name": "Passion",
+        "description": " +25% Increased Attack Speed<br>\n<p>+160-210% Enhanced Damage (varies)<br>\n50-80% Bonus To Attack Rating (varies)<br>\n+75% Damage To Undead<br>\n+50 To Attack Rating Against Undead<br>\nAdds 1-50 Lightning Damage<br>\n+1 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Berserk\" title=\"Berserk\">Berserk</a><br>\n+1 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Zeal\" title=\"Zeal\">Zeal</a><br>\nHit Blinds Target +10<br>\nHit Causes Monster To Flee 25%<br>\n75% Extra Gold From Monsters<br>\nLevel 3 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Heart_of_Wolverine\" title=\"Heart of Wolverine\">Heart of Wolverine</a> (12 Charges)\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Passion\" title=\"Passion\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "DolOrtEldLem",
+        "runesDetailed": "Dol (14) + Ort (9) + Eld (2) + Lem (20)",
+        "itemType": "All Weapons {4}",
+        "clvl": "Clvl Required: 43"
+    },
+    {
+        "name": "Peace",
+        "description": " 4% Chance To Cast Level 5 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Slow_Missiles\" title=\"Slow Missiles\">Slow Missiles</a> When Struck<br>\n<p>2% Chance To Cast level 15 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Valkyrie\" title=\"Valkyrie\">Valkyrie</a> On Striking<br>\n+2 To Amazon Skill Levels<br>\n+20% Faster Hit Recovery<br>\n+2 To Critical Strike<br>\nCold Resist +30%<br>\nAttacker Takes Damage of 14\n</p>\n",
+        "Comments": " Amazon\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "ShaelThulAmn",
+        "runesDetailed": "Shael (13) + Thul (10) + Amn (11)",
+        "itemType": "Armor {3}",
+        "clvl": "Clvl Required: 29"
+    },
+    {
+        "name": "Phoenix",
+        "description": " <b>Both</b><br>\n<p>100% Chance To Cast level 40 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Blaze\" title=\"Blaze\">Blaze</a> When You Level-up<br>\n40% Chance To Cast Level 22 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Firestorm\" title=\"Firestorm\">Firestorm</a> On Striking<br>\nLevel 10-15 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Redemption\" title=\"Redemption\">Redemption</a> Aura When Equipped (varies)<br>\n+350-400% Enhanced Damage (varies)<br>\n-28% To Enemy Fire Resistance<br>\n+350-400 Defense Vs. Missile (varies)<br>\n+15-21 Fire Absorb (varies)<br>\n<b>Weapons</b><br>\nIgnores Target's Defense<br>\n14% Mana Stolen Per Hit<br>\n20% Deadly Strike<br>\n<b>Shields</b><br>\n+50 To Life<br>\n+5% To Maximum Lightning Resist<br>\n+10% To Maximum Fire Resist\n</p>\n",
+        "Comments": " Ladder Only\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "VexVexLoJah",
+        "runesDetailed": "Vex (26) + Vex (26) + Lo (28) + Jah (31)",
+        "itemType": "Weapons &amp; Shields {4}",
+        "clvl": "Clvl Required: 65"
+    },
+    {
+        "name": "Pride",
+        "description": " 25% Chance To Cast Level 17 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Fire_Wall\" title=\"Fire Wall\">Fire Wall</a> When Struck<br>\n<p>Level 16-20 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Concentration\" title=\"Concentration\">Concentration</a> Aura When Equipped (varies)<br>\n260-300% Bonus To Attack Rating (varies)<br>\n+(1*Clvl)% Damage To Demons (Based on Character Level)<br>\nAdds 50-280 Lightning Damage<br>\n20% Deadly Strike<br>\nHit Blinds Target<br>\nFreezes Target +3<br>\n+10 To Vitality<br>\nReplenish Life +8<br>\n(1.875*Clvl)% Extra Gold From Monsters (Based on Character Level)\n</p>\n",
+        "Comments": " Ladder Only\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "ChamSurIoLo",
+        "runesDetailed": "Cham (32) + Sur (29) + Io (16) + Lo (28)",
+        "itemType": "Polearms {4}",
+        "clvl": "Clvl Required: 67"
+    },
+    {
+        "name": "Principle",
+        "description": " 100% Chance To Cast Level 5 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Holy_Bolt\" title=\"Holy Bolt\">Holy Bolt</a> On Striking<br>\n<p>+2 To Paladin Skill Levels<br>\n+50% Damage to Undead<br>\n+100-150 to Life (varies)<br>\n15% Slower Stamina Drain<br>\n+5% To Maximum Poison Resist<br>\nFire Resist +30%\n</p>\n",
+        "Comments": " Paladin\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "RalGulEld",
+        "runesDetailed": "Ral (8) + Gul (25) + Eld (2)",
+        "itemType": "Armor {3}",
+        "clvl": "Clvl Required: 55"
+    },
+    {
+        "name": "Prudence",
+        "description": " +25% Faster Hit Recovery<br>\n<p>+140-170% Enhanced Defense (varies)<br>\nAll Resistances +25-35 (varies)<br>\nDamage Reduced by 3<br>\nMagic Damage Reduced by 17<br>\n+2 To Mana After Each Kill<br>\n+1 To Light Radius<br>\nRepairs Durability 1 In 4 Seconds\n</p>\n",
+        "Comments": " -\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "MalTir",
+        "runesDetailed": "Mal (23) + Tir (3)",
+        "itemType": "Armor {2}",
+        "clvl": "Clvl Required: 49"
+    },
+    {
+        "name": "Radiance",
+        "description": " +75% Enhanced Defense<br>\n<p>+30 Defense vs. Missiles<br>\n+10 to Vitality<br>\n+10 to Energy<br>\n+33 to Mana<br>\nDamage Reduced by 7<br>\nMagic Damage Reduced by 3<br>\n15% Damage Taken Goes to Mana<br>\n+5 to Light Radius\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Radiance\" title=\"Radiance\"> here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "NefSolIth",
+        "runesDetailed": "Nef (4) + Sol (12) + Ith (6)",
+        "itemType": "Headgear {3}",
+        "clvl": "Clvl Required: 27"
+    },
+    {
+        "name": "Rain",
+        "description": " 5% Chance To Cast Level 15 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Cyclone_Armor\" title=\"Cyclone Armor\">Cyclone Armor</a> When Struck<br>\n<p>5% Chance To Cast Level 15 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Twister\" title=\"Twister\">Twister</a> On Striking<br>\n+2 To Druid Skills<br>\n+100-150 To Mana (varies)<br>\nLightning Resist +30%<br>\nMagic Damage Reduced By 7<br>\n15% Damage Taken Goes to Mana\n</p>\n",
+        "Comments": " Druid\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "OrtMalIth",
+        "runesDetailed": "Ort (9) + Mal (23) + Ith (6)",
+        "itemType": "Armor {3}",
+        "clvl": "Clvl Required: 49"
+    },
+    {
+        "name": "Rhyme",
+        "description": " +40% Faster Block Rate<br>\n<p>20% Increased Chance of Blocking<br>\nRegenerate Mana 15%<br>\nAll Resistances +25<br>\nCannot be Frozen<br>\n50% Extra Gold from Monsters<br>\n25% Better Chance of Getting Magic Items\n</p>\n",
+        "Comments": " One of the more useful, inexpensive runewords. Popular for javazons, sorceresses, necromancers, and others not in need of massive defense.<br>\n<p>See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Rhyme\" title=\"Rhyme\">here</a>.\n</p>\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "ShaelEth",
+        "runesDetailed": "Shael (13) + Eth (5)",
+        "itemType": "Shields {2}",
+        "clvl": "Clvl Required: 29"
+    },
+    {
+        "name": "Rift",
+        "description": " 20% Chance To Cast Level 16 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Tornado\" title=\"Tornado\">Tornado</a> On Striking<br>\n<p>16% Chance To Cast Level 21 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Frozen_Orb\" title=\"Frozen Orb\">Frozen Orb</a> On Attack<br>\n20% Bonus To Attack Rating<br>\nAdds 160-250 Magic Damage<br>\nAdds 60-180 Fire Damage<br>\n+5-10 To All Attributes (varies)<br>\n+10 To Dexterity<br>\n38% Damage Taken Goes To Mana<br>\n75% Extra Gold From Monsters<br>\nLevel 15 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Iron_Maiden\" title=\"Iron Maiden\">Iron Maiden</a> (40 Charges)<br>\nRequirements -20%\n</p>\n",
+        "Comments": " Ladder Only\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "HelKoLemGul",
+        "runesDetailed": "Hel (15) + Ko (18) + Lem (20) + Gul (25)",
+        "itemType": "Polearms &amp; Scepters {4}",
+        "clvl": "Clvl Required: 53"
+    },
+    {
+        "name": "Sanctuary",
+        "description": " +20% Faster Hit Recovery<br>\n<p>+20% Faster Block Rate<br>\n20% Increased Chance of Blocking<br>\n+130-160% Enhanced Defense (varies)<br>\n+250 Defense vs. Missile<br>\n+20 To Dexterity<br>\nAll Resistances +50-70 (varies)<br>\nMagic Damage Reduced By 7<br>\nLevel 12 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Slow_Missiles\" title=\"Slow Missiles\">Slow Missiles</a> (60 Charges)\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Sanctuary_(runeword)\" title=\"Sanctuary (runeword)\">here</a>\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "KoKoMal",
+        "runesDetailed": "Ko (18) + Ko (18) + Mal (23)",
+        "itemType": "Shields {3}",
+        "clvl": "Clvl Required: 49"
+    },
+    {
+        "name": "Silence",
+        "description": " +2 to All Skills<br>\n<p>+20% Increased Attack Speed<br>\n+20% Faster Hit Recovery<br>\n+200% Enhanced Damage<br>\n+75% Damage To Undead<br>\n+50 to Attack Rating Against Undead<br>\n11% Mana Stolen Per Hit<br>\nHit Blinds Target +33<br>\nHit Causes Monster to Flee 25%<br>\nAll Resistances +75<br>\n+2 to Mana After Each Kill<br>\n30% Better Chance of Getting Magic Items<br>\nRequirements -20%\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Silence\" title=\"Silence\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "DolEldHelIstTirVex",
+        "runesDetailed": "Dol (14) + Eld (2) + Hel (15) + Ist (24) + Tir (3) + Vex (26)",
+        "itemType": "Weapons {6}",
+        "clvl": "Clvl Required: 55"
+    },
+    {
+        "name": "Smoke",
+        "description": " +20% Faster Hit Recovery<br>\n<p>+75% Enhanced Defense<br>\n+280 Defense vs. Missiles<br>\n+10 to Energy<br>\nAll Resistances +50<br>\n-1 to Light Radius<br>\nLevel 6 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Weaken\" title=\"Weaken\">Weaken</a> (18 charges)\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Smoke\" title=\"Smoke\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "NefLum",
+        "runesDetailed": "Nef (4) + Lum (17)",
+        "itemType": "Armor {2}",
+        "clvl": "Clvl Required: 37"
+    },
+    {
+        "name": "Spirit",
+        "description": " <b>Both</b><br>\n<p>+2 To All Skills<br>\n+25-35% Faster Cast Rate (varies)<br>\n+55% Faster Hit Recovery<br>\n+250 Defense Vs. Missile<br>\n+22 To Vitality<br>\n+89-112 To Mana (varies)<br>\n+3-8 Magic Absorb (varies)<br>\n<b>Shields</b><br>\nCold Resist +35%<br>\nLightning Resist +35%<br>\nPoison Resist +35%<br>\nAttacker Takes Damage of 14<br>\n<b>Swords</b><br>\nAdds 1-50 Lightning Damage<br>\nAdds 3-14 Cold Damage (3 Sec,Normal)<br>\n+75 Poison Damage Over 5 Seconds<br>\n7% Life Stolen Per Hit\n</p>\n",
+        "Comments": " Ladder Only\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "TalThulOrtAmn",
+        "runesDetailed": "Tal (7) + Thul (10) + Ort (9) + Amn (11)",
+        "itemType": "Shields &amp; Swords {4}",
+        "clvl": "Clvl Required: 25"
+    },
+    {
+        "name": "Splendor",
+        "description": " +1 To All Skills<br>\n<p>+10% Faster Cast Rate<br>\n+20% Faster Block Rate<br>\n+60-100% Enhanced Defense (varies)<br>\n+10 To Energy<br>\nRegenerate Mana 15%<br>\n50% Extra Gold From Monsters<br>\n20% Better Chance of Getting Magic Items<br>\n+3 To Light Radius\n</p>\n",
+        "Comments": " -\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "EthLum",
+        "runesDetailed": "Eth (5) + Lum (17)",
+        "itemType": "Shields {2}",
+        "clvl": "Clvl Required: 37"
+    },
+    {
+        "name": "Stealth",
+        "description": " +25% Faster Run/Walk<br>\n<p>+25% Faster Casting Rate<br>\n+25% Faster Hit Recovery<br>\n+6 to Dexterity<br>\nRegenerate Mana 15%<br>\n+15 Maximum Stamina<br>\nPoison Resist +30%<br>\nMagic Damage Reduced by 3\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Stealth\" title=\"Stealth\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "TalEth",
+        "runesDetailed": "Tal (7) + Eth (5)",
+        "itemType": "Armor {2}",
+        "clvl": "Clvl Required: 17"
+    },
+    {
+        "name": "Steel",
+        "description": " +25% Increased Attack Speed<br>\n<p>+20% Enhanced Damage<br>\n+3 to Minimum Damage<br>\n+3 to Maximum Damage<br>\n+50 to Attack Rating<br>\n50% Chance of Open Wounds<br>\n+2 to Mana after each Kill<br>\n+1 to Light Radius\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Steel\" title=\"Steel\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "TirEl",
+        "runesDetailed": "Tir (3) + El (1)",
+        "itemType": "Swords, Axes, Maces {2}",
+        "clvl": "Clvl Required: 13"
+    },
+    {
+        "name": "Stone",
+        "description": " +60% Faster Hit Recovery<br>\n<p>+250-290% Enhanced Defense (varies)<br>\n+300 Defense Vs. Missile<br>\n+16 To Strength<br>\n+16 To Vitality<br>\n+10 To Energy<br>\nAll Resistances +15<br>\nLevel 16 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Molten_Boulder\" title=\"Molten Boulder\">Molten Boulder</a> (80 Charges)<br>\nLevel 16 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Clay_Golem\" title=\"Clay Golem\">Clay Golem</a> (16 Charges)\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Stone\" title=\"Stone\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "ShaelUmPulLum",
+        "runesDetailed": "Shael (13) + Um (22) + Pul (21) + Lum (17)",
+        "itemType": "Armor {4}",
+        "clvl": "Clvl Required: 47"
+    },
+    {
+        "name": "Strength",
+        "description": " +35% Enhanced Damage<br>\n<p>7% Life stolen per hit<br>\n25% Chance of Crushing Blow<br>\n+20 to Strength<br>\n+10 to Vitality<br>\n+2 to Mana after each Kill\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Strength_(runeword)\" title=\"Strength (runeword)\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "AmnTir",
+        "runesDetailed": "Amn (11) + Tir (3)",
+        "itemType": "Melee Weapons {2}",
+        "clvl": "Clvl Required: 25"
+    },
+    {
+        "name": "Treachery",
+        "description": " 5% Chance To Cast Level 15 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Fade\" title=\"Fade\">Fade</a> When Struck<br>\n<p>25% Chance To Cast level 15 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Venom_(skill)\" title=\"Venom (skill)\">Venom</a> On Striking<br>\n+2 To Assassin Skills<br>\n+45% Increased Attack Speed<br>\n+20% Faster Hit Recovery<br>\nCold Resist +30%<br>\n50% Extra Gold From Monsters\n</p>\n",
+        "Comments": " Assassin\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "ShaelThulLem",
+        "runesDetailed": "Shael (13) + Thul (10) + Lem (20)",
+        "itemType": "Armor {3}",
+        "clvl": "Clvl Required: 43"
+    },
+    {
+        "name": "Venom",
+        "description": " Ignore Target's Defense<br>\n<p>+273 Poison Damage Over 6 Seconds<br>\n7% Mana Stolen Per Hit<br>\nPrevent Monster Heal<br>\nHit Causes Monster To Flee 25%<br>\nLevel 13 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Poison_Nova\" title=\"Poison Nova\">Poison Nova</a> (11 Charges)<br>\nLevel 15 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Poison_Explosion\" title=\"Poison Explosion\">Poison Explosion</a> (27 Charges)\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Venom_(runeword)\" title=\"Venom (runeword)\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "TalDolMal",
+        "runesDetailed": "Tal (7) + Dol (14) + Mal (23)",
+        "itemType": "All Weapons {3}",
+        "clvl": "Clvl Required: 49"
+    },
+    {
+        "name": "Voice of Reason",
+        "description": " 15% Chance To Cast Level 13 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Frozen_Orb\" title=\"Frozen Orb\">Frozen Orb</a> On Striking<br>\n<p>18% Chance To Cast Level 20 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Ice_Blast\" title=\"Ice Blast\">Ice Blast</a> On Striking<br>\n+50 To Attack Rating<br>\n+220-350% Damage To Demons (varies)<br>\n+355-375% Damage To Undead (varies)<br>\n+50 To Attack Rating Against Undead<br>\nAdds 100-220 Cold Damage<br>\n-24% To Enemy Cold Resistance<br>\n+10 To Dexterity<br>\nCannot Be Frozen<br>\n75% Extra Gold From Monsters<br>\n+1 To Light Radius\n</p>\n",
+        "Comments": " Ladder Only\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "LemKoElEld",
+        "runesDetailed": "Lem (20) + Ko (18) + El (1) + Eld (2)",
+        "itemType": "Maces &amp; Swords {4}",
+        "clvl": "Clvl Required: 43"
+    },
+    {
+        "name": "Wealth",
+        "description": " +10 to Dexterity<br>\n<p>+2 to Mana After Each Kill<br>\n300% Extra Gold From Monsters<br>\n100% Better Chance of Getting Magic Items\n</p>\n",
+        "Comments": " Not a lot of bonuses, but a very large one to magic find and gold. Get rich quick.<br>\n<p>See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Wealth\" title=\"Wealth\"> here</a>.\n</p>\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "LemKoTir",
+        "runesDetailed": "Lem (20) + Ko (18) + Tir (3)",
+        "itemType": "Armor {3}",
+        "clvl": "Clvl Required: 43"
+    },
+    {
+        "name": "White",
+        "description": " +3 to <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Necromancer_Poison_and_Bone\" title=\"Necromancer Poison and Bone\">Poison and Bone Skills</a> (<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Necromancer\" title=\"Necromancer\">Necromancer</a> Only)<br>\n<p>+20% Faster Cast Rate<br>\n+2 to <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Bone_Spear\" title=\"Bone Spear\">Bone Spear</a> (<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Necromancer\" title=\"Necromancer\">Necromancer</a> Only)<br>\n+4 to <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Skeleton_Mastery\" title=\"Skeleton Mastery\">Skeleton Mastery</a> (<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Necromancer\" title=\"Necromancer\">Necromancer</a> Only)<br>\n+3 to <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Bone_Armor\" title=\"Bone Armor\">Bone Armor</a> (<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Necromancer\" title=\"Necromancer\">Necromancer</a> Only)<br>\nHit causes monster to flee 25%<br>\n+10 to vitality<br>\n+13 to mana<br>\nMagic Damage Reduced by 4<br>\n</p>\n",
+        "Comments": " See it<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/White\" title=\"White\"> here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "DolIo",
+        "runesDetailed": "Dol (14) + Io (16)",
+        "itemType": "Wands {2}",
+        "clvl": "Clvl Required: 35"
+    },
+    {
+        "name": "Wind",
+        "description": " 10% Chance To Cast Level 9 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Tornado\" title=\"Tornado\">Tornado</a> On Striking<br>\n<p>+20% Faster Run/Walk<br>\n+40% Increased Attack Speed<br>\n+15% Faster Hit Recovery<br>\n+120-160% Enhanced Damage (varies)<br>\n-50% Target Defense<br>\n+50 To Attack Rating<br>\nHit Blinds Target<br>\n+1 To Light Radius<br>\nLevel 13 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Twister\" title=\"Twister\">Twister</a> (127 Charges)\n</p>\n",
+        "Comments": " -\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "SurEl",
+        "runesDetailed": "Sur (29) + El (1)",
+        "itemType": "Melee Weapons {2}",
+        "clvl": "Clvl Required: 61"
+    },
+    {
+        "name": "Wrath",
+        "description": " 30% Chance To Cast Level 1 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Decrepify\" title=\"Decrepify\">Decrepify</a> On Striking<br>\n<p>5% Chance To Cast Level 10 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Life_Tap\" title=\"Life Tap\">Life Tap</a> On Striking<br>\n+375% Damage To Demons<br>\n+100 To Attack Rating Against Demons<br>\n+250-300% Damage To Undead (varies)<br>\nAdds 85-120 Magic Damage<br>\nAdds 41-240 Lightning Damage<br>\n20% Chance of Crushing Blow<br>\nPrevent Monster Heal<br>\n+10 To Energy<br>\nCannot Be Frozen\n</p>\n",
+        "Comments": " Ladder Only\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "PulLumBerMal",
+        "runesDetailed": "Pul (21) + Lum (17) + Ber (30) + Mal (23)",
+        "itemType": "Missile Weapons {4}",
+        "clvl": "Clvl Required: 63"
+    },
+    {
+        "name": "Zephyr",
+        "description": " 7% Chance to Cast Level 1 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Twister\" title=\"Twister\">Twister</a> When Struck<br>\n<p>+25% Faster Run/Walk<br>\n+25% Increased Attack Speed<br>\n+33% Enhanced Damage<br>\n-25% Target Defense<br>\n+66 to Attack Rating<br>\nAdds 1-50 lightning damage<br>\n+25 Defense\n</p>\n",
+        "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Zephyr\" title=\"Zephyr\">here</a>.\n",
+        "tags": [
+            "runeword"
+        ],
+        "runes": "OrtEth",
+        "runesDetailed": "Ort (9) + Eth (5)",
+        "itemType": "Missile Weapons {2}",
+        "clvl": "Clvl Required: 21"
+    }
+]

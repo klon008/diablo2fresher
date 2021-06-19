@@ -1,0 +1,80 @@
+[
+    {
+        "Ing": "Magical Rod (any)<br />+ Jewel<br />+ Tir Rune (#3)<br />+ Perfect Amethyst",
+        "Items": "Preset Mods:<br />4-10% Regenerate Mana<br />+10-20 Mana<br />+1-5% Mana Steal",
+        "Comments": "\"Rod\" = Scepter, Staff, or Wand (Not Orbs).",
+        "group": "Caster Weapon",
+        "header": "Caster Weapon",
+        "img": "img/items/WEAPON/cst.gif",
+        "type": "Caster"
+    },
+    {
+        "Ing": "Magical Mask<br />or Death Mask (Excep)<br />or Demonhead (Elite)<br />+ Jewel<br />+ Nef Rune (#4)<br />+ Perfect Amethyst",
+        "Items": "Caster Mask<br />Preset Mods:<br />4-10% Regenerate Mana<br />+10-20 Mana<br />1-4% Mana Steal",
+        "Comments": "",
+        "group": "Caster Headgear"
+    },
+    {
+        "Ing": "Magical Light Plate<br />or Mage Plate (Excep)<br />or Archon Plate (Elite)<br />+ Jewel (any)<br />+ Tal Rune (#7)<br />+ Perfect Amethyst",
+        "Items": "Preset Mods:<br />Regenerate Mana 4-12%<br />+10-20 Mana<br />+1-3 Mana Per Kill",
+        "Comments": "Same mods as the other \"Caster\" Crafted Items, and all use common Runes.",
+        "group": "Caster Armor",
+        "header": "Caster Armor",
+        "img": "img/items/armor/ltp.gif",
+        "type": "Caster"
+    },
+    {
+        "Ing": "Magical Leather Gloves<br />or Demonhide Gloves (Excep)<br />or Bramble Mitts (Elite)<br />+ Jewel (any)<br />+ Ort Rune (#9)<br />+ Perfect Amethyst",
+        "Items": "Preset Mods:<br />+4-10% Faster Mana Regen<br />+10-20 Mana<br />+1-3 Mana Per Kill",
+        "Comments": "Not quite Frostburns or Magefist, but they add some decent mana, and the ingredients are easy to find.",
+        "group": "Caster Gloves",
+        "header": "Caster Gloves",
+        "img": "img/items/armor/lgl.gif",
+        "type": "Caster"
+    },
+    {
+        "Ing": "Magical Light Belt<br />or Sharkskin Belt (Excep)<br />or Vampirefang Belt (Elite)<br />+ Jewel (any)<br />+ Ith Rune (#6)<br />+ Perfect Amethyst",
+        "Items": "Preset Mods:<br />4-10% Regenerate Mana<br />+10-20 Mana<br />+5-10% Faster Cast",
+        "Comments": "This one changed from v1.08 where it was a heavy belt, and 15% faster cast. So fewer belt slots, and less casting speed in v1.09.",
+        "group": "Caster Belt",
+        "header": "Caster Belt",
+        "img": "img/items/armor/vbl.gif",
+        "type": "Caster"
+    },
+    {
+        "Ing": "Magical Leather Boots<br />or Demonhide Boots (Excep)<br />or Wyrmhide Boots (Elite)<br />+ Jewel (any)<br />+ Thul Rune (#10)<br />+ Perfect Amethyst",
+        "Items": "Preset Mods:<br />Regenerate Mana 4-10%<br />Mana +10-20<br />Max Mana +2-5%",
+        "Comments": "A lot of variety in the pre-set mods, so several tries will probably be needed to get really good ones.",
+        "group": "Caster Boot",
+        "header": "Caster Boots",
+        "img": "img/items/armor/lbt.gif",
+        "type": "Caster"
+    },
+    {
+        "Ing": "Magical Small Shield<br />or Round Shield (Excep)<br />or Luna (Elite)<br />+ Jewel (any)<br />+ Eth Rune (#5)<br />+ Perfect Amethyst",
+        "Items": "Preset Mods:<br />+4-10% Regenerate Mana<br />+10-20 Mana<br />+5-10 Blocking Percentage",
+        "Comments": "Only the mana regeneration was altered in v1.09, and this now works only with a small shield.",
+        "group": "Caster Shield",
+        "header": "Caster Shield",
+        "img": "img/items/armor/sml.gif",
+        "type": "Caster"
+    },
+    {
+        "Ing": "Magical Amulet<br />+ Jewel (any)<br />+ Ral Rune (#8)<br />+ Perfect Amethyst",
+        "Items": "Caster Amulet #1<br />Preset Mods:<br />4-10% Regenerate Mana<br />+10-20 Mana<br />Faster Cast 5-10%",
+        "Comments": "Potentially the best possible amulet for a sorceress or necro can be made with this recipe. This item was toned way down in v1.09, with the potential bonuses for all 3 preset stats dropping quite a bit. An example can be <a href=\"https://diablo2.diablowiki.net/Caster_Amulet\">seen here</a>.",
+        "group": "Caster Jewelry",
+        "header": "Caster Amulet",
+        "img": "img/items/sets/ra/amu1.gif",
+        "type": "Caster"
+    },
+    {
+        "Ing": "Magical Ring<br />+ Jewel (any)<br />+ Amn Rune (#11)<br />+ Perfect Amethyst",
+        "Items": "Caster Ring #1<br />Preset Mods:<br />4-10% Regenerate Mana<br />+10-20 Mana<br />+1-5 Energy",
+        "Comments": "v1.09 changed the rune required from 7 to 11, and lowered the energy bonus from 5-10.",
+        "group": "Caster Jewelry",
+        "header": "Caster Ring",
+        "img": "img/items/sets/ra/ring2.gif",
+        "type": "Caster"
+    }
+]

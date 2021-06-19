@@ -1,0 +1,83 @@
+[
+    {
+        "Ing": "Magical Spear (any)<br />+ Jewel (any)<br />+ Sol Rune (#12)<br />+ Perfect Emerald",
+        "Items": "Preset Mods:<br />Reduced Damage 1-4<br />Reduced Magic Damage 1-2<br />+5-10% Defense",
+        "Comments": "The added defense is new in v1.09.",
+        "group": "Safety Weapon",
+        "header": "Safety Weapon",
+        "img": "img/items/WEAPON/pik.gif",
+        "type": "Safety"
+    },
+    {
+        "Ing": "Magical Crown<br />or Grand Crown (Excep)<br />or Corona (Elite)<br />+ Jewel (any)<br />+ Ith Rune (#6)<br />+ Perfect Emerald",
+        "Items": "Preset Mods:<br />Reduces Damage 1-4<br />Reduces Magic Damage 1-2<br />+5-10% Lightning Resistance<br />+10-30% Defense",
+        "Comments": "",
+        "group": "Safety Headgear",
+        "header": "Safety Helm",
+        "img": "img/items/armor/crn.gif",
+        "type": "Safety"
+    },
+    {
+        "Ing": "Magical Breast Plate<br />or Curiass (Excep)<br />or Great Hauberk (Elite)<br />+ Jewel (any)<br />+ Eth Rune (#5)<br />+ Perfect Emerald",
+        "Items": "Preset Mods:<br />Reduces Damage 3-9<br />Reduces Magic Damage 2-5<br />Half Freeze Duration<br />Increased Defense 10-30%",
+        "Comments": "Nice for a character who don\"t need big Defense or resistances on Armor, though the damage reductions are so small in v1.09 that it\"s pretty lame now.",
+        "group": "Safety Armor",
+        "header": "Safety Armor",
+        "img": "img/items/armor/brs.gif",
+        "type": "Safety"
+    },
+    {
+        "Ing": "Magical Gauntlets<br />or War Gauntlets (Excep)<br />or Ogre Gauntlets (Elite)<br />+ Jewel (any)<br />+ Ral Rune (#8)<br />+ Perfect Emerald",
+        "Items": "Preset Mods:<br />Reduces Damage 1-4<br />Reduces Magical Damage 1-2<br />+5-10% Resist Cold<br />+10-33% Defense",
+        "Comments": "",
+        "group": "Safety Gloves",
+        "header": "Safety Gloves",
+        "img": "img/items/armor/hgl.gif",
+        "type": "Safety"
+    },
+    {
+        "Ing": "Magical Sash<br />or Demonhide Sash<br />or Spiderweb Sash<br />+ Jewel (any)<br />+ Tal Rune (#7)<br />+ Perfect Emerald",
+        "Items": "Preset Mods:<br />Reduces Damage 3-9<br />Reduces Magical Damage 2-5<br />5-10% Resist Poison<br />+10-30% Defense",
+        "Comments": "",
+        "group": "Safety Belt",
+        "header": "Safety Belt",
+        "img": "img/items/armor/lbl.gif",
+        "type": "Safety"
+    },
+    {
+        "Ing": "Magical Greaves<br />or War Boots (Excep)<br />or Myrmidon Boots (Elite)<br />+ Jewel (any)<br />+ Ort Rune (#9)<br />+ Perfect Emerald",
+        "Items": "Preset Mods:<br />Reduces Damage 1-4<br />Reduces Magical Damage 1-2<br />5-10% Fire Resistance<br />+10-30% Defense",
+        "Comments": "Greaves work.",
+        "group": "Safety Boots",
+        "header": "Safety Boots",
+        "img": "img/items/armor/hbt.gif",
+        "type": "Safety"
+    },
+    {
+        "Ing": "Magical Kite Shield<br />or Dragon Shield (Excep)<br />or Monarch (Elite)<br />+ Jewel (any)<br />+ Nef Rune (#4)<br />+ Perfect Emerald",
+        "Items": "Preset Mods:<br />Reduces Damage 1-4<br />Reduces Magic Damage 1-2<br />5-10% Resist Magic<br />+10-30% Defense",
+        "Comments": "Magical Resistance is a very rare property. Magical damage is only on a few skills, such as Berserk and Bone Spirit.",
+        "group": "Safety Shields",
+        "header": "Safety Shield",
+        "img": "img/items/armor/kit.gif",
+        "type": "Safety"
+    },
+    {
+        "Ing": "Magical Amulet<br />+ Jewel (any)<br />+ Thul Rune (#10)<br />+ Perfect Emerald",
+        "Items": "Preset Mods:<br />Reduces Damage 1-4<br />Reduces Magic Damage 1-2<br />+1-10% Blocking",
+        "Comments": "",
+        "group": "Safety Jewelry",
+        "header": "Safety Amulet",
+        "img": "img/items/sets/ra/amu1.gif",
+        "type": "Safety"
+    },
+    {
+        "Ing": "Rare or Magical Ring<br />+ Jewel (any)<br />+ Amn Rune (#11)<br />+ Perfect Emerald",
+        "Items": "Preset Mods:<br />Reduces Damage 1-4<br />Reduces Magic Damage 1-2<br />+1-5 Vitality",
+        "Comments": "",
+        "group": "Safety Jewelry",
+        "header": "Safety Ring",
+        "img": "img/items/sets/ra/ring2.gif",
+        "type": "Safety"
+    }
+]

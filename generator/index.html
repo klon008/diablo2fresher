@@ -20,12 +20,17 @@
         <div class="non_meow">
             <div class="oc_meow">
                 <div class="opp_meow">
-                    <label for="GroupTag">GroupTag</label>
-                    <input type="text" id="GroupTag" name="GroupTag" placeholter="GroupTag">
+                    
                     <label for="tag">tag</label>
                     <input type="text" id="tag" name="tag" placeholter="tag">
                     <label for="difficult">difficult</label>
-                    <input type="text" id="difficult" name="difficult" placeholter="difficult">
+                    <select id="difficult" name="difficult">
+                        <option value="Normal" selected>Normal</option>
+                        <option value="Exceptional" >Exceptional</option>
+                        <option value="Elite">Elite</option>
+                    </select>
+                    <label for="GroupTag">GroupTag</label>
+                    <input type="text" id="GroupTag" name="GroupTag" placeholter="GroupTag" disabled>
                     
                 </div>
                 <div class="opp_meow">
@@ -73,6 +78,11 @@
     <script type="text/ecmascript">
 
         $(function () {
+            $('#tag,#difficult').on('change', ()=>{
+                let tag = $('#tag').val();
+                let difficult = $('#difficult').val();
+                $('#GroupTag').val(difficult+' '+tag);
+            });
             $('#calc').on('click', () => {
 
                 let far = $('#json').val();

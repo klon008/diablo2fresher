@@ -1,0 +1,30 @@
+{
+  "name": "Diablo2Nodb",
+  "version": "1.0.0",
+  "description": "База по игре Д2",
+  "main": "index.js",
+  "author": "klon_008",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --progress",
+    "staging": "cross-env NODE_ENV=staging webpack",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "cheerio": "^1.0.0-rc.3",
+    "cli-spinners": "^2.6.0",
+    "cross-env": "^7.0.3",
+    "html-table-to-json": "^1.0.0",
+    "needle": "^2.5.0",
+    "ora": "^5.4.1",
+    "request": "^2.88.2",
+    "spinnies": "^0.5.1",
+    "tress": "^1.1.4",
+    "url": "^0.11.0",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-server": "^0.1.2"
+  }
+}

@@ -1,0 +1,200 @@
+[
+    {
+        "Rune": "El",
+        "img": "/img/runes/28px-El_Rune.png",
+        "toUpgrade:": "--",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: +50 AR, +1 Light Radius<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: +1 Light Radius, +15 Defense<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 11"
+    },
+    {
+        "Rune": "Eld",
+        "img": "/img/runes/28px-Eld_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/runes/El\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-el.gif\" src=\"/img/runes/28px-El_Rune.png\" width=\"31\" height=\"34\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/runes/El\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-el.gif\" src=\"/img/runes/28px-El_Rune.png\" width=\"31\" height=\"34\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/runes/El\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-el.gif\" src=\"/img/runes/28px-El_Rune.png\" width=\"31\" height=\"34\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: +75% Damage vs. Undead, +50 Attack Rating vs. Undead *<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm: Lowers Stamina drain by 15%<br data-v-6795926a=\"\"> <b data-v-6795926a=\"\">Shield: +7% Blocking<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 11"
+    },
+    {
+        "Rune": "Tir",
+        "img": "/img/runes/28px-Tir_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/runes/Eld\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-eld.gif\" src=\"/img/runes/28px-Eld_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/runes/Eld\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-eld.gif\" src=\"/img/runes/28px-Eld_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/runes/Eld\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-eld.gif\" src=\"/img/runes/28px-Eld_Rune.png\" width=\"30\" height=\"31\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: +2 Mana Per Kill<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: +2 Mana Per Kill.<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 13"
+    },
+    {
+        "Rune": "Nef",
+        "img": "/img/runes/28px-Nef_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Tir_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-tir.gif\" src=\"/img/runes/28px-Tir_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Tir_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-tir.gif\" src=\"/img/runes/28px-Tir_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Tir_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-tir.gif\" src=\"/img/runes/28px-Tir_Rune.png\" width=\"30\" height=\"31\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: Knockback<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: +30 Defense vs. Missile<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 13"
+    },
+    {
+        "Rune": "Eth",
+        "img": "/img/runes/28px-Eth_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Nef_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-nef.gif\" src=\"/img/runes/28px-Nef_Rune.png\" width=\"28\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Nef_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-nef.gif\" src=\"/img/runes/28px-Nef_Rune.png\" width=\"28\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Nef_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-nef.gif\" src=\"/img/runes/28px-Nef_Rune.png\" width=\"28\" height=\"31\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: -25% Target Defense<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: Regenerate Mana 15%<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 15"
+    },
+    {
+        "Rune": "Ith",
+        "img": "/img/runes/28px-Ith_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Eth_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-eth.gif\" src=\"/img/runes/28px-Eth_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Eth_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-eth.gif\" src=\"/img/runes/28px-Eth_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Eth_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-eth.gif\" src=\"/img/runes/28px-Eth_Rune.png\" width=\"30\" height=\"31\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: +9 to Maximum Damage<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: 15% Damage Taken Goes to Mana<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 15"
+    },
+    {
+        "Rune": "Tal",
+        "img": "/img/runes/28px-Tal_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Ith_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-ith.gif\" src=\"/img/runes/28px-Ith_Rune.png\" width=\"29\" height=\"30\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Ith_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-ith.gif\" src=\"/img/runes/28px-Ith_Rune.png\" width=\"29\" height=\"30\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Ith_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-ith.gif\" src=\"/img/runes/28px-Ith_Rune.png\" width=\"29\" height=\"30\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: 75 Poison damage over 5 seconds<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: +35% Poison Resistance<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 17"
+    },
+    {
+        "Rune": "Ral",
+        "img": "/img/runes/28px-Ral_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Tal_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-tal.gif\" src=\"/img/runes/28px-Tal_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Tal_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-tal.gif\" src=\"/img/runes/28px-Tal_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Tal_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-tal.gif\" src=\"/img/runes/28px-Tal_Rune.png\" width=\"30\" height=\"31\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: +5-30 Fire Damage<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: +35% Fire Resistance<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 19"
+    },
+    {
+        "Rune": "Ort",
+        "img": "/img/runes/28px-Ort_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Ral_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-ral.gif\" src=\"/img/runes/28px-Ral_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Ral_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-ral.gif\" src=\"/img/runes/28px-Ral_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Ral_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-ral.gif\" src=\"/img/runes/28px-Ral_Rune.png\" width=\"30\" height=\"31\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: +1-50 Lightning Damage<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: +35% Lightning Resistance<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 21"
+    },
+    {
+        "Rune": "Thul",
+        "img": "/img/runes/28px-Thul_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Ort_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-ort.gif\" src=\"/img/runes/28px-Ort_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Ort_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-ort.gif\" src=\"/img/runes/28px-Ort_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Ort_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-ort.gif\" src=\"/img/runes/28px-Ort_Rune.png\" width=\"30\" height=\"31\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: +3-14 Cold Damage (Cold Length 3 seconds)<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: +35% Cold Resistance<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 23"
+    },
+    {
+        "Rune": "Amn",
+        "img": "/img/runes/28px-Amn_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Thul_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-thul.gif\" src=\"/img/runes/28px-Thul_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Thul_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-thul.gif\" src=\"/img/runes/28px-Thul_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Thul_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-thul.gif\" src=\"/img/runes/28px-Thul_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/Chipped_Topaz_(Diablo_II).gif\" class=\"image\"><img data-v-6795926a=\"\" alt=\"Topaz-chipped.gif\" src=\"/img/runes/Chipped_Topaz_(Diablo_II).gif\" width=\"16\" height=\"16\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: 7% Life Stolen Per Hit<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: Attacker takes 14 damage<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 25"
+    },
+    {
+        "Rune": "Sol",
+        "img": "/img/runes/28px-Sol_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Amn_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-amn.gif\" src=\"/img/runes/28px-Amn_Rune.png\" width=\"29\" height=\"30\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Amn_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-amn.gif\" src=\"/img/runes/28px-Amn_Rune.png\" width=\"29\" height=\"30\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Amn_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-amn.gif\" src=\"/img/runes/28px-Amn_Rune.png\" width=\"29\" height=\"30\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/Chipped_Amethyst_(Diablo_II).gif\" class=\"image\"><img data-v-6795926a=\"\" alt=\"Amethyst-chipped.gif\" src=\"/img/runes/Chipped_Amethyst_(Diablo_II).gif\" width=\"22\" height=\"28\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: +9 to Minimum Damage<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: -7 Damage Taken<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 27"
+    },
+    {
+        "Rune": "Shael",
+        "img": "/img/runes/28px-Shael_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Sol_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-sol.gif\" src=\"/img/runes/28px-Sol_Rune.png\" width=\"28\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Sol_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-sol.gif\" src=\"/img/runes/28px-Sol_Rune.png\" width=\"28\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Sol_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-sol.gif\" src=\"/img/runes/28px-Sol_Rune.png\" width=\"28\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/Chipped_Sapphire_(Diablo_II).gif\" class=\"image\"><img data-v-6795926a=\"\" alt=\"Sapphire-chipped.gif\" src=\"/img/runes/Chipped_Sapphire_(Diablo_II).gif\" width=\"15\" height=\"16\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: Faster Attack Rate (+20)<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm: Faster Hit Recovery (+20)<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Shields: Faster Block Rate (+20)<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 29"
+    },
+    {
+        "Rune": "Dol",
+        "img": "/img/runes/28px-Dol_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Shael_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-shae.gif\" src=\"/img/runes/28px-Shael_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Shael_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-shae.gif\" src=\"/img/runes/28px-Shael_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Shael_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-shae.gif\" src=\"/img/runes/28px-Shael_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/Chipped_Ruby_(Diablo_II).gif\" class=\"image\"><img data-v-6795926a=\"\" alt=\"Ruby-chipped.gif\" src=\"/img/runes/Chipped_Ruby_(Diablo_II).gif\" width=\"19\" height=\"16\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: 25% Chance that Hit Causes Monster to Flee<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: +7 Replenish Life<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 31"
+    },
+    {
+        "Rune": "Hel",
+        "img": "/img/runes/28px-Hel_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Dol_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-dol.gif\" src=\"/img/runes/28px-Dol_Rune.png\" width=\"29\" height=\"30\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Dol_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-dol.gif\" src=\"/img/runes/28px-Dol_Rune.png\" width=\"29\" height=\"30\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Dol_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-dol.gif\" src=\"/img/runes/28px-Dol_Rune.png\" width=\"29\" height=\"30\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/Chipped_Emerald_(Diablo_II).gif\" class=\"image\"><img data-v-6795926a=\"\" alt=\"Emerald-chipped.gif\" src=\"/img/runes/Chipped_Emerald_(Diablo_II).gif\" width=\"22\" height=\"22\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: -20% Requirements<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: -15% Requirements<br data-v-6795926a=\"\"> <b data-v-6795926a=\"\">Ilvl: 33 <b data-v-6795926a=\"\">Clvl Required: None"
+    },
+    {
+        "Rune": "Io",
+        "img": "/img/runes/28px-Io_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Hel_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-hel.gif\" src=\"/img/runes/28px-Hel_Rune.png\" width=\"29\" height=\"30\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Hel_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-hel.gif\" src=\"/img/runes/28px-Hel_Rune.png\" width=\"29\" height=\"30\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Hel_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-hel.gif\" src=\"/img/runes/28px-Hel_Rune.png\" width=\"29\" height=\"30\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/Chipped_Diamond_(Diablo_II).gif\" class=\"image\"><img data-v-6795926a=\"\" alt=\"Diamond-chipped.gif\" src=\"/img/runes/Chipped_Diamond_(Diablo_II).gif\" width=\"17\" height=\"15\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: +10 Vitality<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: +10 Vitality<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 35"
+    },
+    {
+        "Rune": "Lum",
+        "img": "/img/runes/28px-Lum_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Io_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-io po.gif\" src=\"/img/runes/28px-Io_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Io_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-io po.gif\" src=\"/img/runes/28px-Io_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Io_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-io po.gif\" src=\"/img/runes/28px-Io_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/Flawed_Topaz_(Diablo_II).gif\" class=\"image\"><img data-v-6795926a=\"\" alt=\"Topaz-flawed.gif\" src=\"/img/runes/Flawed_Topaz_(Diablo_II).gif\" width=\"19\" height=\"21\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: +10 Energy<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: +10 Energy<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 37"
+    },
+    {
+        "Rune": "Ko",
+        "img": "/img/runes/28px-Ko_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Lum_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-lum.gif\" src=\"/img/runes/28px-Lum_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Lum_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-lum.gif\" src=\"/img/runes/28px-Lum_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Lum_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-lum.gif\" src=\"/img/runes/28px-Lum_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/Flawed_Amethyst_(Diablo_II).gif\" class=\"image\"><img data-v-6795926a=\"\" alt=\"Amethyst-flawed.gif\" src=\"/img/runes/Flawed_Amethyst_(Diablo_II).gif\" width=\"17\" height=\"20\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: +10 Dexterity<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: +10 Dexterity<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 39"
+    },
+    {
+        "Rune": "Fal",
+        "img": "/img/runes/28px-Fal_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Ko_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-ko.gif\" src=\"/img/runes/28px-Ko_Rune.png\" width=\"29\" height=\"30\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Ko_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-ko.gif\" src=\"/img/runes/28px-Ko_Rune.png\" width=\"29\" height=\"30\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Ko_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-ko.gif\" src=\"/img/runes/28px-Ko_Rune.png\" width=\"29\" height=\"30\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/Flawed_Sapphire_(Diablo_II).gif\" class=\"image\"><img data-v-6795926a=\"\" alt=\"Sapphire-flawed.gif\" src=\"/img/runes/Flawed_Sapphire_(Diablo_II).gif\" width=\"16\" height=\"18\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: +10 Strength<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: +10 Strength<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 41"
+    },
+    {
+        "Rune": "Lem",
+        "img": "/img/runes/28px-Lem_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Fal_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-fal.gif\" src=\"/img/runes/28px-Fal_Rune.png\" width=\"29\" height=\"30\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Fal_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-fal.gif\" src=\"/img/runes/28px-Fal_Rune.png\" width=\"29\" height=\"30\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Fal_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-fal.gif\" src=\"/img/runes/28px-Fal_Rune.png\" width=\"29\" height=\"30\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/Flawed_Ruby_(Diablo_II).gif\" class=\"image\"><img data-v-6795926a=\"\" alt=\"Ruby-flawed.gif\" src=\"/img/runes/Flawed_Ruby_(Diablo_II).gif\" width=\"25\" height=\"25\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: +75% Extra Gold from Monsters<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: +50% Extra Gold from Monsters<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 43"
+    },
+    {
+        "Rune": "Pul",
+        "img": "/img/runes/28px-Pul_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Lem_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-lem.gif\" src=\"/img/runes/28px-Lem_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Lem_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-lem.gif\" src=\"/img/runes/28px-Lem_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Lem_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-lem.gif\" src=\"/img/runes/28px-Lem_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/Flawed_Emerald_(Diablo_II).gif\" class=\"image\"><img data-v-6795926a=\"\" alt=\"Emerald-flawed.gif\" src=\"/img/runes/Flawed_Emerald_(Diablo_II).gif\" width=\"25\" height=\"25\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: +75% Damage to Demons, +100 AR against Demons<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield:+30% Defense<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 45"
+    },
+    {
+        "Rune": "Um",
+        "img": "/img/runes/28px-Um_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Pul_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-pul.gif\" src=\"/img/runes/28px-Pul_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Pul_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-pul.gif\" src=\"/img/runes/28px-Pul_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/Flawed_Diamond_(Diablo_II).gif\" class=\"image\"><img data-v-6795926a=\"\" alt=\"Diamond-flawed.gif\" src=\"/img/runes/Flawed_Diamond_(Diablo_II).gif\" width=\"19\" height=\"18\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: 25% Chance of Open Wounds<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm: +15% Resist All<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Shields: +22% Resist All<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 47"
+    },
+    {
+        "Rune": "Mal",
+        "img": "/img/runes/28px-Mal_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Um_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-um.gif\" src=\"/img/runes/28px-Um_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Um_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-um.gif\" src=\"/img/runes/28px-Um_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/Topaz_(Diablo_II).gif\" class=\"image\"><img data-v-6795926a=\"\" alt=\"Topaz-normal.gif\" src=\"/img/runes/Topaz_(Diablo_II).gif\" width=\"19\" height=\"22\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: Prevent Monster Healing<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: Reduce Magic Damage by 7<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 49"
+    },
+    {
+        "Rune": "Ist",
+        "img": "/img/runes/28px-Ist_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Mal_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-mal.gif\" src=\"/img/runes/28px-Mal_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Mal_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-mal.gif\" src=\"/img/runes/28px-Mal_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/Amethyst_(Diablo_II).gif\" class=\"image\"><img data-v-6795926a=\"\" alt=\"Amethyst-normal.gif\" src=\"/img/runes/Amethyst_(Diablo_II).gif\" width=\"18\" height=\"21\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: +30% Better Chance of Finding Magical Items<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: +25% Better Chance of Finding Magical Items<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 51"
+    },
+    {
+        "Rune": "Gul",
+        "img": "/img/runes/28px-Gul_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Ist_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-ist.gif\" src=\"/img/runes/28px-Ist_Rune.png\" width=\"29\" height=\"30\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Ist_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-ist.gif\" src=\"/img/runes/28px-Ist_Rune.png\" width=\"29\" height=\"30\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/Sapphire_(Diablo_II).gif\" class=\"image\"><img data-v-6795926a=\"\" alt=\"Sapphire-normal.gif\" src=\"/img/runes/Sapphire_(Diablo_II).gif\" width=\"17\" height=\"20\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: +20% AR<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: +5 to Max Resist Poison<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 53"
+    },
+    {
+        "Rune": "Vex",
+        "img": "/img/runes/28px-Vex_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Gul_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-gul.gif\" src=\"/img/runes/28px-Gul_Rune.png\" width=\"29\" height=\"30\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Gul_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-gul.gif\" src=\"/img/runes/28px-Gul_Rune.png\" width=\"29\" height=\"30\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/Ruby_(Diablo_II).gif\" class=\"image\"><img data-v-6795926a=\"\" alt=\"Ruby-normal.gif\" src=\"/img/runes/Ruby_(Diablo_II).gif\" width=\"25\" height=\"25\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: 7% Mana Leech<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: +5 to Max Fire Resist<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 55"
+    },
+    {
+        "Rune": "Ohm",
+        "img": "/img/runes/28px-Ohm_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Vex_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-vex.gif\" src=\"/img/runes/28px-Vex_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Vex_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-vex.gif\" src=\"/img/runes/28px-Vex_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/Emerald_(Diablo_II).gif\" class=\"image\"><img data-v-6795926a=\"\" alt=\"Emerald-normal.gif\" src=\"/img/runes/Emerald_(Diablo_II).gif\" width=\"25\" height=\"25\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: +50% Damage<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: +5 to Max. Resist Cold<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 57"
+    },
+    {
+        "Rune": "Lo",
+        "img": "/img/runes/28px-Lo_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Ohm_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-ohm.gif\" src=\"/img/runes/28px-Ohm_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Ohm_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-ohm.gif\" src=\"/img/runes/28px-Ohm_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/Diamond_(Diablo_II).gif\" class=\"image\"><img data-v-6795926a=\"\" alt=\"Diamond-normal.gif\" src=\"/img/runes/Diamond_(Diablo_II).gif\" width=\"20\" height=\"20\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: 20% Chance of Deadly Strike<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: +5 to Max. Resist Lightning<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 59"
+    },
+    {
+        "Rune": "Sur",
+        "img": "/img/runes/28px-Sur_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Lo_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-lo.gif\" src=\"/img/runes/28px-Lo_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Lo_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-lo.gif\" src=\"/img/runes/28px-Lo_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/Flawless_Topaz_(Diablo_II).gif\" class=\"image\"><img data-v-6795926a=\"\" alt=\"Topaz-flawless.gif\" src=\"/img/runes/Flawless_Topaz_(Diablo_II).gif\" width=\"25\" height=\"25\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: 20% Chance of Hit Blinds Target<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm: +5% total Mana<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Shields: +50 Mana<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 61"
+    },
+    {
+        "Rune": "Ber",
+        "img": "/img/runes/28px-Ber_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Sur_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-sur.gif\" src=\"/img/runes/28px-Sur_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Sur_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-sur.gif\" src=\"/img/runes/28px-Sur_Rune.png\" width=\"30\" height=\"31\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/Flawless_Amethyst_(Diablo_II).gif\" class=\"image\"><img data-v-6795926a=\"\" alt=\"Amethyst-flawless.gif\" src=\"/img/runes/Flawless_Amethyst_(Diablo_II).gif\" width=\"22\" height=\"22\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: 20% Chance of Crushing Blow<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: Damage Reduced by 8%<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 63"
+    },
+    {
+        "Rune": "Jah",
+        "img": "/img/runes/28px-Jah_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Ber_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-ber.gif\" src=\"/img/runes/28px-Ber_Rune.png\" width=\"29\" height=\"34\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Ber_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-ber.gif\" src=\"/img/runes/28px-Ber_Rune.png\" width=\"29\" height=\"34\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/Flawless_Sapphire_(Diablo_II).gif\" class=\"image\"><img data-v-6795926a=\"\" alt=\"Sapphire-flawless.gif\" src=\"/img/runes/Flawless_Sapphire_(Diablo_II).gif\" width=\"25\" height=\"25\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: Ignores Target Defense<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm: +5% of total Hit Points<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Shields: +50 Hit Points<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 65"
+    },
+    {
+        "Rune": "Cham",
+        "img": "/img/runes/28px-Cham_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Jah_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-jo.gif\" src=\"/img/runes/28px-Jah_Rune.png\" width=\"33\" height=\"34\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Jah_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-jo.gif\" src=\"/img/runes/28px-Jah_Rune.png\" width=\"33\" height=\"34\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/Flawless_Ruby_(Diablo_II).gif\" class=\"image\"><img data-v-6795926a=\"\" alt=\"Ruby-flawless.gif\" src=\"/img/runes/Flawless_Ruby_(Diablo_II).gif\" width=\"25\" height=\"25\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: 32% Chance of Hit Freezing Target for 3 seconds<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: Cannot be Frozen<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 67"
+    },
+    {
+        "Rune": "Zod",
+        "img": "/img/runes/28px-Zod_Rune.png",
+        "toUpgrade:": "<a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Cham_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-cham.gif\" src=\"/img/runes/28px-Cham_Rune.png\" width=\"29\" height=\"30\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/File:28px-Cham_Rune.png\" class=\"image\"><img data-v-6795926a=\"\" alt=\"R-cham.gif\" src=\"/img/runes/28px-Cham_Rune.png\" width=\"29\" height=\"30\"><a data-v-6795926a=\"\" target=\"_blank\" href=\"/img/runes/Flawless_Emerald_(Diablo_II).gif\" class=\"image\"><img data-v-6795926a=\"\" alt=\"Emerald-flawless.gif\" src=\"/img/runes/Flawless_Emerald_(Diablo_II).gif\" width=\"25\" height=\"25\">",
+        "SocketedProperties": "<b data-v-6795926a=\"\">Weapon: Indestructible<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Armor/Helm/Shield: Indestructible<br data-v-6795926a=\"\"><b data-v-6795926a=\"\">Clvl Required: 69"
+    }
+]

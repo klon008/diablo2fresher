@@ -7,6 +7,7 @@
       <li><router-link to="/sets">Set Items</router-link></li>
       <li><router-link to="/crafting">Crafting</router-link></li>
       <li><router-link to="/bases">White Bases</router-link></li>
+      <li><router-link to="/cube">Cube</router-link></li>
     </ul>
     <router-view></router-view>
 

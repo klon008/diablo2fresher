@@ -1,0 +1,320 @@
+[
+    {
+        "Ing": "Magical Axe (any)<br />+ Jewel (any)<br />+ Ort Rune (#9)<br />+ Perfect Ruby",
+        "Items": "Preset Mods: 1-4% Life Leech<br />+10-20 Hit Points<br />+35-60% Damage",
+        "Comments": "Enhanced damage changed slightly in v109, and the recipe was restricted to axes, instead of every type of weapon, which worked previously.",
+        "group": "Blood Weapon",
+        "header": "Blood Weapon",
+        "img": "img/items/WEAPON/wax.gif",
+        "type": "Blood"
+    },
+    {
+        "Ing": "Magical Helm<br />or Casque (Excep)<br />or Armet (Elite)<br />+ Jewel (any)<br />+ Ral Rune (#8)<br />+ Perfect Ruby",
+        "Items": "Preset Mods: 1-4% Life Leech<br />+10-20 Hit Points<br />5-10% chance of Deadly Strike",
+        "Comments": "",
+        "group": "Blood Headgear",
+        "header": "Blood Helm",
+        "img": "img/items/armor/hlm.gif",
+        "type": "Blood"
+    },
+    {
+        "Ing": "Magical Plate Mail<br />or Templar Plate (Excep)<br />or Hellforge Plate (Elite)<br />+ Jewel (any)<br />+ Thul Rune (#10)<br />+ Perfect Ruby",
+        "Items": "Preset Mods: 1-3% Life Steal<br />+10-20 Hit points<br />1-3 Demon Heal",
+        "Comments": "\"Demon Heal\" means you gain 1-3 hit points for every Demon death, similar to the +mana per kill modifiers. Full details on the <a href=\"https: //diablo2.diablowiki.net/Special_Modifiers\">Special Modifiers</a> page.",
+        "group": "Blood Armor",
+        "header": "Blood Armor",
+        "img": "img/items/armor/plt.gif",
+        "type": "Blood"
+    },
+    {
+        "Ing": "Magical Heavy<br />or Sharkskin Gloves (Excep)<br />or Vampirebone Gloves (Elite)<br />+ Jewel (any)<br />+ Nef Rune (#4)<br />+ Perfect Ruby",
+        "Items": "Preset Mods: 1-3% Life Leech<br />+10-20 Hit Points<br />5-10% Crushing Blow",
+        "Comments": "An example can be <a href=\"https://diablo2.diablowiki.net/Blood_Gloves\">seen here</a>.",
+        "group": "Blood Gloves",
+        "header": "Blood Gloves",
+        "img": "img/items/armor/vgl.gif",
+        "type": "Blood"
+    },
+    {
+        "Ing": "Magical Belt<br />or Mesh Belt (Excep)<br />or Mithril Coil (Elite)<br />+ Jewel (any)<br />+ Tal Rune (#7)<br />+ Perfect Ruby",
+        "Items": "Preset Mods: 1-3% Life Leech<br />+10-20 Hit Points<br />Open Wounds 5-10%",
+        "Comments": "Must be a \"belt\", the smaller of the two 12 slot types. No others will work.",
+        "group": "Blood Belt",
+        "header": "Blood Belt",
+        "img": "img/items/armor/mbl.gif",
+        "type": "Blood"
+    },
+    {
+        "Ing": "Magical Light Plated Boots<br />or Battle Boots (Excep)<br />or Mirrored Boots (Elite)<br />+ Jewel (any)<br />+ Eth Rune (#5)<br />+ Perfect Ruby",
+        "Items": "Preset Mods: 1-3% Life Leech<br />+10-20 Hit Points<br />+5-10 Life Regeneration",
+        "Comments": "Potentially very useful boots, though you\"d probably have to roll quite a few of them to get the faster run and resistance most characters demand from footwear. The boots are easily-obtained, and so are Eths, so this is almost a free recipe to run.",
+        "group": "Blood Boots",
+        "header": "Blood Boots",
+        "img": "img/items/armor/hbt.gif",
+        "type": "Blood"
+    },
+    {
+        "Ing": "Magical Spiked Shield<br />or Barbed Shield (Excep)<br />or Blade Barrier (Elite)<br />+ Jewel (any)<br />+ Ith Rune (#6)<br />+ Perfect Ruby",
+        "Items": "Preset Mods: 1-4% Life Steal<br />+10-20 Hit Points<br />Attacker takes 4-7 damage",
+        "Comments": "",
+        "group": "Blood Shield",
+        "header": "Blood Shield",
+        "img": "img/items/armor/spk.gif",
+        "type": "Blood"
+    },
+    {
+        "Ing": "Magical Amulet<br />+ Jewel (any)<br />+ Amn Rune (#11)<br />+ Perfect Ruby",
+        "Items": "Preset Mods: 1-4% Life Steal<br />+10-20 Hit Points<br />5-10% Faster Walk/Run",
+        "Comments": "Was 1-15% faster run prior to v1.09. See some examples here.",
+        "group": "Blood Jewelry",
+        "header": "Blood Amulet",
+        "img": "img/items/sets/ra/amu1.gif",
+        "type": "Blood"
+    },
+    {
+        "Ing": "Magical Ring<br />+ Jewel (any)<br />+ Sol Rune (#12)<br />+ Perfect Ruby",
+        "Items": "Preset Mods: 1-3% Life Leech<br />+10-20 Hit Points<br />+1-5 Strength",
+        "Comments": "The leech was cut from 1-4% and the strength from 5-10 in v1.09. See a couple of examples.",
+        "group": "Blood Jewelry",
+        "header": "Blood Ring",
+        "img": "img/items/sets/ra/ring2.gif",
+        "type": "Blood"
+    },
+    {
+        "Ing": "Magical Rod (any)<br />+ Jewel<br />+ Tir Rune (#3)<br />+ Perfect Amethyst",
+        "Items": "Preset Mods:<br />4-10% Regenerate Mana<br />+10-20 Mana<br />+1-5% Mana Steal",
+        "Comments": "\"Rod\" = Scepter, Staff, or Wand (Not Orbs).",
+        "group": "Caster Weapon",
+        "header": "Caster Weapon",
+        "img": "img/items/WEAPON/cst.gif",
+        "type": "Caster"
+    },
+    {
+        "Ing": "Magical Mask<br />or Death Mask (Excep)<br />or Demonhead (Elite)<br />+ Jewel<br />+ Nef Rune (#4)<br />+ Perfect Amethyst",
+        "Items": "Caster Mask<br />Preset Mods:<br />4-10% Regenerate Mana<br />+10-20 Mana<br />1-4% Mana Steal",
+        "Comments": "",
+        "group": "Caster Headgear"
+    },
+    {
+        "Ing": "Magical Light Plate<br />or Mage Plate (Excep)<br />or Archon Plate (Elite)<br />+ Jewel (any)<br />+ Tal Rune (#7)<br />+ Perfect Amethyst",
+        "Items": "Preset Mods:<br />Regenerate Mana 4-12%<br />+10-20 Mana<br />+1-3 Mana Per Kill",
+        "Comments": "Same mods as the other \"Caster\" Crafted Items, and all use common Runes.",
+        "group": "Caster Armor",
+        "header": "Caster Armor",
+        "img": "img/items/armor/ltp.gif",
+        "type": "Caster"
+    },
+    {
+        "Ing": "Magical Leather Gloves<br />or Demonhide Gloves (Excep)<br />or Bramble Mitts (Elite)<br />+ Jewel (any)<br />+ Ort Rune (#9)<br />+ Perfect Amethyst",
+        "Items": "Preset Mods:<br />+4-10% Faster Mana Regen<br />+10-20 Mana<br />+1-3 Mana Per Kill",
+        "Comments": "Not quite Frostburns or Magefist, but they add some decent mana, and the ingredients are easy to find.",
+        "group": "Caster Gloves",
+        "header": "Caster Gloves",
+        "img": "img/items/armor/lgl.gif",
+        "type": "Caster"
+    },
+    {
+        "Ing": "Magical Light Belt<br />or Sharkskin Belt (Excep)<br />or Vampirefang Belt (Elite)<br />+ Jewel (any)<br />+ Ith Rune (#6)<br />+ Perfect Amethyst",
+        "Items": "Preset Mods:<br />4-10% Regenerate Mana<br />+10-20 Mana<br />+5-10% Faster Cast",
+        "Comments": "This one changed from v1.08 where it was a heavy belt, and 15% faster cast. So fewer belt slots, and less casting speed in v1.09.",
+        "group": "Caster Belt",
+        "header": "Caster Belt",
+        "img": "img/items/armor/vbl.gif",
+        "type": "Caster"
+    },
+    {
+        "Ing": "Magical Leather Boots<br />or Demonhide Boots (Excep)<br />or Wyrmhide Boots (Elite)<br />+ Jewel (any)<br />+ Thul Rune (#10)<br />+ Perfect Amethyst",
+        "Items": "Preset Mods:<br />Regenerate Mana 4-10%<br />Mana +10-20<br />Max Mana +2-5%",
+        "Comments": "A lot of variety in the pre-set mods, so several tries will probably be needed to get really good ones.",
+        "group": "Caster Boot",
+        "header": "Caster Boots",
+        "img": "img/items/armor/lbt.gif",
+        "type": "Caster"
+    },
+    {
+        "Ing": "Magical Small Shield<br />or Round Shield (Excep)<br />or Luna (Elite)<br />+ Jewel (any)<br />+ Eth Rune (#5)<br />+ Perfect Amethyst",
+        "Items": "Preset Mods:<br />+4-10% Regenerate Mana<br />+10-20 Mana<br />+5-10 Blocking Percentage",
+        "Comments": "Only the mana regeneration was altered in v1.09, and this now works only with a small shield.",
+        "group": "Caster Shield",
+        "header": "Caster Shield",
+        "img": "img/items/armor/sml.gif",
+        "type": "Caster"
+    },
+    {
+        "Ing": "Magical Amulet<br />+ Jewel (any)<br />+ Ral Rune (#8)<br />+ Perfect Amethyst",
+        "Items": "Caster Amulet #1<br />Preset Mods:<br />4-10% Regenerate Mana<br />+10-20 Mana<br />Faster Cast 5-10%",
+        "Comments": "Potentially the best possible amulet for a sorceress or necro can be made with this recipe. This item was toned way down in v1.09, with the potential bonuses for all 3 preset stats dropping quite a bit. An example can be <a href=\"https://diablo2.diablowiki.net/Caster_Amulet\">seen here</a>.",
+        "group": "Caster Jewelry",
+        "header": "Caster Amulet",
+        "img": "img/items/sets/ra/amu1.gif",
+        "type": "Caster"
+    },
+    {
+        "Ing": "Magical Ring<br />+ Jewel (any)<br />+ Amn Rune (#11)<br />+ Perfect Amethyst",
+        "Items": "Caster Ring #1<br />Preset Mods:<br />4-10% Regenerate Mana<br />+10-20 Mana<br />+1-5 Energy",
+        "Comments": "v1.09 changed the rune required from 7 to 11, and lowered the energy bonus from 5-10.",
+        "group": "Caster Jewelry",
+        "header": "Caster Ring",
+        "img": "img/items/sets/ra/ring2.gif",
+        "type": "Caster"
+    },
+    {
+        "Ing": "Magical Blunt Weapon<br />+ 1 Jewel (any)<br />+ Tir Rune (#3)<br />+ Perfect Sapphire",
+        "Items": "Preset Mods:<br />5% chance of casting Slvl 4 Frost Nova when hit<br />Attacker Takes 3-7 Damage<br />+35-60% Enhanced Damage",
+        "Comments": "\"Blunt\" = All maces, rods, etc. Everything that has 150% damage vs. Undead excluding Orbs.",
+        "group": "Hitpower Weapon",
+        "header": "Hit Power Weapon",
+        "img": "img/items/WEAPON/mac.gif",
+        "type": "Hitpower"
+    },
+    {
+        "Ing": "Magical Full Helm<br />or Basinet (Excep)<br />or Giant Conch (Elite)<br />+ Jewel (any)<br />+ Ith Rune (#6)<br />+ Perfect Sapphire",
+        "Items": "Preset Mods:<br />5% chance of casting Slvl 4 Frost Nova when hit<br />Attacker takes 3-7 damage<br />+25-50 Defense vs. Missiles",
+        "Comments": "The defense vs. missiles is added in v1.09 with knockback removed.",
+        "group": "Hitpower Headgear",
+        "header": "Hit Power Helm",
+        "img": "img/items/armor/fhl.gif",
+        "type": "Hitpower"
+    },
+    {
+        "Ing": "Magical Field Plate<br />or Sharktooth (Excep)<br />or Kraken Shell (Elite)<br />+ Jewel (any)<br />+ Nef Rune (#4)<br />+ Perfect Sapphire",
+        "Items": "Hitpower Body Armor<br />Preset Mods:<br />5% chance of casting Slvl 4 Frost Nova when hit<br />Attacker takes 3-10 damage<br />10-20% Faster Hit Recovery",
+        "Comments": "Howling removed, FHR added, armor type changed to Field Plate.",
+        "group": "Hitpower Armor"
+    },
+    {
+        "Ing": "Magical Chain Gloves<br />or Heavy Bracers (Excep)<br />or Vambraces (Elite)<br />+ Jewel (any)<br />+ Ort Rune (#9)<br />+ Perfect Sapphire",
+        "Items": "Preset Mods:<br />5% chance of casting Slvl 4 Frost Nova when hit<br />+3-7 Damage to Attacker<br />Knockback",
+        "Comments": "Knockback is added to your attack, a popular mod to many Bowazons.",
+        "group": "Hitpower Gloves",
+        "header": "Hit Power Gloves",
+        "img": "img/items/armor/mgl.gif",
+        "type": "Hitpower"
+    },
+    {
+        "Ing": "Magical Heavy Belt<br />or Battle Belt (Excep)<br />or Troll Belt (Elite)<br />+ Jewel (any)<br />+ Tal Rune (#7)<br />+ Perfect Sapphire",
+        "Items": "Preset Mods:<br />5% chance of casting Slvl 4 Frost Nova when hit<br />Attacker takes 3-7 damage<br />5-10% Damage to Mana",
+        "Comments": "",
+        "group": "Hitpower Belt",
+        "header": "Hit Power Belt",
+        "img": "img/items/armor/tbl.gif",
+        "type": "Hitpower"
+    },
+    {
+        "Ing": "Magical Chain Boots<br />or Mesh Boots (excep)<br />or Boneweave (Elite)<br />+ Jewel (any)<br />+ Ral Rune (#8)<br />+ Perfect Sapphire",
+        "Items": "Preset Mods:<br />5% chance of casting Slvl 4 Frost Nova when hit<br />Attacker takes 3-7 damage<br />+25-60 Defense vs. Melee",
+        "Comments": "",
+        "group": "Hitpower Boots",
+        "header": "Hit Power Boots",
+        "img": "img/items/armor/mbt.gif",
+        "type": "Hitpower"
+    },
+    {
+        "Ing": "Magical Gothic Shield<br />or Ancient (Excep)<br />or Ward (Elite)<br />+ Jewel (any)<br />+ Eth Rune (#5)<br />+ Perfect Sapphire",
+        "Items": "Preset Mods:<br />5% chance of casting Slvl 4 Frost Nova when hit<br />Attacker takes 3-10 damage<br />+5-10% Blocking",
+        "Comments": "",
+        "group": "Hitpower Shield",
+        "header": "Hit Power Shield",
+        "img": "img/items/armor/gts.gif",
+        "type": "Hitpower"
+    },
+    {
+        "Ing": "Magical Amulet<br />+ Jewel (any)<br />+ Thul Rune (#10)<br />+ Perfect Sapphire",
+        "Items": "Preset Mods:<br />5% chance of casting Slvl 4 Frost Nova when hit<br />Attacker takes 3-10 damage<br />5-15% Chance of Monster Flee",
+        "Comments": "Howling replaces Faster Hit Recovery in v1.09.",
+        "group": "Hitpower Jewelry",
+        "header": "Hit Power Amulet",
+        "img": "img/items/sets/ra/amu1.gif",
+        "type": "Hitpower"
+    },
+    {
+        "Ing": "Magical Ring<br />+ Jewel (any)<br />+ Amn Rune (#11)<br />+ Perfect Sapphire",
+        "Items": "Preset Mods:<br />5% chance of casting Slvl 4 Frost Nova when hit<br />Attacker takes 3-6 damage<br />+1-5 Dexterity",
+        "Comments": "+5-10 Dexterity was the mod pre v1.09.",
+        "group": "Hitpower Jewelry",
+        "header": "Hit Power Ring",
+        "img": "img/items/sets/ra/ring2.gif",
+        "type": "Hitpower"
+    },
+    {
+        "Ing": "Magical Spear (any)<br />+ Jewel (any)<br />+ Sol Rune (#12)<br />+ Perfect Emerald",
+        "Items": "Preset Mods:<br />Reduced Damage 1-4<br />Reduced Magic Damage 1-2<br />+5-10% Defense",
+        "Comments": "The added defense is new in v1.09.",
+        "group": "Safety Weapon",
+        "header": "Safety Weapon",
+        "img": "img/items/WEAPON/pik.gif",
+        "type": "Safety"
+    },
+    {
+        "Ing": "Magical Crown<br />or Grand Crown (Excep)<br />or Corona (Elite)<br />+ Jewel (any)<br />+ Ith Rune (#6)<br />+ Perfect Emerald",
+        "Items": "Preset Mods:<br />Reduces Damage 1-4<br />Reduces Magic Damage 1-2<br />+5-10% Lightning Resistance<br />+10-30% Defense",
+        "Comments": "",
+        "group": "Safety Headgear",
+        "header": "Safety Helm",
+        "img": "img/items/armor/crn.gif",
+        "type": "Safety"
+    },
+    {
+        "Ing": "Magical Breast Plate<br />or Curiass (Excep)<br />or Great Hauberk (Elite)<br />+ Jewel (any)<br />+ Eth Rune (#5)<br />+ Perfect Emerald",
+        "Items": "Preset Mods:<br />Reduces Damage 3-9<br />Reduces Magic Damage 2-5<br />Half Freeze Duration<br />Increased Defense 10-30%",
+        "Comments": "Nice for a character who don\"t need big Defense or resistances on Armor, though the damage reductions are so small in v1.09 that it\"s pretty lame now.",
+        "group": "Safety Armor",
+        "header": "Safety Armor",
+        "img": "img/items/armor/brs.gif",
+        "type": "Safety"
+    },
+    {
+        "Ing": "Magical Gauntlets<br />or War Gauntlets (Excep)<br />or Ogre Gauntlets (Elite)<br />+ Jewel (any)<br />+ Ral Rune (#8)<br />+ Perfect Emerald",
+        "Items": "Preset Mods:<br />Reduces Damage 1-4<br />Reduces Magical Damage 1-2<br />+5-10% Resist Cold<br />+10-33% Defense",
+        "Comments": "",
+        "group": "Safety Gloves",
+        "header": "Safety Gloves",
+        "img": "img/items/armor/hgl.gif",
+        "type": "Safety"
+    },
+    {
+        "Ing": "Magical Sash<br />or Demonhide Sash<br />or Spiderweb Sash<br />+ Jewel (any)<br />+ Tal Rune (#7)<br />+ Perfect Emerald",
+        "Items": "Preset Mods:<br />Reduces Damage 3-9<br />Reduces Magical Damage 2-5<br />5-10% Resist Poison<br />+10-30% Defense",
+        "Comments": "",
+        "group": "Safety Belt",
+        "header": "Safety Belt",
+        "img": "img/items/armor/lbl.gif",
+        "type": "Safety"
+    },
+    {
+        "Ing": "Magical Greaves<br />or War Boots (Excep)<br />or Myrmidon Boots (Elite)<br />+ Jewel (any)<br />+ Ort Rune (#9)<br />+ Perfect Emerald",
+        "Items": "Preset Mods:<br />Reduces Damage 1-4<br />Reduces Magical Damage 1-2<br />5-10% Fire Resistance<br />+10-30% Defense",
+        "Comments": "Greaves work.",
+        "group": "Safety Boots",
+        "header": "Safety Boots",
+        "img": "img/items/armor/hbt.gif",
+        "type": "Safety"
+    },
+    {
+        "Ing": "Magical Kite Shield<br />or Dragon Shield (Excep)<br />or Monarch (Elite)<br />+ Jewel (any)<br />+ Nef Rune (#4)<br />+ Perfect Emerald",
+        "Items": "Preset Mods:<br />Reduces Damage 1-4<br />Reduces Magic Damage 1-2<br />5-10% Resist Magic<br />+10-30% Defense",
+        "Comments": "Magical Resistance is a very rare property. Magical damage is only on a few skills, such as Berserk and Bone Spirit.",
+        "group": "Safety Shields",
+        "header": "Safety Shield",
+        "img": "img/items/armor/kit.gif",
+        "type": "Safety"
+    },
+    {
+        "Ing": "Magical Amulet<br />+ Jewel (any)<br />+ Thul Rune (#10)<br />+ Perfect Emerald",
+        "Items": "Preset Mods:<br />Reduces Damage 1-4<br />Reduces Magic Damage 1-2<br />+1-10% Blocking",
+        "Comments": "",
+        "group": "Safety Jewelry",
+        "header": "Safety Amulet",
+        "img": "img/items/sets/ra/amu1.gif",
+        "type": "Safety"
+    },
+    {
+        "Ing": "Rare or Magical Ring<br />+ Jewel (any)<br />+ Amn Rune (#11)<br />+ Perfect Emerald",
+        "Items": "Preset Mods:<br />Reduces Damage 1-4<br />Reduces Magic Damage 1-2<br />+1-5 Vitality",
+        "Comments": "",
+        "group": "Safety Jewelry",
+        "header": "Safety Ring",
+        "img": "img/items/sets/ra/ring2.gif",
+        "type": "Safety"
+    }
+]

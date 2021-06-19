@@ -1,0 +1,1653 @@
+[
+    {
+        "id": 1,
+        "name": "Aldur's Stony Gaze",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">157-171</font> (varies) (Base Defense: 67-81)<br>\nRequired Level: 36<br>\nRequired Strength: 56<br>\nDurability: 20<br>\n<b>(Druid Only)</b><br>\n<font color=\"#4850b8\">+90 Defense</font><br>\n<font color=\"#4850b8\">25% Faster Hit Recovery</font><br>\n<font color=\"#4850b8\">Regenerate Mana 17%</font><br>\n<font color=\"#4850b8\">Cold Resist +40-50%</font> (varies)<br>\n<font color=\"#4850b8\">Socketed (2)</font><br>\n<font color=\"#4850b8\">+5 To Light Radius</font><br>\n<font color=\"#00C400\">+15 To Energy</font> (2 Item)<br>\n<font color=\"#00C400\">+15 To Energy</font> (3 Items)<br>\n<font color=\"#00C400\">+15 To Energy</font> (Completed Set)\n</span></font>\n",
+        "img": "/img/items/sets/sets/aldursstoneygaze.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n150% Bonus To Attack Rating (2 Items)<br>\n50% Better Chance Of Getting Magic Items (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Druid Skills<br>\n+350% Enhanced Damage*<br>\n150% Bonus To Attack Rating<br>\n50% Better Chance Of Getting Magic Items<br>\n10% Mana Stolen Per Hit<br>\nAll Resistances +50<br>\n+150 Defense<br>\n+150 To Mana<br>\nDisplay Aura<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Aldur's Watchtower"
+        ],
+        "subname": "Hunter's Guise"
+    },
+    {
+        "id": 2,
+        "name": "Aldur's Advance",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 39-47 (varies)<br>\nRequired Level: 45<br>\nRequired Strength: 95<br>\nAssassin Kick Damage: 37-64<br>\n<font color=\"#4850b8\">Indestructible</font><br>\n<font color=\"#4850b8\">40% Faster Run/Walk</font><br>\n<font color=\"#4850b8\">+180 Maximum Stamina</font><br>\n<font color=\"#4850b8\">10% Damage Taken Goes To Mana</font><br>\n<font color=\"#4850b8\">Heal Stamina Plus +32%</font><br>\n<font color=\"#4850b8\">+50 To Life</font><br>\n<font color=\"#4850b8\">Fire Resist +40-50%</font> (varies)<br>\n<font color=\"#00C400\">+15 To Dexterity</font> (2 Item)<br>\n<font color=\"#00C400\">+15 To Dexterity</font> (3 Items)<br>\n<font color=\"#00C400\">+15 To Dexterity</font> (Completed Set)\n</span></font>\n",
+        "img": "/img/items/sets/sets/aldursadvance.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n150% Bonus To Attack Rating (2 Items)<br>\n50% Better Chance Of Getting Magic Items (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Druid Skills<br>\n+350% Enhanced Damage*<br>\n150% Bonus To Attack Rating<br>\n50% Better Chance Of Getting Magic Items<br>\n10% Mana Stolen Per Hit<br>\nAll Resistances +50<br>\n+150 Defense<br>\n+150 To Mana<br>\nDisplay Aura<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Aldur's Watchtower"
+        ],
+        "subname": "Battle Boots"
+    },
+    {
+        "id": 3,
+        "name": "Aldur's Deception",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">746-857</font> (varies)(Base Defense: 446-557)<br>\nRequired Level: 76<br>\nRequired Strength: <font color=\"#4850b8\">115</font><br>\nDurability: 70<br>\n<font color=\"#4850b8\">+300 Defense</font><br>\n<font color=\"#4850b8\">Requirements -50%</font><br>\n<font color=\"#4850b8\">Lightning Resist +40-50%</font> (varies)<br>\n<font color=\"#4850b8\">+15 To Dexterity</font><br>\n<font color=\"#4850b8\">+20 To Strength</font><br>\n<font color=\"#4850b8\">+1 To Elemental Skills (Druid Only)</font><br>\n<font color=\"#4850b8\">+1 To Shape Shifting Skills (Druid Only)</font><br>\n<font color=\"#00C400\">+15 To Vitality</font> (2 Item)<br>\n<font color=\"#00C400\">+15 To Vitality</font> (3 Items)<br>\n<font color=\"#00C400\">+15 To Vitality</font> (Completed Set)\n</span></font>\n",
+        "img": "/img/items/sets/sets/aldursdeception.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n150% Bonus To Attack Rating (2 Items)<br>\n50% Better Chance Of Getting Magic Items (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Druid Skills<br>\n+350% Enhanced Damage*<br>\n150% Bonus To Attack Rating<br>\n50% Better Chance Of Getting Magic Items<br>\n10% Mana Stolen Per Hit<br>\nAll Resistances +50<br>\n+150 Defense<br>\n+150 To Mana<br>\nDisplay Aura<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Aldur's Watchtower"
+        ],
+        "subname": "Shadow Plate"
+    },
+    {
+        "id": 4,
+        "name": "Aldur's Rhythm",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nOne-Hand Damage: <font color=\"#4850b8\">60 To 93</font> (76.5 Avg)<br>\nRequired Level: 42<br>\nRequired Strength: 74<br>\nDurability: 72<br>\nBase Weapon Speed: [10]<br>\n<font color=\"#4850b8\">+200% Damage To Demons</font><br>\n<font color=\"#4850b8\">+50% Damage To Undead</font><br>\n<font color=\"#4850b8\">Adds 40-62 Damage</font><br>\n<font color=\"#4850b8\">Adds 50-75 Lightning Damage</font><br>\n<font color=\"#4850b8\">30% Increased Attack Speed</font><br>\n<font color=\"#4850b8\">10% Life Stolen Per Hit</font><br>\n<font color=\"#4850b8\">5% Mana Stolen Per Hit</font><br>\n<font color=\"#4850b8\">Socketed (2-3)</font> (varies)*<br>\n<font color=\"#00C400\">+15 To Strength</font> (2 Item)<br>\n<font color=\"#00C400\">+15 To Strength</font> (3 Items)<br>\n<font color=\"#00C400\">+15 To Strength</font> (Completed Set)\n</span></font>\n",
+        "img": "/img/items/sets/sets/aldursrythm.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n150% Bonus To Attack Rating (2 Items)<br>\n50% Better Chance Of Getting Magic Items (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Druid Skills<br>\n+350% Enhanced Damage*<br>\n150% Bonus To Attack Rating<br>\n50% Better Chance Of Getting Magic Items<br>\n10% Mana Stolen Per Hit<br>\nAll Resistances +50<br>\n+150 Defense<br>\n+150 To Mana<br>\nDisplay Aura<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Aldur's Watchtower"
+        ],
+        "subname": "Jagged Star"
+    },
+    {
+        "id": 5,
+        "name": "Bul-Kathos' Sacred Charge",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nOne Handed Damage: <font color=\"#4850b8\">75 To 195</font> (135 Avg)<br>\nTwo Handed Damage: <font color=\"#4850b8\">174 To 345</font> (259.5 Avg)<br>\nRequired Level: 63<br>\nRequired Strength: 189<br>\nRequired Dexterity: 110<br>\nDurability: 50<br>\nBase Weapon Speed: [5]<br>\n<font color=\"#4850b8\">+200% Enhanced Damage</font><br>\n<font color=\"#4850b8\">35% Chance of Crushing Blow</font><br>\n<font color=\"#4850b8\">All Resistances +20</font><br>\n<font color=\"#4850b8\">+20% Increased Attack Speed</font><br>\n<font color=\"#4850b8\">Knockback</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/bulkathossacredcharge.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n\n<b>Complete Set Bonus</b><br>\n+2 To All Skill Levels<br>\n+200 To Attack Rating<br>\n+200% Damage To Demons<br>\n+200% Damage To Undead<br>\n+20 Fire Damage<br>\n+25 Defense<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Bul-Kathos' Children"
+        ],
+        "subname": "Colossus Blade"
+    },
+    {
+        "id": 6,
+        "name": "Bul-Kathos' Tribal Guardian",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nOne Handed Damage: <font color=\"#4850b8\">120 To 150</font> (135 Avg)<br>\nRequired Level: 66<br>\nRequired Strength: 147<br>\nRequired Dexterity: 124<br>\nDurability: 44<br>\nBase Weapon Speed: [0]<br>\n<font color=\"#4850b8\">+200% Enhanced Damage</font><br>\n<font color=\"#4850b8\">+50 Poison Damage Over 2 Seconds</font><br>\n<font color=\"#4850b8\">Fire Resist +50%</font><br>\n<font color=\"#4850b8\">+20 To Strength</font><br>\n<font color=\"#4850b8\">+20% Increased Attack Speed</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/bulkathostribalguardian.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n\n<b>Complete Set Bonus</b><br>\n+2 To All Skill Levels<br>\n+200 To Attack Rating<br>\n+200% Damage To Demons<br>\n+200% Damage To Undead<br>\n+20 Fire Damage<br>\n+25 Defense<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Bul-Kathos' Children"
+        ],
+        "subname": "Mythical Sword"
+    },
+    {
+        "id": 7,
+        "name": "Cow King's Horns",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense : <font color=\"#4850b8\">120-128</font> (varies)(Base Defense: 45-53)<br>\nRequired Level: 25<br>\nRequired Strength: 20<br>\nDurability: 12<br>\n<font color=\"#4850b8\">+75 Defense</font><br>\n<font color=\"#4850b8\">Half Freeze Duration</font><br>\n<font color=\"#4850b8\">Attacker Takes Damage of 10</font><br>\n<font color=\"#4850b8\">35% Damage Taken Goes To Mana</font><br>\n</span></font>\n",
+        "img": "img/items/sets/armor/cap.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n\n<b>Partial Set Bonus</b><br>\nPoison Resist +25% (2 items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\nPoison Resist +25%<br>\n25% Chance To Cast Level 5 Static Field When Struck<br>\n+100 Maximum Stamina<br>\n+20 To Strength<br>\n+30% Increased Attack Speed<br>\n100% Better Chance Of Getting Magic Items<br>\n100% Extra Gold From Monsters<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Cow King's Leathers"
+        ],
+        "subname": "War Hat"
+    },
+    {
+        "id": 8,
+        "name": "Cow King's Hide",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">57</font> (Base Defense: 32-35)<br>\nRequired Level: 18<br>\nRequired Strength: 27<br>\nDurability: 32<br>\n<font color=\"#4850b8\">+60% Enhanced Defense</font><br>\n<font color=\"#4850b8\">18% Chance To Cast Level 5 Chain Lightning When Struck</font><br>\n<font color=\"#4850b8\">All Resistances +18</font><br>\n<font color=\"#4850b8\">+30 To Life</font><br>\n</span></font>\n",
+        "img": "img/items/sets/armor/studdedleather.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n\n<b>Partial Set Bonus</b><br>\nPoison Resist +25% (2 items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\nPoison Resist +25%<br>\n25% Chance To Cast Level 5 Static Field When Struck<br>\n+100 Maximum Stamina<br>\n+20 To Strength<br>\n+30% Increased Attack Speed<br>\n100% Better Chance Of Getting Magic Items<br>\n100% Extra Gold From Monsters<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Cow King's Leathers"
+        ],
+        "subname": "Studded Leather"
+    },
+    {
+        "id": 9,
+        "name": "Cow King's Hooves",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">30-41</font> (varies)(Base Defense: 5-6)<br>\nRequired Level: 13<br>\nRequired Strength: 18<br>\nDurability: 14<br>\nAssassin Kick Damage: 4-10<br>\n<font color=\"#4850b8\">+25-35 Defense</font> (varies)<br>\n<font color=\"#4850b8\">+30% Faster Run/Walk</font><br>\n<font color=\"#4850b8\">Adds 25-35 Fire Damage</font><br>\n<font color=\"#4850b8\">+20 To Dexterity</font><br>\n<font color=\"#4850b8\">25% Better Chance of Getting Magic Items</font><br>\n</span></font>\n",
+        "img": "img/items/sets/armor/heavyboots.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n\n<b>Partial Set Bonus</b><br>\nPoison Resist +25% (2 items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\nPoison Resist +25%<br>\n25% Chance To Cast Level 5 Static Field When Struck<br>\n+100 Maximum Stamina<br>\n+20 To Strength<br>\n+30% Increased Attack Speed<br>\n100% Better Chance Of Getting Magic Items<br>\n100% Extra Gold From Monsters<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Cow King's Leathers"
+        ],
+        "subname": "Heavy Boots"
+    },
+    {
+        "id": 10,
+        "name": "Telling of Beads",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nRequired Level: 30<br>\n<font color=\"#4850b8\">+1 To All Skills</font><br>\n<font color=\"#4850b8\">Poison Resist +35-50%</font> (varies)<br>\n<font color=\"#4850b8\">Cold Resist +18%</font><br>\n<font color=\"#4850b8\">Attacker Takes Damage of 8-10</font> (varies)<br>\n</span></font>\n",
+        "img": "img/items/sets/ra/amu2.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+150 Defense (2 Items)<br>\n+22 Poison Damage Over 3 Seconds (3 Items)*<br>\n+10 To Strength (4 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+150 Defense<br>\n+22 Poison Damage Over 3 Seconds*<br>\n+10 To Strength<br>\n+2 To All Skills<br>\nAll Resistances +50<br>\n+100 Mana<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "The Disciple"
+        ],
+        "subname": "Amulet"
+    },
+    {
+        "id": 11,
+        "name": "Laying of Hands",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">79-87</font> (varies)(Base Defense: 54-62)<br>\nRequired Level: 63<br>\nRequired Strength: 50<br>\nDurability: 12<br>\n<font color=\"#4850b8\">+25 Defense</font><br>\n<font color=\"#4850b8\">+20% Increased Attack Speed</font><br>\n<font color=\"#4850b8\">+350% Damage To Demons</font><br>\n<font color=\"#4850b8\">Fire Resist +50%</font><br>\n<font color=\"#4850b8\">10% Chance To Cast Level 3 Holy Bolt On Striking</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/layingofhands.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+150 Defense (2 Items)<br>\n+22 Poison Damage Over 3 Seconds (3 Items)*<br>\n+10 To Strength (4 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+150 Defense<br>\n+22 Poison Damage Over 3 Seconds*<br>\n+10 To Strength<br>\n+2 To All Skills<br>\nAll Resistances +50<br>\n+100 Mana<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "The Disciple"
+        ],
+        "subname": "Bramble Mitts"
+    },
+    {
+        "id": 12,
+        "name": "Dark Adherent",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">666-882</font> (varies)(Base Defense: 361-467)<br>\nRequired Level: 49<br>\nRequired Strength: 77<br>\nDurability: 20<br>\n<font color=\"#4850b8\">+305-415 Defense</font> (varies)<br>\n<font color=\"#4850b8\">Fire Resist +24%</font><br>\n<font color=\"#4850b8\">25% Chance To Cast Level 3 Nova When Struck</font><br>\n<font color=\"#4850b8\">Adds 24-34 Poison Damage Over 2 Seconds</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/darkadherent.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+150 Defense (2 Items)<br>\n+22 Poison Damage Over 3 Seconds (3 Items)*<br>\n+10 To Strength (4 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+150 Defense<br>\n+22 Poison Damage Over 3 Seconds*<br>\n+10 To Strength<br>\n+2 To All Skills<br>\nAll Resistances +50<br>\n+100 Mana<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "The Disciple"
+        ],
+        "subname": "Dusk Shroud"
+    },
+    {
+        "id": 13,
+        "name": "Rite of Passage",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">53-60</font> (varies)(Base Defense: 28-35)<br>\nRequired Level: 29<br>\nRequired Strength: 20<br>\nDurability: 12<br>\nAssassin Kick Damage: 26-46<br>\n<font color=\"#4850b8\">+25 Defense</font><br>\n<font color=\"#4850b8\">30% Faster Run/Walk</font><br>\n<font color=\"#4850b8\">+15-25 Maximum Stamina</font> (varies)<br>\n<font color=\"#4850b8\">Half Freeze Duration</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/riteofpassage.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+150 Defense (2 Items)<br>\n+22 Poison Damage Over 3 Seconds (3 Items)*<br>\n+10 To Strength (4 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+150 Defense<br>\n+22 Poison Damage Over 3 Seconds*<br>\n+10 To Strength<br>\n+2 To All Skills<br>\nAll Resistances +50<br>\n+100 Mana<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "The Disciple"
+        ],
+        "subname": "Demonhide Boots"
+    },
+    {
+        "id": 14,
+        "name": "Credendum",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">108-115</font> (varies)(Base Defense: 58-65)<br>\nRequired Level: 65<br>\nRequired Strength: 106<br>\nDurability: 16<br>\n16 boxes<br>\n<font color=\"#4850b8\">+50 Defense</font><br>\n<font color=\"#4850b8\">All Resistances +15</font><br>\n<font color=\"#4850b8\">+10 To Dexterity</font><br>\n<font color=\"#4850b8\">+10 To Strength</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/credendum.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+150 Defense (2 Items)<br>\n+22 Poison Damage Over 3 Seconds (3 Items)*<br>\n+10 To Strength (4 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+150 Defense<br>\n+22 Poison Damage Over 3 Seconds*<br>\n+10 To Strength<br>\n+2 To All Skills<br>\nAll Resistances +50<br>\n+100 Mana<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "The Disciple"
+        ],
+        "subname": "Mithril Coil"
+    },
+    {
+        "id": 15,
+        "name": "M'avina's True Sight",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">200-210</font>(varies) (Base Defense: 50-60)<br>\nRequired Level: 64<br>\nDurability: 20<br>\n<font color=\"#4850b8\">+150 Defense</font><br>\n<font color=\"#4850b8\">Replenish Life +10</font><br>\n<font color=\"#4850b8\">+25 To Mana</font><br>\n<font color=\"#4850b8\">+30% Increased Attack Speed</font><br>\n<font color=\"#00c400\">+1 To All Skills</font> (2 Items)<br>\n<font color=\"#00c400\">50% Bonus To Attack Rating</font> (3 Items)<br>\n<font color=\"#00c400\">All Resistances +25</font> (4 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/mavinastruesight.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+20 To Strength (2 Items)<br>\n+30 To Dexterity (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Amazon Skill Levels<br>\n+20 To Strength<br>\n+30 To Dexterity<br>\nAll Resistances +50<br>\n+100 Defense<br>\n+100 To Attack Rating<br>\n100% Better Chance Of Getting Magic Items<br>\nDisplay Aura\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "M'avina's Battle Hymn"
+        ],
+        "subname": "Diadem"
+    },
+    {
+        "id": 16,
+        "name": "M'avina's Caster",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDamage: <font color=\"#4850b8\">40 To 207</font> (123.5 Avg)<br>\nRequired Level: 70<br>\nRequired Strength: 108<br>\nRequired Dexterity: 152<br>\nBase Weapon Speed: [10]<br>\n<b>(Amazon Only)</b><br>\n<font color=\"#4850b8\">+188% Enhanced Damage</font><br>\n<font color=\"#4850b8\">+40% Increased Attack Speed</font><br>\n<font color=\"#4850b8\">+50 To Attack Rating</font><br>\n<font color=\"#4850b8\">Fires Magic Arrows [Level 1]</font><br>\n<font color=\"#00c400\">Adds 114-377 Magic Damage</font> (2 Items)<br>\n<font color=\"#00c400\">10% Chance To Cast Level 15 Nova On Striking</font> (3 Items)<br>\n<font color=\"#00c400\">+2 To Bow and Crossbow Skills (Amazon Only)</font> (4 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/mavinascaster.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+20 To Strength (2 Items)<br>\n+30 To Dexterity (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Amazon Skill Levels<br>\n+20 To Strength<br>\n+30 To Dexterity<br>\nAll Resistances +50<br>\n+100 Defense<br>\n+100 To Attack Rating<br>\n100% Better Chance Of Getting Magic Items<br>\nDisplay Aura\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "M'avina's Battle Hymn"
+        ],
+        "subname": "Grand Matron Bow"
+    },
+    {
+        "id": 17,
+        "name": "M'avina's Embrace",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">(771-1163) - (877-1269)</font> (varies)(Base Defense: 417-523)<br>\nRequired Level: 70<br>\nRequired Strength: <font color=\"#4850b8\">122</font><br>\nDurability: 48<br>\n<font color=\"#4850b8\">Requirements -30%</font><br>\n<font color=\"#4850b8\">10% Chance To Cast Level 3 Glacial Spike When Struck</font><br>\n<font color=\"#4850b8\">Magic Damage Reduced By 5-12</font> (varies)<br>\n<font color=\"#4850b8\">+ (4 Per Character Level) 4-396 Defense (Based On Character Level)</font><br>\n<font color=\"#4850b8\">+2 To Passive And Magic Skills (Amazon Only)</font><br>\n<font color=\"#4850b8\">+350 Defense</font><br>\n<font color=\"#00c400\">+30% Faster Hit Recovery</font> (3 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/mavinasembrace.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+20 To Strength (2 Items)<br>\n+30 To Dexterity (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Amazon Skill Levels<br>\n+20 To Strength<br>\n+30 To Dexterity<br>\nAll Resistances +50<br>\n+100 Defense<br>\n+100 To Attack Rating<br>\n100% Better Chance Of Getting Magic Items<br>\nDisplay Aura\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "M'avina's Battle Hymn"
+        ],
+        "subname": "Kraken Shell"
+    },
+    {
+        "id": 18,
+        "name": "M'avina's Icy Clutch",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">84-97</font> (varies)(Base Defense: 39-47)<br>\nRequired Level: 32<br>\nRequired Strength: 88<br>\nDurability: 18<br>\n<font color=\"#4850b8\">+45-50 Defense</font> (varies)<br>\n<font color=\"#4850b8\">6-18 Cold Damage, 6 sec. Duration (Normal)</font><br>\n<font color=\"#4850b8\">Half Freeze Duration</font><br>\n<font color=\"#4850b8\">56% Extra Gold From Monsters</font><br>\n<font color=\"#4850b8\">+10 To Strength</font><br>\n<font color=\"#4850b8\">+15 To Dexterity</font><br>\n<font color=\"#00c400\">Adds 131-252 Cold Damage, 4 sec. Duration (Normal)</font> (4 Items)<br>\n<font color=\"#00c400\">+20% To Cold Skill Damage</font> (Complete Set)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/mavinasicyclutch.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+20 To Strength (2 Items)<br>\n+30 To Dexterity (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Amazon Skill Levels<br>\n+20 To Strength<br>\n+30 To Dexterity<br>\nAll Resistances +50<br>\n+100 Defense<br>\n+100 To Attack Rating<br>\n100% Better Chance Of Getting Magic Items<br>\nDisplay Aura\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "M'avina's Battle Hymn"
+        ],
+        "subname": "Battle Gauntlets"
+    },
+    {
+        "id": 19,
+        "name": "M'avina's Tenet",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">81-86</font> (varies)(Base Defense: 31-36)<br>\nRequired Level: 45<br>\nRequired Strength: 20<br>\nDurability: 14<br>\n16 boxes<br>\n<font color=\"#4850b8\">+50 Defense</font><br>\n<font color=\"#4850b8\">+20% Faster Run/Walk</font><br>\n<font color=\"#4850b8\">+5 To Light Radius</font><br>\n<font color=\"#4850b8\">5% Mana Stolen Per Hit</font><br>\n<font color=\"#00c400\">All Resistances +25</font> (4 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/mavinastenet.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+20 To Strength (2 Items)<br>\n+30 To Dexterity (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Amazon Skill Levels<br>\n+20 To Strength<br>\n+30 To Dexterity<br>\nAll Resistances +50<br>\n+100 Defense<br>\n+100 To Attack Rating<br>\n100% Better Chance Of Getting Magic Items<br>\nDisplay Aura\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "M'avina's Battle Hymn"
+        ],
+        "subname": "Sharkskin Belt"
+    },
+    {
+        "id": 20,
+        "name": "Natalya's Totem",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">195-300</font>(varies) (Base Defense: 60-125)<br>\nRequired Level: 59<br>\nRequired Strength: 58<br>\nDurability: 40<br>\n<font color=\"#4850b8\">+135-175 Defense</font> (varies)<br>\n<font color=\"#4850b8\">All Resistances +10-20</font> (varies)<br>\n<font color=\"#4850b8\">+20-30 To Dexterity</font> (varies)<br>\n<font color=\"#4850b8\">+10-20 To Strength</font> (varies)<br>\n<font color=\"#4850b8\">Magic Damage Reduced By 3</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/natalyastotem.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\nMagic Damage Reduced By 15 (2 Items)<br>\n+200 Defense (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Assassin Skill Levels<br>\n+350 Defense<br>\n14% Life Stolen Per Hit<br>\n14% Mana Stolen Per Hit<br>\nAll Resistances +50<br>\nDamage Reduced by 30% (Awesome!)<br>\nMagic Damage Reduced By 15<br>\nFade*<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Natalya's Odium"
+        ],
+        "subname": "Grim Helm"
+    },
+    {
+        "id": 21,
+        "name": "Natalya's Mark",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDamage: <font color=\"#4850b8\">120 To 153</font> (136.5 Avg)<br>\nRequired Level: 79<br>\nRequired Strength: 118<br>\nRequired Dexterity: 118<br>\nDurability: 68<br>\nBase Weapon Speed: [0]<br>\n<b>(Assassin Only)</b><br>\n<font color=\"#4850b8\">+200% Enhanced Damage</font><br>\n<font color=\"#4850b8\">+200% Damage To Undead</font><br>\n<font color=\"#4850b8\">+200% Damage To Demons</font><br>\n<font color=\"#4850b8\">Adds 12-17 Fire Damage</font><br>\n<font color=\"#4850b8\">Ignores Target's Defense</font><br>\n<font color=\"#4850b8\">40% Increased Attack Speed</font><br>\n<font color=\"#4850b8\">+50 Cold Damage, 4 sec. Duration (Normal)</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/natalyasmark.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\nMagic Damage Reduced By 15 (2 Items)<br>\n+200 Defense (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Assassin Skill Levels<br>\n+350 Defense<br>\n14% Life Stolen Per Hit<br>\n14% Mana Stolen Per Hit<br>\nAll Resistances +50<br>\nDamage Reduced by 30% (Awesome!)<br>\nMagic Damage Reduced By 15<br>\nFade*<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Natalya's Odium"
+        ],
+        "subname": "Scissors Suwayyah"
+    },
+    {
+        "id": 22,
+        "name": "Natalya's Shadow",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">540-721</font> (varies)(Base Defense: 390-496)<br>\nRequired Level: 73<br>\nRequired Strength: 149<br>\nDurability: 36<br>\n<font color=\"#4850b8\">+150-225 Defense</font> (varies)<br>\n<font color=\"#4850b8\">+ (1  Per Character Level) 1-99 To Life (Based On Character Level)</font><br>\n<font color=\"#4850b8\">Poison Length Reduced By 75%</font><br>\n<font color=\"#4850b8\">Poison Resist +25%</font><br>\n<font color=\"#4850b8\">+2 To Shadow Disciplines Skills (Assassin Only)</font><br>\n<font color=\"#4850b8\">Socketed (1-3)</font> (varies)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/natalyasshadow.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\nMagic Damage Reduced By 15 (2 Items)<br>\n+200 Defense (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Assassin Skill Levels<br>\n+350 Defense<br>\n14% Life Stolen Per Hit<br>\n14% Mana Stolen Per Hit<br>\nAll Resistances +50<br>\nDamage Reduced by 30% (Awesome!)<br>\nMagic Damage Reduced By 15<br>\nFade*<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Natalya's Odium"
+        ],
+        "subname": "Loricated Mail"
+    },
+    {
+        "id": 23,
+        "name": "Natalya's Soul",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">112-169</font> (varies)(Base Defense: 37-44)<br>\nRequired Level: 25<br>\nRequired Strength: 65<br>\nDurability: <font color=\"#4850b8\">66</font><br>\nAssassin Kick Damage: 23-52<br>\n<font color=\"#4850b8\">+75-125 Defense</font> (varies)<br>\n<font color=\"#4850b8\">+40% Faster Run/Walk</font><br>\n<font color=\"#4850b8\">Heal Stamina Plus  (0.25 Per Character Level)  0-24% (Based On Character Level)</font><br>\n<font color=\"#4850b8\">Cold Resist +15-25%</font> (varies)<br>\n<font color=\"#4850b8\">Lightning Resist +15-25%</font> (varies)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/natalyassoul.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\nMagic Damage Reduced By 15 (2 Items)<br>\n+200 Defense (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Assassin Skill Levels<br>\n+350 Defense<br>\n14% Life Stolen Per Hit<br>\n14% Mana Stolen Per Hit<br>\nAll Resistances +50<br>\nDamage Reduced by 30% (Awesome!)<br>\nMagic Damage Reduced By 15<br>\nFade*<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Natalya's Odium"
+        ],
+        "subname": "Mesh Boots"
+    },
+    {
+        "id": 24,
+        "name": "Naj's Circlet",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">95-105</font>(varies) (Base Defense: 20-30)<br>\nRequired Level: 28<br>\nDurability: 35<br>\n<font color=\"#4850b8\">+75 Defense</font><br>\n<font color=\"#4850b8\">+25-35 Fire Damage</font><br>\n<font color=\"#4850b8\">12% Chance To Cast Level 5 Chain Lightning When Struck</font><br>\n<font color=\"#4850b8\">+15 To Strength</font><br>\n<font color=\"#4850b8\">+5 To Light Radius</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/najscirclet.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+175 Defense (2 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+175 Defense<br>\n+15 To Dexterity<br>\nAll Resistances +50<br>\n+20 To Strength<br>\n+100 To Mana<br>\n+1 To All Skills<br>\nReplenish Life +10\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Naj's Ancient Vestige"
+        ],
+        "subname": "Circlet"
+    },
+    {
+        "id": 25,
+        "name": "Naj's Light Plate",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">721-830</font> (varies)(Base Defense: 421-530)<br>\nRequired Level: 71<br>\nRequired Strength: <font color=\"#4850b8\">79</font><br>\nDurability: 60<br>\n<font color=\"#4850b8\">+300 Defense</font><br>\n<font color=\"#4850b8\">Requirements -60%</font><br>\n<font color=\"#4850b8\">45% Damage Taken Goes To Mana</font><br>\n<font color=\"#4850b8\">+1 To All Skills</font><br>\n<font color=\"#4850b8\">All Resistances +25</font><br>\n<font color=\"#4850b8\">+65 To Life</font><br>\n</span></font>\n",
+        "img": "img/items/sets/armor/platemail.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+175 Defense (2 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+175 Defense<br>\n+15 To Dexterity<br>\nAll Resistances +50<br>\n+20 To Strength<br>\n+100 To Mana<br>\n+1 To All Skills<br>\nReplenish Life +10\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Naj's Ancient Vestige"
+        ],
+        "subname": "Hellforge Plate"
+    },
+    {
+        "id": 26,
+        "name": "Naj's Puzzler",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDamage: <font color=\"#4850b8\">200 To 232</font> (216 Avg)<br>\nRequired Level: 78<br>\nRequired Strength: 44<br>\nRequired Dexterity: 37<br>\nDurability: 35<br>\nBase Weapon Speed: [0]<br>\n<font color=\"#4850b8\">+150% Enhanced Damage</font><br>\n<font color=\"#4850b8\">+50% Damage To Undead</font><br>\n<font color=\"#4850b8\">Adds 6-45 Lightning Damage</font><br>\n<font color=\"#4850b8\">+30% Faster Cast Rate</font><br>\n<font color=\"#4850b8\">+1 To All Skills</font><br>\n<font color=\"#4850b8\">+70 To Mana</font><br>\n<font color=\"#4850b8\">+35 To Energy</font><br>\n<font color=\"#4850b8\">Level 11 Teleport (69 Charges)</font><br>\n</span></font>\n",
+        "img": "img/items/sets/uniques/lazarusspire.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+175 Defense (2 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+175 Defense<br>\n+15 To Dexterity<br>\nAll Resistances +50<br>\n+20 To Strength<br>\n+100 To Mana<br>\n+1 To All Skills<br>\nReplenish Life +10\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Naj's Ancient Vestige"
+        ],
+        "subname": "Elder Staff"
+    },
+    {
+        "id": 27,
+        "name": "Guillaume's Face",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">217</font> (Base Defense: 85-98)<br>\nRequired Level: 34<br>\nRequired Strength: 115<br>\nDurability: 40<br>\n<font color=\"#4850b8\">+120% Enhanced Defense</font><br>\n<font color=\"#4850b8\">+30% Faster Hit Recovery</font><br>\n<font color=\"#4850b8\">15% Deadly Strike</font><br>\n<font color=\"#4850b8\">35% Chance of Crushing Blow</font><br>\n<font color=\"#4850b8\">+15 To Strength</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/guillaumesface.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+35 Life (2 Items)<br>\nAttacker Takes Damage of 5 (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+85 To Life<br>\nAttacker Takes Damage of 5<br>\nAll Resistances +15<br>\n+100 Defense<br>\n+10 To Dexterity<br>\n+20 To Strength<br>\n80% Better Chance of Getting Magic Items\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Orphan's Call"
+        ],
+        "subname": "Winged Helm"
+    },
+    {
+        "id": 28,
+        "name": "Whitstan's Guard",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">154</font> (Base Defense: 47-55)<br>\nRequired Level: 29<br>\nRequired Strength: 53<br>\nDurability: 64<br>\nChance To Block: <font color=\"#4850b8\">Pal: 97% Ama/Asn/Bar: 92% Dru/Nec/Sor: 87%</font><br>\nPaladin Smite Damage: 7 to 14<br>\n<font color=\"#4850b8\">+175% Enhanced Defense</font><br>\n<font color=\"#4850b8\">Half Freeze Duration</font><br>\n<font color=\"#4850b8\">40% Faster Block Rate</font><br>\n<font color=\"#4850b8\">+55% Increased Chance Of Blocking</font><br>\n<font color=\"#4850b8\">+5 To Light Radius</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/whitstansguard.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+35 Life (2 Items)<br>\nAttacker Takes Damage of 5 (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+85 To Life<br>\nAttacker Takes Damage of 5<br>\nAll Resistances +15<br>\n+100 Defense<br>\n+10 To Dexterity<br>\n+20 To Strength<br>\n80% Better Chance of Getting Magic Items\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Orphan's Call"
+        ],
+        "subname": "Round Shield"
+    },
+    {
+        "id": 29,
+        "name": "Magnus' Skin",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">60</font> (Base Defense: 33-39)<br>\nRequired Level: 37<br>\nRequired Strength: 20<br>\nDurability: 14<br>\n<font color=\"#4850b8\">+50% Enhanced Defense</font><br>\n<font color=\"#4850b8\">+20% Increased Attack Speed</font><br>\n<font color=\"#4850b8\">+100 To Attack Rating</font><br>\n<font color=\"#4850b8\">+3 To Light Radius</font><br>\n<font color=\"#4850b8\">Fire Resist +15%</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/magnusskin.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+35 Life (2 Items)<br>\nAttacker Takes Damage of 5 (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+85 To Life<br>\nAttacker Takes Damage of 5<br>\nAll Resistances +15<br>\n+100 Defense<br>\n+10 To Dexterity<br>\n+20 To Strength<br>\n80% Better Chance of Getting Magic Items\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Orphan's Call"
+        ],
+        "subname": "Sharkskin Gloves"
+    },
+    {
+        "id": 30,
+        "name": "Wilhelm's Pride",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">75</font> (Base Defense: 37-42)<br>\nRequired Level: 42<br>\nRequired Strength: 88<br>\nDurability: 18<br>\n16 boxes<br>\n<font color=\"#4850b8\">+75% Enhanced Defense</font><br>\n<font color=\"#4850b8\">5% Life Stolen Per Hit</font><br>\n<font color=\"#4850b8\">5% Mana Stolen Per Hit</font><br>\n<font color=\"#4850b8\">Cold Resist +10%</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/wilhelmspride.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+35 Life (2 Items)<br>\nAttacker Takes Damage of 5 (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+85 To Life<br>\nAttacker Takes Damage of 5<br>\nAll Resistances +15<br>\n+100 Defense<br>\n+10 To Dexterity<br>\n+20 To Strength<br>\n80% Better Chance of Getting Magic Items\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Orphan's Call"
+        ],
+        "subname": "Battle Belt"
+    },
+    {
+        "id": 31,
+        "name": "Civerb's Cudgel",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nOne-Hand Damage: <font color=\"#4850b8\">8 to (36-140)</font> (22-74 Avg)<br>\nRequired Level: 9<br>\nRequired Strength: 37<br>\nDurability: 60<br>\nBase Weapon Speed: [10]<br>\n<font color=\"#4850b8\">+ (1 Per Character Level) 1-99 To Maximum Damage (Based On Character Level)</font><br>\n<font color=\"#4850b8\">+17-23 to Max Damage</font>(varies)<br>\n<font color=\"#4850b8\">+50% Damage To Undead</font><br>\n<font color=\"#4850b8\">+75 to Attack Rating</font><br>\n</span></font>\n",
+        "img": "img/items/sets/weapons/grandscepter.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\nFire Resist +15% (2 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+200% Damage to Undead<br>\n+15 To Strength<br>\nFire Resist +15%<br>\nLightning Resist +25%<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Civerb's Vestments"
+        ],
+        "subname": "Grand Scepter"
+    },
+    {
+        "id": 32,
+        "name": "Civerb's Icon",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nRequired Level: 9<br>\n<font color=\"#4850b8\">Replenish Life +4</font><br>\n<font color=\"#4850b8\">Regenerate Mana 40%</font><br>\n<font color=\"#00C400\">Cold Resist +25%</font> (2 Items)<br>\n<font color=\"#00C400\">+25 Defense</font> (Complete Set)<br>\n</span></font>\n",
+        "img": "img/items/sets/ra/amu1.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\nFire Resist +15% (2 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+200% Damage to Undead<br>\n+15 To Strength<br>\nFire Resist +15%<br>\nLightning Resist +25%<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Civerb's Vestments"
+        ],
+        "subname": "Amulet"
+    },
+    {
+        "id": 33,
+        "name": "Civerb's Ward",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">27-29</font> (varies)(Base Defense: 12-14)<br>\nRequired Level: 9<br>\nRequired Strength: 34<br>\nDurability: 24<br>\nChance to Block: Pal: <font color=\"4850B8\">57%</font>, Ama/Asn/Bar: <font color=\"4850B8\">52</font>%<br> Dru/Nec/Sor: <font color=\"4850B8\">47%</font><br>\nPaladin Smite Damage: 2 to 4<br>\n<font color=\"#4850b8\">+15 Defense</font><br>\n<font color=\"#4850b8\">+15% Increased Block</font><br>\n<font color=\"#00C400\">+21-22 Mana</font> (Civerb's Icon)(varies)<br>\n<font color=\"#00C400\">Poison Resist +25-26%</font> (Civerb's Cudgel)(varies)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/civerbsward.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\nFire Resist +15% (2 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+200% Damage to Undead<br>\n+15 To Strength<br>\nFire Resist +15%<br>\nLightning Resist +25%<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Civerb's Vestments"
+        ],
+        "subname": "Large Shield"
+    },
+    {
+        "id": 34,
+        "name": "Cleglaw's Tooth",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nOne-Hand Damage: 3 to 19 (11 Avg)<br>\n<font color=\"#00C400\">One-Hand Damage: 3 to (20-142)</font> (11.5-72.5 Avg)<br>\nRequired Level: 4<br>\nRequired Strength: 55<br>\nRequired Dexterity: 39<br>\nDurability: 44<br>\nBase Weapon Speed: [-10]<br>\n<font color=\"#4850b8\">50% Deadly Strike</font><br>\n<font color=\"#4850b8\">30% Bonus to Attack rating</font><br>\n<font color=\"#00C400\">+ (1.25 Per Character Level) +1-123 To Maximum Damage (Based On Character Level)</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/cleglawstooth.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+50 Defense (2 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+100 Defense<br>\n35% Chance of Crushing Blow<br>\n6% Mana Stolen Per Hit<br>\n20% Increased Attack Speed\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Cleglaw's brace"
+        ],
+        "subname": "Long Sword"
+    },
+    {
+        "id": 35,
+        "name": "Cleglaw's Pincers",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 8-9 (varies)<br>\nRequired Level: 4<br>\nRequired Strength: 25<br>\nDurability: 16<br>\n<font color=\"#4850b8\">Slows Target by 25%</font><br>\n<font color=\"#4850b8\">Knockback</font><br>\n<font color=\"#00C400\">+ (10 Per Character Level) 10-990 Attack Rating (Based On Character Level)</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/cleglawspincers.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+50 Defense (2 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+100 Defense<br>\n35% Chance of Crushing Blow<br>\n6% Mana Stolen Per Hit<br>\n20% Increased Attack Speed\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Cleglaw's brace"
+        ],
+        "subname": "Chain Gloves"
+    },
+    {
+        "id": 36,
+        "name": "Cleglaw's Claw",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">25-27</font> (varies)(Base Defense: 8-10)<br>\nRequired Level: 4<br>\nRequired Strength: 22<br>\nDurability: 16<br>\nPaladin Smite Damage: 2 to 3<br>\nChance to Block: Pal: <font color=\"4850B8\">35%</font>, Ama/Asn/Bar: <font color=\"4850B8\">30%</font><br> Dru/Nec/Sor: <font color=\"4850B8\">25%</font><br>\n<font color=\"#4850b8\">Poison Length Reduced by 75%</font><br>\n<font color=\"#4850b8\">+17 Defense</font><br>\n<font color=\"#00C400\">All Resistances +15</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/cleglawsclaw.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+50 Defense (2 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+100 Defense<br>\n35% Chance of Crushing Blow<br>\n6% Mana Stolen Per Hit<br>\n20% Increased Attack Speed\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Cleglaw's brace"
+        ],
+        "subname": "Small Shield"
+    },
+    {
+        "id": 37,
+        "name": "Death's Touch",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nOne-Hand Damage: <font color=\"#4850b8\">10 to 25</font> (17.5 Avg)<br>\nRequired Level: 6<br>\nRequired Strength: 71<br>\nRequired Dexterity: 45<br>\nDurability: 44<br>\nBase Weapon Speed: [0]<br>\n<font color=\"#4850b8\">+25% Enhanced Damage</font><br>\n<font color=\"#4850b8\">4% Life Stolen Per Hit</font><br>\n<font color=\"#00C400\">Adds 25-75 Cold Damage, 3 sec. Duration (Normal)</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/deathstouch.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+8% Life Steal (2 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+8% Life Steal<br>\n40% Bonus to Attack Rating<br>\nAll Resistances +25<br>\n+10 to Minimum Damage\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Death's Disguise"
+        ],
+        "subname": "War Sword"
+    },
+    {
+        "id": 38,
+        "name": "Death's Hand",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 2-3 (varies)<br>\nRequired Level: 6<br>\nDurability: 12<br>\n<font color=\"#4850b8\">Poison Length Reduced by 75%</font><br>\n<font color=\"#4850b8\">Poison Resist 50%</font><br>\n<font color=\"#00C400\">30% Increased Attack Speed</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/deathshand.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+8% Life Steal (2 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+8% Life Steal<br>\n40% Bonus to Attack Rating<br>\nAll Resistances +25<br>\n+10 to Minimum Damage\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Death's Disguise"
+        ],
+        "subname": "Leather Gloves"
+    },
+    {
+        "id": 39,
+        "name": "Death's Guard",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">22</font> (Base Defense: 2)<br>\nRequired Level: 6<br>\nDurability: 12<br>\n8 boxes<br>\n<font color=\"#4850b8\">Cannot be Frozen</font><br>\n<font color=\"#4850b8\">+20 Defense</font><br>\n<font color=\"#00C400\">All Resistances +15</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/deathsguard.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+8% Life Steal (2 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+8% Life Steal<br>\n40% Bonus to Attack Rating<br>\nAll Resistances +25<br>\n+10 to Minimum Damage\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Death's Disguise"
+        ],
+        "subname": "Sash"
+    },
+    {
+        "id": 40,
+        "name": "Hsarus' Iron Fist",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 4-6 (varies)<br>\nDefense: <font color=\"#00C400\">(6-251) - (8-253)</font> (varies)(Base Defense: 4-6)<br>\nRequired Level: 3<br>\nRequired Strength: 12<br>\nDurability: 12<br>\nPaladin Smite Damage: 1 to 3<br>\nChance to Block: Pal: <font color=\"4850B8\">30%</font>, Ama/Asn/Bar/: <font color=\"4850B8\">25</font>%<br> Dru/Nec/Sor: <font color=\"4850B8\">20%</font><br>\n<font color=\"#4850b8\">Damage Reduced by 2</font><br>\n<font color=\"#4850b8\">+10 to Strength</font><br>\n<font color=\"#00C400\">+ (2.5 Per Character Level) 2-247 Defense (Based On Character Level)</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/hsarusironfist.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\nAttacker Takes Damage of 5 (2 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\nAttacker Takes Damage of 5<br>\nCannot be Frozen<br>\nLightning Resist +25%<br>\n+5 to Max Damage\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Hsaru's Defense"
+        ],
+        "subname": "Buckler"
+    },
+    {
+        "id": 41,
+        "name": "Hsarus' Iron Stay",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 5<br>\nDefense: <font color=\"#00C400\">7-252</font> (Base Defense: 5)<br>\nRequired Level: 3<br>\nRequired Strength: 25<br>\nDurability: 16<br>\n12 boxes<br>\n<font color=\"#4850b8\">Cold Resist +20%</font><br>\n<font color=\"#4850b8\">+20 to Life</font><br>\n<font color=\"#00C400\">+ (2.5 Per Character Level) 2-247 Defense (Based On Character Level)</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/hsarusironstay.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\nAttacker Takes Damage of 5 (2 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\nAttacker Takes Damage of 5<br>\nCannot be Frozen<br>\nLightning Resist +25%<br>\n+5 to Max Damage\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Hsaru's Defense"
+        ],
+        "subname": "Belt"
+    },
+    {
+        "id": 42,
+        "name": "Hsarus' Iron Heel",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 8-9 (varies)<br>\nRequired Level: 3<br>\nRequired Strength: 30<br>\nDurability: 16<br>\nAssassin Kick Damage: 6-12<br>\n<font color=\"#4850b8\">20% Faster Run/Walk</font><br>\n<font color=\"#4850b8\">Fire Resist +25%</font><br>\n<font color=\"#00C400\">+ (10 Per Character Level) 10-990 Attack Rating (Based On Character Level)</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/hsarusironwheel.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\nAttacker Takes Damage of 5 (2 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\nAttacker Takes Damage of 5<br>\nCannot be Frozen<br>\nLightning Resist +25%<br>\n+5 to Max Damage\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Hsaru's Defense"
+        ],
+        "subname": "Chain Boots"
+    },
+    {
+        "id": 43,
+        "name": "Infernal Cranium",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 3-5 (varies)<br>\nDefense: <font color=\"#00C400\">(5-201) - (7-203)</font> (varies)(Base Defense: 3-5)<br>\nRequired Level: 5<br>\nDurability: 12<br>\n<font color=\"#4850b8\">20% Damage Taken Goes to Mana</font><br>\n<font color=\"#4850b8\">All Resistances +10</font><br>\n<font color=\"#00C400\">+ (2 Per Character Level) 2-198 Defense (Based On Character Level)</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/infernalcranium.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+8 Poison Damage Over 3 Seconds (2 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+8 Poison Damage Over 3 Seconds<br>\n20% Chance of Open Wounds<br>\n+1 to Necromancer Skill Levels<br>\n20% Bonus to Attack Rating<br>\n6% Mana Stolen Per Hit\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Infernal Tools"
+        ],
+        "subname": "Cap"
+    },
+    {
+        "id": 44,
+        "name": "Infernal Sign",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">31</font> (Base Defense: 6)<br>\nRequired Level: 5<br>\nRequired Strength: 45<br>\nDurability: 18<br>\n12 boxes<br>\n<font color=\"#4850b8\">+25 Defense</font><br>\n<font color=\"#4850b8\">+20 to Life</font><br>\n<font color=\"#00C400\">Poison Resist +25%</font> (2 Items)<br>\n<font color=\"#00C400\">Half Freeze Duration</font> (3 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/infernalbuckle.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+8 Poison Damage Over 3 Seconds (2 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+8 Poison Damage Over 3 Seconds<br>\n20% Chance of Open Wounds<br>\n+1 to Necromancer Skill Levels<br>\n20% Bonus to Attack Rating<br>\n6% Mana Stolen Per Hit\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Infernal Tools"
+        ],
+        "subname": "Heavy Belt"
+    },
+    {
+        "id": 45,
+        "name": "Infernal Torch",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nOne-Hand Damage: <font color=\"#4850b8\">13 to 14</font> (13.5 Avg)<br>\nRequired Level: 5<br>\nDurability: 15<br>\nBase Weapon Speed: [0]<br>\n<font color=\"#4850b8\">+1 To Necromancer Skill Levels</font><br>\n<font color=\"#4850b8\">+8 to Min Damage</font><br>\n<font color=\"#4850b8\">150% Damage to Undead</font><br>\n<font color=\"#00C400\">+ (10 Per Character Level) 10-990 Attack Rating (Based On Character Level)</font> (2 Items)<br>\n</span></font>\n",
+        "img": "img/items/sets/weapons/grimwand.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+8 Poison Damage Over 3 Seconds (2 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+8 Poison Damage Over 3 Seconds<br>\n20% Chance of Open Wounds<br>\n+1 to Necromancer Skill Levels<br>\n20% Bonus to Attack Rating<br>\n6% Mana Stolen Per Hit\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Infernal Tools"
+        ],
+        "subname": "Grim Wand"
+    },
+    {
+        "id": 46,
+        "name": "Sander's Paragon",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">(4-102) - (6-104)</font>(varies) (Base Defense: 3-5)<br>\nRequired Level: 25<br>\nDurability: 12<br>\n<font color=\"#4850b8\">+ (1 Per Character Level)  1-99 Defense (Based on Character Level)</font><br>\n<font color=\"#4850b8\">Attacker Takes Damage of 8</font><br>\n<font color=\"#4850b8\">35% Better Chance of Getting Magic Items</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/sandersparagon.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+50 Defense (2 Items)<br>\n+75 To Attack Rating (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+50 Defense<br>\n+75 To Attack Rating<br>\n+1 To All Skills<br>\n4% Life Stolen Per Hit<br>\n+50 To Mana<br>\n50% Better Chance Of Getting Magic Items\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Sander's Folly"
+        ],
+        "subname": "Cap"
+    },
+    {
+        "id": 47,
+        "name": "Sander's Superstition",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDamage: <font color=\"#4850b8\">5 To 12</font> (8.5 Avg)<br>\nRequired Level: 25<br>\nDurability: 15<br>\nBase Weapon Speed: [-20]<br>\n<font color=\"#4850b8\">+75% Enhanced Damage</font><br>\n<font color=\"#4850b8\">+50% Damage To Undead</font><br>\n<font color=\"#4850b8\">+20% Faster Cast Rate</font><br>\n<font color=\"#4850b8\">+25 To Mana</font><br>\n<font color=\"#4850b8\">8% Mana Stolen Per Hit</font><br>\n<font color=\"#4850b8\">25-75 Cold Damage, 2 sec. Duration (Normal)</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/sanderssuperstition.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+50 Defense (2 Items)<br>\n+75 To Attack Rating (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+50 Defense<br>\n+75 To Attack Rating<br>\n+1 To All Skills<br>\n4% Life Stolen Per Hit<br>\n+50 To Mana<br>\n50% Better Chance Of Getting Magic Items\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Sander's Folly"
+        ],
+        "subname": "Bone Wand"
+    },
+    {
+        "id": 48,
+        "name": "Sander's Taboo",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">25-31</font> (varies)(Base Defense: 5-6)<br>\nRequired Level: 28<br>\nDurability: 14<br>\n<font color=\"#4850b8\">Adds 9-11 Poison Damage Over 3 Seconds</font><br>\n<font color=\"#4850b8\">+20-25 Defense</font><br>\n<font color=\"#4850b8\">+40 To Life</font><br>\n<font color=\"#4850b8\">+20% Increased Attack Speed</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/sanderstaboo.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+50 Defense (2 Items)<br>\n+75 To Attack Rating (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+50 Defense<br>\n+75 To Attack Rating<br>\n+1 To All Skills<br>\n4% Life Stolen Per Hit<br>\n+50 To Mana<br>\n50% Better Chance Of Getting Magic Items\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Sander's Folly"
+        ],
+        "subname": "Heavy Gloves"
+    },
+    {
+        "id": 49,
+        "name": "Sander's Riprap",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 5-6 (varies)<br>\nRequired Level: 20<br>\nRequired Strength: 18<br>\nDurability: 14<br>\nAssassin Kick Damage: 4-10<br>\n<font color=\"#4850b8\">+40% Faster Run/Walk</font><br>\n<font color=\"#4850b8\">+100 To Attack Rating</font><br>\n<font color=\"#4850b8\">+10 To Dexterity</font><br>\n<font color=\"#4850b8\">+5 To Strength</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/sandersriprap.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+50 Defense (2 Items)<br>\n+75 To Attack Rating (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+50 Defense<br>\n+75 To Attack Rating<br>\n+1 To All Skills<br>\n4% Life Stolen Per Hit<br>\n+50 To Mana<br>\n50% Better Chance Of Getting Magic Items\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Sander's Folly"
+        ],
+        "subname": "Heavy Boots"
+    },
+    {
+        "id": 50,
+        "name": "Sazabi's Mental Sheath",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">175-184</font>(varies) (Base Defense: 75-84)<br>\nRequired Level: 43<br>\nRequired Strength: 82<br>\nDurability: 30<br>\n<font color=\"#4850b8\">+1 To All Skills</font><br>\n<font color=\"#4850b8\">Lightning Resist +15-20%</font> (varies)<br>\n<font color=\"#4850b8\">Fire Resist +15-20%</font> (varies)<br>\n<font color=\"#4850b8\">+100 Defense</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/sazabismentalsheath.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+40% Faster Run/Walk (2 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+40% Faster Run/Walk<br>\n15% Life Stolen Per Hit<br>\nIncrease Maximum Life 27%<br>\nAll Resistances +30<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Sazabi's Grand Tribute"
+        ],
+        "subname": "Basinet"
+    },
+    {
+        "id": 51,
+        "name": "Sazabi's Cobalt Redeemer",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDamage: <font color=\"#4850b8\">12 To 192</font> (102 Avg)<br>\nRequired Level: 73<br>\nRequired Strength: 99<br>\nRequired Dexterity: 109<br>\nBase Weapon Speed: [-10]<br>\n<font color=\"#4850b8\">+150% Enhanced Damage</font><br>\n<font color=\"#4850b8\">+318% Damage To Demons</font><br>\n<font color=\"#4850b8\">Adds 25-35 Cold Damage, 2 sec. Duration (Normal)</font><br>\n<font color=\"#4850b8\">+40% Increased Attack Speed</font><br>\n<font color=\"#4850b8\">Indestructible</font><br>\n<font color=\"#4850b8\">+15 To Dexterity</font><br>\n<font color=\"#4850b8\">+5 To Strength</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/sazabiscobaltredeemer.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+40% Faster Run/Walk (2 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+40% Faster Run/Walk<br>\n15% Life Stolen Per Hit<br>\nIncrease Maximum Life 27%<br>\nAll Resistances +30<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Sazabi's Grand Tribute"
+        ],
+        "subname": "Cryptic Sword"
+    },
+    {
+        "id": 52,
+        "name": "Sazabi's Ghost Liberator",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">810-917</font> (varies)(Base Defense: 410-517)<br>\nRequired Level: 67<br>\nRequired Strength: 165<br>\nDurability: 30<br>\n<font color=\"#4850b8\">+400 Defense</font><br>\n<font color=\"#4850b8\">+30% Faster Hit Recovery</font><br>\n<font color=\"#4850b8\">+300 To Attack Rating Against Demons</font><br>\n<font color=\"#4850b8\">+25 To Strength</font><br>\n<font color=\"#4850b8\">+50-75 To Life</font> (varies)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/sazabisghostliberator.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+40% Faster Run/Walk (2 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+40% Faster Run/Walk<br>\n15% Life Stolen Per Hit<br>\nIncrease Maximum Life 27%<br>\nAll Resistances +30<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Sazabi's Grand Tribute"
+        ],
+        "subname": "Balrog Skin"
+    },
+    {
+        "id": 53,
+        "name": "Tal Rasha's Lidless Eye",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDamage: 18 To 42 (30 Avg)<br>\nRequired Level: 65<br>\nDurability: 50<br>\nBase Weapon Speed: [10]<br>\n<b>(Sorceress Only)</b><br>\n<font color=\"#4850b8\">20% Faster Cast Rate</font><br>\n<font color=\"#4850b8\">+77 To Mana</font><br>\n<font color=\"#4850b8\">+57 To Life</font><br>\n<font color=\"#4850b8\">+10 To Energy</font><br>\n<font color=\"#4850b8\">+1-2 To Lightning Mastery (Sorceress Only)</font> (varies)<br>\n<font color=\"#4850b8\">+1-2 To Fire Mastery (Sorceress Only)</font> (varies)<br>\n<font color=\"#4850b8\">+1-2 To Cold Mastery (Sorceress Only)</font> (varies)<br>\n<font color=\"#00c400\">+1 To Sorceress Skill Levels</font> (2 Items)<br>\n<font color=\"#00c400\">-15% To Enemy Fire Resistance</font> (3 Items)<br>\n<font color=\"#00c400\">-15% To Enemy Lightning Resistance</font> (4 Items)<br>\n<font color=\"#00c400\">+15% To Cold Skills Damage</font> (Complete Set)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/talrashaslidlesseye.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\nReplenish Life +10 (2 Items)<br>\n65% Better Chance Of Getting Magic Items (3 Items)<br>\n25% Faster Hit Recovery (4 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Sorceress Skill Levels<br>\nReplenish Life +10<br>\n65% Better Chance Of Getting Magic Items<br>\n25% Faster Hit Recovery<br>\n+150 To Life<br>\nAll Resistances +50<br>\n+50 Defense vs. Missile<br>\n+150 Defense<br>\nDisplay Aura<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Tal Rasha's Wrappings"
+        ],
+        "subname": "Swirling Crystal"
+    },
+    {
+        "id": 54,
+        "name": "Tal Rasha's Horadric Crest",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">99-131</font> (varies)(Base Defense: 54-86)<br>\nRequired Level: 66<br>\nRequired Strength: 55<br>\nDurability: 20<br>\n<font color=\"#4850b8\">10% Life Stolen Per Hit</font><br>\n<font color=\"#4850b8\">10% Mana Stolen Per Hit</font><br>\n<font color=\"#4850b8\">All Resistances +15</font><br>\n<font color=\"#4850b8\">+45 Defense</font><br>\n<font color=\"#4850b8\">+30 To Mana</font><br>\n<font color=\"#4850b8\">+60 To Life</font><br>\n</span></font>\n",
+        "img": "img/items/sets/armor/mask.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\nReplenish Life +10 (2 Items)<br>\n65% Better Chance Of Getting Magic Items (3 Items)<br>\n25% Faster Hit Recovery (4 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Sorceress Skill Levels<br>\nReplenish Life +10<br>\n65% Better Chance Of Getting Magic Items<br>\n25% Faster Hit Recovery<br>\n+150 To Life<br>\nAll Resistances +50<br>\n+50 Defense vs. Missile<br>\n+150 Defense<br>\nDisplay Aura<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Tal Rasha's Wrappings"
+        ],
+        "subname": "Death Mask"
+    },
+    {
+        "id": 55,
+        "name": "Tal Rasha's Guardianship",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">833-941</font> (varies)(Base Defense: 433-541)<br>\nRequired Level: 71<br>\nRequired Strength: <font color=\"#4850b8\">84</font><br>\nDurability: 55<br>\n<font color=\"#4850b8\">+400 Defense</font><br>\n<font color=\"#4850b8\">Requirements -60%</font><br>\n<font color=\"#4850b8\">Magic Damage Reduced By 15</font><br>\n<font color=\"#4850b8\">Cold Resist +40%</font><br>\n<font color=\"#4850b8\">Lightning Resist +40%</font><br>\n<font color=\"#4850b8\">Fire Resist +40%</font><br>\n<font color=\"#4850b8\">88% Better Chance Of Getting Magic Items</font><br>\n<font color=\"#00c400\">+10% Faster Cast Rate</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/talrashasguardianship.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\nReplenish Life +10 (2 Items)<br>\n65% Better Chance Of Getting Magic Items (3 Items)<br>\n25% Faster Hit Recovery (4 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Sorceress Skill Levels<br>\nReplenish Life +10<br>\n65% Better Chance Of Getting Magic Items<br>\n25% Faster Hit Recovery<br>\n+150 To Life<br>\nAll Resistances +50<br>\n+50 Defense vs. Missile<br>\n+150 Defense<br>\nDisplay Aura<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Tal Rasha's Wrappings"
+        ],
+        "subname": "Lacquered Plate"
+    },
+    {
+        "id": 56,
+        "name": "Tal Rasha's Fine-Spun Cloth",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 35-40 (varies)<br>\nDefense: <font color=\"#00c400\">95-100</font> (varies) (Base Defense: 35-40)<br>\nRequired Level: 53<br>\nRequired Strength: <font color=\"#4850b8\">47</font><br>\nDurability: 16<br>\n16 boxes<br>\n<font color=\"#4850b8\">Requirements -20%</font><br>\n<font color=\"#4850b8\">37% Damage Taken Goes To Mana</font><br>\n<font color=\"#4850b8\">+30 To Mana</font><br>\n<font color=\"#4850b8\">+20 To Dexterity</font><br>\n<font color=\"#4850b8\">10-15% Better Chance Of Getting Magic Items</font> (varies)<br>\n<font color=\"#00c400\">+60 Defense</font> (2 Items)<br>\n<font color=\"#00c400\">+10% Faster Cast Rate</font> (3 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/talrashasfine-spuncloth.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\nReplenish Life +10 (2 Items)<br>\n65% Better Chance Of Getting Magic Items (3 Items)<br>\n25% Faster Hit Recovery (4 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Sorceress Skill Levels<br>\nReplenish Life +10<br>\n65% Better Chance Of Getting Magic Items<br>\n25% Faster Hit Recovery<br>\n+150 To Life<br>\nAll Resistances +50<br>\n+50 Defense vs. Missile<br>\n+150 Defense<br>\nDisplay Aura<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Tal Rasha's Wrappings"
+        ],
+        "subname": "Mesh Belt"
+    },
+    {
+        "id": 57,
+        "name": "Tal Rasha's Adjudication",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nRequired Level: 67<br>\n<font color=\"#4850b8\">+2 To Sorceress Skill Levels</font><br>\n<font color=\"#4850b8\">Lightning Resist +33%</font><br>\n<font color=\"#4850b8\">Adds 3-32 Lightning Damage</font><br>\n<font color=\"#4850b8\">+42 To Mana</font><br>\n<font color=\"#4850b8\">+50 To Life</font><br>\n<font color=\"#00c400\">+10% Faster Cast Rate</font> (4 Items)<br>\n</span></font>\n",
+        "img": "img/items/sets/ra/amu2.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\nReplenish Life +10 (2 Items)<br>\n65% Better Chance Of Getting Magic Items (3 Items)<br>\n25% Faster Hit Recovery (4 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Sorceress Skill Levels<br>\nReplenish Life +10<br>\n65% Better Chance Of Getting Magic Items<br>\n25% Faster Hit Recovery<br>\n+150 To Life<br>\nAll Resistances +50<br>\n+50 Defense vs. Missile<br>\n+150 Defense<br>\nDisplay Aura<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Tal Rasha's Wrappings"
+        ],
+        "subname": "Amulet"
+    },
+    {
+        "id": 58,
+        "name": "Trang-Oul's Guise",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">180-257</font> (varies)(Base Defense: 100-157)<br>\nRequired Level: 65<br>\nRequired Strength: 106<br>\nDurability: 40<br>\n<font color=\"#4850b8\">25% Faster Hit Recovery</font><br>\n<font color=\"#4850b8\">Replenish Life +5</font><br>\n<font color=\"#4850b8\">+80-100 Defense</font> (varies)<br>\n<font color=\"#4850b8\">+150 To Mana</font><br>\n<font color=\"#4850b8\">Attacker Takes Damage of 20</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/trang-oulsguise.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+18 To Fire Ball (2 Items)*<br>\nRegenerate Mana 15% (2 Items)<br>\n+13 To Fire Wall (3 Items)<br>\nAdditional Regenerate Mana 15% (3 Items)<br>\nAdditional Regenerate Mana 15% (4 Items)<br>\n+10 To Meteor (4 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Necromancer Skill Levels<br>\n20% Life Stolen Per Hit<br>\n+3 To Fire Mastery<br>\n+10 To Meteor<br>\n+13 To Fire Wall<br>\n+18 To Fire Ball*<br>\n+200 Defense<br>\n+100 To Mana<br>\nRegenerate Mana 60%<br>\nAll Resistances +50<br>\nTransforms into <a href=\"/diablo2exp/monsters/act1-vampire.shtml\">Vampire</a>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Trang-Oul's Avatar"
+        ],
+        "subname": "Bone Visage"
+    },
+    {
+        "id": 59,
+        "name": "Trang-Oul's Scales",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">857</font> (Base Defense: 315-343)<br>\nRequired Level: 49<br>\nRequired Strength: <font color=\"#4850b8\">84</font><br>\nDurability: 70<br>\n<font color=\"#4850b8\">+150% Enhanced Defense</font><br>\n<font color=\"#4850b8\">Requirements -40%</font><br>\n<font color=\"#4850b8\">40% Faster Run/Walk</font><br>\n<font color=\"#4850b8\">Poison Resist +40%</font><br>\n<font color=\"#4850b8\">+100 Defense vs. Missile</font><br>\n<font color=\"#4850b8\">+2 To Summoning Skills (Necromancer Only)</font><br>\n<font color=\"#00c400\">Lightning Resist +50%</font> (3 Items)<br>\n<font color=\"#00c400\">Damage Reduced By 25%</font> (Complete Set)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/trang-oulsscales.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+18 To Fire Ball (2 Items)*<br>\nRegenerate Mana 15% (2 Items)<br>\n+13 To Fire Wall (3 Items)<br>\nAdditional Regenerate Mana 15% (3 Items)<br>\nAdditional Regenerate Mana 15% (4 Items)<br>\n+10 To Meteor (4 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Necromancer Skill Levels<br>\n20% Life Stolen Per Hit<br>\n+3 To Fire Mastery<br>\n+10 To Meteor<br>\n+13 To Fire Wall<br>\n+18 To Fire Ball*<br>\n+200 Defense<br>\n+100 To Mana<br>\nRegenerate Mana 60%<br>\nAll Resistances +50<br>\nTransforms into <a href=\"/diablo2exp/monsters/act1-vampire.shtml\">Vampire</a>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Trang-Oul's Avatar"
+        ],
+        "subname": "Chaos Armor"
+    },
+    {
+        "id": 60,
+        "name": "Trang-Oul's Wing",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">175-189</font> (varies)(Base Defense: 50-64)<br>\nRequired Level: 54<br>\nRequired Strength: 50<br>\nDurability: 20<br>\nChance to Block: <font color=\"#4850b8\">60%</font><br>\n<b>(Necromancer Only)</b><br>\n<font color=\"#4850b8\">+125 Defense</font><br>\n<font color=\"#4850b8\">+30% Increased Chance Of Blocking</font><br>\n<font color=\"#4850b8\">Poison Resist +40%</font><br>\n<font color=\"#4850b8\">Fire Resist +38-45%</font> (varies)<br>\n<font color=\"#4850b8\">+15 To Dexterity</font><br>\n<font color=\"#4850b8\">+25 To Strength</font><br>\n<font color=\"#4850b8\">+2 To Poison And Bone Skills (Necromancer Only)</font><br>\n<font color=\"#00c400\">-25% To Enemy Poison Resistance</font> (3 Items)<br>\n<font color=\"#00c400\">Replenish Life +15</font> (4 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/trang-oulswing.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+18 To Fire Ball (2 Items)*<br>\nRegenerate Mana 15% (2 Items)<br>\n+13 To Fire Wall (3 Items)<br>\nAdditional Regenerate Mana 15% (3 Items)<br>\nAdditional Regenerate Mana 15% (4 Items)<br>\n+10 To Meteor (4 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Necromancer Skill Levels<br>\n20% Life Stolen Per Hit<br>\n+3 To Fire Mastery<br>\n+10 To Meteor<br>\n+13 To Fire Wall<br>\n+18 To Fire Ball*<br>\n+200 Defense<br>\n+100 To Mana<br>\nRegenerate Mana 60%<br>\nAll Resistances +50<br>\nTransforms into <a href=\"/diablo2exp/monsters/act1-vampire.shtml\">Vampire</a>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Trang-Oul's Avatar"
+        ],
+        "subname": "Cantor Trophy"
+    },
+    {
+        "id": 61,
+        "name": "Trang-Oul's Girth",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">134-166</font> (varies)(Base Defense: 59-66)<br>\nRequired Level: 62<br>\nRequired Strength: <font color=\"#4850b8\">91</font><br>\nDurability: 18<br>\n16 boxes<br>\n<font color=\"#4850b8\">+75-100 Defense</font> (varies)<br>\n<font color=\"#4850b8\">Requirements -40%</font><br>\n<font color=\"#4850b8\">Cannot Be Frozen</font><br>\n<font color=\"#4850b8\">Replenish Life +5</font><br>\n<font color=\"#4850b8\">+25-50 To Mana</font> (varies)<br>\n<font color=\"#4850b8\">+30 Maximum Stamina</font><br>\n<font color=\"#4850b8\">+66 To Life</font><br>\n<font color=\"#00c400\">Cold Resist +40%</font> (3 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/trang-oulsgirth.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+18 To Fire Ball (2 Items)*<br>\nRegenerate Mana 15% (2 Items)<br>\n+13 To Fire Wall (3 Items)<br>\nAdditional Regenerate Mana 15% (3 Items)<br>\nAdditional Regenerate Mana 15% (4 Items)<br>\n+10 To Meteor (4 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Necromancer Skill Levels<br>\n20% Life Stolen Per Hit<br>\n+3 To Fire Mastery<br>\n+10 To Meteor<br>\n+13 To Fire Wall<br>\n+18 To Fire Ball*<br>\n+200 Defense<br>\n+100 To Mana<br>\nRegenerate Mana 60%<br>\nAll Resistances +50<br>\nTransforms into <a href=\"/diablo2exp/monsters/act1-vampire.shtml\">Vampire</a>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Trang-Oul's Avatar"
+        ],
+        "subname": "Troll Belt"
+    },
+    {
+        "id": 62,
+        "name": "Trang-Oul's Claws",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">67-74</font> (varies)(Base Defense: 37-44)<br>\nRequired Level: 45<br>\nRequired Strength: 58<br>\nDurability: 16<br>\n<font color=\"#4850b8\">+20% Faster Cast Rate</font><br>\n<font color=\"#4850b8\">Cold Resist +30%</font><br>\n<font color=\"#4850b8\">+30 Defense</font><br>\n<font color=\"#4850b8\">+25% Poison Skill Damage</font><br>\n<font color=\"#4850b8\">+2 To Curses (Necromancer Only)</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/trang-oulsclaws.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+18 To Fire Ball (2 Items)*<br>\nRegenerate Mana 15% (2 Items)<br>\n+13 To Fire Wall (3 Items)<br>\nAdditional Regenerate Mana 15% (3 Items)<br>\nAdditional Regenerate Mana 15% (4 Items)<br>\n+10 To Meteor (4 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Necromancer Skill Levels<br>\n20% Life Stolen Per Hit<br>\n+3 To Fire Mastery<br>\n+10 To Meteor<br>\n+13 To Fire Wall<br>\n+18 To Fire Ball*<br>\n+200 Defense<br>\n+100 To Mana<br>\nRegenerate Mana 60%<br>\nAll Resistances +50<br>\nTransforms into <a href=\"/diablo2exp/monsters/act1-vampire.shtml\">Vampire</a>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Trang-Oul's Avatar"
+        ],
+        "subname": "Heavy Bracers"
+    },
+    {
+        "id": 63,
+        "name": "Angelic Mantle",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">68</font> (Base Defense: 45-48)<br>\nDefense: <font color=\"#00C400\">218</font> (Base Defense: 45-48)<br>\nRequired Level: 12<br>\nRequired Strength: 36<br>\nDurability: 26<br>\n<font color=\"#4850b8\">+40% Enhanced Defense</font><br>\n<font color=\"#4850b8\">Damage Reduced by 3</font><br>\n<font color=\"#00C400\">+150 Defense</font> (2 Set Items)<br>\n<font color=\"#00C400\">Fire Resist +50%</font> (3 Set Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/angelicmantle.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+10 Dexterity (2 Items)<br>\n+50 Mana (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\nHalf Freeze Duration<br>\nAll Resistances +25<br>\n40% Better Chance of Getting Magic Item<br>\nRegenerate Mana +8%<br>\n+10 Dexterity<br>\n+50 Mana\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Angelic Raiment"
+        ],
+        "subname": "Ring Mail"
+    },
+    {
+        "id": 64,
+        "name": "Angelic Sickle",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nOne-Hand Damage: 3 to 8 (5.5 Avg)<br>\nOne-Hand Damage: <font color=\"#00C400\">5 to 14</font> (9.5 Avg)<br>\nRequired Level: 12<br>\nRequired Strength: 25<br>\nRequired Dexterity: 25<br>\nDurability: 32<br>\nBase Weapon Speed: [-10]<br>\n<font color=\"#4850b8\">+250% Damage to Undead</font><br>\n<font color=\"#4850b8\">+75 To Attack Rating</font><br>\n<font color=\"#00C400\">+75% Enhanced Damage</font> (2 Set Items)<br>\n<font color=\"#00C400\">30% Increased Attack Speed</font> (3 Set Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/angelicsickle.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+10 Dexterity (2 Items)<br>\n+50 Mana (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\nHalf Freeze Duration<br>\nAll Resistances +25<br>\n40% Better Chance of Getting Magic Item<br>\nRegenerate Mana +8%<br>\n+10 Dexterity<br>\n+50 Mana\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Angelic Raiment"
+        ],
+        "subname": "Sabre"
+    },
+    {
+        "id": 65,
+        "name": "Angelic Halo",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nRequired Level: 12<br>\n<font color=\"#4850b8\">Replenish Life +6</font><br>\n<font color=\"#4850b8\">+20 To Life</font><br>\n<font color=\"#00C400\">+ (12 Per Character Level) 144-1188 Attack Rating (Based On Character Level)</font> (2 Set Items)<br>\n<font color=\"#00C400\">+50% Better Chance Of Getting Magic Items</font> (3 Set Items)<br>\n</span></font>\n",
+        "img": "img/items/sets/ra/ring2.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+10 Dexterity (2 Items)<br>\n+50 Mana (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\nHalf Freeze Duration<br>\nAll Resistances +25<br>\n40% Better Chance of Getting Magic Item<br>\nRegenerate Mana +8%<br>\n+10 Dexterity<br>\n+50 Mana\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Angelic Raiment"
+        ],
+        "subname": "Ring"
+    },
+    {
+        "id": 66,
+        "name": "Angelic Wings",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nRequired Level: 12<br>\n<font color=\"#4850b8\">20% Damage Taken Goes to Mana</font><br>\n<font color=\"#4850b8\">+3 To Light Radius</font><br>\n<font color=\"#00C400\">+75 Life</font> (2 Set Items)<br>\n<font color=\"#00C400\">+1 To All Skills</font> (3 Set Items)<br>\n</span></font>\n",
+        "img": "img/items/sets/ra/amu2.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+10 Dexterity (2 Items)<br>\n+50 Mana (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\nHalf Freeze Duration<br>\nAll Resistances +25<br>\n40% Better Chance of Getting Magic Item<br>\nRegenerate Mana +8%<br>\n+10 Dexterity<br>\n+50 Mana\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Angelic Raiment"
+        ],
+        "subname": "Amulet"
+    },
+    {
+        "id": 67,
+        "name": "Arcanna's Head",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 8-11 (varies)<br>\nDefense: <font color=\"#00C400\">(11-305) - (14-308)</font> (varies)(Base Defense: 8-11)<br>\nRequired Level: 15<br>\nRequired Strength: 15<br>\nDurability: 18<br>\n<font color=\"#4850b8\">Replenish Life +4</font><br>\n<font color=\"#4850b8\">Attacker Takes Damage of 2</font><br>\n<font color=\"#00C400\">+ (3 Per Character Level) 3-297 Defense (Based On Character Level)</font> (2 Set Items)<br>\n<font color=\"#00C400\">Lightning Resist +15%</font> (3 Set Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/arcannashead.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+25 To Mana (2 Items)<br>\n+50 To Life (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+50 To Mana<br>\n+50 To Life<br>\n20% Faster Cast Rate<br>\n5% Mana Stolen Per Hit<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Arcanna's Tricks"
+        ],
+        "subname": "Skull Cap"
+    },
+    {
+        "id": 68,
+        "name": "Arcanna's Flesh",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 90-107 (varies)<br>\nDefense: <font color=\"#00C400\">190-207</font> (varies)(Base Defense: 90-107)<br>\nRequired Level: 15<br>\nRequired Strength: 41<br>\nDurability: 60<br>\n<font color=\"#4850b8\">+2 To Light Radius</font><br>\n<font color=\"#4850b8\">Damage Reduced By 3</font><br>\n<font color=\"#00C400\">+100 Defense</font> (2 Set Items)<br>\n<font color=\"#00C400\">+10 Energy</font> (3 Set Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/arcannasflesh.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+25 To Mana (2 Items)<br>\n+50 To Life (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+50 To Mana<br>\n+50 To Life<br>\n20% Faster Cast Rate<br>\n5% Mana Stolen Per Hit<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Arcanna's Tricks"
+        ],
+        "subname": "Light Plate"
+    },
+    {
+        "id": 69,
+        "name": "Arcanna's Deathwand",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nTwo-Hand Damage: 12-28 (20 Avg)<br>\nRequired Level: 15<br>\nDurability: 50<br>\nBase Weapon Speed: [20]<br>\n<font color=\"#4850b8\">+1 to Sorceress Skill Levels</font><br>\n<font color=\"#4850b8\">25% Deadly Strike</font><br>\n<font color=\"#4850b8\">+50% Damage To Undead</font><br>\n<font color=\"#00C400\">+50 Mana</font> (2 Set Items)<br>\n<font color=\"#00C400\">Regenerate Mana +5%</font> (3 Set Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/arcannasdeathwand.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+25 To Mana (2 Items)<br>\n+50 To Life (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+50 To Mana<br>\n+50 To Life<br>\n20% Faster Cast Rate<br>\n5% Mana Stolen Per Hit<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Arcanna's Tricks"
+        ],
+        "subname": "War Staff"
+    },
+    {
+        "id": 70,
+        "name": "Arcanna's Sign",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nRequired Level: 15<br>\n<font color=\"#4850b8\">Regenerate Mana 20%</font><br>\n<font color=\"#4850b8\">+15 to Mana</font><br>\n<font color=\"#00C400\">+50% Better Chance To Find Magic Items</font> (2 Set Items)<br>\n<font color=\"#00C400\">Fire Resist +20%</font> (3 Set Items)<br>\n</span></font>\n",
+        "img": "img/items/sets/ra/amu3.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+25 To Mana (2 Items)<br>\n+50 To Life (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+50 To Mana<br>\n+50 To Life<br>\n20% Faster Cast Rate<br>\n5% Mana Stolen Per Hit<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Arcanna's Tricks"
+        ],
+        "subname": "Amulet"
+    },
+    {
+        "id": 71,
+        "name": "Arctic Furs",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">45 - 51</font> (varies)(Base Defense 8-11)<br>\nDefense: <font color=\"#00C400\">(48-342) - (54-348)</font> (varies)(Base Defense 8-11)<br>\nRequired Level: 2<br>\nRequired Strength: 12<br>\nDurability: 20<br>\n<font color=\"#4850b8\">+275-325% Enhanced Defense</font> (varies)<br>\n<font color=\"#4850b8\">All Resistances +10</font><br>\n<font color=\"#00C400\">+ (3 Per Character Level) 3-297 Defense (Based On Character Level)</font> (2 Set Items)<br>\n<font color=\"#00C400\">Cold Resist +15%</font> (3 Set Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/arcticfurs.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n\n<b>Partial Set Bonus</b><br>\n+5 To Strength (2 Items)<br>\n+50 To Life (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+5 To Strength<br>\n+50 To Life<br>\nCannot Be Frozen<br>\nAdds 6-14 Cold Damage<br>\nCold Duration: 4 seconds<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Arctic Gear"
+        ],
+        "subname": "Quilted Armor"
+    },
+    {
+        "id": 72,
+        "name": "Arctic Binding",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">33</font> (Base Defense: 3)<br>\nRequired Level: 2<br>\nDurability: 14<br>\n<font color=\"#4850b8\">Cold Resist +40%</font><br>\n<font color=\"#4850b8\">+30 Defense</font><br>\n<font color=\"#00C400\">+40% Better Chance Of Getting Magic Items</font> (2 Set Items)<br>\n<font color=\"#00C400\">Cold Resist +10%</font> (3 Set Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/arcticbinding.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n\n<b>Partial Set Bonus</b><br>\n+5 To Strength (2 Items)<br>\n+50 To Life (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+5 To Strength<br>\n+50 To Life<br>\nCannot Be Frozen<br>\nAdds 6-14 Cold Damage<br>\nCold Duration: 4 seconds<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Arctic Gear"
+        ],
+        "subname": "Light Belt"
+    },
+    {
+        "id": 73,
+        "name": "Arctic Mitts",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 9-11 (varies)<br>\nRequired Level: 2<br>\nRequired Strength: 45<br>\nDurability: 18<br>\n<font color=\"#4850b8\">+20 To Life</font><br>\n<font color=\"#4850b8\">10% Increased Attack Speed</font><br>\n<font color=\"#00C400\">+50 To Attack Rating</font> (2 Set Items)<br>\n<font color=\"#00C400\">+10 To Dexterity</font> (3 Set Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/arcticmitts.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n\n<b>Partial Set Bonus</b><br>\n+5 To Strength (2 Items)<br>\n+50 To Life (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+5 To Strength<br>\n+50 To Life<br>\nCannot Be Frozen<br>\nAdds 6-14 Cold Damage<br>\nCold Duration: 4 seconds<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Arctic Gear"
+        ],
+        "subname": "Light Gauntlets"
+    },
+    {
+        "id": 74,
+        "name": "Arctic Horn",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nTwo-Hand Damage: <font color=\"#4850b8\">9 to 21</font> (15 avg)<br>\nRequired Level: 2<br>\nRequired Strength: 35<br>\nRequired Dexterity: 55<br>\nBase Weapon Speed: [0]<br>\n<font color=\"#4850b8\">+50% Enhanced Damage</font><br>\n<font color=\"#4850b8\">20% Bonus To Attack Rating</font><br>\n<font color=\"#00C400\">+ (8 Per Character Level) 8-792 Attack Rating (Based On Character Level)</font> (2 Set Items)<br>\n<font color=\"#00C400\">+20-30 Cold Damage, 3 sec. Duration (Normal)</font> (3 Set Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/arctichorn.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n\n<b>Partial Set Bonus</b><br>\n+5 To Strength (2 Items)<br>\n+50 To Life (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+5 To Strength<br>\n+50 To Life<br>\nCannot Be Frozen<br>\nAdds 6-14 Cold Damage<br>\nCold Duration: 4 seconds<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Arctic Gear"
+        ],
+        "subname": "Short War Bow"
+    },
+    {
+        "id": 75,
+        "name": "Berserker's Headgear",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">30-33</font> (varies)(Base Defense: 15-18)<br>\nRequired Level: 3<br>\nRequired Strength: 26<br>\nDurability: 24<br>\n<font color=\"#4850b8\">+15 Defense</font><br>\n<font color=\"#4850b8\">Fire Resist +25%</font><br>\n<font color=\"#00C400\">+ (8 Per Character Level) 48-792 Attack Rating (Based On Character Level)</font> (2 Set Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/berserkerheadgear.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n\n<b>Partial Set Bonus</b><br>\n+50 To Life (2 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+50 To Life<br>\n+75 Defense<br>\nPoison Length Reduced by 75%<br>\nAdds 5-9 Poison Damage over 3 Seconds<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Berserker's Arsenal"
+        ],
+        "subname": "Helm"
+    },
+    {
+        "id": 76,
+        "name": "Berserker's Hauberk",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 90-95 (varies)<br>\nDefense: <font color=\"#00C400\">(93-387) - (98-392)</font> (varies)(Base Defense: 90-95)<br>\nRequired Level: 3<br>\nRequired Strength: 51<br>\nDurability: 30<br>\n<font color=\"#4850b8\">+1 to Barbarian Skill Levels</font><br>\n<font color=\"#4850b8\">Magic Damage Reduced by 2</font><br>\n<font color=\"#00C400\">+ (3 Per Character Level) 3-297 Defense (Based On Character Level)</font> (2 Set Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/berserkerhauberk.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n\n<b>Partial Set Bonus</b><br>\n+50 To Life (2 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+50 To Life<br>\n+75 Defense<br>\nPoison Length Reduced by 75%<br>\nAdds 5-9 Poison Damage over 3 Seconds<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Berserker's Arsenal"
+        ],
+        "subname": "Splint Mail"
+    },
+    {
+        "id": 77,
+        "name": "Berserker's Hatchet",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nOne-Hand Damage: 5 to 13 (9 Avg)<br>\nOne-Hand Damage: <font color=\"#00C400\">7 to 19</font> (13 Avg)<br>\nRequired Level: 3<br>\nRequired Strength: 43<br>\nDurability: 24<br>\nBase Weapon Speed: [10]<br>\n<font color=\"#4850b8\">30% Bonus To Attack Rating</font><br>\n<font color=\"#4850b8\">5% Mana Stolen Per Hit</font><br>\n<font color=\"#00C400\">+50% Enhanced Damage</font> (2 Set Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/berserkerhatchet.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n\n<b>Partial Set Bonus</b><br>\n+50 To Life (2 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+50 To Life<br>\n+75 Defense<br>\nPoison Length Reduced by 75%<br>\nAdds 5-9 Poison Damage over 3 Seconds<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Berserker's Arsenal"
+        ],
+        "subname": "Double Axe"
+    },
+    {
+        "id": 78,
+        "name": "Cathan's Visage",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 9-27 (varies)<br>\nDefense: <font color=\"#00C400\">(11-207) - (29-225)</font> (varies)(Base Defense: 9-27)<br>\nRequired Level: 11<br>\nRequired Strength: 23<br>\nDurability: 20<br>\n<font color=\"#4850b8\">Cold Resist +25%</font><br>\n<font color=\"#4850b8\">+20 to Mana</font><br>\n<font color=\"#00C400\">+ (2 Per Character Level) 2-198 Defense (Based On Character Level)</font> (2 Set Items)<br>\n</span></font>\n",
+        "img": "img/items/sets/armor/mask.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n\n<b>Partial Set Bonus</b><br>\n+15-20 Fire Damage (2 Items)<br>\nResist Lightning +25% (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+15-20 Fire Damage<br>\nResist Lightning +25%<br>\n10% Faster Cast Rate<br>\nMagic Damage Reduced by 3<br>\nAll Resistances +25<br>\n+60 to Attack Rating<br>\n+20 to Mana\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Cathan's Traps"
+        ],
+        "subname": "Mask"
+    },
+    {
+        "id": 79,
+        "name": "Cathan's Mesh",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">87-90</font> (varies)(Base Defense: 72-75)<br>\nRequired Level: 11<br>\nRequired Strength: <font color=\"#4850b8\">24</font><br>\nDurability: 45<br>\n<font color=\"#4850b8\">+15 Defense</font><br>\n<font color=\"#4850b8\">Requirements -50%</font><br>\n<font color=\"#00C400\">Attacker Takes Damage of 5</font> (2 Set Items)<br>\n<font color=\"#00C400\">Resist Fire +30%</font> (3 Set Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/cathansmesh.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n\n<b>Partial Set Bonus</b><br>\n+15-20 Fire Damage (2 Items)<br>\nResist Lightning +25% (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+15-20 Fire Damage<br>\nResist Lightning +25%<br>\n10% Faster Cast Rate<br>\nMagic Damage Reduced by 3<br>\nAll Resistances +25<br>\n+60 to Attack Rating<br>\n+20 to Mana\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Cathan's Traps"
+        ],
+        "subname": "Chain Mail"
+    },
+    {
+        "id": 80,
+        "name": "Cathan's Rule",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nTwo-Hand Damage: 6 to 13 (9.5 Avg)<br>\nRequired Level: 11<br>\nDurability: 40<br>\nBase Weapon Speed: [0]<br>\n<font color=\"#4850b8\">+1 to Fire Skills</font><br>\n<font color=\"#4850b8\">+10 Maximum Fire Damage</font><br>\n<font color=\"#4850b8\">+50% Damage To Undead</font><br>\n<font color=\"#00C400\">+50 Mana</font> (2 Set Items)<br>\n<font color=\"#00C400\">All Resistances +10</font> (3 Set Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/cathansrule.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n\n<b>Partial Set Bonus</b><br>\n+15-20 Fire Damage (2 Items)<br>\nResist Lightning +25% (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+15-20 Fire Damage<br>\nResist Lightning +25%<br>\n10% Faster Cast Rate<br>\nMagic Damage Reduced by 3<br>\nAll Resistances +25<br>\n+60 to Attack Rating<br>\n+20 to Mana\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Cathan's Traps"
+        ],
+        "subname": "Battle Staff"
+    },
+    {
+        "id": 81,
+        "name": "Cathan's Sigil",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nRequired Level: 11<br>\n<font color=\"#4850b8\">Attacker Takes Lightning Damage of 5</font><br>\n<font color=\"#4850b8\">10% Faster Hit Recovery</font><br>\n<font color=\"#00C400\">+50 To Attack Rating</font> (2 Set Items)<br>\n<font color=\"#00C400\">+25% Better Chance of Finding Magic Items</font> (3 Set Items)<br>\n</span></font>\n",
+        "img": "img/items/sets/ra/amu1.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n\n<b>Partial Set Bonus</b><br>\n+15-20 Fire Damage (2 Items)<br>\nResist Lightning +25% (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+15-20 Fire Damage<br>\nResist Lightning +25%<br>\n10% Faster Cast Rate<br>\nMagic Damage Reduced by 3<br>\nAll Resistances +25<br>\n+60 to Attack Rating<br>\n+20 to Mana\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Cathan's Traps"
+        ],
+        "subname": "Amulet"
+    },
+    {
+        "id": 82,
+        "name": "Cathan's Seal",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nRequired Level: 11<br>\n<font color=\"#4850b8\">6% Life Stolen Per Hit</font><br>\n<font color=\"#4850b8\">Damage Reduced by 2</font><br>\n<font color=\"#00C400\">+10 Strength</font> (2 Set Items)<br>\n</span></font>\n",
+        "img": "img/items/sets/ra/ring4.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n\n<b>Partial Set Bonus</b><br>\n+15-20 Fire Damage (2 Items)<br>\nResist Lightning +25% (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+15-20 Fire Damage<br>\nResist Lightning +25%<br>\n10% Faster Cast Rate<br>\nMagic Damage Reduced by 3<br>\nAll Resistances +25<br>\n+60 to Attack Rating<br>\n+20 to Mana\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Cathan's Traps"
+        ],
+        "subname": "Ring"
+    },
+    {
+        "id": 83,
+        "name": "Iratha's Coil",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 25-45 (varies)<br>\nDefense: <font color=\"#00C400\">(27-223) - (47-243)</font> (varies)(Base Defense: 25-45)<br>\nRequired Level: 15<br>\nRequired Strength: 55<br>\nDurability: 50<br>\n<font color=\"#4850b8\">Lightning Resist +30%</font><br>\n<font color=\"#4850b8\">Fire Resist +30%</font><br>\n<font color=\"#00C400\">+ (2 Per Character Level) 2-198 Defense (Based On Character Level)</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/irathascoil.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+50 To Defense (2 Items)<br>\n20% Faster Run/Walk (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+50 To Defense<br>\n20% Faster Run/Walk<br>\n+15 To Dexterity<br>\n10% To Maximum Poison Resist<br>\n10% To Maximum Cold Resist<br>\n10% To Maximum Lightning Resist<br>\n10% To Maximum Fire Resist<br>\nAll Resistances +20<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Iratha's Finery"
+        ],
+        "subname": "Crown"
+    },
+    {
+        "id": 84,
+        "name": "Iratha's Collar",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nRequired Level: 15<br>\n<font color=\"#4850b8\">Poison Length Reduced by 75%</font><br>\n<font color=\"#4850b8\">Poison Resist +30%</font><br>\n<font color=\"#00C400\">All Resistances +15</font> (2 Items)<br>\n</span></font>\n",
+        "img": "img/items/sets/ra/amu1.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+50 To Defense (2 Items)<br>\n20% Faster Run/Walk (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+50 To Defense<br>\n20% Faster Run/Walk<br>\n+15 To Dexterity<br>\n10% To Maximum Poison Resist<br>\n10% To Maximum Cold Resist<br>\n10% To Maximum Lightning Resist<br>\n10% To Maximum Fire Resist<br>\nAll Resistances +20<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Iratha's Finery"
+        ],
+        "subname": "Amulet"
+    },
+    {
+        "id": 85,
+        "name": "Iratha's Cord",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">31</font> (Base Defense: 6)<br>\nRequired Level: 15<br>\nRequired Strength: 45<br>\nDurability: 18<br>\n12 boxes<br>\n<font color=\"#4850b8\">+25 Defense</font><br>\n<font color=\"#4850b8\">+5 To Minimum Damage</font><br>\n<font color=\"#00C400\">+10 To Dexterity</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/irathascord.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+50 To Defense (2 Items)<br>\n20% Faster Run/Walk (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+50 To Defense<br>\n20% Faster Run/Walk<br>\n+15 To Dexterity<br>\n10% To Maximum Poison Resist<br>\n10% To Maximum Cold Resist<br>\n10% To Maximum Lightning Resist<br>\n10% To Maximum Fire Resist<br>\nAll Resistances +20<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Iratha's Finery"
+        ],
+        "subname": "Heavy Belt"
+    },
+    {
+        "id": 86,
+        "name": "Iratha's Cuff",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 9-11 (varies)<br>\nRequired Level: 15<br>\nRequired Strength: 45<br>\nDurability: 18<br>\n<font color=\"#4850b8\">Half Freeze Duration</font><br>\n<font color=\"#4850b8\">Cold Resist +30%</font><br>\n<font color=\"#00C400\">20% Increased Attack Speed</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/irathascuff.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+50 To Defense (2 Items)<br>\n20% Faster Run/Walk (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+50 To Defense<br>\n20% Faster Run/Walk<br>\n+15 To Dexterity<br>\n10% To Maximum Poison Resist<br>\n10% To Maximum Cold Resist<br>\n10% To Maximum Lightning Resist<br>\n10% To Maximum Fire Resist<br>\nAll Resistances +20<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Iratha's Finery"
+        ],
+        "subname": "Light Gauntlets"
+    },
+    {
+        "id": 87,
+        "name": "Isenhart's Lightbrand",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nOne-Hand Damage: <font color=\"#4850b8\">17 to 18</font> (17.5 Avg)<br>\nRequired Level: 8<br>\nRequired Strength: 48<br>\nDurability: 32<br>\nBase Weapon Speed: [0]<br>\n<font color=\"#4850b8\">+10 to Min Damage</font><br>\n<font color=\"#4850b8\">20% Increased Attack Speed</font><br>\n<font color=\"#00C400\">+ (5 Per Character Level) 5-495 Attack Rating (Based On Character Level)</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/isenhartslightbrand.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+10 To Strength (2 Items)<br>\n+10 To Dexterity (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+10 To Strength<br>\n+10 To Dexterity<br>\n20% Faster Run/Walk<br>\n+30% Increased Chance of Blocking<br>\n35% Bonus to Attack Rating<br>\n5% Life Stolen Per Hit<br>\nAll Resistances +10\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Isenhart's Armory"
+        ],
+        "subname": "Broad Sword"
+    },
+    {
+        "id": 88,
+        "name": "Isenhart's Horns",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 23-26 (varies)<br>\nRequired Level: 8<br>\nRequired Strength: 41<br>\nDurability: 30<br>\n<font color=\"#4850b8\">Damage Reduced by 2</font><br>\n<font color=\"#4850b8\">+6 to Dexterity</font><br>\n<font color=\"#00C400\">All Resistances +8</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/isenhartshorns.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+10 To Strength (2 Items)<br>\n+10 To Dexterity (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+10 To Strength<br>\n+10 To Dexterity<br>\n20% Faster Run/Walk<br>\n+30% Increased Chance of Blocking<br>\n35% Bonus to Attack Rating<br>\n5% Life Stolen Per Hit<br>\nAll Resistances +10\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Isenhart's Armory"
+        ],
+        "subname": "Full Helm"
+    },
+    {
+        "id": 89,
+        "name": "Isenhart's Case",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">105-108</font> (varies)(Base Defense: 65-68)<br>\nDefense: <font color=\"#00C400\">(107-303) - (110-306)</font> (varies)(Base Defense: 65-68)<br>\nRequired Level: 8<br>\nRequired Strength: 30<br>\nDurability: 50<br>\n<font color=\"#4850b8\">Magic Damage Reduced by 2</font><br>\n<font color=\"#4850b8\">+40 Defense</font><br>\n<font color=\"#00C400\">+ (2 Per Character Level) 2-198 Defense (Based On Character Level)</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/isenhartscase.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+10 To Strength (2 Items)<br>\n+10 To Dexterity (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+10 To Strength<br>\n+10 To Dexterity<br>\n20% Faster Run/Walk<br>\n+30% Increased Chance of Blocking<br>\n35% Bonus to Attack Rating<br>\n5% Life Stolen Per Hit<br>\nAll Resistances +10\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Isenhart's Armory"
+        ],
+        "subname": "Breast Plate"
+    },
+    {
+        "id": 90,
+        "name": "Isenhart's Parry",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">70-75</font> (Base Defense: 30-35)<br>\nChance to Block: Pal: <font color=\"#4850b8\">46%</font>, Ama/Asn/Bar: <font color=\"#4850b8\">41%</font><br> Dru/Nec/Sor: <font color=\"#4850B8\">36%</font><br>\nPaladin Smite Damage: 2 to 6<br>\nRequired Level: 8<br>\nRequired Strength: 60<br>\nDurability: 40<br>\n<font color=\"#4850b8\">Attacker Takes Lightning Damage of 4</font><br>\n<font color=\"#4850b8\">+40 Defense</font><br>\n<font color=\"#00C400\">All Resistances +8</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/isenhartsparry.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+10 To Strength (2 Items)<br>\n+10 To Dexterity (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+10 To Strength<br>\n+10 To Dexterity<br>\n20% Faster Run/Walk<br>\n+30% Increased Chance of Blocking<br>\n35% Bonus to Attack Rating<br>\n5% Life Stolen Per Hit<br>\nAll Resistances +10\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Isenhart's Armory"
+        ],
+        "subname": "Gothic Shield"
+    },
+    {
+        "id": 91,
+        "name": "Milabrega's Diadem",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 25-45 (varies)<br>\nRequired Level: 17<br>\nRequired Strength: 55<br>\nDurability: 50<br>\n<font color=\"#4850b8\">+15 to Mana</font><br>\n<font color=\"#4850b8\">+15 to Life</font><br>\n<font color=\"#00C400\">Cold Resist +40%</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/milabregasdiadem.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+75 To Attack Rating (2 Items)<br>\n+125 To Attack Rating (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+200 To Attack Rating<br>\n+2 to Paladin Skill Levels<br>\n8% Life Stolen Per Hit<br>\n10% Mana Stolen Per Hit<br>\nPoison Resist +15%\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Milabrega's Regalia"
+        ],
+        "subname": "Crown"
+    },
+    {
+        "id": 92,
+        "name": "Milabrega's Robe",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 234 (Base Defense: 218-233)<br>\nDefense: <font color=\"#00C400\">468</font> (Base Defense: 218-233)<br>\nRequired Level: 17<br>\nRequired Strength: 100<br>\nDurability: 60<br>\n<font color=\"#4850b8\">Damage Reduced by 2</font><br>\n<font color=\"#4850b8\">Attacker Takes Damage of 3</font><br>\n<font color=\"#00C400\">+100% Enhanced Defense</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/milabregasrobe.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+75 To Attack Rating (2 Items)<br>\n+125 To Attack Rating (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+200 To Attack Rating<br>\n+2 to Paladin Skill Levels<br>\n8% Life Stolen Per Hit<br>\n10% Mana Stolen Per Hit<br>\nPoison Resist +15%\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Milabrega's Regalia"
+        ],
+        "subname": "Ancient Armor"
+    },
+    {
+        "id": 93,
+        "name": "Milabrega's Orb",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">44</font> (Base Defense: 16-18)<br>\nDefense: <font color=\"#00C400\">53</font> (Base Defense: 16-18)<br>\nChance to Block: Pal: <font color=\"#4850b8\">38%</font>, Ama/Asn/Bar: <font color=\"#4850b8\">33%</font><br> Dru/Nec/Sor: <font color=\"#4850b8\">28%</font><br>\nPaladin Smite Damage: 2 to 5<br>\nRequired Level: 17<br>\nRequired Strength: 47<br>\nDurability: 30<br>\n<font color=\"#4850b8\">+25 Defense</font><br>\n<font color=\"#4850b8\">20% Better Chance of Getting Magic Item</font><br>\n<font color=\"#00C400\">+50 Life</font> (2 Items)<br>\n<font color=\"#00C400\">+50% Enhanced Defense</font> (3 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/milabregasorb.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+75 To Attack Rating (2 Items)<br>\n+125 To Attack Rating (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+200 To Attack Rating<br>\n+2 to Paladin Skill Levels<br>\n8% Life Stolen Per Hit<br>\n10% Mana Stolen Per Hit<br>\nPoison Resist +15%\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Milabrega's Regalia"
+        ],
+        "subname": "Kite Shield"
+    },
+    {
+        "id": 94,
+        "name": "Milabrega's Rod",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nOne-Hand Damage: <font color=\"#4850b8\">15 To 25</font> (20 Avg)<br>\nRequired Level: 17<br>\nRequired Strength: 55<br>\nDurability: 70<br>\nBase Weapon Speed: [-10]<br>\n<font color=\"#4850b8\">+50% Enhanced Damage</font><br>\n<font color=\"#4850b8\">+50% Damage to Undead</font><br>\n<font color=\"#4850b8\">+1 to Paladin Skills</font><br>\n<font color=\"#4850b8\">+2 to Light Radius</font><br>\n</span></font>\n",
+        "img": "img/items/sets/weapons/warscepter.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+75 To Attack Rating (2 Items)<br>\n+125 To Attack Rating (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+200 To Attack Rating<br>\n+2 to Paladin Skill Levels<br>\n8% Life Stolen Per Hit<br>\n10% Mana Stolen Per Hit<br>\nPoison Resist +15%\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Milabrega's Regalia"
+        ],
+        "subname": "War Scepter"
+    },
+    {
+        "id": 95,
+        "name": "Sigon's Visor",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">55-60</font> (varies)(Base Defense: 30-35)<br>\nRequired Level: 6<br>\nRequired Strength: 63<br>\nDurability: 40<br>\n<font color=\"#4850b8\">+25 Defense</font><br>\n<font color=\"#4850b8\">+30 to Mana</font><br>\n<font color=\"#00C400\">+ (8 Per Character Level) 8-792 To Attack Rating (Based On Character Level)</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/sigonsvisor.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+10% Life Stolen Per Hit (2 Items)<br>\n+100 Defense (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+10% Life Stolen Per Hit<br>\n+100 Defense<br>\n+20 To Mana<br>\nFire Resist +12%<br>\n+24 To Max Fire Damage<br>\nAttacker Takes Damage of 12<br>\nDamage Reduced By 7<br. +20 to mana < span></br.></span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Sigon's Complete Steel"
+        ],
+        "subname": "Great Helm"
+    },
+    {
+        "id": 96,
+        "name": "Sigon's Shelter",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">170</font> (Base Defense: 128 To 135)<br>\nRequired Level: 6<br>\nRequired Strength: 70<br>\nDurability: 55<br>\n<font color=\"#4850b8\">+25% Enhanced Defense</font><br>\n<font color=\"#4850b8\">Lightning Resist +30%</font><br>\n<font color=\"#00C400\">Attacker Takes Damage of 20</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/sigonsshelter.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+10% Life Stolen Per Hit (2 Items)<br>\n+100 Defense (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+10% Life Stolen Per Hit<br>\n+100 Defense<br>\n+20 To Mana<br>\nFire Resist +12%<br>\n+24 To Max Fire Damage<br>\nAttacker Takes Damage of 12<br>\nDamage Reduced By 7<br. +20 to mana < span></br.></span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Sigon's Complete Steel"
+        ],
+        "subname": "Gothic Plate"
+    },
+    {
+        "id": 97,
+        "name": "Sigon's Sabot",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 12-15 (varies)<br>\nRequired Level: 6<br>\nRequired Strength: 70<br>\nDurability: 24<br>\nAssassin Kick Damage: 10-20<br>\n<font color=\"#4850b8\">20% Faster Run/Walk</font><br>\n<font color=\"#4850b8\">Cold Resist +40%</font><br>\n<font color=\"#00C400\">+50 To Attack Rating</font> (2 Items)<br>\n<font color=\"#00C400\">+50% Better Chance To Find Magic Items</font> (3 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/sigonsgreaves.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+10% Life Stolen Per Hit (2 Items)<br>\n+100 Defense (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+10% Life Stolen Per Hit<br>\n+100 Defense<br>\n+20 To Mana<br>\nFire Resist +12%<br>\n+24 To Max Fire Damage<br>\nAttacker Takes Damage of 12<br>\nDamage Reduced By 7<br. +20 to mana < span></br.></span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Sigon's Complete Steel"
+        ],
+        "subname": "Greaves"
+    },
+    {
+        "id": 98,
+        "name": "Sigon's Guard",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 22-25 (varies)<br>\nChance to Block: Pal: <font color=\"#4850b8\">74%</font>, Ama/Asn/Bar: <font color=\"#4850b8\">69%</font><br> Dru/Nec/Sor: <font color=\"#4850b8\">64%</font><br>\nPaladin Smite Damage: 1 to 5<br>\nRequired Level: 6<br>\nRequired Strength: 75<br>\nDurability: 60<br>\n<font color=\"#4850b8\">+1 to All Skills</font><br>\n<font color=\"#4850b8\">+20% Increased Chance To Block</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/sigonsguard.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+10% Life Stolen Per Hit (2 Items)<br>\n+100 Defense (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+10% Life Stolen Per Hit<br>\n+100 Defense<br>\n+20 To Mana<br>\nFire Resist +12%<br>\n+24 To Max Fire Damage<br>\nAttacker Takes Damage of 12<br>\nDamage Reduced By 7<br. +20 to mana < span></br.></span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Sigon's Complete Steel"
+        ],
+        "subname": "Tower Shield"
+    },
+    {
+        "id": 99,
+        "name": "Sigon's Wrap",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 8-11 (varies)<br>\nDefense: <font color=\"#00C400\">(10-206) - (13-209)</font> (varies)(Base Defense: 8-11)<br>\nRequired Level: 6<br>\nRequired Strength: 60<br>\nDurability: 24<br>\n16 boxes<br>\n<font color=\"#4850b8\">Fire Resist +20%</font><br>\n<font color=\"#4850b8\">+20 to Life</font><br>\n<font color=\"#00C400\">+ (2 Per Character Level) 2-198 To Defense (Based On Character Level)</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/sigonswrap.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+10% Life Stolen Per Hit (2 Items)<br>\n+100 Defense (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+10% Life Stolen Per Hit<br>\n+100 Defense<br>\n+20 To Mana<br>\nFire Resist +12%<br>\n+24 To Max Fire Damage<br>\nAttacker Takes Damage of 12<br>\nDamage Reduced By 7<br. +20 to mana < span></br.></span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Sigon's Complete Steel"
+        ],
+        "subname": "Plated Belt"
+    },
+    {
+        "id": 100,
+        "name": "Sigon's Gage",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 12-15 (varies)<br>\nRequired Level: 6<br>\nRequired Strength: 60<br>\nDurability: 24<br>\n<font color=\"#4850b8\">+20 to Attack Rating</font><br>\n<font color=\"#4850b8\">+10 to Strength</font><br>\n<font color=\"#00C400\">30% Increased Attack Speed</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/sigonsgauntlets.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+10% Life Stolen Per Hit (2 Items)<br>\n+100 Defense (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+10% Life Stolen Per Hit<br>\n+100 Defense<br>\n+20 To Mana<br>\nFire Resist +12%<br>\n+24 To Max Fire Damage<br>\nAttacker Takes Damage of 12<br>\nDamage Reduced By 7<br. +20 to mana < span></br.></span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Sigon's Complete Steel"
+        ],
+        "subname": "Gauntlets"
+    },
+    {
+        "id": 101,
+        "name": "Tancred's Skull",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 33-36 (varies)<br>\nRequired Level: 20<br>\nRequired Strength: 25<br>\nDurability: 40<br>\n<font color=\"#4850b8\">+10% Enhanced Damage</font><br>\n<font color=\"#4850b8\">+40 to Attack Rating</font><br>\n<font color=\"#00C400\">All Resistances +10</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/tancredsskull.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+15 Lightning Damage (2 Items)<br>\n+5% Life Stolen Per Hit (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+15 Lightning Damage<br>\n+5% Life Stolen Per Hit<br>\nSlows Targets by 35%<br>\n5% Mana Stolen Per Hit<br>\nAll Resistances +10<br>\n75% Extra Gold From Monsters\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Tancred's Battlegear"
+        ],
+        "subname": "Bone Helm"
+    },
+    {
+        "id": 102,
+        "name": "Tancred's Spine",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 150-161 (varies)<br>\nDefense: <font color=\"#00C400\">(152-348) - (163-359)</font> (varies) (Base Defense: 150-161)<br>\nRequired Level: 20<br>\nRequired Strength: 80<br>\nDurability: 70<br>\n<font color=\"#4850b8\">+40 to Life</font><br>\n<font color=\"#4850b8\">+15 to Strength</font><br>\n<font color=\"#00C400\">+ (2 Per Character Level) 2-198 Defense (Based On Character Level)</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/tancredsspine.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+15 Lightning Damage (2 Items)<br>\n+5% Life Stolen Per Hit (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+15 Lightning Damage<br>\n+5% Life Stolen Per Hit<br>\nSlows Targets by 35%<br>\n5% Mana Stolen Per Hit<br>\nAll Resistances +10<br>\n75% Extra Gold From Monsters\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Tancred's Battlegear"
+        ],
+        "subname": "Full Plate Mail"
+    },
+    {
+        "id": 103,
+        "name": "Tancred's Hobnails",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 2-3 (varies)<br>\nRequired Level: 20<br>\nDurability: 12<br>\nAssassin Kick Damage: 3-8<br>\n<font color=\"#4850b8\">Heal Stamina Plus 25%</font><br>\n<font color=\"#4850b8\">+10 to Dexterity</font><br>\n<font color=\"#00C400\">30% Faster Run/Walk</font> (2 Items)<br>\n<font color=\"#00C400\">+10 To Strength</font> (3 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/tancredshobnails.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+15 Lightning Damage (2 Items)<br>\n+5% Life Stolen Per Hit (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+15 Lightning Damage<br>\n+5% Life Stolen Per Hit<br>\nSlows Targets by 35%<br>\n5% Mana Stolen Per Hit<br>\nAll Resistances +10<br>\n75% Extra Gold From Monsters\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Tancred's Battlegear"
+        ],
+        "subname": "Boots"
+    },
+    {
+        "id": 104,
+        "name": "Tancred's Crowbill",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nOne-Hand Damage: <font color=\"#4850b8\">12 to 19</font> (15.5 Avg)<br>\nRequired Level: 20<br>\nRequired Strength: 49<br>\nRequired Dexterity: 33<br>\nDurability 26<br>\nBase Weapon Speed: [-10]<br>\n<font color=\"#4850b8\">+80% Enhanced Damage</font><br>\n<font color=\"#4850b8\">+75 to Attack Rating</font><br>\n<font color=\"#00C400\">+20 To Mana</font> (2 Items)<br>\n<font color=\"#00C400\">20% Increased Attack Speed</font> (3 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/tancredscrowbill.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+15 Lightning Damage (2 Items)<br>\n+5% Life Stolen Per Hit (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+15 Lightning Damage<br>\n+5% Life Stolen Per Hit<br>\nSlows Targets by 35%<br>\n5% Mana Stolen Per Hit<br>\nAll Resistances +10<br>\n75% Extra Gold From Monsters\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Tancred's Battlegear"
+        ],
+        "subname": "Military Pick"
+    },
+    {
+        "id": 105,
+        "name": "Tancred's Weird",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nRequired Level: 20<br>\n<font color=\"#4850b8\">Damage Reduced by 2</font><br>\n<font color=\"#4850b8\">Magic Damage Reduced by 1</font><br>\n<font color=\"#00C400\">+78% Better Chance Of Getting Magic Items</font> (2 Items)<br>\n<font color=\"#00C400\">+60 To Attack Rating</font> (3 Items)<br>\n</span></font>\n",
+        "img": "img/items/sets/ra/amu3.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+15 Lightning Damage (2 Items)<br>\n+5% Life Stolen Per Hit (3 Items)<br><br>\n\n<b>Complete Set Bonus</b><br>\n+15 Lightning Damage<br>\n+5% Life Stolen Per Hit<br>\nSlows Targets by 35%<br>\n5% Mana Stolen Per Hit<br>\nAll Resistances +10<br>\n75% Extra Gold From Monsters\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Tancred's Battlegear"
+        ],
+        "subname": "Amulet"
+    },
+    {
+        "id": 106,
+        "name": "Vidala's Barb",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nTwo-Hand Damage: 3 to 18 (10.5 Avg)<br>\nRequired Level: 14<br>\nRequired Strength: 40<br>\nRequired Dexterity: 50<br>\nBase Weapon Speed: [10]<br>\n<font color=\"#4850b8\">Adds 1-20 Lightning Damage</font><br>\n<font color=\"#00C400\">+ (8 Per Character Level) 8-792 To Attack Rating (Based On Character Level)</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/vidalasbarb.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+75 To Attack Rating (2 Items)<br>\n+15 To Dexterity (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+75 To Attack Rating<br>\nAdds 15-20 Cold Damage, 2 sec. Duration (Normal)<br>\nPiercing Attack [50]<br>\nFreezes Target<br>\n+15 To Dexterity<br>\n+10 To Strength\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Vidala's Rig"
+        ],
+        "subname": "Long Battle Bow"
+    },
+    {
+        "id": 107,
+        "name": "Vidala's Ambush",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">64-67</font> (varies) (Base Defense: 14-17)<br>\nDefense: <font color=\"#00C400\">(66-311) - (69-314)</font> (varies) (Base Defense: 14-17)<br>\nRequired Level: 14<br>\nRequired Strength: 15<br>\nDurability: 24<br>\n<font color=\"#4850b8\">+50 Defense</font><br>\n<font color=\"#4850b8\">+11 to Dexterity</font><br>\n<font color=\"#00C400\">+24% Fire Resist</font> (2 Items)<br>\n<font color=\"#00C400\">+ (2.5 Per Character Level) +2-247 Defense (Based On Character Level)</font> (3 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/vidalasambush.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+75 To Attack Rating (2 Items)<br>\n+15 To Dexterity (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+75 To Attack Rating<br>\nAdds 15-20 Cold Damage, 2 sec. Duration (Normal)<br>\nPiercing Attack [50]<br>\nFreezes Target<br>\n+15 To Dexterity<br>\n+10 To Strength\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Vidala's Rig"
+        ],
+        "subname": "Leather Armor"
+    },
+    {
+        "id": 108,
+        "name": "Vidala's Fetlock",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: 9-11 (varies)<br>\nRequired Level: 14<br>\nRequired Strength: 50<br>\nDurability: 18<br>\nAssassin Kick Damage: 8-16<br>\n<font color=\"#4850b8\">30% Faster Run/Walk</font><br>\n<font color=\"#4850b8\">+150 to Maximum Stamina</font><br>\n<font color=\"#00C400\">All Resistances +8</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/vidalasfetlock.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+75 To Attack Rating (2 Items)<br>\n+15 To Dexterity (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+75 To Attack Rating<br>\nAdds 15-20 Cold Damage, 2 sec. Duration (Normal)<br>\nPiercing Attack [50]<br>\nFreezes Target<br>\n+15 To Dexterity<br>\n+10 To Strength\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Vidala's Rig"
+        ],
+        "subname": "Light Plated Boots"
+    },
+    {
+        "id": 109,
+        "name": "Vidala's Snare",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nRequired Level: 14<br>\n<font color=\"#4850b8\">Cold Resist 20%</font><br>\n<font color=\"#4850b8\">+15 To Life</font><br>\n<font color=\"#00C400\">50% Better Chance Of Getting Magic Items</font> (2 Items)<br>\n</span></font>\n",
+        "img": "img/items/sets/ra/amu2.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+75 To Attack Rating (2 Items)<br>\n+15 To Dexterity (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+75 To Attack Rating<br>\nAdds 15-20 Cold Damage, 2 sec. Duration (Normal)<br>\nPiercing Attack [50]<br>\nFreezes Target<br>\n+15 To Dexterity<br>\n+10 To Strength\n</span></font>\n",
+        "tags": [
+            "sets",
+            "normal_sets",
+            "Vidala's Rig"
+        ],
+        "subname": "Amulet"
+    },
+    {
+        "id": 110,
+        "name": "Griswold's Heart",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">917-950</font> (varies) (Base Defense 417-450)<br>\nRequired Level: 45<br>\nRequired Strength: <font color=\"#4850b8\">102</font><br>\nDurability: 60<br>\n<font color=\"#4850b8\">+500 Defense</font><br>\n<font color=\"#4850b8\">Requirements -40%</font><br>\n<font color=\"#4850b8\">+20 To Strength</font><br>\n<font color=\"#4850b8\">+2 To Defensive Aura Skills (Paladin Only)</font><br>\n<font color=\"#4850b8\">Socketed (3)</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/griswoldsheart.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+20 To Strength (2 Items)<br>\n+30 To Dexterity (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Paladin Skill Levels<br>\n+30% Faster Hit Recovery<br>\n+200 To Attack Rating<br>\n+20 To Strength<br>\n+30 To Dexterity<br>\n+150 To Life<br>\nAll Resistances +50<br>\nDisplay Aura<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Griswold's Legacy"
+        ],
+        "subname": "Ornate Plate"
+    },
+    {
+        "id": 111,
+        "name": "Griswold's Valor",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">249-290</font> (varies) (Base Defense: 111-165)<br>\nRequired Level: 69<br>\nRequired Strength: <font color=\"#4850b8\">105</font><br>\nDurability: 50<br>\n<font color=\"#4850b8\">+50-75% Enhanced Defense</font> (varies)<br>\n<font color=\"#4850b8\">All Resistances +5</font><br>\n<font color=\"#4850b8\">20-30% Better Chance Of Getting Magic Items</font> (varies)<br>\n<font color=\"#4850b8\">Requirements -40%</font><br>\n<font color=\"#4850b8\">+ (0.25 Per Character Level) 0-24 Absorbs Cold Damage (Based On Character Level)</font><br>\n<font color=\"#4850b8\">Socketed (2)</font><br>\n<font color=\"#00c400\">+2 To Offensive Auras (Paladin Only)</font> (2 Items)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/griswoldsvalor.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+20 To Strength (2 Items)<br>\n+30 To Dexterity (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Paladin Skill Levels<br>\n+30% Faster Hit Recovery<br>\n+200 To Attack Rating<br>\n+20 To Strength<br>\n+30 To Dexterity<br>\n+150 To Life<br>\nAll Resistances +50<br>\nDisplay Aura<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Griswold's Legacy"
+        ],
+        "subname": "Corona"
+    },
+    {
+        "id": 112,
+        "name": "Griswold's Redemption",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDamage: <font color=\"#4850b8\">(111-125) To (129-146)</font> (120-135.5 Avg)<br>\nDamage: <font color=\"#00c400\">(121-135) To (149-166)</font> (135-150.5 Avg)<br>\nDamage: <font color=\"#00c400\">(131-145) To (169-186)</font> (150-165.5 Avg)<br>\nRequired Level: 66<br>\nRequired Strength: <font color=\"#4850b8\">78</font><br>\nRequired Dexterity: <font color=\"#4850b8\">56</font><br>\nDurability: 70<br>\nBase Weapon Speed: [-10]<br>\n<font color=\"#4850b8\">+200-240% Enhanced Damage</font> (varies)<br>\n<font color=\"#4850b8\">+250% Damage To Undead</font><br>\n<font color=\"#4850b8\">Requirements -20%</font><br>\n<font color=\"#4850b8\">40% Increased Attack Speed</font><br>\n<font color=\"#4850b8\">Socketed (3-4)</font> (varies)<br>\n<font color=\"#00c400\">+2 To Combat Skills (Paladin Only)</font> (2 Items)<br>\n<font color=\"#00c400\">Adds 10-20 Damage</font> (3 Items)<br>\n<font color=\"#00c400\">Adds 10-20 Damage</font> (Complete Set)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/griswoldsredemption.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+20 To Strength (2 Items)<br>\n+30 To Dexterity (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Paladin Skill Levels<br>\n+30% Faster Hit Recovery<br>\n+200 To Attack Rating<br>\n+20 To Strength<br>\n+30 To Dexterity<br>\n+150 To Life<br>\nAll Resistances +50<br>\nDisplay Aura<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Griswold's Legacy"
+        ],
+        "subname": "Caduceus"
+    },
+    {
+        "id": 113,
+        "name": "Griswold's Honor",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">290-333</font> (varies)(Base Defense: 182-225)<br>\nRequired Level: 68<br>\nRequired Strength: 148<br>\nDurability: 90<br>\nChance to Block: <font color=\"#4850b8\">69%</font><br>\nPaladin Smite Damage: 5 To 87<br>\n<b>(Paladin Only)</b><br>\n<font color=\"#4850b8\">65% Faster Block Rate</font><br>\n<font color=\"#4850b8\">20% Increased Chance of Blocking</font><br>\n<font color=\"#4850b8\">+108 Defense</font><br>\n<font color=\"#4850b8\">All Resistances +45</font><br>\n<font color=\"#4850b8\">Socketed (3)</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/griswoldshonor.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+20 To Strength (2 Items)<br>\n+30 To Dexterity (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+3 To Paladin Skill Levels<br>\n+30% Faster Hit Recovery<br>\n+200 To Attack Rating<br>\n+20 To Strength<br>\n+30 To Dexterity<br>\n+150 To Life<br>\nAll Resistances +50<br>\nDisplay Aura<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Griswold's Legacy"
+        ],
+        "subname": "Vortex Shield"
+    },
+    {
+        "id": 114,
+        "name": "Haemosu's Adamant",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">688-702</font> (varies)(Base Defense: 188-202)<br>\nRequired Level: 44<br>\nRequired Strength: <font color=\"#4850b8\">52</font><br>\nDurability: 50<br>\n<font color=\"#4850b8\">+500 Defense</font><br>\n<font color=\"#4850b8\">+40 Defense Vs. Melee</font><br>\n<font color=\"#4850b8\">+35 Defense Vs. Missile</font><br>\n<font color=\"#4850b8\">Requirements -20%</font><br>\n<font color=\"#4850b8\">+75 To Life</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/haemosusadament.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\nHeal Stamina Plus 50% (2 Items)<br>\nReplenish Life +20 (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+2 To All Skills<br>\nReplenish Life +20<br>\nHeal Stamina Plus 50%<br>\nAll Resistances +50<br>\nCannot Be Frozen<br>\n+5 To Light Radius<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Heaven's Brethren"
+        ],
+        "subname": "Cuirass"
+    },
+    {
+        "id": 115,
+        "name": "Dangoon's Teaching",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDamage: <font color=\"#4850b8\">41 To (50-197)</font> (45.5-119 Avg)<br>\nRequired Level: 68<br>\nRequired Strength: 145<br>\nRequired Dexterity: 46<br>\nDurability: 60<br>\nBase Weapon Speed: [0]<br>\n<font color=\"#4850b8\">+ (1.5 Per Character Level) +1-148 To Maximum Damage (Based on Character Level)</font><br>\n<font color=\"#4850b8\">+50% Damage To Undead</font><br>\n<font color=\"#4850b8\">+40% Increased Attack Speed</font><br>\n<font color=\"#4850b8\">10% Chance To Cast Level 3 Frost Nova On Striking</font><br>\n<font color=\"#4850b8\">Adds 20-30 Fire Damage</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/dangoonsteaching.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\nHeal Stamina Plus 50% (2 Items)<br>\nReplenish Life +20 (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+2 To All Skills<br>\nReplenish Life +20<br>\nHeal Stamina Plus 50%<br>\nAll Resistances +50<br>\nCannot Be Frozen<br>\n+5 To Light Radius<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Heaven's Brethren"
+        ],
+        "subname": "Reinforced Mace"
+    },
+    {
+        "id": 116,
+        "name": "Taebaek's Glory",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">203-220</font> (varies)(Base Defense: 153-170)<br>\nRequired Level: 81<br>\nRequired Strength: 185<br>\nChance to Block: Pal: 79% Ama/Asn/Bar: 74% Dru/Nec/Sor: 69%<br>\nPaladin Smite Damage: 11 to 35<br> \n<font color=\"#4850b8\">+50 Defense</font><br>\n<font color=\"#4850b8\">+25% Increased Chance Of Blocking</font><br>\n<font color=\"#4850b8\">Lightning Resist +30%</font><br>\n<font color=\"#4850b8\">Indestructible</font><br>\n<font color=\"#4850b8\">30% Faster Block Rate</font><br>\n<font color=\"#4850b8\">+100 To Mana</font><br>\n<font color=\"#4850b8\">Attacker Takes Damage of 30</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/taebaeksglory.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\nHeal Stamina Plus 50% (2 Items)<br>\nReplenish Life +20 (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+2 To All Skills<br>\nReplenish Life +20<br>\nHeal Stamina Plus 50%<br>\nAll Resistances +50<br>\nCannot Be Frozen<br>\n+5 To Light Radius<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Heaven's Brethren"
+        ],
+        "subname": "Ward"
+    },
+    {
+        "id": 117,
+        "name": "Ondal's Almighty",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">164-209</font> (varies)(Base Defense: 114-159)<br>\nRequired Level: 69<br>\nRequired Strength: <font color=\"#4850b8\">116</font><br>\nDurability: 40<br>\n<font color=\"#4850b8\">10% Chance To Cast Level 3 Weaken On Striking</font><br>\n<font color=\"#4850b8\">24% Faster Hit Recovery</font><br>\n<font color=\"#4850b8\">Requirements -40%</font><br>\n<font color=\"#4850b8\">+50 Defense</font><br>\n<font color=\"#4850b8\">+15 To Dexterity</font><br>\n<font color=\"#4850b8\">+10 To Strength</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/ondalsalmighty.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\nHeal Stamina Plus 50% (2 Items)<br>\nReplenish Life +20 (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+2 To All Skills<br>\nReplenish Life +20<br>\nHeal Stamina Plus 50%<br>\nAll Resistances +50<br>\nCannot Be Frozen<br>\n+5 To Light Radius<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Heaven's Brethren"
+        ],
+        "subname": "Spired Helm"
+    },
+    {
+        "id": 118,
+        "name": "Hwanin's Splendor",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">228</font> (varies)(Base Defense: 78-113)<br>\nRequired Level: 45<br>\nRequired Strength: 103<br>\nDurability: 50<br>\n<font color=\"#4850b8\">+100% Enhanced Defense</font><br>\n<font color=\"#4850b8\">Replenish Life +20</font><br>\n<font color=\"#4850b8\">Magic Damage Reduced By 10</font><br>\n<font color=\"#4850b8\">Cold Resist +37%</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/hwaninssplendor.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+100 Defense (2 Items)<br>\n+200 Defense (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+2 To All Skills<br>\n+30% Faster Run/Walk<br>\n20% Life Stolen Per Hit<br>\n+300 Defense<br>\nAll Resistances +30<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Hwanin's Majesty"
+        ],
+        "subname": "Grand Crown"
+    },
+    {
+        "id": 119,
+        "name": "Hwanin's Justice",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDamage: <font color=\"#4850b8\">42 To 159</font> (100.5 Avg)<br>\nRequired Level: 28<br>\nRequired Strength: 95<br>\nBase Weapon Speed: [0]<br>\n<font color=\"#4850b8\">+200% Enhanced Damage</font><br>\n<font color=\"#4850b8\">Adds 5-25 Lightning Damage</font><br>\n<font color=\"#4850b8\">40% Increased Attack Speed</font><br>\n<font color=\"#4850b8\">+330 To Attack Rating</font><br>\n<font color=\"#4850b8\">Indestructible</font><br>\n<font color=\"#4850b8\">10% Chance To Cast Level 3 Ice Blast On Striking</font><br>\n</span></font>\n",
+        "img": "img/items/sets/weapons/voulge.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+100 Defense (2 Items)<br>\n+200 Defense (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+2 To All Skills<br>\n+30% Faster Run/Walk<br>\n20% Life Stolen Per Hit<br>\n+300 Defense<br>\nAll Resistances +30<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Hwanin's Majesty"
+        ],
+        "subname": "Bill"
+    },
+    {
+        "id": 120,
+        "name": "Hwanin's Refuge",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">376-390</font> (Base Defense: 176-190)<br>\nRequired Level: 30<br>\nRequired Strength: 86<br>\nDurability: 36<br>\n<font color=\"#4850b8\">+200 Defense</font><br>\n<font color=\"#4850b8\">10% Chance To Cast Level 3 Static Field When Struck</font><br>\n<font color=\"#4850b8\">Poison Resist +27%</font><br>\n<font color=\"#4850b8\">+100 To Life</font><br>\n</span></font>\n",
+        "img": "img/items/sets/armor/scalemail.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+100 Defense (2 Items)<br>\n+200 Defense (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+2 To All Skills<br>\n+30% Faster Run/Walk<br>\n20% Life Stolen Per Hit<br>\n+300 Defense<br>\nAll Resistances +30<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Hwanin's Majesty"
+        ],
+        "subname": "Tigulated Mail"
+    },
+    {
+        "id": 121,
+        "name": "Hwanin's Blessing",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">6-153</font> (varies)(Base Defense: 5)<br>\nRequired Level: 35<br>\nRequired Strength: 25<br>\nDurability: 16<br>\n12 boxes<br>\n<font color=\"#4850b8\">+ (1.5 Per Character Level)  1-148 Defense (Based on Character Level)</font><br>\n<font color=\"#4850b8\">Adds 3-33 Lightning Damage</font><br>\n<font color=\"#4850b8\">Prevent Monster Heal</font><br>\n<font color=\"#4850b8\">12% Damage Taken Goes To Mana</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/hwaninsblessing.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+100 Defense (2 Items)<br>\n+200 Defense (3 Items)<br>\n<br>\n\n<b>Complete Set Bonus</b><br>\n+2 To All Skills<br>\n+30% Faster Run/Walk<br>\n20% Life Stolen Per Hit<br>\n+300 Defense<br>\nAll Resistances +30<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Hwanin's Majesty"
+        ],
+        "subname": "Belt"
+    },
+    {
+        "id": 122,
+        "name": "Immortal King's Will",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">160-175</font> (varies) (Base Defense: 35-50)<br>\nRequired Level: 47<br>\nRequired Strength: 65<br>\nDurability: 55<br>\n<b>(Barbarian Only)</b><br>\n<font color=\"#4850b8\">+4 To Light Radius</font><br>\n<font color=\"#4850b8\">+125 Defense</font><br>\n<font color=\"#4850b8\">37% Extra Gold From Monsters</font><br>\n<font color=\"#4850b8\">25-40% Better Chance Of Finding Magic Items</font> (varies)<br>\n<font color=\"#4850b8\">+2 To Warcries Skills (Barbarian Only)</font><br>\n<font color=\"#4850b8\">Socketed (2)</font><br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/immortalwill.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+50 To Attack Rating (2 Items)<br>\nAdditional +75 To Attack Rating (3 Items)<br>\nAdditional +125 To Attack Rating (4 Items)<br>\nAdditional +200 To Attack Rating (5 Items)<br>\n<br>\n\n\n<b>Complete Set Bonus</b><br>\n+3 To Barbarian Skill Levels<br>\n+450 To Attack Rating<br>\n+150 To Life<br>\nAll Resistances +50<br>\nMagic Damage Reduced By 10<br>\nDisplay Aura<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Immortal King"
+        ],
+        "subname": "Avenger Guard"
+    },
+    {
+        "id": 123,
+        "name": "Immortal King's Stone Crusher",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDamage: <font color=\"#4850b8\">231 To 318</font> (274.5 Avg)<br>\nRequired Level: 76<br>\nRequired Strength: 225<br>\nBase Weapon Speed: [10]<br>\n<font color=\"#4850b8\">+200% Enhanced Damage</font><br>\n<font color=\"#4850b8\">+200% Damage To Demons</font><br>\n<font color=\"#4850b8\">+250% Damage To Undead</font><br>\n<font color=\"#4850b8\">40% Increased Attack Speed</font><br>\n<font color=\"#4850b8\">Indestructible</font><br>\n<font color=\"#4850b8\">35-40% Chance Of Crushing Blow</font> (varies)<br>\n<font color=\"#4850b8\">Socketed (2)</font><br>\n<font color=\"#00c400\">Adds 211-397 Fire Damage</font> (2 items)<br>\n<font color=\"#00c400\">Adds 7-477 Lightning Damage</font> (3 Items)<br>\n<font color=\"#00c400\">Adds 127-364 Cold Damage, 6 sec. Duration (Normal)</font> (4 Items)<br>\n<font color=\"#00c400\">+204 Poison Damage Over 6 Seconds</font> (5 Items)<br>\n<font color=\"#00c400\">Adds 250-361 Magic Damage</font> (Complete Set)<br>\n</span></font>\n",
+        "img": "img/items/sets/weapons/maul.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+50 To Attack Rating (2 Items)<br>\nAdditional +75 To Attack Rating (3 Items)<br>\nAdditional +125 To Attack Rating (4 Items)<br>\nAdditional +200 To Attack Rating (5 Items)<br>\n<br>\n\n\n<b>Complete Set Bonus</b><br>\n+3 To Barbarian Skill Levels<br>\n+450 To Attack Rating<br>\n+150 To Life<br>\nAll Resistances +50<br>\nMagic Damage Reduced By 10<br>\nDisplay Aura<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Immortal King"
+        ],
+        "subname": "Ogre Maul"
+    },
+    {
+        "id": 124,
+        "name": "Immortal King's Soul Cage",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">1001</font> (Base Defense: 487-600)<br>\nDefense: <font color=\"#00c400\">1301</font> (Base Defense: 487-600)<br>\nRequired Level: 76<br>\nRequired Strength: 232<br>\nDurability: 60<br>\n<font color=\"#4850b8\">+400 Defense</font><br>\n<font color=\"#4850b8\">5% Chance To Cast Level 5 Enchant When Struck</font><br>\n<font color=\"#4850b8\">Poison Resist +50%</font><br>\n<font color=\"#4850b8\">+2 To Combat Skills (Barbarian Only)</font><br>\n<font color=\"#00c400\">+25% Faster Hit Recovery</font> (2 Items)<br>\n<font color=\"#00c400\">Cold Resist +40%</font> (3 Items)<br>\n<font color=\"#00c400\">Fire Resist +40%</font> (4 Items)<br>\n<font color=\"#00c400\">Lightning Resist +40%</font> (5 Items)<br>\n<font color=\"#00c400\">+50% Enhanced Defense</font> (Complete Set)<br>\n</span></font>\n",
+        "img": "/img/items/sets/sets/immortalsoulcage.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+50 To Attack Rating (2 Items)<br>\nAdditional +75 To Attack Rating (3 Items)<br>\nAdditional +125 To Attack Rating (4 Items)<br>\nAdditional +200 To Attack Rating (5 Items)<br>\n<br>\n\n\n<b>Complete Set Bonus</b><br>\n+3 To Barbarian Skill Levels<br>\n+450 To Attack Rating<br>\n+150 To Life<br>\nAll Resistances +50<br>\nMagic Damage Reduced By 10<br>\nDisplay Aura<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Immortal King"
+        ],
+        "subname": "Sacred Armor"
+    },
+    {
+        "id": 125,
+        "name": "Immortal King's Detail",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">89</font> (Base Defense: 41-52)<br>\nDefense: <font color=\"#00c400\">194</font> (Base Defense: 41-52)<br>\nDefense: <font color=\"#00c400\">247</font> (Base Defense 41-52)<br>\nRequired Level: 29<br>\nRequired Strength: 110<br>\nDurability: 24<br>\n16 boxes<br>\n<font color=\"#4850b8\">+36 Defense</font><br>\n<font color=\"#4850b8\">Lightning Resist +31%</font><br>\n<font color=\"#4850b8\">Fire Resist +28%</font><br>\n<font color=\"#4850b8\">+25 To Strength</font><br>\n<font color=\"#00c400\">+105 Defense</font> (2 items)<br>\n<font color=\"#00c400\">+25% Faster Hit Recovery</font> (3 Items)<br>\n<font color=\"#00c400\">+100% Enhanced Defense</font> (4 Items)<br>\n<font color=\"#00c400\">Damage Reduced By 20%</font> (5 Items)<br>\n<font color=\"#00c400\">+2 To Masteries (Barbarian Only)</font> (Complete Set)<br>\n</span></font>\n",
+        "img": "img/items/sets/armor/girdle.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+50 To Attack Rating (2 Items)<br>\nAdditional +75 To Attack Rating (3 Items)<br>\nAdditional +125 To Attack Rating (4 Items)<br>\nAdditional +200 To Attack Rating (5 Items)<br>\n<br>\n\n\n<b>Complete Set Bonus</b><br>\n+3 To Barbarian Skill Levels<br>\n+450 To Attack Rating<br>\n+150 To Life<br>\nAll Resistances +50<br>\nMagic Damage Reduced By 10<br>\nDisplay Aura<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Immortal King"
+        ],
+        "subname": "War Belt"
+    },
+    {
+        "id": 126,
+        "name": "Immortal King's Forge",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">108-118</font> (varies)(Base Defense: 43-53)<br>\nDefense: <font color=\"#00c400\">228-238</font> (varies)(Base Defense: 43-53)<br>\nRequired Level: 30<br>\nRequired Strength: 110<br>\nDurability: 24<br>\n<font color=\"#4850b8\">+65 Defense</font><br>\n<font color=\"#4850b8\">12% Chance To Cast Level 4 Charged Bolt When Struck</font><br>\n<font color=\"#4850b8\">+20 To Dexterity</font><br>\n<font color=\"#4850b8\">+20 To Strength</font><br>\n<font color=\"#00c400\">+25% Increased Attack Speed</font> (2 items)<br>\n<font color=\"#00c400\">+120 Defense</font> (3 Items)<br>\n<font color=\"#00c400\">10% Life Stolen Per Hit</font> (4 Items)<br>\n<font color=\"#00c400\">10% Mana Stolen Per Hit</font> (5 Items)<br>\n<font color=\"#00c400\">Freezes Target +2</font> (Complete Set)<br>\n</span></font>\n",
+        "img": "img/items/sets/armor/gauntlets.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+50 To Attack Rating (2 Items)<br>\nAdditional +75 To Attack Rating (3 Items)<br>\nAdditional +125 To Attack Rating (4 Items)<br>\nAdditional +200 To Attack Rating (5 Items)<br>\n<br>\n\n\n<b>Complete Set Bonus</b><br>\n+3 To Barbarian Skill Levels<br>\n+450 To Attack Rating<br>\n+150 To Life<br>\nAll Resistances +50<br>\nMagic Damage Reduced By 10<br>\nDisplay Aura<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Immortal King"
+        ],
+        "subname": "War Gauntlets"
+    },
+    {
+        "id": 127,
+        "name": "Immortal King's Pillar",
+        "description": "\n<font face=\"arial,helvetica\" size=\"-1\"><span>\nDefense: <font color=\"#4850b8\">118-128</font> (varies) (Base Defense: 43-53)<br>\nDefense: <font color=\"#00c400\">278-288</font> (varies) (Base Defense: 43-53)<br>\nRequired Level: 31<br>\nRequired Strength: 125<br>\nDurability: 24<br>\nAssassin Kick Damage: 39-80<br>\n<font color=\"#4850b8\">+75 Defense</font><br>\n<font color=\"#4850b8\">40% Faster Run/Walk</font><br>\n<font color=\"#4850b8\">+110 To Attack Rating</font><br>\n<font color=\"#4850b8\">+44 To Life</font><br>\n<font color=\"#00c400\">25% Better Chance of Getting Magic Items</font> (2 items)<br>\n<font color=\"#00c400\">+2 To Combat Skills (Barbarian Only)</font> (3 Items)<br>\n<font color=\"#00c400\">+160 Defense</font> (4 Items)<br>\n<font color=\"#00c400\">Half Freeze Duration</font> (5 Items)<br>\n</span></font>\n",
+        "img": "img/items/sets/armor/plateboots.gif",
+        "partial": "\n<font face=\"arial,helvetica\" color=\"#908858\" size=\"-1\"><span>\n<b>Partial Set Bonus</b><br>\n+50 To Attack Rating (2 Items)<br>\nAdditional +75 To Attack Rating (3 Items)<br>\nAdditional +125 To Attack Rating (4 Items)<br>\nAdditional +200 To Attack Rating (5 Items)<br>\n<br>\n\n\n<b>Complete Set Bonus</b><br>\n+3 To Barbarian Skill Levels<br>\n+450 To Attack Rating<br>\n+150 To Life<br>\nAll Resistances +50<br>\nMagic Damage Reduced By 10<br>\nDisplay Aura<br>\n</span></font>\n",
+        "tags": [
+            "sets",
+            "lod_sets",
+            "Immortal King"
+        ],
+        "subname": "War Boots"
+    }
+]
