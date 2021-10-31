@@ -28,47 +28,52 @@
       <div class="filterlist_wrapper" v-show="showFilter">
         <div class="filterlist_row">
           <button
-            v-on:click="setFilter(filter)"
+            v-on:click="setFilter(wfilter)"
             class="fast-filter"
-            v-for="filter of justUniqueRow"
-            :key="filter"
-          >{{ filter.match(/[^Unique]\S+/g)[0] }}</button>
+            v-for="wfilter of justUniqueRow"
+            :key="wfilter"
+            v-bind:class="[ wfilter == filter ? 'active' : '']"
+          >{{ wfilter.match(/[^Unique]\S+/g)[0] }}</button>
         </div>
         <div class="filterlist_row">
           <span>Class-Specific Items :</span>
           <button
-            v-on:click="setFilter(filter)"
+            v-on:click="setFilter(wfilter)"
             class="fast-filter"
-            v-for="filter in classSpecific"
-            :key="filter"
-          >{{ filter.match(/[^Unique]\S+[^Items]/g)[0] }}</button>
+            v-for="wfilter in classSpecific"
+            :key="wfilter"
+            v-bind:class="[ wfilter == filter ? 'active' : '']"
+          >{{ wfilter.match(/[^Unique]\S+[^Items]/g)[0] }}</button>
         </div>
         <div class="filterlist_row">
           <span>Normal Unique :</span>
           <button
-            v-on:click="setFilter(filter)"
+            v-on:click="setFilter(wfilter)"
             class="fast-filter"
-            v-for="filter in uniqEliteTags('Normal Unique ')"
-            :key="filter"
-          >{{ filter.replace('Normal Unique ', '') }}</button>
+            v-for="wfilter in uniqEliteTags('Normal Unique ')"
+            :key="wfilter"
+            v-bind:class="[ wfilter == filter ? 'active' : '']"
+          >{{ wfilter.replace('Normal Unique ', '') }}</button>
         </div>
         <div class="filterlist_row">
           <span>Exceptional Unique:</span>
           <button
-            v-on:click="setFilter(filter)"
+            v-on:click="setFilter(wfilter)"
             class="fast-filter"
-            v-for="filter in uniqEliteTags('Exceptional Unique ')"
-            :key="filter"
-          >{{ filter.replace('Exceptional Unique ', '') }}</button>
+            v-for="wfilter in uniqEliteTags('Exceptional Unique ')"
+            :key="wfilter"
+            v-bind:class="[ wfilter == filter ? 'active' : '']"
+          >{{ wfilter.replace('Exceptional Unique ', '') }}</button>
         </div>
         <div class="filterlist_row">
           <span>Elite Unique:</span>
           <button
-            v-on:click="setFilter(filter)"
+            v-on:click="setFilter(wfilter)"
             class="fast-filter"
-            v-for="filter in uniqEliteTags('Elite Unique ')"
-            :key="filter"
-          >{{ filter.replace('Elite Unique ', '') }}</button>
+            v-for="wfilter in uniqEliteTags('Elite Unique ')"
+            :key="wfilter"
+            v-bind:class="[ wfilter == filter ? 'active' : '']"
+          >{{ wfilter.replace('Elite Unique ', '') }}</button>
         </div>
       </div>
       <!-- FILTER CONTROLLER BLOCK END -->

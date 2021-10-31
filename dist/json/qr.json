@@ -1,82 +1,196 @@
 [
     {
+        "item": "Ancient's Pledge",
         "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Ancient%27s_Pledge\" title=\"Ancient's Pledge\">Ancient's Pledge</a></b><br>\n<p><i>RalOrtTal</i><br>\n<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Ral\" title=\"Ral\">Ral</a> (8) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Ort\" title=\"Ort\">Ort</a> (9) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Tal\" title=\"Tal\">Tal</a> (7)<br>\nShields {3}<br>\nClvl Required: 21\n</p>\n",
         "description": " +50% Enhanced Defense<br>\n<p>Cold Resist +43%<br>\nLightning Resist +48%<br>\nFire Resist +48%<br>\nPoison Resist +48%<br>\n10% Damage Taken Goes to Mana\n</p>\n",
         "Comments": " Recipe is given by Qual-Kehk as a reward for completing <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Quests_Act_Five#Quest_Two:_Rescue_on_Mt._Arreat\" title=\"Quests Act Five\">the second quest in Act Five</a>.\n<p>Bonuses will stack on top of a Paladin's inherent shield properties.\n</p><p>See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Ancient%27s_Pledge\" title=\"Ancient's Pledge\">here</a>.\n</p>\n",
         "tags": [
             "runeword"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Shields"
+        ],
+        "runes": [
+            "Ral",
+            "Ort",
+            "Tal"
         ]
     },
     {
+        "item": "Beast",
         "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Beast\" title=\"Beast\">Beast</a></b><br>\n<p><i>BerTirUmMalLum</i><br>\n<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Ber\" title=\"Ber\">Ber</a> (30) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Tir\" title=\"Tir\">Tir</a> (3) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Um\" title=\"Um\">Um</a> (22) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Mal\" title=\"Mal\">Mal</a> (23) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Lum\" title=\"Lum\">Lum</a> (17)<br>\nAxes, Hammers &amp; Scepters {5}<br>\nClvl Required: 63\n</p>\n",
         "description": " Level 9 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Fanaticism\" title=\"Fanaticism\">Fanaticism</a> Aura When Equipped<br>\n<p>+40% Increased Attack Speed<br>\n+240-270% Enhanced Damage (varies)<br>\n20% Chance of Crushing Blow<br>\n25% Chance of Open Wounds<br>\n+3 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Werebear\" title=\"Werebear\">Werebear</a><br>\n+3 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Lycanthropy\" title=\"Lycanthropy\">Lycanthropy</a><br>\nPrevent Monster Heal<br>\n+25-40 To Strength (varies)<br>\n+10 To Energy<br>\n+2 To Mana After Each Kill<br>\nLevel 13 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Summon_Grizzly\" title=\"Summon Grizzly\">Summon Grizzly</a> (5 Charges)\n</p>\n",
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Beast\" title=\"Beast\"> here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "sockets": 5,
+        "item_slot": [
+            "Axes",
+            "Hammers",
+            "Scepters"
+        ],
+        "runes": [
+            "Ber",
+            "Tir",
+            "Um",
+            "Mal",
+            "Lum"
         ]
     },
     {
+        "item": "Black",
         "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Black\" title=\"Black\">Black</a></b><br>\n<p><i>ThulIoNef</i><br> <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Thul\" title=\"Thul\">Thul</a> (10) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Io\" title=\"Io\">Io</a> (16) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Nef\" title=\"Nef\">Nef</a> (4)<br>\nClubs, Hammers, Maces {3}<br>\nClvl Required: 35\n</p>\n",
         "description": " +15% Increased Attack Speed<br>\n<p>+120% Enhanced Damage<br>\n+200 to Attack Rating<br>\nAdds 3-14 Cold Damage (3 sec)<br>\n40% Chance of Crushing Blow<br>\nKnockback<br>\n+10 to Vitality<br>\nMagic Damage Reduced By 2<br>\nLevel 4 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Corpse_Explosion\" title=\"Corpse Explosion\">Corpse Explosion</a> (12 Charges)<br>\n</p>\n",
         "Comments": " See it<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Black\" title=\"Black\"> here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Clubs",
+            "Hammers",
+            "Maces"
+        ],
+        "runes": [
+            "Thul",
+            "Io",
+            "Nef"
         ]
     },
     {
+        "item": "Bone",
         "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Bone\" title=\"Bone\">Bone</a></b><br>\n<p><i>SolUmUm</i><br> <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Sol\" title=\"Sol\">Sol</a> (12) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Um\" title=\"Um\">Um</a> (22) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Um\" title=\"Um\">Um</a> (22)<br>\nArmor {3}<br>\nClvl Required: 47\n</p>\n",
         "description": " 15% Chance To Cast level 10 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Bone_Armor\" title=\"Bone Armor\">Bone Armor</a> When Struck<br>\n<p>15% Chance To Cast level 10 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Bone_Spear\" title=\"Bone Spear\">Bone Spear</a> On Striking<br>\n+2 To Necromancer Skill Levels<br>\n+100-150 To Mana (varies) <br>\nAll Resistances +30<br>\nDamage Reduced By 7\n</p>\n",
         "Comments": " Useful Necromancer bonuses.\n",
         "tags": [
             "runeword"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Armor"
+        ],
+        "runes": [
+            "Sol",
+            "Um",
+            "Um"
         ]
     },
     {
+        "item": "Bramble",
         "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Bramble\" title=\"Bramble\">Bramble</a></b><br>\n<p><i>RalOhmSurEth</i><br>\n<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Ral\" title=\"Ral\">Ral</a> (8) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Ohm\" title=\"Ohm\">Ohm</a> (27) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Sur\" title=\"Sur\">Sur</a> (29) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Eth\" title=\"Eth\">Eth</a> (5)<br>\nArmor {4}<br>\nClvl Required: 61\n</p>\n",
         "description": " Level 15-21 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Thorns\" title=\"Thorns\">Thorns</a> Aura When Equipped (varies)<br>\n<p>+50% Faster Hit Recovery<br>\n+25-50% To Poison Skill Damage (varies)<br>\n+300 Defense<br>\nIncrease Maximum Mana 5%<br>\nRegenerate Mana 15%<br>\n+5% To Maximum Cold Resist<br>\nFire Resist +30%<br>\nPoison Resist +100%<br>\n+13 Life After Each Kill<br>\nLevel 13 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Spirit_of_Barbs\" title=\"Spirit of Barbs\">Spirit of Barbs</a> (33 Charges)\n</p>\n",
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Bramble\" title=\"Bramble\"> here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "sockets": 4,
+        "item_slot": [
+            "Armor"
+        ],
+        "runes": [
+            "Ral",
+            "Ohm",
+            "Sur",
+            "Eth"
         ]
     },
     {
+        "item": "Brand",
         "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Brand\" title=\"Brand\">Brand</a></b><br>\n<p><i>JahLoMalGul</i><br>\n<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Jah\" title=\"Jah\">Jah</a> (31) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Lo\" title=\"Lo\">Lo</a> (28) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Mal\" title=\"Mal\">Mal</a> (23) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Gul\" title=\"Gul\">Gul</a> (25)<br>\nMissile Weapons {4}<br>\nClvl Required: 65\n</p>\n",
         "description": " 35% Chance To Cast Level 14 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Amplify_Damage\" title=\"Amplify Damage\">Amplify Damage</a> When Struck<br>\n<p>100% Chance To Cast Level 18 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Bone_Spear\" title=\"Bone Spear\">Bone Spear</a> On Striking<br>\nFires <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Exploding_Arrow\" title=\"Exploding Arrow\">Explosive Arrows or Bolts</a> (15)<br>\n+260-340% Enhanced Damage (varies)<br>\nIgnore Target's Defense<br>\n20% Bonus to Attack Rating<br>\n+280-330% Damage To Demons (varies)<br>\n20% Deadly Strike <br>\nPrevent Monster Heal<br>\nKnockback\n</p>\n",
         "Comments": " Ladder Only\n",
         "tags": [
             "runeword"
+        ],
+        "sockets": 4,
+        "item_slot": [
+            "Missile Weapons"
+        ],
+        "runes": [
+            "Jah",
+            "Lo",
+            "Mal",
+            "Gul"
         ]
     },
     {
-        "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Breath_of_the_Dying\" title=\"Breath of the Dying\">Breath of the Dying</a></b><br>\n<p><i>VexHelElEldZodEth</i><br>\n<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Vex\" title=\"Vex\">Vex</a> (26) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Hel\" title=\"Hel\">Hel</a> (15) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/El\" title=\"El\">El</a> (1) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Eld\" title=\"Eld\">Eld</a> (2) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Zod\" title=\"Zod\">Zod</a> (33) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Eth\" title=\"Eth\">Eth</a> (5)<br>\nAll Weapons {6}<br>\nClvl Required: 69\n</p>\n",
+        "item": "Breath of the Dying",
+        "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Breath_of_the_Dying\" title=\"Breath of the Dying\">Breath of the Dying</a></b><br>\n<p><i>VexHelElEldZodEth</i><br>\n<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Vex\" title=\"Vex\">Vex</a> (26) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Hel\" title=\"Hel\">Hel</a> (15) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/El\" title=\"El\">El</a> (1) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Eld\" title=\"Eld\">Eld</a> (2) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Zod\" title=\"Zod\">Zod</a> (33) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Eth\" title=\"Eth\">Eth</a> (5)<br>\nWeapons {6}<br>\nClvl Required: 69\n</p>\n",
         "description": " 50% Chance To Cast Level 20 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Poison_Nova\" title=\"Poison Nova\">Poison Nova</a> When You Kill An Enemy<br>\n<p>Indestructible<br>\n+60% Increased Attack Speed<br>\n+350-400% Enhanced Damage (varies)<br>\n-25% Target Defense<br>\n+50 To Attack Rating<br>\n+200% Damage To Undead<br>\n+50 To Attack Rating Against Undead<br>\n7% Mana Stolen Per Hit<br>\n12-15% Life Stolen Per Hit (varies)<br>\nPrevent Monster Heal<br>\n+30 To All Attributes<br>\n+1 To Light Radius<br>\nRequirements -20%\n</p>\n",
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Breath_of_the_Dying\" title=\"Breath of the Dying\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "sockets": 6,
+        "item_slot": [
+            "Weapons"
+        ],
+        "runes": [
+            "Vex",
+            "Hel",
+            "El",
+            "Eld",
+            "Zod",
+            "Eth"
         ]
     },
     {
+        "item": "Call to Arms",
         "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Call_to_Arms\" title=\"Call to Arms\">Call to Arms</a></b><br>\n<p><i>AmnRalMalIstOhm</i><br>\n<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Amn\" title=\"Amn\">Amn</a> (11) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Ral\" title=\"Ral\">Ral</a> (8) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Mal\" title=\"Mal\">Mal</a> (23) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Ist\" title=\"Ist\">Ist</a> (24) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Ohm\" title=\"Ohm\">Ohm</a> (27)<br>\nWeapons {5}<br>\nClvl Required: 57\n</p>\n",
         "description": " +1 To All Skills<br>\n<p>+40% Increased Attack Speed<br>\n+240-290% Enhanced Damage (varies)<br>\nAdds 5-30 Fire Damage<br>\n7% Life Stolen Per Hit<br>\n+2-6 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Battle_Command\" title=\"Battle Command\">Battle Command</a> (varies)<br>\n+1-6 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Battle_Orders\" title=\"Battle Orders\">Battle Orders</a> (varies)<br>\n+1-4 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Battle_Cry\" title=\"Battle Cry\">Battle Cry</a> (varies)<br>\nPrevent Monster Heal<br>\nReplenish Life +12<br>\n30% Better Chance of Getting Magic Items\n</p>\n",
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Call_to_Arms\" title=\"Call to Arms\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "sockets": 5,
+        "item_slot": [
+            "Weapons"
+        ],
+        "runes": [
+            "Amn",
+            "Ral",
+            "Mal",
+            "Ist",
+            "Ohm"
         ]
     },
     {
+        "item": "Chains of Honor",
         "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Chains_of_Honor\" title=\"Chains of Honor\">Chains of Honor</a></b><br>\n<p><i>DolUmBerIst</i><br> <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Dol\" title=\"Dol\">Dol</a> (14) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Um\" title=\"Um\">Um</a> (22) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Ber\" title=\"Ber\">Ber</a> (30) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Ist\" title=\"Ist\">Ist</a> (24)<br>\nArmor {4}<br>\nClvl Required: 63\n</p>\n",
         "description": " +2 To All Skills<br>\n<p>+200% Damage To Demons<br>\n+100% Damage To Undead<br>\n8% Life Stolen Per Hit<br>\n+70% Enhanced Defense<br>\n+20 To Strength<br>Replenish Life +7<br>\nAll Resistances +65<br>\nDamage Reduced By 8%<br>\n25% Better Chance of Getting Magic Items\n</p>\n",
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Chains_of_Honor\" title=\"Chains of Honor\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "sockets": 4,
+        "item_slot": [
+            "Armor"
+        ],
+        "runes": [
+            "Dol",
+            "Um",
+            "Ber",
+            "Ist"
         ]
     },
     {
+        "item": "Chaos",
         "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Chaos\" title=\"Chaos\">Chaos</a></b><br>\n<p><i>FalOhmUm</i><br>\n<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Fal\" title=\"Fal\">Fal</a> (19) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Ohm\" title=\"Ohm\">Ohm</a> (27) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Um\" title=\"Um\">Um</a> (22)<br>\nClaws {3}<br>\nClvl Required: 57\n</p>\n",
         "description": " 9% Chance To Cast Level 11 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Frozen_Orb\" title=\"Frozen Orb\">Frozen Orb</a> On Striking<br>\n<p>11% Chance To Cast Level 9 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Charged_Bolt\" title=\"Charged Bolt\">Charged Bolt</a> On Striking<br>\n+35% Increased Attacked Speed<br>\n+240-290% Enhanced Damage (varies)<br>\nAdds 216-471 Magic Damage<br>\n25% Chance of Open Wounds<br>\n+1 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Whirlwind\" title=\"Whirlwind\">Whirlwind</a><br>\n+10 To Strength<br>\n+15 Life After Each Demon Kill\n</p>\n",
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Chaos\" title=\"Chaos\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Claws"
+        ],
+        "runes": [
+            "Fal",
+            "Ohm",
+            "Um"
         ]
     },
     {
@@ -85,6 +199,18 @@
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Crescent_Moon_(Runeword)\" title=\"Crescent Moon (Runeword)\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Crescent Moon",
+        "runes": [
+            "Shael",
+            "Um",
+            "Tir"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Axes",
+            "Polearms",
+            "Swords"
         ]
     },
     {
@@ -93,6 +219,19 @@
         "Comments": " Ladder Only\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Death",
+        "runes": [
+            "Hel",
+            "El",
+            "Vex",
+            "Ort",
+            "Gul"
+        ],
+        "sockets": 5,
+        "item_slot": [
+            "Swords",
+            "Axes"
         ]
     },
     {
@@ -101,6 +240,16 @@
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Delirium\" title=\"Delirium\">here</a>. See it in action <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Delirium2\" title=\"Delirium2\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Delirium",
+        "runes": [
+            "Lem",
+            "Ist",
+            "Io"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Headgear (all types)"
         ]
     },
     {
@@ -109,6 +258,19 @@
         "Comments": " Ladder Only\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Destruction",
+        "runes": [
+            "Vex",
+            "Lo",
+            "Ber",
+            "Jah",
+            "Ko"
+        ],
+        "sockets": 5,
+        "item_slot": [
+            "Polearms",
+            "Swords"
         ]
     },
     {
@@ -117,6 +279,20 @@
         "Comments": " See it<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Doom\" title=\"Doom\"> here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Doom",
+        "runes": [
+            "Hel",
+            "Ohm",
+            "Um",
+            "Lo",
+            "Cham"
+        ],
+        "sockets": 5,
+        "item_slot": [
+            "Axes",
+            "Hammers",
+            "Polearms"
         ]
     },
     {
@@ -125,6 +301,17 @@
         "Comments": " Ladder Only\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Dragon",
+        "runes": [
+            "Sur",
+            "Lo",
+            "Sol"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Armor",
+            "Shields"
         ]
     },
     {
@@ -133,6 +320,17 @@
         "Comments": " Ladder Only\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Dream",
+        "runes": [
+            "Io",
+            "Jah",
+            "Pul"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Headgear",
+            "Shields"
         ]
     },
     {
@@ -141,6 +339,16 @@
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Duress\" title=\"Duress\"> here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Duress",
+        "runes": [
+            "Shael",
+            "Um",
+            "Thul"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Armor"
         ]
     },
     {
@@ -149,6 +357,16 @@
         "Comments": " Ladder Only\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Edge",
+        "runes": [
+            "Tir",
+            "Tal",
+            "Amn"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Missile Weapons"
         ]
     },
     {
@@ -157,6 +375,16 @@
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Enigma\" title=\"Enigma\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Enigma",
+        "runes": [
+            "Jah",
+            "Ith",
+            "Ber"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Armor"
         ]
     },
     {
@@ -165,14 +393,36 @@
         "Comments": " Sorceress\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Enlightenment",
+        "runes": [
+            "Pul",
+            "Ral",
+            "Sol"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Armor"
         ]
     },
     {
-        "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Eternity\" title=\"Eternity\">Eternity</a></b><br>\n<p><i>AmnBerIstSolSur</i><br>\n<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Amn\" title=\"Amn\">Amn</a> (11) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Ber\" title=\"Ber\">Ber</a> (30) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Ist\" title=\"Ist\">Ist</a> (24) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Sol\" title=\"Sol\">Sol</a> (12) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Sur\" title=\"Sur\">Sur</a> (29)<br>\nAll Melee Weapons {5}<br>\nClvl Required: 63\n</p>\n",
+        "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Eternity\" title=\"Eternity\">Eternity</a></b><br>\n<p><i>AmnBerIstSolSur</i><br>\n<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Amn\" title=\"Amn\">Amn</a> (11) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Ber\" title=\"Ber\">Ber</a> (30) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Ist\" title=\"Ist\">Ist</a> (24) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Sol\" title=\"Sol\">Sol</a> (12) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Sur\" title=\"Sur\">Sur</a> (29)<br>\nMelee Weapons {5}<br>\nClvl Required: 63\n</p>\n",
         "description": " Indestructible<br>\n<p>+260-310% Enhanced Damage (varies)<br>\n+9 To Minimum Damage<br>\n7% Life Stolen Per Hit<br>\n20% Chance of Crushing Blow<br>\nHit Blinds Target<br>\nSlows Target By 33%<br>\nReplenish Mana 16%<br>\nCannot Be Frozen<br>\n30% Better Chance Of Getting Magic Items<br>\nLevel 8 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Revive\" title=\"Revive\">Revive</a> (88 Charges)\n</p>\n",
         "Comments": " See it<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Eternity\" title=\"Eternity\"> here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Eternity",
+        "runes": [
+            "Amn",
+            "Ber",
+            "Ist",
+            "Sol",
+            "Sur"
+        ],
+        "sockets": 5,
+        "item_slot": [
+            "Melee Weapons"
         ]
     },
     {
@@ -181,6 +431,17 @@
         "Comments": " Paladin Shields only. Inherent Paladin shield bonuses remain active.<br>\n<p>See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Exile\" title=\"Exile\">here</a>.\n</p>\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Exile",
+        "runes": [
+            "Vex",
+            "Ohm",
+            "Ist",
+            "Dol"
+        ],
+        "sockets": 4,
+        "item_slot": [
+            "Shields"
         ]
     },
     {
@@ -189,6 +450,17 @@
         "Comments": " Ladder Only\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Faith",
+        "runes": [
+            "Ohm",
+            "Jah",
+            "Lem",
+            "Eld"
+        ],
+        "sockets": 4,
+        "item_slot": [
+            "Missile Weapons"
         ]
     },
     {
@@ -197,6 +469,18 @@
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Famine\" title=\"Famine\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Famine",
+        "runes": [
+            "Fal",
+            "Ohm",
+            "Ort",
+            "Jah"
+        ],
+        "sockets": 4,
+        "item_slot": [
+            "Axes",
+            "Hammers"
         ]
     },
     {
@@ -205,14 +489,36 @@
         "Comments": " Ladder Only\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Fortitude",
+        "runes": [
+            "El",
+            "Sol",
+            "Dol",
+            "Lo"
+        ],
+        "sockets": 4,
+        "item_slot": [
+            "Weapons",
+            "Armor"
         ]
     },
     {
-        "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Fury_(runeword)\" title=\"Fury (runeword)\">Fury</a></b><br>\n<p><i>JahGulEth</i><br>\n<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Jah\" title=\"Jah\">Jah</a> (31) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Gul\" title=\"Gul\">Gul</a> (25) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Eth\" title=\"Eth\">Eth</a> (5)<br>\nAll Melee Weapons {3}<br>\nClvl Required: 65\n</p>\n",
+        "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Fury_(runeword)\" title=\"Fury (runeword)\">Fury</a></b><br>\n<p><i>JahGulEth</i><br>\n<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Jah\" title=\"Jah\">Jah</a> (31) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Gul\" title=\"Gul\">Gul</a> (25) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Eth\" title=\"Eth\">Eth</a> (5)<br>\nMelee Weapons {3}<br>\nClvl Required: 65\n</p>\n",
         "description": " 40% Increased Attack Speed<br>\n<p>+209% Enhanced Damage<br>\nIgnores Target Defense<br>\n-25% Target Defense<br>\n20% Bonus to Attack Rating<br>\n6% Life Stolen Per Hit<br>\n33% Chance Of Deadly Strike<br>\n66% Chance Of Open Wounds<br>\n+5 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Frenzy\" title=\"Frenzy\">Frenzy</a> (<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Barbarian\" title=\"Barbarian\">Barbarian</a> Only)<br>\nPrevent Monster Heal\n</p>\n",
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Fury_(runeword)\" title=\"Fury (runeword)\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Fury",
+        "runes": [
+            "Jah",
+            "Gul",
+            "Eth"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Melee Weapons"
         ]
     },
     {
@@ -221,6 +527,16 @@
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Gloom\" title=\"Gloom\"> here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Gloom",
+        "runes": [
+            "Fal",
+            "Um",
+            "Pul"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Armor"
         ]
     },
     {
@@ -229,14 +545,38 @@
         "Comments": " Ladder Only\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Grief",
+        "runes": [
+            "Eth",
+            "Tir",
+            "Lo",
+            "Mal",
+            "Ral"
+        ],
+        "sockets": 5,
+        "item_slot": [
+            "Swords",
+            "Axes"
         ]
     },
     {
-        "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Hand_of_Justice\" title=\"Hand of Justice\">Hand of Justice</a></b><br>\n<p><i>SurChamAmnLo</i><br>\n<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Sur\" title=\"Sur\">Sur</a> (29) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Cham\" title=\"Cham\">Cham</a> (32) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Amn\" title=\"Amn\">Amn</a> (11) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Lo\" title=\"Lo\">Lo</a> (28)<br>\nAll Weapons {4}<br>\nClvl Required: 67\n</p>\n",
+        "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Hand_of_Justice\" title=\"Hand of Justice\">Hand of Justice</a></b><br>\n<p><i>SurChamAmnLo</i><br>\n<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Sur\" title=\"Sur\">Sur</a> (29) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Cham\" title=\"Cham\">Cham</a> (32) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Amn\" title=\"Amn\">Amn</a> (11) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Lo\" title=\"Lo\">Lo</a> (28)<br>\nWeapons {4}<br>\nClvl Required: 67\n</p>\n",
         "description": " 100% Chance To Cast Level 36 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Blaze\" title=\"Blaze\">Blaze</a> When You Level-Up<br>\n<p>100% Chance To Cast Level 48 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Meteor\" title=\"Meteor\">Meteor</a> When You Die<br>\nLevel 16 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Holy_Fire\" title=\"Holy Fire\">Holy Fire</a> Aura When Equipped<br>\n+33% Increased Attack Speed<br>\n+280-330% Enhanced Damage (varies)<br>\nIgnore Target's Defense<br>\n-20% To Enemy Fire Resistance<br>\n7% Life Stolen Per Hit<br>\n20% Deadly Strike<br>\nHit Blinds Target<br>\nFreezes Target +3\n</p>\n",
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Hand_of_Justice\" title=\"Hand of Justice\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Hand of Justice",
+        "runes": [
+            "Sur",
+            "Cham",
+            "Amn",
+            "Lo"
+        ],
+        "sockets": 4,
+        "item_slot": [
+            "Weapons"
         ]
     },
     {
@@ -245,6 +585,17 @@
         "Comments": " Ladder Only\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Harmony",
+        "runes": [
+            "Tir",
+            "Ith",
+            "Sol",
+            "Ko"
+        ],
+        "sockets": 4,
+        "item_slot": [
+            "Missile Weapons"
         ]
     },
     {
@@ -253,6 +604,18 @@
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Heart_of_the_Oak\" title=\"Heart of the Oak\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Heart of the Oak",
+        "runes": [
+            "Ko",
+            "Vex",
+            "Pul",
+            "Thul"
+        ],
+        "sockets": 4,
+        "item_slot": [
+            "Staves",
+            "Maces"
         ]
     },
     {
@@ -261,14 +624,37 @@
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Holy_Thunder\" title=\"Holy Thunder\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Holy Thunder",
+        "runes": [
+            "Eth",
+            "Ral",
+            "Ort",
+            "Tal"
+        ],
+        "sockets": 4,
+        "item_slot": [
+            "Scepters"
         ]
     },
     {
-        "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Honor\" title=\"Honor\">Honor</a></b><br>\n<p><i>AmnElIthTirSol</i><br>\n<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Amn\" title=\"Amn\">Amn</a> (11) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/El\" title=\"El\">El</a> (1) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Ith\" title=\"Ith\">Ith</a> (6) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Tir\" title=\"Tir\">Tir</a> (3) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Sol\" title=\"Sol\">Sol</a> (12)<br>\nAll Melee Weapons {5}<br>\nClvl Required: 27\n</p>\n",
+        "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Honor\" title=\"Honor\">Honor</a></b><br>\n<p><i>AmnElIthTirSol</i><br>\n<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Amn\" title=\"Amn\">Amn</a> (11) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/El\" title=\"El\">El</a> (1) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Ith\" title=\"Ith\">Ith</a> (6) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Tir\" title=\"Tir\">Tir</a> (3) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Sol\" title=\"Sol\">Sol</a> (12)<br>\nMelee Weapons {5}<br>\nClvl Required: 27\n</p>\n",
         "description": " +1 to all skills<br>\n<p>+160% Enhanced Damage<br>\n+9 to Minimum Damage<br>\n+9 to Maximum Damage<br>\n+250 Attack Rating<br>\n7% Life Stolen per Hit<br>\n25% Deadly Strike<br>\n+10 to Strength<br>\nReplenish life +10<br>\n+2 to Mana after each Kill<br>\n+1 to Light Radius\n</p>\n",
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Honor\" title=\"Honor\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Honor",
+        "runes": [
+            "Amn",
+            "El",
+            "Ith",
+            "Tir",
+            "Sol"
+        ],
+        "sockets": 5,
+        "item_slot": [
+            "Melee Weapons"
         ]
     },
     {
@@ -277,6 +663,17 @@
         "Comments": " Ladder Only\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Ice",
+        "runes": [
+            "Amn",
+            "Shael",
+            "Jah",
+            "Lo"
+        ],
+        "sockets": 4,
+        "item_slot": [
+            "Missile Weapons"
         ]
     },
     {
@@ -285,6 +682,17 @@
         "Comments": " Ladder Only\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Infinity",
+        "runes": [
+            "Ber",
+            "Mal",
+            "Ber",
+            "Ist"
+        ],
+        "sockets": 4,
+        "item_slot": [
+            "Polearms"
         ]
     },
     {
@@ -293,6 +701,18 @@
         "Comments": " Ladder Only\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Insight",
+        "runes": [
+            "Ral",
+            "Tir",
+            "Tal",
+            "Sol"
+        ],
+        "sockets": 4,
+        "item_slot": [
+            "Polearms",
+            "Staves"
         ]
     },
     {
@@ -301,6 +721,17 @@
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/King%27s_Grace\" title=\"King's Grace\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "King's Grace",
+        "runes": [
+            "Amn",
+            "Ral",
+            "Thul"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Swords",
+            "Scepters"
         ]
     },
     {
@@ -309,6 +740,18 @@
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Kingslayer\" title=\"Kingslayer\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Kingslayer",
+        "runes": [
+            "Mal",
+            "Um",
+            "Gul",
+            "Fal"
+        ],
+        "sockets": 4,
+        "item_slot": [
+            "Swords",
+            "Axes"
         ]
     },
     {
@@ -317,6 +760,21 @@
         "Comments": " Ladder Only\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Last Wish",
+        "runes": [
+            "Jah",
+            "Mal",
+            "Jah",
+            "Sur",
+            "Jah",
+            "Ber"
+        ],
+        "sockets": 6,
+        "item_slot": [
+            "Axes",
+            "Hammers",
+            "Swords"
         ]
     },
     {
@@ -325,6 +783,18 @@
         "Comments": " Ladder Only\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Lawbringer",
+        "runes": [
+            "Amn",
+            "Lem",
+            "Ko"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Hammers",
+            "Scepters",
+            "Swords"
         ]
     },
     {
@@ -333,6 +803,15 @@
         "Comments": " See it<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Leaf\" title=\"Leaf\"> here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Leaf",
+        "runes": [
+            "Tir",
+            "Ral"
+        ],
+        "sockets": 2,
+        "item_slot": [
+            "Staves"
         ]
     },
     {
@@ -341,6 +820,16 @@
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Lionheart\" title=\"Lionheart\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Lionheart",
+        "runes": [
+            "Hel",
+            "Lum",
+            "Fal"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Armor"
         ]
     },
     {
@@ -349,14 +838,33 @@
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Lore\" title=\"Lore\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Lore",
+        "runes": [
+            "Ort",
+            "Sol"
+        ],
+        "sockets": 2,
+        "item_slot": [
+            "Headgear"
         ]
     },
     {
-        "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Malice\" title=\"Malice\">Malice</a></b><br>\n<p><i>IthElEth</i><br>\n<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Ith\" title=\"Ith\">Ith</a> (6) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/El\" title=\"El\">El</a> (1) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Eth\" title=\"Eth\">Eth</a> (5)\n<br>All Melee Weapons {3}<br>\nClvl Required: 15\n</p>\n",
+        "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Malice\" title=\"Malice\">Malice</a></b><br>\n<p><i>IthElEth</i><br>\n<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Ith\" title=\"Ith\">Ith</a> (6) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/El\" title=\"El\">El</a> (1) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Eth\" title=\"Eth\">Eth</a> (5)\n<br>Melee Weapons {3}<br>\nClvl Required: 15\n</p>\n",
         "description": " +33% Enhanced Damage<br>\n<p>+9 to Maximum Damage<br>\n-25% Target Defense<br>\n+50 to Attack Rating<br>\n100% Chance of Open wounds<br>\nPrevent Monster Heal<br>\n-100 to Monster Defense Per Hit<br>\nDrain Life -5\n</p>\n",
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Malice\" title=\"Malice\">here</a>. Life drain is the opposite of life regeneration, with this you will lose 1 hp about every 2 seconds.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Malice",
+        "runes": [
+            "Ith",
+            "El",
+            "Eth"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Melee Weapons"
         ]
     },
     {
@@ -365,6 +873,16 @@
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Melody\" title=\"Melody\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Melody",
+        "runes": [
+            "Shael",
+            "Ko",
+            "Nef"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Missile Weapons"
         ]
     },
     {
@@ -373,6 +891,17 @@
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Memory\" title=\"Memory\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Memory",
+        "runes": [
+            "Lum",
+            "Io",
+            "Sol",
+            "Eth"
+        ],
+        "sockets": 4,
+        "item_slot": [
+            "Staves"
         ]
     },
     {
@@ -381,6 +910,16 @@
         "Comments": " Barbarian\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Myth",
+        "runes": [
+            "Hel",
+            "Amn",
+            "Nef"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Armor"
         ]
     },
     {
@@ -389,6 +928,15 @@
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Nadir\" title=\"Nadir\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Nadir",
+        "runes": [
+            "Nef",
+            "Tir"
+        ],
+        "sockets": 2,
+        "item_slot": [
+            "Headgear (all types)"
         ]
     },
     {
@@ -397,6 +945,19 @@
         "Comments": " Ladder Only\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Oath",
+        "runes": [
+            "Shael",
+            "Pul",
+            "Mal",
+            "Lum"
+        ],
+        "sockets": 4,
+        "item_slot": [
+            "Axes",
+            "Maces",
+            "Swords"
         ]
     },
     {
@@ -405,14 +966,37 @@
         "Comments": " Ladder Only\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Obedience",
+        "runes": [
+            "Hel",
+            "Ko",
+            "Thul",
+            "Eth",
+            "Fal"
+        ],
+        "sockets": 5,
+        "item_slot": [
+            "Polearms"
         ]
     },
     {
-        "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Passion\" title=\"Passion\">Passion</a></b><br>\n<p><i>DolOrtEldLem</i><br>\n<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Dol\" title=\"Dol\">Dol</a> (14) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Ort\" title=\"Ort\">Ort</a> (9) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Eld\" title=\"Eld\">Eld</a> (2) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Lem\" title=\"Lem\">Lem</a> (20)<br>\nAll Weapons {4}<br>\nClvl Required: 43\n</p>\n",
+        "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Passion\" title=\"Passion\">Passion</a></b><br>\n<p><i>DolOrtEldLem</i><br>\n<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Dol\" title=\"Dol\">Dol</a> (14) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Ort\" title=\"Ort\">Ort</a> (9) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Eld\" title=\"Eld\">Eld</a> (2) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Lem\" title=\"Lem\">Lem</a> (20)<br>\nWeapons {4}<br>\nClvl Required: 43\n</p>\n",
         "description": " +25% Increased Attack Speed<br>\n<p>+160-210% Enhanced Damage (varies)<br>\n50-80% Bonus To Attack Rating (varies)<br>\n+75% Damage To Undead<br>\n+50 To Attack Rating Against Undead<br>\nAdds 1-50 Lightning Damage<br>\n+1 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Berserk\" title=\"Berserk\">Berserk</a><br>\n+1 To <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Zeal\" title=\"Zeal\">Zeal</a><br>\nHit Blinds Target +10<br>\nHit Causes Monster To Flee 25%<br>\n75% Extra Gold From Monsters<br>\nLevel 3 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Heart_of_Wolverine\" title=\"Heart of Wolverine\">Heart of Wolverine</a> (12 Charges)\n</p>\n",
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Passion\" title=\"Passion\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Passion",
+        "runes": [
+            "Dol",
+            "Ort",
+            "Eld",
+            "Lem"
+        ],
+        "sockets": 4,
+        "item_slot": [
+            "Weapons"
         ]
     },
     {
@@ -421,6 +1005,16 @@
         "Comments": " Amazon\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Peace",
+        "runes": [
+            "Shael",
+            "Thul",
+            "Amn"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Armor"
         ]
     },
     {
@@ -429,6 +1023,18 @@
         "Comments": " Ladder Only\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Phoenix",
+        "runes": [
+            "Vex",
+            "Vex",
+            "Lo",
+            "Jah"
+        ],
+        "sockets": 4,
+        "item_slot": [
+            "Weapons",
+            "Shields"
         ]
     },
     {
@@ -437,6 +1043,17 @@
         "Comments": " Ladder Only\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Pride",
+        "runes": [
+            "Cham",
+            "Sur",
+            "Io",
+            "Lo"
+        ],
+        "sockets": 4,
+        "item_slot": [
+            "Polearms"
         ]
     },
     {
@@ -445,6 +1062,16 @@
         "Comments": " Paladin\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Principle",
+        "runes": [
+            "Ral",
+            "Gul",
+            "Eld"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Armor"
         ]
     },
     {
@@ -453,6 +1080,15 @@
         "Comments": " -\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Prudence",
+        "runes": [
+            "Mal",
+            "Tir"
+        ],
+        "sockets": 2,
+        "item_slot": [
+            "Armor"
         ]
     },
     {
@@ -461,6 +1097,16 @@
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Radiance\" title=\"Radiance\"> here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Radiance",
+        "runes": [
+            "Nef",
+            "Sol",
+            "Ith"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Headgear"
         ]
     },
     {
@@ -469,6 +1115,16 @@
         "Comments": " Druid\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Rain",
+        "runes": [
+            "Ort",
+            "Mal",
+            "Ith"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Armor"
         ]
     },
     {
@@ -477,6 +1133,15 @@
         "Comments": " One of the more useful, inexpensive runewords. Popular for javazons, sorceresses, necromancers, and others not in need of massive defense.<br>\n<p>See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Rhyme\" title=\"Rhyme\">here</a>.\n</p>\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Rhyme",
+        "runes": [
+            "Shael",
+            "Eth"
+        ],
+        "sockets": 2,
+        "item_slot": [
+            "Shields"
         ]
     },
     {
@@ -485,6 +1150,18 @@
         "Comments": " Ladder Only\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Rift",
+        "runes": [
+            "Hel",
+            "Ko",
+            "Lem",
+            "Gul"
+        ],
+        "sockets": 4,
+        "item_slot": [
+            "Polearms",
+            "Scepters"
         ]
     },
     {
@@ -493,6 +1170,16 @@
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Sanctuary_(runeword)\" title=\"Sanctuary (runeword)\">here</a>\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Sanctuary",
+        "runes": [
+            "Ko",
+            "Ko",
+            "Mal"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Shields"
         ]
     },
     {
@@ -501,6 +1188,19 @@
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Silence\" title=\"Silence\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Silence",
+        "runes": [
+            "Dol",
+            "Eld",
+            "Hel",
+            "Ist",
+            "Tir",
+            "Vex"
+        ],
+        "sockets": 6,
+        "item_slot": [
+            "Weapons"
         ]
     },
     {
@@ -509,6 +1209,15 @@
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Smoke\" title=\"Smoke\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Smoke",
+        "runes": [
+            "Nef",
+            "Lum"
+        ],
+        "sockets": 2,
+        "item_slot": [
+            "Armor"
         ]
     },
     {
@@ -517,6 +1226,18 @@
         "Comments": " Ladder Only\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Spirit",
+        "runes": [
+            "Tal",
+            "Thul",
+            "Ort",
+            "Amn"
+        ],
+        "sockets": 4,
+        "item_slot": [
+            "Shields",
+            "Swords"
         ]
     },
     {
@@ -525,14 +1246,32 @@
         "Comments": " -\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Splendor",
+        "runes": [
+            "Eth",
+            "Lum"
+        ],
+        "sockets": 2,
+        "item_slot": [
+            "Shields"
         ]
     },
     {
-        "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Stealth\" title=\"Stealth\">Stealth</a></b>\n<p><br><i>TalEth</i><br>\n<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Tal\" title=\"Tal\">Tal</a> (7) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Eth\" title=\"Eth\">Eth</a> (5)<br>\nArmor {2}<br>\nClvl Required: 17\n</p>\n",
+        "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Stealth\" title=\"Stealth\">Stealth</a></b><br>\n<p><i>TalEth</i><br>\n<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Tal\" title=\"Tal\">Tal</a> (7) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Eth\" title=\"Eth\">Eth</a> (5)<br>\nArmor {2}<br>\nClvl Required: 17\n</p>\n",
         "description": " +25% Faster Run/Walk<br>\n<p>+25% Faster Casting Rate<br>\n+25% Faster Hit Recovery<br>\n+6 to Dexterity<br>\nRegenerate Mana 15%<br>\n+15 Maximum Stamina<br>\nPoison Resist +30%<br>\nMagic Damage Reduced by 3\n</p>\n",
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Stealth\" title=\"Stealth\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Stealth",
+        "runes": [
+            "Tal",
+            "Eth"
+        ],
+        "sockets": 2,
+        "item_slot": [
+            "Armor"
         ]
     },
     {
@@ -541,6 +1280,17 @@
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Steel\" title=\"Steel\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Steel",
+        "runes": [
+            "Tir",
+            "El"
+        ],
+        "sockets": 2,
+        "item_slot": [
+            "Swords",
+            "Axes",
+            "Maces"
         ]
     },
     {
@@ -549,6 +1299,17 @@
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Stone\" title=\"Stone\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Stone",
+        "runes": [
+            "Shael",
+            "Um",
+            "Pul",
+            "Lum"
+        ],
+        "sockets": 4,
+        "item_slot": [
+            "Armor"
         ]
     },
     {
@@ -557,6 +1318,15 @@
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Strength_(runeword)\" title=\"Strength (runeword)\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Strength",
+        "runes": [
+            "Amn",
+            "Tir"
+        ],
+        "sockets": 2,
+        "item_slot": [
+            "Melee Weapons"
         ]
     },
     {
@@ -565,14 +1335,34 @@
         "Comments": " Assassin\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Treachery",
+        "runes": [
+            "Shael",
+            "Thul",
+            "Lem"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Armor"
         ]
     },
     {
-        "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Venom_(runeword)\" title=\"Venom (runeword)\">Venom</a></b><br>\n<p><i>TalDolMal</i>\n<br> <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Tal\" title=\"Tal\">Tal</a> (7) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Dol\" title=\"Dol\">Dol</a> (14) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Mal\" title=\"Mal\">Mal</a> (23)<br>\nAll Weapons {3}<br>\nClvl Required: 49\n</p>\n",
+        "name": " <b><a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Venom_(runeword)\" title=\"Venom (runeword)\">Venom</a></b><br>\n<p><i>TalDolMal</i>\n<br> <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Tal\" title=\"Tal\">Tal</a> (7) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Dol\" title=\"Dol\">Dol</a> (14) + <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Mal\" title=\"Mal\">Mal</a> (23)<br>\nWeapons {3}<br>\nClvl Required: 49\n</p>\n",
         "description": " Ignore Target's Defense<br>\n<p>+273 Poison Damage Over 6 Seconds<br>\n7% Mana Stolen Per Hit<br>\nPrevent Monster Heal<br>\nHit Causes Monster To Flee 25%<br>\nLevel 13 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Poison_Nova\" title=\"Poison Nova\">Poison Nova</a> (11 Charges)<br>\nLevel 15 <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Poison_Explosion\" title=\"Poison Explosion\">Poison Explosion</a> (27 Charges)\n</p>\n",
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Venom_(runeword)\" title=\"Venom (runeword)\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Venom",
+        "runes": [
+            "Tal",
+            "Dol",
+            "Mal"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Weapons"
         ]
     },
     {
@@ -581,6 +1371,18 @@
         "Comments": " Ladder Only\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Voice of Reason",
+        "runes": [
+            "Lem",
+            "Ko",
+            "El",
+            "Eld"
+        ],
+        "sockets": 4,
+        "item_slot": [
+            "Maces",
+            "Swords"
         ]
     },
     {
@@ -589,6 +1391,16 @@
         "Comments": " Not a lot of bonuses, but a very large one to magic find and gold. Get rich quick.<br>\n<p>See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Wealth\" title=\"Wealth\"> here</a>.\n</p>\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Wealth",
+        "runes": [
+            "Lem",
+            "Ko",
+            "Tir"
+        ],
+        "sockets": 3,
+        "item_slot": [
+            "Armor"
         ]
     },
     {
@@ -597,6 +1409,15 @@
         "Comments": " See it<a target=\"_blank\" href=\"https://diablo2.diablowiki.net/White\" title=\"White\"> here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "White",
+        "runes": [
+            "Dol",
+            "Io"
+        ],
+        "sockets": 2,
+        "item_slot": [
+            "Wands"
         ]
     },
     {
@@ -605,6 +1426,15 @@
         "Comments": " -\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Wind",
+        "runes": [
+            "Sur",
+            "El"
+        ],
+        "sockets": 2,
+        "item_slot": [
+            "Melee Weapons"
         ]
     },
     {
@@ -613,6 +1443,17 @@
         "Comments": " Ladder Only\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Wrath",
+        "runes": [
+            "Pul",
+            "Lum",
+            "Ber",
+            "Mal"
+        ],
+        "sockets": 4,
+        "item_slot": [
+            "Missile Weapons"
         ]
     },
     {
@@ -621,6 +1462,15 @@
         "Comments": " See it <a target=\"_blank\" href=\"https://diablo2.diablowiki.net/Zephyr\" title=\"Zephyr\">here</a>.\n",
         "tags": [
             "runeword"
+        ],
+        "item": "Zephyr",
+        "runes": [
+            "Ort",
+            "Eth"
+        ],
+        "sockets": 2,
+        "item_slot": [
+            "Missile Weapons"
         ]
     }
 ]

@@ -30,51 +30,52 @@
         <div class="filterlist_row">
           <span>Armors :</span>
           <button
-            v-on:click="setFilter(filter.name)"
+            v-on:click="setFilter(wfilter.name)"
             class="fast-filter"
-            v-for="filter in ArmorsList"
-            :key="filter.name"
+            v-for="wfilter in ArmorsList"
+            :key="wfilter.name"
+            v-bind:class="[ wfilter.name == filter ? 'active' : '']"
           >
-            {{ filter.name }}
+            {{ wfilter.name }}
           </button>
         </div>
         <div class="filterlist_row">
           <span>Weapons :</span>
           <button
-            v-on:click="setFilter(filter)"
+            v-on:click="setFilter(wfilter)"
             class="fast-filter"
-            v-for="filter in WeaponsList"
-            :key="filter"
-            :class="(dontIgnoreList.indexOf(filter) !== -1)? '':'not-ready'"
+            v-for="wfilter in WeaponsList"
+            :key="wfilter"
+            :class="((dontIgnoreList.indexOf(wfilter) !== -1)? '':'not-ready',wfilter == filter ? 'active' : '')"
 
           >
-            {{ filter }}
+            {{ wfilter }}
           </button>
         </div>
         <div class="filterlist_row">
           <span>Class-specific Armor :</span>
           <button
-            v-on:click="setFilter(filter)"
+            v-on:click="setFilter(wfilter)"
             class="fast-filter"
-            v-for="filter in ClassSpecificArmor"
-            :key="filter"
+            v-for="wfilter in ClassSpecificArmor"
+            :key="wfilter"
             
-            :class="(dontIgnoreList.indexOf(filter) !== -1)? '':'not-ready'"
+            :class="((dontIgnoreList.indexOf(wfilter) !== -1)? '':'not-ready',wfilter == filter ? 'active' : '')"
           >
-            {{ filter }}
+            {{ wfilter }}
           </button>
         </div>
         <div class="filterlist_row">
           <span>Class-specific Weapons :</span>
           <button
-            v-on:click="setFilter(filter)"
+            v-on:click="setFilter(wfilter)"
             class="fast-filter"
-            v-for="filter in ClassSpecificWeapons"
-            :key="filter"
+            v-for="wfilter in ClassSpecificWeapons"
+            :key="wfilter"
             
-            :class="(dontIgnoreList.indexOf(filter) !== -1)? '':'not-ready'"
+            :class="((dontIgnoreList.indexOf(filter) !== -1)? '':'not-ready',wfilter == filter ? 'active' : '')"
           >
-            {{ filter }}
+            {{ wfilter }}
           </button>
         </div>
       </div>

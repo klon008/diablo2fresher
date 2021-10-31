@@ -22,9 +22,11 @@
       />
       
       <footer>Copyright © 2020. All Rights Reserved | Created by klon_008</footer>
-      
+      <a href="https://my.qiwi.com/Pavel-So7ByacfSV" referrerpolicy="origin" class="by_me_coffe" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+      <v-scroll-to-top></v-scroll-to-top>
     </div>
-    <v-scroll-to-top></v-scroll-to-top>
+    
+
   </div>
 </template>
 
@@ -181,6 +183,9 @@ a{
   }
   &:focus {
     outline: none;
+  }
+  &.active{
+      color: #e9630a !important;
   }
 }
 

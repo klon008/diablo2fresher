@@ -29,29 +29,33 @@
         <div class="filterlist_row">
           <span>Class-Specific Items :</span>
           <button
-            v-on:click="setFilter(filter.set)"
+            v-on:click="setFilter(wfilter.set)"
             class="fast-filter"
-            v-for="filter in classSpecifical"
-            :key="filter.id"
-          >{{ filter.name }}</button>
+            v-for="wfilter in classSpecifical"
+            :key="wfilter.id"
+            
+            v-bind:class="[wfilter.set == filter ? 'active' : '']"
+          >{{ wfilter.name }}</button>
         </div>
         <div class="filterlist_row">
           <span>Normal Sets :</span>
           <button
-            v-on:click="setFilter(filter)"
+            v-on:click="setFilter(wfilter)"
             class="fast-filter"
-            v-for="filter in normalSets"
-            :key="filter.id"
-          >{{ filter}}</button>
+            v-for="wfilter in normalSets"
+            :key="wfilter.id"
+            v-bind:class="[wfilter == filter ? 'active' : '']"
+          >{{ wfilter}}</button>
         </div>
         <div class="filterlist_row">
           <span>LOD Sets :</span>
           <button
-            v-on:click="setFilter(filter)"
+            v-on:click="setFilter(wfilter)"
             class="fast-filter"
-            v-for="filter in lodSets"
-            :key="filter.id"
-          >{{ filter}}</button>
+            v-for="wfilter in lodSets"
+            :key="wfilter.id"
+            v-bind:class="[wfilter == filter ? 'active' : '']"
+          >{{ wfilter}}</button>
         </div>
       </div>
       <!-- FILTER CONTROLLER BLOCK END -->
