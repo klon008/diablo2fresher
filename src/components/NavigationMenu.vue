@@ -18,7 +18,7 @@
 import { useLanguage } from '../composables/useLanguage'
 
 export default {
-  name: "HelloWorld",
+  name: "NavigationMenu",
   components: {
   },
   props: {

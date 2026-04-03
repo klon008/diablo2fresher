@@ -18,7 +18,7 @@
         src="./assets/DiabloIIf.png"
       >
       <LangSwitcher class="lang-position" />
-      <HelloWorld 
+      <NavigationMenu 
         msg="Diablo 2 [FRESHER]" 
       />
       
@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavigationMenu from './components/NavigationMenu.vue'
 import ScrollToTop from './components/ScrollToTop.vue'
 import LangSwitcher from './components/LangSwitcher.vue'
 import { createStars, initCanvas, animate } from './utils/Star.js'
@@ -40,7 +40,7 @@ import { createStars, initCanvas, animate } from './utils/Star.js'
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    NavigationMenu,
     ScrollToTop,
     LangSwitcher,
   },
