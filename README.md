@@ -1,30 +1,35 @@
 # diablofresher
 
 ## Project setup
+
 ```
-yarn install
+npm install
 ```
 
-### Compiles and hot-reloads for development
+### Development (Vite)
+
 ```
-yarn serve
+npm run dev
 ```
 
-### Compiles and minifies for production
+### Production build
+
 ```
-yarn build
+npm run build
 ```
 
-### Lints and fixes files
+Preview the production build locally:
+
 ```
-yarn lint
+npm run preview
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Lint
 
+```
+npm run lint
+```
 
-### Github Pages
-```
-git subtree push --prefix dist origin gh-pages
-```
+### GitHub Pages
+
+The app is built with `base` set to `/diablo2fresher/` for production. Deploy the `dist` folder to GitHub Pages (for example `git subtree push --prefix dist origin gh-pages`).

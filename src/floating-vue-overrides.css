@@ -1,0 +1,23 @@
+/* Tooltips are not scrollable inside the popper; user scrolls #app .content to fit long text.
+   strategy:fixed + overflowPadding in main.js reduce body double-scroll without inner overflow. */
+body .v-popper--theme-dropdown .v-popper__inner {
+  box-sizing: border-box;
+  background: #00000000;
+  text-align: center;
+  box-shadow:0 0 6px 0 #3a3a3a;
+  border: none;
+}
+/* Форсируем полное скрытие для доступности, когда поппер неактивен */
+.v-popper__popper--hidden {
+  display: none !important;
+  /* Или используйте visibility: hidden, это тоже убирает элемент из порядка табуляции */
+  visibility: hidden !important; 
+}
+.v-popper__popper{
+  outline: none !important;
+  pointer-events: none !important;
+}
+html,
+body {
+  overflow-x: hidden;
+}

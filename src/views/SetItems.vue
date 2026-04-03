@@ -60,53 +60,56 @@
       </div>
       <!-- FILTER CONTROLLER BLOCK END -->
     </div>
-    <!-- ITEMS STYLED GRID -->
-    <div id="items-wrapper" v-if="displayStyle=='grid'">
-      <div v-for="item in dJson" v-bind:key="item.id" v-show="filteredJson(item)">
-        <popper trigger="hover" :options="{placement: 'top'}">
-          <div class="popper description" v-html="item.description+'<br/><br/>'
-          + '<span style=\'  color: #00c400;font-size: 1.1em;font-weight: 600;\'>'+ item.tags[2] + '</span><br/>'+item.partial"></div>
-          <div slot="reference" class="pop-item">
+    <!-- ITEMS -->
+    <div v-if="loading" class="items-skeleton-wrap">
+      <SkeletonItemGrid />
+    </div>
+    <template v-else>
+      <div id="items-wrapper" v-if="displayStyle=='grid'">
+        <div v-for="item in dJson" v-bind:key="item.id" v-show="filteredJson(item)">
+          <VDropdown :triggers="['hover']" placement="auto" no-auto-focus>
+            <div class="pop-item">
+              <div class="item-img">
+                <img :src="(publicPath + item.img)" v-bind:alt="item.name" />
+              </div>
+              <div class="name" v-html="item.name"></div>
+              <div class="subname" v-html="item.nameType"></div>
+            </div>
+            <template #popper>
+              <div class="popper description" v-html="item.description+'<br/><br/>'
+              + '<span style=\'  color: #00c400;font-size: 1.1em;font-weight: 600;\'>'+ item.tags[2] + '</span><br/>'+item.partial"></div>
+            </template>
+          </VDropdown>
+        </div>
+      </div>
+      <div id="items-wrapper" class="row-styled" v-else-if="displayStyle=='row'">
+        <div v-for="item in dJson" v-bind:key="item.id" v-show="filteredJson(item)">
+          <div class="pop-item">
             <div class="item-img">
               <img :src="(publicPath + item.img)" v-bind:alt="item.name" />
             </div>
             <div class="name" v-html="item.name"></div>
             <div class="subname" v-html="item.nameType"></div>
           </div>
-        </popper>
-      </div>
-    </div>
-    <!-- ROW STYLED ITEMS -->
-    <div id="items-wrapper" class="row-styled" v-else-if="displayStyle=='row'">
-      <div v-for="item in dJson" v-bind:key="item.id" v-show="filteredJson(item)">
-        <div slot="reference" class="pop-item">
-          <div class="item-img">
-            <img :src="(publicPath + item.img)" v-bind:alt="item.name" />
-          </div>
-          <div class="name" v-html="item.name"></div>
-          <div class="subname" v-html="item.nameType"></div>
-          
+          <div v-html="item.description" class="description"></div>
+          <div class="partial" v-html="'<span style=\'  color: #00c400;font-size: 1.1em;font-weight: 600;\'>'+ item.tags[2] + '</span><br/><br/>' + item.partial"></div>
         </div>
-        <div v-html="item.description" class="description"></div>
-        <div class="partial" v-html="'<span style=\'  color: #00c400;font-size: 1.1em;font-weight: 600;\'>'+ item.tags[2] + '</span><br/><br/>' + item.partial"></div>
       </div>
-    </div>
+    </template>
   </div>
 </template>
 
 <script>
-import Popper from "vue-popperjs";
-import "vue-popperjs/dist/vue-popper.css";
 import axios from "axios";
+import SkeletonItemGrid from "../components/SkeletonItemGrid.vue";
 
 export default {
   name: "SetItems",
-  components: {
-    popper: Popper
-  },
+  components: { SkeletonItemGrid },
   data: function() {
     return {
-      publicPath: process.env.BASE_URL,
+      loading: true,
+      publicPath: import.meta.env.BASE_URL,
       dJson: [],
       normalSets: [],
       lodSets: [],
@@ -153,45 +156,53 @@ export default {
   watch: {},
   computed: {},
   created() {
-    let axiosPrefix = "";
-    if (process.env.NODE_ENV == "production") axiosPrefix = "/diablo2fresher";
-    axios.get(axiosPrefix + "/json/qs.json").then(response => {
-      if (response && response.data) {
-        this.qrJson = response.data;
-        let qjson = this.qrJson;
-        let filteredJson = qjson.filter(item => {
-          if (item.tags.indexOf("sets") !== -1) {
-            return true;
-          }
-        });
-        this.dJson = filteredJson;
+    axios
+      .get(`${import.meta.env.BASE_URL}json/qs.json`)
+      .then(response => {
+        if (response && response.data) {
+          const qjson = response.data;
+          let filteredJson = qjson.filter(item => {
+            if (item.tags.indexOf("sets") !== -1) {
+              return true;
+            }
+          });
+          this.dJson = filteredJson;
 
-        let normalSets = [];
-        let lodSets = [];
-        for (let item of qjson) {
-          let wkmass;
-          if (item.tags.indexOf('normal_sets')!==-1){
-            wkmass = normalSets;
-          } else if (item.tags.indexOf('lod_sets')!==-1){
-            wkmass = lodSets;
-          }
-          for (let tag of item.tags) {
-              
+          let normalSets = [];
+          let lodSets = [];
+          for (let item of qjson) {
+            let wkmass;
+            if (item.tags.indexOf('normal_sets')!==-1){
+              wkmass = normalSets;
+            } else if (item.tags.indexOf('lod_sets')!==-1){
+              wkmass = lodSets;
+            }
+            if (!wkmass) continue;
+            for (let tag of item.tags) {
               if (tag !== "sets" && tag !== "normal_sets" && tag !== "lod_sets" && wkmass.indexOf(tag) == -1) {
                 wkmass.push(tag);
               }
             }
+          }
+          this.normalSets = normalSets;
+          this.lodSets = lodSets;
         }
-        this.normalSets = normalSets;
-        this.lodSets = lodSets;
-      }
-    });
+      })
+      .catch(() => {})
+      .finally(() => {
+        this.loading = false;
+      });
   },
   mounted() {}
 };
 </script>
 
 <style  lang="scss" scoped>
+.items-skeleton-wrap {
+  width: 100%;
+  display: block;
+}
+
 #items-wrapper {
   display: grid;
   grid-template-columns: repeat(5, 1fr);

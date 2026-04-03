@@ -129,12 +129,15 @@
             <div class="items_header_h">Stats</div>
             <div class="items_header_h">Comments</div>
          </div>
-         <div v-for="(item, index) in filteredJson" v-bind:key="index">
+         <SkeletonRuneWordsTable v-if="loading" />
+         <template v-else>
+         <div v-for="(item, index) in filteredJson" :key="index" class="items-row">
             <div class="index">{{ index + 1 }}</div>
             <div class="name" v-html="item.name"></div>
             <div class="stats" v-html="item.description"></div>
             <div class="comments" v-html="item.Comments"></div>
          </div>
+         </template>
       </div>
    </div>
 </template>
@@ -142,11 +145,15 @@
 
 <script>
 import axios from "axios";
+import SkeletonRuneWordsTable from "../components/SkeletonRuneWordsTable.vue";
+
 export default {
    name: "RuneWords",
+   components: { SkeletonRuneWordsTable },
 
    data: function () {
       return {
+         loading: true,
          qrJson: [],
          filter: "",
          qickFilers: [],
@@ -269,13 +276,17 @@ export default {
    },
    mounted() {},
    created() {
-      let axiosPrefix = "";
-      if (process.env.NODE_ENV == "production") axiosPrefix = "/diablo2fresher";
-      axios.get(axiosPrefix + "/json/qr.json").then((response) => {
-         if (response && response.data) {
-            this.qrJson = response.data;
-         }
-      });
+      axios
+         .get(`${import.meta.env.BASE_URL}json/qr.json`)
+         .then((response) => {
+            if (response && response.data) {
+               this.qrJson = response.data;
+            }
+         })
+         .catch(() => {})
+         .finally(() => {
+            this.loading = false;
+         });
    },
 };
 </script>
@@ -287,10 +298,14 @@ export default {
 .items_header {
    display: table-header-group;
    & > .items_header_h {
+      display: table-cell;
       background: transparent;
       border: none;
       vertical-align: center;
       text-align: center;
+      padding-top: 1em;
+      padding-left: 1em;
+      padding-right: 1em;
    }
 }
 .items {
@@ -298,7 +313,7 @@ export default {
    display: table;
    margin-top: 1em;
    margin-bottom: 2em;
-   & > div {
+   & > .items-row {
       display: table-row;
       & > div {
          text-align: left;

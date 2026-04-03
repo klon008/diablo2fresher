@@ -23,7 +23,7 @@
       
       <footer>Copyright © 2020. All Rights Reserved | Created by klon_008</footer>
       <a href="https://www.tbank.ru/cf/7wAjQApstO8" referrerpolicy="origin" class="by_me_coffe" target="_blank"><img src="./assets/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-      <v-scroll-to-top></v-scroll-to-top>
+      <ScrollToTop />
     </div>
     
 
@@ -32,6 +32,7 @@
 
 <script>
   import HelloWorld from './components/HelloWorld.vue'
+  import ScrollToTop from './components/ScrollToTop.vue'
   
   class Star {
     constructor(x,y, speed = 100){
@@ -44,7 +45,8 @@
   export default {
     name: 'App',
     components: {
-      HelloWorld
+      HelloWorld,
+      ScrollToTop,
     },
     mounted(){
       var canvas = this.$refs.canvas;
@@ -139,16 +141,6 @@ a{
     color: #FEAF00;
   }
 }
-.vue-scroll-button {
-  background-color: #222; 
-  color: #fff;
-}
-
-.vue-scroll-button:hover {
-  background-color: #333; 
-}
-
-
 .popper{
   pointer-events: none;
 }

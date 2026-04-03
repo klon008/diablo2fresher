@@ -1,87 +1,61 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import Nprogress from 'nprogress'
-import 'nprogress/nprogress.css';
+import { createRouter, createWebHashHistory } from 'vue-router'
+import NProgress from 'nprogress'
 
-Vue.use(VueRouter)
-
-  const routes = [
+const routes = [
   {
     path: '/uniq_items',
     name: 'uniq_items',
-    component: () => import(/* webpackChunkName: "about" */ '../views/UniqItems.vue')
+    component: () => import('../views/UniqItems.vue'),
   },
   {
     path: '/rune_words',
     name: 'rune_words',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/RuneWords.vue')
+    component: () => import('../views/RuneWords.vue'),
   },
   {
     path: '/runes',
     name: 'runes',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Runes.vue')
+    component: () => import('../views/Runes.vue'),
   },
   {
     path: '/sets',
     name: 'sets',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/SetItems.vue')
+    component: () => import('../views/SetItems.vue'),
   },
   {
     path: '/crafting',
     name: 'crafting',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Crafting.vue')
+    component: () => import('../views/Crafting.vue'),
   },
   {
     path: '/bases',
     name: 'bases',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Bases.vue')
+    component: () => import('../views/Bases.vue'),
   },
   {
     path: '/cube',
     name: 'cube',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Cube.vue')
-  }
+    component: () => import('../views/Cube.vue'),
+  },
 ]
 
-const router = new VueRouter({
-  mode: 'hash',
-  base: 'diablo2fresher', //Удалить base если сайт будет на хостинге
+const router = createRouter({
+  history: createWebHashHistory(import.meta.env.BASE_URL),
   routes,
   scrollBehavior() {
-    document.getElementById('app').scrollIntoView();
-  }
+    const el = document.getElementById('app')
+    if (el) el.scrollIntoView()
+  },
 })
 
-router.beforeResolve((to, from, next) => {
-  // If this isn't an initial page load.
+router.beforeResolve((to) => {
   if (to.name) {
-      // Start the route progress bar.
-      Nprogress.start()
+    NProgress.start()
   }
-  next()
 })
 
-router.afterEach((to, from) => {
-  // Complete the animation of the route progress bar.
-  Nprogress.done()
+router.afterEach(() => {
+  NProgress.done()
 })
 
 export default router

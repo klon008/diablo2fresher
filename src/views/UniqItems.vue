@@ -78,50 +78,54 @@
       </div>
       <!-- FILTER CONTROLLER BLOCK END -->
     </div>
-    <!-- ITEMS STYLED GRID -->
-    <div id="items-wrapper" v-if="displayStyle=='grid'">
-      <div v-for="item in dJson" v-bind:key="item.id" v-show="filteredJson(item)">
-        <popper trigger="hover" :options="{placement: 'top'}">
-          <div class="popper description" v-html="item.description"></div>
-          <div slot="reference" class="pop-item">
+    <!-- ITEMS -->
+    <div v-if="loading" class="items-skeleton-wrap">
+      <SkeletonItemGrid />
+    </div>
+    <template v-else>
+      <div id="items-wrapper" v-if="displayStyle=='grid'">
+        <div v-for="item in dJson" v-bind:key="item.id" v-show="filteredJson(item)">
+          <VDropdown :triggers="['hover']" placement="top">
+            <div class="pop-item">
+              <div class="item-img">
+                <img :src="(publicPath + item.img )" v-bind:alt="item.name" />
+              </div>
+              <div class="name" v-html="item.name"></div>
+              <div class="subname" v-html="item.nameType"></div>
+            </div>
+            <template #popper>
+              <div class="popper description" v-html="item.description"></div>
+            </template>
+          </VDropdown>
+        </div>
+      </div>
+      <div id="items-wrapper" class="row-styled" v-else-if="displayStyle=='row'">
+        <div v-for="item in dJson" v-bind:key="item.id" v-show="filteredJson(item)">
+          <div class="pop-item">
             <div class="item-img">
-              <img :src="(publicPath + item.img )" v-bind:alt="item.name" />
+              <img :src="(publicPath+item.img)" v-bind:alt="item.name" />
             </div>
             <div class="name" v-html="item.name"></div>
             <div class="subname" v-html="item.nameType"></div>
           </div>
-        </popper>
-      </div>
-    </div>
-    <!-- ROW STYLED ITEMS -->
-    <div id="items-wrapper" class="row-styled" v-else-if="displayStyle=='row'">
-      <div v-for="item in dJson" v-bind:key="item.id" v-show="filteredJson(item)">
-        <div slot="reference" class="pop-item">
-          <div class="item-img">
-            <img :src="(publicPath+item.img)" v-bind:alt="item.name" />
-          </div>
-          <div class="name" v-html="item.name"></div>
-          <div class="subname" v-html="item.nameType"></div>
+          <div v-html="item.description" class="description"></div>
         </div>
-        <div v-html="item.description" class="description"></div>
       </div>
-    </div>
+    </template>
   </div>
 </template>
 
 <script>
-import Popper from "vue-popperjs";
-import "vue-popperjs/dist/vue-popper.css";
 import axios from "axios";
+import SkeletonItemGrid from "../components/SkeletonItemGrid.vue";
 
 export default {
   name: "UniqueItems",
-  components: {
-    popper: Popper
-  },
+  components: { SkeletonItemGrid },
   data: function() {
     return {
-      publicPath: process.env.BASE_URL,
+      loading: true,
+      publicPath: import.meta.env.BASE_URL,
       dJson: [],
       uniqTags: [],
       filter: "",
@@ -175,37 +179,39 @@ export default {
   watch: {},
   computed: {},
   created() {
-    let axiosPrefix = "";
-    if (process.env.NODE_ENV == "production") axiosPrefix = "/diablo2fresher";
-    axios.get(axiosPrefix + "/json/q.json").then(response => {
-      if (response && response.data) {
-        this.qrJson = response.data;
-        let qjson = this.qrJson;
-        let filteredJson = qjson.filter(item => {
-          if (item.tags.indexOf("unique") !== -1) {
-            return true;
-          }
-        });
-        filteredJson.map(item => {
-          if (item.img && item.img[0] && item.img[0] == "/"){
-            item.img = item.img.substring(1);
-          }
-          return item;
-        })
-        this.dJson = filteredJson;
+    axios
+      .get(`${import.meta.env.BASE_URL}json/q.json`)
+      .then(response => {
+        if (response && response.data) {
+          const qjson = response.data;
+          let filteredJson = qjson.filter(item => {
+            if (item.tags.indexOf("unique") !== -1) {
+              return true;
+            }
+          });
+          filteredJson.map(item => {
+            if (item.img && item.img[0] && item.img[0] == "/"){
+              item.img = item.img.substring(1);
+            }
+            return item;
+          })
+          this.dJson = filteredJson;
 
-        let uniqTags = [];
-        for (let item of qjson) {
-          
-          for (let tag of item.tags) {
-            if (tag !== "unique" && uniqTags.indexOf(tag) == -1) {
-              uniqTags.push(tag);
+          let uniqTags = [];
+          for (let item of qjson) {
+            for (let tag of item.tags) {
+              if (tag !== "unique" && uniqTags.indexOf(tag) == -1) {
+                uniqTags.push(tag);
+              }
             }
           }
+          this.uniqTags = uniqTags;
         }
-        this.uniqTags = uniqTags;
-      }
-    });
+      })
+      .catch(() => {})
+      .finally(() => {
+        this.loading = false;
+      });
   },
   mounted() {}
 };
@@ -229,6 +235,11 @@ export default {
 }
 .filterlist_wrapper {
   font-size: 13px;
+}
+
+.items-skeleton-wrap {
+  width: 100%;
+  display: block;
 }
 
 .fast-filter {

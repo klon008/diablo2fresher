@@ -169,10 +169,6 @@ import AssassinKatars from "../assets/bases/AssassinKatars.json";
 import SorceressOrbs from "../assets/bases/SorceressOrbs.json";
 
 
-import Popper from "vue-popperjs";
-import "vue-popperjs/dist/vue-popper.css";
-import axios from "axios";
-
 Array.prototype.unique = function() {
     var a = this.concat();
     for(var i=0; i<a.length; ++i) {
@@ -192,7 +188,7 @@ export default {
   },
   data: function () {
     return {
-      publicPath: process.env.BASE_URL,
+      publicPath: import.meta.env.BASE_URL,
       dJson: [],
       normalSets: [],
       lodSets: [],

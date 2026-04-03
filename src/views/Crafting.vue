@@ -56,11 +56,12 @@ All recipes work with the <strong>normal</strong>, <strong>exceptional</strong>,
                   <div class="cell">Crafted Item</div>
                   <div class="cell">Comments</div>
                </div>
-               <template v-for="(groupedData, groupName) of qrJson">
+               <SkeletonCraftingTable v-if="loading" />
+               <template v-else>
+               <template v-for="(groupedData, groupName) of qrJson" :key="groupName">
                   <div
                      class="body"
                      v-show="itemsFilter == 'All' || itemsFilter == groupName"
-                     v-bind:key="groupName"
                   >
                      <div
                         class="row"
@@ -113,6 +114,7 @@ All recipes work with the <strong>normal</strong>, <strong>exceptional</strong>,
                      </div>
                   </div>
                </template>
+               </template>
             </div>
          </div>
       </div>
@@ -120,16 +122,16 @@ All recipes work with the <strong>normal</strong>, <strong>exceptional</strong>,
 </template>
 
 <script>
-import Popper from "vue-popperjs";
-import "vue-popperjs/dist/vue-popper.css";
 import axios from "axios";
+import SkeletonCraftingTable from "../components/SkeletonCraftingTable.vue";
 
 export default {
    name: "Crafting",
-   components: {},
+   components: { SkeletonCraftingTable },
    data: function () {
       return {
-         publicPath: process.env.BASE_URL,
+         loading: true,
+         publicPath: import.meta.env.BASE_URL,
          itemsFilter: "All",
          showFaq: false,
          filter: "",
@@ -173,13 +175,17 @@ export default {
    },
    computed: {},
    created() {
-      let axiosPrefix = "";
-      if (process.env.NODE_ENV == "production") axiosPrefix = "/diablo2fresher";
-      axios.get(axiosPrefix + "/json/resulted_craft.json").then((response) => {
-         if (response && response.data) {
-            this.qrJson = this.groupBy(response.data, "type");
-         }
-      });
+      axios
+         .get(`${import.meta.env.BASE_URL}json/resulted_craft.json`)
+         .then((response) => {
+            if (response && response.data) {
+               this.qrJson = this.groupBy(response.data, "type");
+            }
+         })
+         .catch(() => {})
+         .finally(() => {
+            this.loading = false;
+         });
    },
    mounted() {},
 };
