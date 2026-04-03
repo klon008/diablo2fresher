@@ -1,0 +1,544 @@
+[
+  {
+    "id": 1,
+    "name": "El",
+    "number": 1,
+    "image": "img/runes/28px-El_Rune.png",
+    "width": 31,
+    "height": 34,
+    "upgradeFrom": null,
+    "upgradeFromCount": 0,
+    "upgradeGem": null,
+    "properties": {
+      "weapon": "+50 AR, +1 Light Radius",
+      "armor": "+1 Light Radius, +15 Defense",
+      "clvl": 11
+    }
+  },
+  {
+    "id": 2,
+    "name": "Eld",
+    "number": 2,
+    "image": "img/runes/28px-Eld_Rune.png",
+    "width": 30,
+    "height": 31,
+    "upgradeFrom": "El",
+    "upgradeFromCount": 3,
+    "upgradeGem": null,
+    "properties": {
+      "weapon": "+75% Damage vs. Undead, +50 Attack Rating vs. Undead *",
+      "armor": "Lowers Stamina drain by 15%",
+      "shield": "+7% Blocking",
+      "clvl": 11
+    }
+  },
+  {
+    "id": 3,
+    "name": "Tir",
+    "number": 3,
+    "image": "img/runes/28px-Tir_Rune.png",
+    "width": 30,
+    "height": 31,
+    "upgradeFrom": "Eld",
+    "upgradeFromCount": 3,
+    "upgradeGem": null,
+    "properties": {
+      "weapon": "+2 Mana Per Kill",
+      "armor": "+2 Mana Per Kill.",
+      "clvl": 13
+    }
+  },
+  {
+    "id": 4,
+    "name": "Nef",
+    "number": 4,
+    "image": "img/runes/28px-Nef_Rune.png",
+    "width": 28,
+    "height": 31,
+    "upgradeFrom": "Tir",
+    "upgradeFromCount": 3,
+    "upgradeGem": null,
+    "properties": {
+      "weapon": "Knockback",
+      "armor": "+30 Defense vs. Missile",
+      "clvl": 13
+    }
+  },
+  {
+    "id": 5,
+    "name": "Eth",
+    "number": 5,
+    "image": "img/runes/28px-Eth_Rune.png",
+    "width": 30,
+    "height": 31,
+    "upgradeFrom": "Nef",
+    "upgradeFromCount": 3,
+    "upgradeGem": null,
+    "properties": {
+      "weapon": "-25% Target Defense",
+      "armor": "Regenerate Mana 15%",
+      "clvl": 15
+    }
+  },
+  {
+    "id": 6,
+    "name": "Ith",
+    "number": 6,
+    "image": "img/runes/28px-Ith_Rune.png",
+    "width": 29,
+    "height": 30,
+    "upgradeFrom": "Eth",
+    "upgradeFromCount": 3,
+    "upgradeGem": null,
+    "properties": {
+      "weapon": "+9 to Maximum Damage",
+      "armor": "15% Damage Taken Goes to Mana",
+      "clvl": 15
+    }
+  },
+  {
+    "id": 7,
+    "name": "Tal",
+    "number": 7,
+    "image": "img/runes/28px-Tal_Rune.png",
+    "width": 30,
+    "height": 31,
+    "upgradeFrom": "Ith",
+    "upgradeFromCount": 3,
+    "upgradeGem": null,
+    "properties": {
+      "weapon": "75 Poison damage over 5 seconds",
+      "armor": "+35% Poison Resistance",
+      "clvl": 17
+    }
+  },
+  {
+    "id": 8,
+    "name": "Ral",
+    "number": 8,
+    "image": "img/runes/28px-Ral_Rune.png",
+    "width": 30,
+    "height": 31,
+    "upgradeFrom": "Tal",
+    "upgradeFromCount": 3,
+    "upgradeGem": null,
+    "properties": {
+      "weapon": "+5-30 Fire Damage",
+      "armor": "+35% Fire Resistance",
+      "clvl": 19
+    }
+  },
+  {
+    "id": 9,
+    "name": "Ort",
+    "number": 9,
+    "image": "img/runes/28px-Ort_Rune.png",
+    "width": 30,
+    "height": 31,
+    "upgradeFrom": "Ral",
+    "upgradeFromCount": 3,
+    "upgradeGem": null,
+    "properties": {
+      "weapon": "+1-50 Lightning Damage",
+      "armor": "+35% Lightning Resistance",
+      "clvl": 21
+    }
+  },
+  {
+    "id": 10,
+    "name": "Thul",
+    "number": 10,
+    "image": "img/runes/28px-Thul_Rune.png",
+    "width": 30,
+    "height": 31,
+    "upgradeFrom": "Ort",
+    "upgradeFromCount": 3,
+    "upgradeGem": null,
+    "properties": {
+      "weapon": "+3-14 Cold Damage (Cold Length 3 seconds)",
+      "armor": "+35% Cold Resistance",
+      "clvl": 23
+    }
+  },
+  {
+    "id": 11,
+    "name": "Amn",
+    "number": 11,
+    "image": "img/runes/28px-Amn_Rune.png",
+    "width": 29,
+    "height": 30,
+    "upgradeFrom": "Thul",
+    "upgradeFromCount": 3,
+    "upgradeGem": "Chipped_Topaz",
+    "properties": {
+      "weapon": "7% Life Stolen Per Hit",
+      "armor": "Attacker takes 14 damage",
+      "clvl": 25
+    }
+  },
+  {
+    "id": 12,
+    "name": "Sol",
+    "number": 12,
+    "image": "img/runes/28px-Sol_Rune.png",
+    "width": 28,
+    "height": 31,
+    "upgradeFrom": "Amn",
+    "upgradeFromCount": 3,
+    "upgradeGem": "Chipped_Amethyst",
+    "properties": {
+      "weapon": "+9 to Minimum Damage",
+      "armor": "-7 Damage Taken",
+      "clvl": 27
+    }
+  },
+  {
+    "id": 13,
+    "name": "Shael",
+    "number": 13,
+    "image": "img/runes/28px-Shael_Rune.png",
+    "width": 30,
+    "height": 31,
+    "upgradeFrom": "Sol",
+    "upgradeFromCount": 3,
+    "upgradeGem": "Chipped_Sapphire",
+    "properties": {
+      "weapon": "Faster Attack Rate (+20)",
+      "armor": "Faster Hit Recovery (+20)",
+      "shield": "Faster Block Rate (+20)",
+      "clvl": 29
+    }
+  },
+  {
+    "id": 14,
+    "name": "Dol",
+    "number": 14,
+    "image": "img/runes/28px-Dol_Rune.png",
+    "width": 29,
+    "height": 30,
+    "upgradeFrom": "Shael",
+    "upgradeFromCount": 3,
+    "upgradeGem": "Chipped_Ruby",
+    "properties": {
+      "weapon": "25% Chance that Hit Causes Monster to Flee",
+      "armor": "+7 Replenish Life",
+      "clvl": 31
+    }
+  },
+  {
+    "id": 15,
+    "name": "Hel",
+    "number": 15,
+    "image": "img/runes/28px-Hel_Rune.png",
+    "width": 29,
+    "height": 30,
+    "upgradeFrom": "Dol",
+    "upgradeFromCount": 3,
+    "upgradeGem": "Chipped_Emerald",
+    "properties": {
+      "weapon": "-20% Requirements",
+      "armor": "-15% Requirements",
+      "ilvl": 33,
+      "clvl": null
+    }
+  },
+  {
+    "id": 16,
+    "name": "Io",
+    "number": 16,
+    "image": "img/runes/28px-Io_Rune.png",
+    "width": 30,
+    "height": 31,
+    "upgradeFrom": "Hel",
+    "upgradeFromCount": 3,
+    "upgradeGem": "Chipped_Diamond",
+    "properties": {
+      "weapon": "+10 Vitality",
+      "armor": "+10 Vitality",
+      "clvl": 35
+    }
+  },
+  {
+    "id": 17,
+    "name": "Lum",
+    "number": 17,
+    "image": "img/runes/28px-Lum_Rune.png",
+    "width": 30,
+    "height": 31,
+    "upgradeFrom": "Io",
+    "upgradeFromCount": 3,
+    "upgradeGem": "Flawed_Topaz",
+    "properties": {
+      "weapon": "+10 Energy",
+      "armor": "+10 Energy",
+      "clvl": 37
+    }
+  },
+  {
+    "id": 18,
+    "name": "Ko",
+    "number": 18,
+    "image": "img/runes/28px-Ko_Rune.png",
+    "width": 29,
+    "height": 30,
+    "upgradeFrom": "Lum",
+    "upgradeFromCount": 3,
+    "upgradeGem": "Flawed_Amethyst",
+    "properties": {
+      "weapon": "+10 Dexterity",
+      "armor": "+10 Dexterity",
+      "clvl": 39
+    }
+  },
+  {
+    "id": 19,
+    "name": "Fal",
+    "number": 19,
+    "image": "img/runes/28px-Fal_Rune.png",
+    "width": 29,
+    "height": 30,
+    "upgradeFrom": "Ko",
+    "upgradeFromCount": 3,
+    "upgradeGem": "Flawed_Sapphire",
+    "properties": {
+      "weapon": "+10 Strength",
+      "armor": "+10 Strength",
+      "clvl": 41
+    }
+  },
+  {
+    "id": 20,
+    "name": "Lem",
+    "number": 20,
+    "image": "img/runes/28px-Lem_Rune.png",
+    "width": 30,
+    "height": 31,
+    "upgradeFrom": "Fal",
+    "upgradeFromCount": 3,
+    "upgradeGem": "Flawed_Ruby",
+    "properties": {
+      "weapon": "+75% Extra Gold from Monsters",
+      "armor": "+50% Extra Gold from Monsters",
+      "clvl": 43
+    }
+  },
+  {
+    "id": 21,
+    "name": "Pul",
+    "number": 21,
+    "image": "img/runes/28px-Pul_Rune.png",
+    "width": 30,
+    "height": 31,
+    "upgradeFrom": "Lem",
+    "upgradeFromCount": 3,
+    "upgradeGem": "Flawed_Emerald",
+    "properties": {
+      "weapon": "+75% Damage to Demons, +100 AR against Demons",
+      "armor": "+30% Defense",
+      "clvl": 45
+    }
+  },
+  {
+    "id": 22,
+    "name": "Um",
+    "number": 22,
+    "image": "img/runes/28px-Um_Rune.png",
+    "width": 30,
+    "height": 31,
+    "upgradeFrom": "Pul",
+    "upgradeFromCount": 2,
+    "upgradeGem": "Flawed_Diamond",
+    "properties": {
+      "weapon": "25% Chance of Open Wounds",
+      "armor": "+15% Resist All",
+      "shield": "+22% Resist All",
+      "clvl": 47
+    }
+  },
+  {
+    "id": 23,
+    "name": "Mal",
+    "number": 23,
+    "image": "img/runes/28px-Mal_Rune.png",
+    "width": 30,
+    "height": 31,
+    "upgradeFrom": "Um",
+    "upgradeFromCount": 2,
+    "upgradeGem": "Topaz",
+    "properties": {
+      "weapon": "Prevent Monster Healing",
+      "armor": "Reduce Magic Damage by 7",
+      "clvl": 49
+    }
+  },
+  {
+    "id": 24,
+    "name": "Ist",
+    "number": 24,
+    "image": "img/runes/28px-Ist_Rune.png",
+    "width": 29,
+    "height": 30,
+    "upgradeFrom": "Mal",
+    "upgradeFromCount": 2,
+    "upgradeGem": "Amethyst",
+    "properties": {
+      "weapon": "+30% Better Chance of Finding Magical Items",
+      "armor": "+25% Better Chance of Finding Magical Items",
+      "clvl": 51
+    }
+  },
+  {
+    "id": 25,
+    "name": "Gul",
+    "number": 25,
+    "image": "img/runes/28px-Gul_Rune.png",
+    "width": 29,
+    "height": 30,
+    "upgradeFrom": "Ist",
+    "upgradeFromCount": 2,
+    "upgradeGem": "Sapphire",
+    "properties": {
+      "weapon": "+20% AR",
+      "armor": "+5 to Max Resist Poison",
+      "clvl": 53
+    }
+  },
+  {
+    "id": 26,
+    "name": "Vex",
+    "number": 26,
+    "image": "img/runes/28px-Vex_Rune.png",
+    "width": 30,
+    "height": 31,
+    "upgradeFrom": "Gul",
+    "upgradeFromCount": 2,
+    "upgradeGem": "Ruby",
+    "isHighRune": true,
+    "properties": {
+      "weapon": "7% Mana Leech",
+      "armor": "+5 to Max Fire Resist",
+      "clvl": 55
+    }
+  },
+  {
+    "id": 27,
+    "name": "Ohm",
+    "number": 27,
+    "image": "img/runes/28px-Ohm_Rune.png",
+    "width": 30,
+    "height": 31,
+    "upgradeFrom": "Vex",
+    "upgradeFromCount": 2,
+    "upgradeGem": "Emerald",
+    "isHighRune": true,
+    "properties": {
+      "weapon": "+50% Damage",
+      "armor": "+5 to Max. Resist Cold",
+      "clvl": 57
+    }
+  },
+  {
+    "id": 28,
+    "name": "Lo",
+    "number": 28,
+    "image": "img/runes/28px-Lo_Rune.png",
+    "width": 30,
+    "height": 31,
+    "upgradeFrom": "Ohm",
+    "upgradeFromCount": 2,
+    "upgradeGem": "Diamond",
+    "isHighRune": true,
+    "properties": {
+      "weapon": "20% Chance of Deadly Strike",
+      "armor": "+5 to Max. Resist Lightning",
+      "clvl": 59
+    }
+  },
+  {
+    "id": 29,
+    "name": "Sur",
+    "number": 29,
+    "image": "img/runes/28px-Sur_Rune.png",
+    "width": 30,
+    "height": 31,
+    "upgradeFrom": "Lo",
+    "upgradeFromCount": 2,
+    "upgradeGem": "Flawless_Topaz",
+    "isHighRune": true,
+    "properties": {
+      "weapon": "20% Chance of Hit Blinds Target",
+      "armor": "+5% total Mana",
+      "shield": "+50 Mana",
+      "clvl": 61
+    }
+  },
+  {
+    "id": 30,
+    "name": "Ber",
+    "number": 30,
+    "image": "img/runes/28px-Ber_Rune.png",
+    "width": 29,
+    "height": 34,
+    "upgradeFrom": "Sur",
+    "upgradeFromCount": 2,
+    "upgradeGem": "Flawless_Amethyst",
+    "isHighRune": true,
+    "properties": {
+      "weapon": "20% Chance of Crushing Blow",
+      "armor": "Damage Reduced by 8%",
+      "clvl": 63
+    }
+  },
+  {
+    "id": 31,
+    "name": "Jah",
+    "number": 31,
+    "image": "img/runes/28px-Jah_Rune.png",
+    "width": 33,
+    "height": 34,
+    "upgradeFrom": "Ber",
+    "upgradeFromCount": 2,
+    "upgradeGem": "Flawless_Sapphire",
+    "isHighRune": true,
+    "properties": {
+      "weapon": "Ignores Target Defense",
+      "armor": "+5% of total Hit Points",
+      "shield": "+50 Hit Points",
+      "clvl": 65
+    }
+  },
+  {
+    "id": 32,
+    "name": "Cham",
+    "number": 32,
+    "image": "img/runes/28px-Cham_Rune.png",
+    "width": 29,
+    "height": 30,
+    "upgradeFrom": "Jah",
+    "upgradeFromCount": 2,
+    "upgradeGem": "Flawless_Ruby",
+    "isHighRune": true,
+    "properties": {
+      "weapon": "32% Chance of Hit Freezing Target for 3 seconds",
+      "armor": "Cannot be Frozen",
+      "clvl": 67
+    }
+  },
+  {
+    "id": 33,
+    "name": "Zod",
+    "number": 33,
+    "image": "img/runes/28px-Zod_Rune.png",
+    "width": 30,
+    "height": 31,
+    "upgradeFrom": "Cham",
+    "upgradeFromCount": 2,
+    "upgradeGem": "Flawless_Emerald",
+    "isHighRune": true,
+    "properties": {
+      "weapon": "Indestructible",
+      "armor": "Indestructible",
+      "clvl": 69
+    }
+  }
+]
