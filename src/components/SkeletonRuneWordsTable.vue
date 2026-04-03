@@ -57,7 +57,7 @@ export default {
   min-width: 35%;
 }
 
-.skeleton-rw-cell > * + * {
+.skeleton-rw-cell>*+* {
   margin-top: 8px;
 }
 </style>

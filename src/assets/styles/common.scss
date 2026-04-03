@@ -1,0 +1,194 @@
+@use 'variables' as *;
+
+// Общие стили фильтров
+.inline_view_controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  @media (max-width: $breakpoint-mobile) {
+    flex-direction: column;
+    
+  }
+}
+
+.inline_filter_control {
+  text-align: left;
+}
+
+.filterlist_row {
+  max-width: 800px;
+  margin: 10px auto;
+
+  span {
+    display: inline-block;
+    margin-right: 8px;
+    color: $color-primary;
+    font-weight: bold;
+  }
+}
+
+.filterlist_wrapper {
+  font-size: 13px;
+}
+
+.fast-filter {
+  @include fast-filter;
+}
+
+// Сетка предметов
+#items-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: 1fr;
+  grid-gap: 20px;
+  padding: 20px 0;
+
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media (max-width: 900px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  &.row-styled {
+    grid-template-columns: repeat(1, 1fr);
+
+    & > div {
+      display: flex;
+      align-items: center;
+      background: $color-bg-dark;
+      border-radius: 5px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      gap: 20px;
+
+      @media (max-width: $breakpoint-mobile) {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+
+    .pop-item {
+      cursor: pointer;
+      width: 350px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-shrink: 0;
+
+      @media (max-width: $breakpoint-mobile) {
+        width: 100%;
+      }
+    }
+
+    .description {
+      flex: 1;
+      text-align: left;
+
+      @media (max-width: $breakpoint-mobile) {
+        text-align: center;
+        width: 100%;
+      }
+    }
+
+    .partial {
+      flex: 1;
+      text-align: left;
+
+      @media (max-width: $breakpoint-mobile) {
+        text-align: center;
+        width: 100%;
+      }
+    }
+  }
+
+  .item-img {
+    @include item-card;
+  }
+
+  .pop-item {
+    cursor: pointer;
+  }
+
+  .popper {
+    @include popper;
+    pointer-events: none;
+  }
+}
+
+// Таблицы
+.data-table {
+  width: 100%;
+
+  .table-header {
+    display: table-header-group;
+
+    & > div {
+      display: table-cell;
+      background: transparent;
+      border: none;
+      vertical-align: center;
+      text-align: center;
+      padding-top: 1em;
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+  }
+
+  .table-body {
+    display: table-row-group;
+  }
+
+  .table-row {
+    display: table-row;
+
+    & > div {
+      text-align: left;
+      padding-top: 1em;
+      padding-left: 1em;
+      padding-right: 1em;
+      display: table-cell;
+      background: $color-bg-dark;
+      border: 1px solid $color-border;
+    }
+  }
+}
+
+// Стили для skeleton
+.items-skeleton-wrap {
+  width: 100%;
+  display: block;
+}
+
+// Общие стили для таблиц
+table {
+  width: 100%;
+
+  tr > td:nth-child(4) {
+    text-align: left;
+    padding: 8px;
+  }
+
+  td {
+    background: $color-bg-dark;
+    border: 1px solid $color-border;
+  }
+
+  th {
+    background: $color-bg-dark;
+    border: 1px solid $color-border;
+    padding: 8px;
+  }
+}
+
+select {
+  width: 150px;
+}

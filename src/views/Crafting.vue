@@ -1,35 +1,33 @@
 <template>
    <div class="crafting">
-      <h2>CRAFTING</h2>
+      <h2>{{ t('craftingTitle') }}</h2>
       <div id="filter">
          <!-- SEARCH BLOCK START -->
          <div class="inline_view_controls">
-            <div>
-               <span>Search: </span>
-               <input type="text" v-model="search" />
-            </div>
+            <SearchBar v-model="search" :label="t('searchBy')" name="search" id="search-input" />
          </div>
          <button class="fast-filter" v-on:click="showFaq = !showFaq">
-            FAQ
+            {{ t('faq') }}
          </button>
-         <button
-            class="fast-filter"
-            v-on:click="itemsFilter = 'All'"
-            v-bind:class="[itemsFilter == 'All' ? 'active' : '']"
-         >
-            All Recipes
+         <button class="fast-filter" v-on:click="itemsFilter = 'All'"
+            v-bind:class="[itemsFilter == 'All' ? 'active' : '']">
+            {{ t('allRecipes') }}
          </button>
-         <button class="fast-filter" v-on:click="itemsFilter = 'Blood'" v-bind:class="[itemsFilter == 'Blood' ? 'active' : '']">
-            Blood Recipes
+         <button class="fast-filter" v-on:click="itemsFilter = 'Blood'"
+            v-bind:class="[itemsFilter == 'Blood' ? 'active' : '']">
+            {{ t('bloodRecipes') }}
          </button>
-         <button class="fast-filter" v-on:click="itemsFilter = 'Caster'" v-bind:class="[itemsFilter == 'Caster' ? 'active' : '']">
-            Caster Recipes
+         <button class="fast-filter" v-on:click="itemsFilter = 'Caster'"
+            v-bind:class="[itemsFilter == 'Caster' ? 'active' : '']">
+            {{ t('casterRecipes') }}
          </button>
-         <button class="fast-filter" v-on:click="itemsFilter = 'Hitpower'" v-bind:class="[itemsFilter == 'Hitpower' ? 'active' : '']">
-            Hitpower Recipes
+         <button class="fast-filter" v-on:click="itemsFilter = 'Hitpower'"
+            v-bind:class="[itemsFilter == 'Hitpower' ? 'active' : '']">
+            {{ t('hitpowerRecipes') }}
          </button>
-         <button class="fast-filter" v-on:click="itemsFilter = 'Safety'" v-bind:class="[itemsFilter == 'Safety' ? 'active' : '']">
-            Safety Recipes
+         <button class="fast-filter" v-on:click="itemsFilter = 'Safety'"
+            v-bind:class="[itemsFilter == 'Safety' ? 'active' : '']">
+            {{ t('safetyRecipes') }}
          </button>
          <div class="hint-text" v-show="showFaq">
             <pre>
@@ -52,68 +50,52 @@ All recipes work with the <strong>normal</strong>, <strong>exceptional</strong>,
          <div class="items">
             <div class="table">
                <div class="header">
-                  <div class="cell">Ingredients</div>
-                  <div class="cell">Crafted Item</div>
-                  <div class="cell">Comments</div>
+                  <div class="cell">{{ t('ingredients') }}</div>
+                  <div class="cell">{{ t('craftedItem') }}</div>
+                  <div class="cell">{{ t('comments') }}</div>
                </div>
                <SkeletonCraftingTable v-if="loading" />
                <template v-else>
-               <template v-for="(groupedData, groupName) of qrJson" :key="groupName">
-                  <div
-                     class="body"
-                     v-show="itemsFilter == 'All' || itemsFilter == groupName"
-                  >
-                     <div
-                        class="row"
-                        v-show="
-                           search == '' || searchRes.indexOf(groupName) !== -1
-                        "
-                     >
-                        <div class="cell colspan-all">
-                           {{ groupName }}
+                  <template v-for="(groupedData, groupName) of qrJson" :key="groupName">
+                     <div class="body" v-show="itemsFilter == 'All' || itemsFilter == groupName">
+                        <div class="row" v-show="search == '' || searchRes.indexOf(groupName) !== -1
+                           ">
+                           <div class="cell colspan-all">
+                              {{ groupName }}
+                           </div>
+                           <div class="cell"></div>
+                           <div class="cell"></div>
                         </div>
-                        <div class="cell"></div>
-                        <div class="cell"></div>
-                     </div>
-                     <div
-                        v-for="row in groupedData"
-                        v-bind:key="row.header"
-                        class="row"
-                        v-show="searchText(row)"
-                     >
-                        <div class="cell">
-                           <div
-                              style="
+                        <div v-for="row in groupedData" v-bind:key="row.header" class="row" v-show="searchText(row)">
+                           <div class="cell">
+                              <div style="
                                  text-align: center;
                                  width: 100%;
                                  margin-top: 1em;
-                              "
-                           >
-                              <img :src="publicPath + row.img" />
+                              ">
+                                 <img :src="publicPath + row.img" loading="lazy" />
+                              </div>
+                              <pre v-html="row.Ing" class="ingr"></pre>
                            </div>
-                           <pre v-html="row.Ing" class="ingr"></pre>
-                        </div>
-                        <div class="cell">
-                           <div
-                              style="
+                           <div class="cell">
+                              <div style="
                                  text-align: center;
                                  width: 100%;
                                  margin-top: 1em;
-                              "
-                           >
-                              <img :src="publicPath + row.img" />
+                              ">
+                                 <img :src="publicPath + row.img" loading="lazy" />
+                              </div>
+                              <div class="item-head_wrap">
+                                 <strong class="item-head">{{
+                                    row.header
+                                    }}</strong>
+                              </div>
+                              <pre v-html="row.Items"></pre>
                            </div>
-                           <div class="item-head_wrap">
-                              <strong class="item-head">{{
-                                 row.header
-                              }}</strong>
-                           </div>
-                           <pre v-html="row.Items"></pre>
+                           <div class="cell" v-html="row.Comments"></div>
                         </div>
-                        <div class="cell" v-html="row.Comments"></div>
                      </div>
-                  </div>
-               </template>
+                  </template>
                </template>
             </div>
          </div>
@@ -124,10 +106,16 @@ All recipes work with the <strong>normal</strong>, <strong>exceptional</strong>,
 <script>
 import axios from "axios";
 import SkeletonCraftingTable from "../components/SkeletonCraftingTable.vue";
+import SearchBar from "../components/SearchBar.vue";
+import { useLanguage } from "../composables/useLanguage";
 
 export default {
    name: "Crafting",
-   components: { SkeletonCraftingTable },
+   components: { SkeletonCraftingTable, SearchBar },
+   setup() {
+      const { t } = useLanguage()
+      return { t }
+   },
    data: function () {
       return {
          loading: true,
@@ -182,19 +170,20 @@ export default {
                this.qrJson = this.groupBy(response.data, "type");
             }
          })
-         .catch(() => {})
+         .catch(() => { })
          .finally(() => {
             this.loading = false;
          });
    },
-   mounted() {},
+   mounted() { },
 };
 </script>
 
-<style  lang="scss" scoped>
+<style lang="scss" scoped>
 #filter {
    text-align: left;
 }
+
 .fast-filter {
    background: none !important;
    border: none;
@@ -205,36 +194,49 @@ export default {
    color: #928a70;
    font-weight: bold;
    padding: 5px;
+
    &:hover {
       color: #beb9ab;
    }
+
    &:focus {
       outline: none;
    }
 }
+
 .hint-text {
    text-align: left;
 }
+
 .hint-text pre {
-   white-space: pre-wrap; /* css-3 */
-   white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
-   white-space: -pre-wrap; /* Opera 4-6 */
-   white-space: -o-pre-wrap; /* Opera 7 */
+   white-space: pre-wrap;
+   /* css-3 */
+   white-space: -moz-pre-wrap !important;
+   /* Mozilla, since 1999 */
+   white-space: -pre-wrap;
+   /* Opera 4-6 */
+   white-space: -o-pre-wrap;
+   /* Opera 7 */
    word-wrap: break-word;
 }
+
 .items {
    width: 100%;
 }
+
 .table {
    display: table;
    width: 100%;
    padding: 0;
+
    .body {
       display: table-row-group;
    }
+
    .header {
       display: table-header-group;
       background: #000000;
+
       .cell {
          border: 1px solid #202020;
          display: table-cell;
@@ -244,26 +246,32 @@ export default {
          text-align: center;
       }
    }
+
    .row {
       display: table-row;
+
       .cell {
          border: 1px solid #202020;
          display: table-cell;
          padding: 3px 10px;
          background: #000000;
+
          pre {
             font-family: Avenir, Helvetica, Arial, sans-serif;
          }
       }
+
       .colspan-all {
          column-span: all;
          border-right: none !important;
          padding: 10px;
          font-weight: bold;
-         & + .cell {
+
+         &+.cell {
             border-left: none;
             border-right: none;
-            & + .cell {
+
+            &+.cell {
                border-left: none;
                border-right: none;
             }
@@ -271,13 +279,16 @@ export default {
       }
    }
 }
+
 .ingr:first-line {
    font-weight: bold;
    color: blue;
 }
+
 .item-head_wrap {
    margin-top: 1em;
 }
+
 .item-head {
    color: rgb(255, 165, 0);
 }

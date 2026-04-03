@@ -1,61 +1,43 @@
 <template>
   <div class="uniq_items">
-    <h2>SET ITEMS</h2>
+    <h2>{{ t('setItemsTitle') }}</h2>
     <div id="filter">
       <!-- SEARCH BLOCK START -->
       <div class="inline_view_controls">
-        <div>
-          <span>Search by:</span>
-          <input type="text" v-model="search" />
-        </div>
-        <div>
-          display as:
-          <button class="fast-filter" v-on:click="displayStyle='row'">row</button>
-          <button class="fast-filter" v-on:click="displayStyle='grid'">grid</button>
-        </div>
+        <SearchBar v-model="search" :label="t('searchBy')" name="search" id="search-input">
+          <template #actions>
+            {{ t('displayAs') }}
+            <button class="fast-filter" v-on:click="displayStyle = 'row'">{{ t('row') }}</button>
+            <button class="fast-filter" v-on:click="displayStyle = 'grid'">{{ t('grid') }}</button>
+          </template>
+        </SearchBar>
       </div>
       <!-- SEARCH BLOCK END -->
       <!-- FILTER CONTROLLER SHOW/HIDE BLOCK START -->
       <div class="inline_filter_control">
         <button class="fast-filter" v-on:click="showFilter = !showFilter">
-          <template v-if="!showFilter">show filter</template>
-          <template v-else>hide filter</template>
+          <template v-if="!showFilter">{{ t('showFilter') }}</template>
+          <template v-else>{{ t('hideFilter') }}</template>
         </button>
-        <button class="fast-filter" v-if="filter!==''" v-on:click="filter=''">clear filter</button>
+        <button class="fast-filter" v-if="filter !== ''" v-on:click="filter = ''">{{ t('clearFilter') }}</button>
       </div>
       <!-- FILTER CONTROLLER SHOW/HIDE BLOCK END -->
       <!-- FILTER CONTROLLER BLOCK START -->
       <div class="filterlist_wrapper" v-show="showFilter">
         <div class="filterlist_row">
-          <span>Class-Specific Items :</span>
-          <button
-            v-on:click="setFilter(wfilter.set)"
-            class="fast-filter"
-            v-for="wfilter in classSpecifical"
-            :key="wfilter.id"
-            
-            v-bind:class="[wfilter.set == filter ? 'active' : '']"
-          >{{ wfilter.name }}</button>
+          <span>{{ t('classSpecificItemsLabel') }}</span>
+          <button v-on:click="setFilter(wfilter.set)" class="fast-filter" v-for="wfilter in classSpecifical"
+            :key="wfilter.id" v-bind:class="[wfilter.set == filter ? 'active' : '']">{{ wfilter.name }}</button>
         </div>
         <div class="filterlist_row">
-          <span>Normal Sets :</span>
-          <button
-            v-on:click="setFilter(wfilter)"
-            class="fast-filter"
-            v-for="wfilter in normalSets"
-            :key="wfilter.id"
-            v-bind:class="[wfilter == filter ? 'active' : '']"
-          >{{ wfilter}}</button>
+          <span>{{ t('normalSets') }}</span>
+          <button v-on:click="setFilter(wfilter)" class="fast-filter" v-for="wfilter in normalSets" :key="wfilter.id"
+            v-bind:class="[wfilter == filter ? 'active' : '']">{{ wfilter }}</button>
         </div>
         <div class="filterlist_row">
-          <span>LOD Sets :</span>
-          <button
-            v-on:click="setFilter(wfilter)"
-            class="fast-filter"
-            v-for="wfilter in lodSets"
-            :key="wfilter.id"
-            v-bind:class="[wfilter == filter ? 'active' : '']"
-          >{{ wfilter}}</button>
+          <span>{{ t('lodSets') }}</span>
+          <button v-on:click="setFilter(wfilter)" class="fast-filter" v-for="wfilter in lodSets" :key="wfilter.id"
+            v-bind:class="[wfilter == filter ? 'active' : '']">{{ wfilter }}</button>
         </div>
       </div>
       <!-- FILTER CONTROLLER BLOCK END -->
@@ -65,34 +47,41 @@
       <SkeletonItemGrid />
     </div>
     <template v-else>
-      <div id="items-wrapper" v-if="displayStyle=='grid'">
+      <div id="items-wrapper" v-if="displayStyle == 'grid'">
         <div v-for="item in dJson" v-bind:key="item.id" v-show="filteredJson(item)">
-          <VDropdown :triggers="['hover']" placement="auto" no-auto-focus>
+          <VDropdown :triggers="['hover']" placement="auto" :unmount-on-hide="true" :container="false" no-auto-focus>
             <div class="pop-item">
               <div class="item-img">
-                <img :src="(publicPath + item.img)" v-bind:alt="item.name" />
+                <img :src="(publicPath + item.img)" v-bind:alt="item.name" loading="lazy" />
               </div>
               <div class="name" v-html="item.name"></div>
               <div class="subname" v-html="item.nameType"></div>
             </div>
             <template #popper>
-              <div class="popper description" v-html="item.description+'<br/><br/>'
-              + '<span style=\'  color: #00c400;font-size: 1.1em;font-weight: 600;\'>'+ item.tags[2] + '</span><br/>'+item.partial"></div>
+              <div class="popper description" v-html="item.description +
+                '<br/><br/>' +
+                '<span style=\'color:#00c400;font-size:1.1em;font-weight:600;\'>' +
+                item.tags[2] +
+                '</span><br/>' +
+                item.partial
+                "></div>
             </template>
           </VDropdown>
         </div>
       </div>
-      <div id="items-wrapper" class="row-styled" v-else-if="displayStyle=='row'">
+      <div id="items-wrapper" class="row-styled" v-else-if="displayStyle == 'row'">
         <div v-for="item in dJson" v-bind:key="item.id" v-show="filteredJson(item)">
           <div class="pop-item">
             <div class="item-img">
-              <img :src="(publicPath + item.img)" v-bind:alt="item.name" />
+              <img :src="(publicPath + item.img)" v-bind:alt="item.name" loading="lazy" />
             </div>
             <div class="name" v-html="item.name"></div>
             <div class="subname" v-html="item.nameType"></div>
           </div>
           <div v-html="item.description" class="description"></div>
-          <div class="partial" v-html="'<span style=\'  color: #00c400;font-size: 1.1em;font-weight: 600;\'>'+ item.tags[2] + '</span><br/><br/>' + item.partial"></div>
+          <div class="partial"
+            v-html="'<span style=\'  color: #00c400;font-size: 1.1em;font-weight: 600;\'>' + item.tags[2] + '</span><br/><br/>' + item.partial">
+          </div>
         </div>
       </div>
     </template>
@@ -102,11 +91,17 @@
 <script>
 import axios from "axios";
 import SkeletonItemGrid from "../components/SkeletonItemGrid.vue";
+import SearchBar from "../components/SearchBar.vue";
+import { useLanguage } from "../composables/useLanguage";
 
 export default {
   name: "SetItems",
-  components: { SkeletonItemGrid },
-  data: function() {
+  components: { SkeletonItemGrid, SearchBar },
+  setup() {
+    const { t } = useLanguage()
+    return { t }
+  },
+  data: function () {
     return {
       loading: true,
       publicPath: import.meta.env.BASE_URL,
@@ -118,23 +113,23 @@ export default {
       showFilter: false,
       displayStyle: "grid",
       classSpecifical: [
-        {name: 'Druid Set', set: "Aldur's Watchtower"},
-        {name: 'Barbarian Set', set: "Immortal King"},
-        {name: 'Paladin Set', set: "Griswold's Legacy"},
-        {name: 'Amazon Set', set: "M'avina's Battle Hymn"},
-        {name: 'Assassin Set', set: "Natalya's Odium"},
-        {name: 'Sorceress Set', set: "Tal Rasha's Wrappings"},
-        {name: 'Necromancer Set', set: "Trang-Oul's Avatar"},
+        { name: 'Druid Set', set: "Aldur's Watchtower" },
+        { name: 'Barbarian Set', set: "Immortal King" },
+        { name: 'Paladin Set', set: "Griswold's Legacy" },
+        { name: 'Amazon Set', set: "M'avina's Battle Hymn" },
+        { name: 'Assassin Set', set: "Natalya's Odium" },
+        { name: 'Sorceress Set', set: "Tal Rasha's Wrappings" },
+        { name: 'Necromancer Set', set: "Trang-Oul's Avatar" },
       ]
     };
   },
   methods: {
-    setFilter: function(inVal) {
+    setFilter: function (inVal) {
       if (inVal) {
         this.filter = inVal;
       }
     },
-    filteredJson: function(item) {
+    filteredJson: function (item) {
       let tempData = true;
       if (this.filter) {
         tempData = this.filter && item.tags.indexOf(this.filter) !== -1;
@@ -147,7 +142,7 @@ export default {
 
       return tempData;
     },
-    uniqEliteTags: function(inStr) {
+    uniqEliteTags: function (inStr) {
       return this.normalSets.filter(item => {
         return item.indexOf(inStr) !== -1;
       });
@@ -172,9 +167,9 @@ export default {
           let lodSets = [];
           for (let item of qjson) {
             let wkmass;
-            if (item.tags.indexOf('normal_sets')!==-1){
+            if (item.tags.indexOf('normal_sets') !== -1) {
               wkmass = normalSets;
-            } else if (item.tags.indexOf('lod_sets')!==-1){
+            } else if (item.tags.indexOf('lod_sets') !== -1) {
               wkmass = lodSets;
             }
             if (!wkmass) continue;
@@ -188,16 +183,16 @@ export default {
           this.lodSets = lodSets;
         }
       })
-      .catch(() => {})
+      .catch(() => { })
       .finally(() => {
         this.loading = false;
       });
   },
-  mounted() {}
+  mounted() { }
 };
 </script>
 
-<style  lang="scss" scoped>
+<style lang="scss" scoped>
 .items-skeleton-wrap {
   width: 100%;
   display: block;
@@ -209,9 +204,11 @@ export default {
   grid-auto-rows: 1fr;
   grid-gap: 20px;
   padding: 20px 0;
+
   &.row-styled {
     grid-template-columns: repeat(1, 1fr);
-    & > div {
+
+    &>div {
       display: flex;
       align-items: center;
       background: #000000;
@@ -219,6 +216,7 @@ export default {
       padding-top: 25px;
       padding-bottom: 25px;
     }
+
     .pop-item {
       cursor: pointer;
       width: 350px;
@@ -228,23 +226,28 @@ export default {
       justify-content: center;
       flex-shrink: 0;
     }
+
     .description {
       width: 50%;
     }
-    .partial{
+
+    .partial {
       width: 50%;
       text-align: left;
     }
   }
 }
+
 select {
   width: 150px;
 }
-.row-styled{
-  .item-img{
-    margin-bottom:0;
-  }  
+
+.row-styled {
+  .item-img {
+    margin-bottom: 0;
+  }
 }
+
 .item-img {
   background: #000000;
   border-radius: 5px;
@@ -252,10 +255,12 @@ select {
   display: flex;
   margin-bottom: 1em;
   justify-content: center;
-  & > img {
+
+  &>img {
     object-fit: contain;
   }
 }
+
 .popper {
   padding: 15px 5px;
   background: #000000eb;
@@ -263,17 +268,20 @@ select {
   color: #ffffff;
   line-height: 1.35;
 }
+
 .pop-item {
   cursor: pointer;
 }
+
 .filter_wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 1.5em;
-  & > span {
+
+  &>span {
     display: block;
   }
-  
+
 }
 </style>

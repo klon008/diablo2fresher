@@ -1,11 +1,5 @@
 <template>
-  <button
-    v-show="visible"
-    type="button"
-    class="scroll-to-top"
-    aria-label="Scroll to top"
-    @click="scrollTop"
-  >
+  <button v-show="visible" type="button" class="scroll-to-top" aria-label="Scroll to top" @click="scrollTop">
     ↑
   </button>
 </template>
@@ -64,6 +58,7 @@ export default {
   line-height: 1;
   cursor: pointer;
 }
+
 .scroll-to-top:hover {
   background-color: #333;
 }

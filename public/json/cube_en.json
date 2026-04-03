@@ -1,0 +1,146 @@
+{
+  "note": "NOTE:",
+  "ilvlNote": "ilvl = item level | clvl = character level",
+  "recipes": [
+    {
+      "formula": "3 Perfect Skulls + 1 Rare Item + Stone of Jordan = Add 1 Socket To a Rare Item",
+      "description": "Rare Items can only have one socket. You cannot add sockets to items that don't normally have sockets. You can not use this on a Rare with one socket. You can only add one socket to a zero socket Rare Item."
+    },
+    {
+      "formula": "1 Perfect Skull + 1 Rare Item + Stone of Jordan = 1 High Quality New Rare Item of the same type",
+      "description": "This formula has the possibility of creating a higher quality Rare Item than the following formula. ilvl = int(.66 * clvl) + int(.66 * ilvl) That is, the ilvl will be equal to .66 times your clvl (rounded down) plus .66 times the input item's ilvl (also rounded down)."
+    },
+    {
+      "formula": "6 Perfect Skulls + 1 Rare Item = 1 Random Low Quality Rare Item of the same type",
+      "description": "You can use this formula to get another chance at a Rare Item of the same type. ilvl = int(.4 * clvl) + int(.4 * ilvl) Player level matters. This formula will not work on items larger than 3x2."
+    },
+    {
+      "formula": "4 Health Potions (of any type) + Ruby (any type) + Magical Sword = A Magic Sword of the Leech",
+      "description": "You can use this formula to get a Life Stealing sword. ilvl = 30. The sword will always have the \"of the Leech\" suffix (4-5% Life Stolen Per Hit) and has a chance at getting a prefix as well. The type of sword is retained."
+    },
+    {
+      "formula": "3 Perfect Gems (of any type) + 1 Magic Item = 1 New Random Magic Item of the Same Type",
+      "description": "You can use this formula to get another chance at a Magic Item of the same type. The ilvl = ilvl. This means to use 100% of the ilvl of the input item. It's important to note the difference between \"the ilvl is set to a fixed number\" like what happens in some recipes and \"the ilvl of the output is exactly the same as the ilvl of the input\" as is the case here. So if you're cubing for +skills Grand Charms, for example, you want to use Charms starting from late Nightmare, not ones that dropped in the Normal Blood Moor. You can use this formula (with an Amulet) to create a +2 Skills Amulet. And you cannot Gamble one before Character Level 84. Be warned however, that the chances of getting that on an Amulet might be very low (considering everything is available) and it might take a lot of tries. Rare Items cannot be used with this formula to create new Rare Items. You can also use this on Charms and Jewels."
+    },
+    {
+      "formula": "6 Perfect Gems (1 of each type) + 1 Amulet (Magic) = Prismatic Amulet",
+      "description": "Use this formula to create an Amulet with Resistance to all. ilvl = 50. The amulet will always have the Prismatic prefix (All Resistances +16-20) and has a chance at getting a suffix as well."
+    },
+    {
+      "formula": "1 Magic Ring + 1 Perfect Emerald + 1 Antidote Potion = 1 Jade Ring",
+      "description": "Use this formula to create a Poison Resistance Ring. The Jade Ring has a random percentage (21-30%) of Poison Resistance. You may also receive an additional Magic Suffix. ilvl=30."
+    },
+    {
+      "formula": "1 Magic Ring + 1 Perfect Ruby + 1 Exploding Potion = 1 Garnet Ring",
+      "description": "Use this formula to create a Fire Resistance Ring. The Garnet Ring has a random percentage (21-30%) of Fire Resistance. You may also receive an additional Magic Suffix. ilvl=30."
+    },
+    {
+      "formula": "1 Magic Ring + 1 Perfect Topaz + 1 Rejuvenation Potion = 1 Coral Ring",
+      "description": "Use this formula to create a Lightning Resistance Ring. The Coral Ring has a random percentage (21-30%) of Lightning Resistance. You may also receive an additional Magic Suffix. ilvl=30."
+    },
+    {
+      "formula": "1 Magic Ring + 1 Perfect Sapphire + 1 Thawing Potion = 1 Cobalt Ring",
+      "description": "Use this formula to create a Cold Resistance Ring. The Cobalt Ring has a random percentage (21-30%) of Cold Resistance. You may also receive an additional Magic Suffix. ilvl=30."
+    },
+    {
+      "formula": "1 Magic Shield (any type) + 1 Spiked Club (any quality) + 2 Skulls (any quality) = Magic Shield of Spikes",
+      "description": "The shield will always have the \"of Spikes\" suffix (Attacker Takes Damage of 4-6) and has a chance at getting a prefix as well. The type of shield is retained, and any type of shield (including Paladin Shields and necromancer Shrunken heads) works as input. ilvl=30."
+    },
+    {
+      "formula": "Diamond (any quality) + 1 Staff (any type and quality) + 1 Kris (any quality) + 1 Belt (any type and quality) = Savage Polearm Class Weapon",
+      "description": "The polearm will always have the Savage prefix (66-80% Enhanced Damage) and has a chance at getting a suffix as well. ilvl=50."
+    },
+    {
+      "formula": "Wirt's Leg + A Tome of Town Portal = Secret Cow Level",
+      "description": ""
+    },
+    {
+      "formula": "3 Health Potions + 3 Mana Potions + 1 Chipped Gem = 1 Rejuvenation Potion",
+      "description": "Any grade of health and mana potions can be used."
+    },
+    {
+      "formula": "3 Health Potions + 3 Mana Potions + 1 Gem (normal) = 1 Full Rejuvenation Potion",
+      "description": "Any grade of health and mana potions can be used."
+    },
+    {
+      "formula": "3 Standard Gems (normal) and 1 Socketed Weapon (Any Type) = 1 Socketed Magic Weapon (of same type)",
+      "description": "This takes a socketed weapon and makes it a magic socketed weapon with 1-2 sockets. This allows you to get new magic bonuses on an otherwise non-magical weapon. The original weapon properties will be \"rerolled\" when the new weapon is created. ilvl=30."
+    },
+    {
+      "formula": "3 Chipped Gems + 1 Magic Weapon = Socketed Magic Weapon",
+      "description": "This adds 1-2 sockets to a magic weapon. The original magic weapon properties will be \"rerolled\" when the new weapon is created. If you use this formula with a weapon that is not normally socketed such as a Javelin, this recipe will create a new magical weapon without any sockets. ilvl=25."
+    },
+    {
+      "formula": "3 Flawless Gems + 1 Magic Weapon = Socketed Magic Weapon",
+      "description": "Same as previous recipe except ilvl=30."
+    },
+    {
+      "formula": "1 Tal Rune + 1 Thul Rune + 1 Perfect Topaz + Normal Body Armor = Socketed Body Armor of same type",
+      "description": "The item must be normal and unsocketed. Low-quality items and superior items do not work. The item gets 1-4 sockets, randomly. However, the number of sockets is then restricted by the maximum number of sockets that base item with that ilvl can have."
+    },
+    {
+      "formula": "1 Ral Rune + 1 Amn Rune + 1 Perfect Amethyst + Normal Weapon = Socketed Weapon of same type",
+      "description": "The item must be normal and unsocketed. Low-quality items and superior items do not work. The item gets 1-6 sockets, randomly. However, the number of sockets is then restricted by the maximum number of sockets that base item with that ilvl can have."
+    },
+    {
+      "formula": "1 Ral Rune + 1 Thul Rune + 1 Perfect Sapphire + Normal Helm = Socketed Helm of same type",
+      "description": "The item must be normal and unsocketed. Low-quality items and superior items do not work. The item gets 1-3 sockets, randomly. However, the number of sockets is then restricted by the maximum number of sockets that base item with that ilvl can have."
+    },
+    {
+      "formula": "1 Tal Rune + 1 Amn Rune + 1 Perfect Ruby + Normal Shield = Socketed Shield of same type",
+      "description": "The item must be normal and unsocketed. Low-quality items and superior items do not work. The item gets 1-4 sockets, randomly. However, the number of sockets is then restricted by the maximum number of sockets that base item with that ilvl can have."
+    },
+    {
+      "formula": "1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + Normal Unique Weapon = Exceptional Version of Weapon",
+      "description": "This formula changes the base item type from the normal to exceptional version. This does NOT convert the item to the Exceptional Unique version of the Unique Item. Unique item bonuses remain the same; only the item it's based on is upgraded. This can be used to upgrade Ethereal Items also. They will continue to be Ethereal after they are upgraded. Also if the item is socketed, then jewels or runes and their mods will also remain."
+    },
+    {
+      "formula": "1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + Normal Unique Armor = Exceptional Version of Armor",
+      "description": "This formula changes the base item type from the normal to exceptional version. This does NOT convert the item to the Exceptional Unique version of the Unique Item. Unique item bonuses remain the same; only the item it's based on is upgraded. This can be used to upgrade Ethereal Items also. They will continue to be Ethereal after they are upgraded. Also if the item is socketed, then jewels or runes and their mods will also remain. Armor refers to any sort of armor, including helms, boots, belts, gloves and shields, not just Body Armor."
+    },
+    {
+      "formula": "1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + Exceptional Unique Weapon = Elite Version of Weapon (Single Player and Ladder Only)",
+      "description": "This formula changes the base item type from the exceptional to elite version. This does NOT convert the item to the Elite Unique version of the Exceptional Unique Item. Unique item bonuses remain the same; only the item it's based on is upgraded. This can be used to upgrade Ethereal Items also. They will continue to be Ethereal after they are upgraded. Also if the item is socketed, then jewels or runes and their mods will also remain."
+    },
+    {
+      "formula": "1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + Exceptional Unique Armor = Elite Version of Armor (Single Player and Ladder Only)",
+      "description": "This formula changes the base item type from the exceptional to elite version. This does NOT convert the item to the Elite Unique version of the Exceptional Unique Item. Unique item bonuses remain the same; only the item it's based on is upgraded. This can be used to upgrade Ethereal Items also. They will continue to be Ethereal after they are upgraded. Also if the item is socketed, then jewels or runes and their mods will also remain. Armor refers to any sort of armor, including helms, boots, belts, gloves and shields, not just Body Armor."
+    },
+    {
+      "formula": "1 Ort Rune + 1 Perfect Sapphire + Normal (Basic) Rare Weapon = Exceptional Rare Weapon",
+      "description": ""
+    },
+    {
+      "formula": "1 Ral Rune + 1 Thul Rune + 1 Perfect Amethyst + Normal (Basic) Rare Armor = Exceptional Rare Armor",
+      "description": ""
+    },
+    {
+      "formula": "1 Fal Rune + 1 Um Rune + 1 Perfect Sapphire + Exceptional Rare Weapon = Elite Rare Weapon",
+      "description": ""
+    },
+    {
+      "formula": "1 Ko Rune + 1 Pul Rune + 1 Perfect Amethyst + Exceptional Rare Armor = Elite Rare Armor",
+      "description": ""
+    },
+    {
+      "formula": "1 Ort Rune + Weapon = Fully Repaired Weapon",
+      "description": "You cannot repair Ethereal items."
+    },
+    {
+      "formula": "1 Ral Rune + Armor = Fully Repaired Armor",
+      "description": "You cannot repair Ethereal items."
+    },
+    {
+      "formula": "1 Hel Rune + Scroll of Town Portal + Any Socketed Item = Remove items from sockets",
+      "description": "WARNING: This will destroy any gems, runes, or jewels you have socketed."
+    },
+    {
+      "formula": "1 Ort Rune + 1 Chipped Gem (any kind) + Weapon = Fully Repaired and Recharged Weapon",
+      "description": "Does not include Ethereal weapons."
+    },
+    {
+      "formula": "1 Ral Rune + 1 Flawed Gem (any kind) + Armor = Fully Repaired and Recharged Armor",
+      "description": "Armor refers to any sort of armor, including helms, boots, belts, gloves and shields, not just Body Armor. Does not include Ethereal armor."
+    }
+  ]
+}

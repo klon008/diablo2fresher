@@ -8,11 +8,7 @@
         <div class="sk-craft__cell sk-craft__cell--empty" />
         <div class="sk-craft__cell sk-craft__cell--empty" />
       </div>
-      <div
-        v-for="r in rowsPerGroup"
-        :key="`${g}-${r}`"
-        class="sk-craft__row"
-      >
+      <div v-for="r in rowsPerGroup" :key="`${g}-${r}`" class="sk-craft__row">
         <div class="sk-craft__cell">
           <SkeletonPulse height="72px" width="72px" radius="4px" class="sk-craft__thumb" />
           <SkeletonPulse height="12px" width="100%" />
@@ -63,7 +59,7 @@ export default {
   vertical-align: top;
 }
 
-.sk-craft__cell > * + * {
+.sk-craft__cell>*+* {
   margin-top: 8px;
 }
 

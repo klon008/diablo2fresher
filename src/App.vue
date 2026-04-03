@@ -17,6 +17,7 @@
         alt="[fresher] logo" 
         src="./assets/DiabloIIf.png"
       >
+      <LangSwitcher class="lang-position" />
       <HelloWorld 
         msg="Diablo 2 [FRESHER]" 
       />
@@ -31,85 +32,64 @@
 </template>
 
 <script>
-  import HelloWorld from './components/HelloWorld.vue'
-  import ScrollToTop from './components/ScrollToTop.vue'
-  
-  class Star {
-    constructor(x,y, speed = 100){
-      this.x = x;
-      this.y = y;
-      this.speed = speed;
-    }
-  }
+import HelloWorld from './components/HelloWorld.vue'
+import ScrollToTop from './components/ScrollToTop.vue'
+import LangSwitcher from './components/LangSwitcher.vue'
+import { createStars, initCanvas, animate } from './utils/Star.js'
 
-  export default {
-    name: 'App',
-    components: {
-      HelloWorld,
-      ScrollToTop,
-    },
-    mounted(){
-      var canvas = this.$refs.canvas;
-      
-      if (canvas.getContext) {
+export default {
+  name: 'App',
+  components: {
+    HelloWorld,
+    ScrollToTop,
+    LangSwitcher,
+  },
+  mounted(){
+    const canvas = this.$refs.canvas
+    
+    if (canvas.getContext) {
+      const ctx = canvas.getContext("2d")
 
-        let AllStars = [];
-
-        const redraw = () => {
-
-          ctx.fillStyle = "rgb(0,0,0)";
-          ctx.fillRect(0, 0, canvas.width, canvas.height);
-          for (let star of AllStars){
-            star.x = star.x - ( star.speed );
-            ctx.fillStyle = "rgb(255,255,255)";
-            ctx.fillRect(star.x,star.y,1,1);  
-            if (star.x <= 0){ star.x = canvas.width }
-          }
-        requestAnimationFrame(redraw)
+      // Инициализация canvas
+      const handleResize = () => {
+        initCanvas(ctx)
       }
-
-
-      var ctx = canvas.getContext("2d");
-      ctx.canvas.width  = window.innerWidth;
-      ctx.canvas.height = window.innerHeight;
-      ctx.fillStyle = "rgb(0,0,0)";
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-      for (let speed of [0.001, 0.0022, 0.0045]){
-        for (let index = 0; index < 20; index++) {
-
-          ctx.fillStyle = "rgb(255,255,255)";
-          
-          let x = Math.random() * (canvas.width - 0) + 0;
-          let y = Math.random() * (canvas.height - 0) + 0;
-          ctx.fillRect(x,y,1,1);  
-          let s = new Star(x,y, speed);
-          AllStars.push(s);
-          requestAnimationFrame(redraw)
-        }
-      }
-
       
-
-
+      window.addEventListener('resize', handleResize)
+      handleResize()
+      
+      // Создание звезд
+      const stars = createStars(ctx.canvas, 60)
+      
+      // Запуск анимации
+      animate(ctx, stars)
     }
   }
 }
 </script>
 
 <style lang="scss">
-footer{
+footer {
   margin: 2em;
 }
-.tyrael{
-  display:block;
+
+.tyrael {
+  display: block;
   margin: -40px auto 0;
 }
-.logo{
-  display:block;
+
+.logo {
+  display: block;
   margin: -70px auto 15px;
 }
-#canvas{
+
+.lang-position {
+  position: absolute;
+  right: 75px;
+  top: 0%;
+}
+
+#canvas {
   width: 100%;
   height: 100vh;
   position: absolute;
@@ -117,68 +97,31 @@ footer{
   top: 0;
   z-index: -1;
 }
+
 #app .content {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #fafafa;height: 100vh;
+  color: #fafafa;
+  height: 100vh;
   width: 100%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   overflow: auto;
-  
-  //background: #000000 url('./assets/bgi.png') 50% 50% no-repeat ;
   background-image: url('./assets/bgi.png');
 }
-a{
+
+a {
   color: #FEAF00;
   text-decoration: none;
-  &:hover{
+
+  &:hover {
     text-decoration: underline;
   }
-  &::visited{
+
+  &::visited {
     color: #FEAF00;
   }
 }
-.popper{
-  pointer-events: none;
-}
-.inline_view_controls {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.inline_filter_control {
-  text-align: left;
-}
-.filterlist_row {
-  max-width: 800px;
-  margin: 10px auto;
-}
-.filterlist_wrapper {
-  font-size: 13px;
-}
-
-.fast-filter {
-  background: none !important;
-  border: none;
-  text-decoration: underline;
-  cursor: pointer;
-  font-family: Arial, Helvetica, Sans-Serif;
-  font-size: 13px;
-  color: #928a70;
-  font-weight: bold;
-  padding: 5px;
-  &:hover {
-    color: #beb9ab;
-  }
-  &:focus {
-    outline: none;
-  }
-  &.active{
-      color: #e9630a !important;
-  }
-}
-
 </style>

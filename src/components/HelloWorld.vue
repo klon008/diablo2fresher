@@ -1,13 +1,13 @@
 <template>
   <div class="column-content">
     <ul>
-      <li><router-link to="/uniq_items">Unique Items</router-link></li>
-      <li><router-link to="/rune_words">Runewors</router-link></li>
-      <li><router-link to="/runes">All Runes</router-link></li>
-      <li><router-link to="/sets">Set Items</router-link></li>
-      <li><router-link to="/crafting">Crafting</router-link></li>
-      <li><router-link to="/bases">White Bases</router-link></li>
-      <li><router-link to="/cube">Cube</router-link></li>
+      <li><router-link to="/uniq_items">{{ t('uniqueItems') }}</router-link></li>
+      <li><router-link to="/rune_words">{{ t('runeWords') }}</router-link></li>
+      <li><router-link to="/runes">{{ t('allRunes') }}</router-link></li>
+      <li><router-link to="/sets">{{ t('setItems') }}</router-link></li>
+      <li><router-link to="/crafting">{{ t('crafting') }}</router-link></li>
+      <li><router-link to="/bases">{{ t('whiteBases') }}</router-link></li>
+      <li><router-link to="/cube">{{ t('cube') }}</router-link></li>
     </ul>
     <router-view></router-view>
 
@@ -15,6 +15,8 @@
 </template>
 
 <script>
+import { useLanguage } from '../composables/useLanguage'
+
 export default {
   name: "HelloWorld",
   components: {
@@ -22,6 +24,10 @@ export default {
   props: {
     msg: String,
   },
+  setup() {
+    const { t } = useLanguage()
+    return { t }
+  }
 };
 </script>
 
@@ -30,19 +36,23 @@ export default {
 h3 {
   margin: 40px 0 0;
 }
+
 ul {
   list-style-type: none;
   padding: 0;
 }
+
 li {
   display: inline-block;
   margin: 0 10px;
   padding-right: 1em;
   border-right: 1px solid #928a70;
+
   &:last-child {
     border-right: none;
   }
 }
+
 a {
   font-family: ProximaNova, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -56,6 +66,7 @@ a {
     color: #beb9ab;
   }
 }
+
 .column-content {
   background-color: rgba(67, 74, 74, 0.87);
   width: 100%;

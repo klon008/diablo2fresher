@@ -1,121 +1,80 @@
 <template>
    <div class="RuneWords">
-      <h1>Runewords</h1>
+      <h1>{{ t('runeWordsTitle') }}</h1>
       <div id="filter">
          <div class="inline_view_controls">
-            <div>
-               <span>Search: </span> <input type="text" v-model="filter" />
-            </div>
+            <SearchBar v-model="filter" :label="t('searchBy')" name="search" id="search-input" />
          </div>
          <div>
-            <button
-               class="fast-filter"
-               v-on:click="quickFilterEnabled = !quickFilterEnabled"
-               v-bind:class="{ active: quickFilterEnabled }"
-            >
-               Quick filter
+            <button class="fast-filter" v-on:click="quickFilterEnabled = !quickFilterEnabled"
+               v-bind:class="{ active: quickFilterEnabled }">
+               {{ t('showFilter') }}
             </button>
-            <button
-               class="fast-filter"
-               v-on:click="quickFilterRunesEnabled = !quickFilterRunesEnabled"
-               v-bind:class="{ active: quickFilterRunesEnabled }"
-            >
-               Rune filter
+            <button class="fast-filter" v-on:click="quickFilterRunesEnabled = !quickFilterRunesEnabled"
+               v-bind:class="{ active: quickFilterRunesEnabled }">
+               {{ t('runeFilter') }}
             </button>
          </div>
          <div v-if="quickFilterEnabled">
             <div>
                <button class="fast-filter" v-on:click="quickFilter = ''">
-                  All items
+                  {{ t('allItems') }}
                </button>
             </div>
             <div>
-               <button
-                  class="fast-filter"
-                  v-on:click="quickFilter = 'Armor'"
-                  v-bind:class="[quickFilter == 'Armor' ? 'active' : '']"
-               >
+               <button class="fast-filter" v-on:click="quickFilter = 'Armor'"
+                  v-bind:class="[quickFilter == 'Armor' ? 'active' : '']">
                   Armor
                </button>
             </div>
             <div>
-               <button
-                  class="fast-filter"
-                  v-on:click="quickFilter = 'Headgear'"
-                  v-bind:class="[quickFilter == 'Headgear' ? 'active' : '']"
-               >
+               <button class="fast-filter" v-on:click="quickFilter = 'Headgear'"
+                  v-bind:class="[quickFilter == 'Headgear' ? 'active' : '']">
                   Headgear
                </button>
-               <button
-                  class="fast-filter"
-                  v-on:click="quickFilter = 'Headgear (all types)'"
-                  v-bind:class="[
-                     quickFilter == 'Headgear (all types)' ? 'active' : '',
-                  ]"
-               >
+               <button class="fast-filter" v-on:click="quickFilter = 'Headgear (all types)'" v-bind:class="[
+                  quickFilter == 'Headgear (all types)' ? 'active' : '',
+               ]">
                   Headgear (all types)
                </button>
             </div>
             <div>
-               <button
-                  class="fast-filter"
-                  v-on:click="quickFilter = 'Shields'"
-                  v-bind:class="[quickFilter == 'Shields' ? 'active' : '']"
-               >
+               <button class="fast-filter" v-on:click="quickFilter = 'Shields'"
+                  v-bind:class="[quickFilter == 'Shields' ? 'active' : '']">
                   Shields
                </button>
             </div>
             <div>
-               <button
-                  class="fast-filter"
-                  v-on:click="quickFilter = 'All Weapons'"
-                  v-bind:class="[quickFilter == 'All Weapons' ? 'active' : '']"
-               >
+               <button class="fast-filter" v-on:click="quickFilter = 'All Weapons'"
+                  v-bind:class="[quickFilter == 'All Weapons' ? 'active' : '']">
                   All Weapons
                </button>
             </div>
-            <button
-               class="fast-filter"
-               v-on:click="quickFilter = 'Weapons'"
-               v-bind:class="[
-                  quickFilter == 'Weapons' || quickFilter == 'All Weapons'
-                     ? 'active'
-                     : '',
-               ]"
-            >
+            <button class="fast-filter" v-on:click="quickFilter = 'Weapons'" v-bind:class="[
+               quickFilter == 'Weapons' || quickFilter == 'All Weapons'
+                  ? 'active'
+                  : '',
+            ]">
                Weapons
             </button>
-            <button
-               class="fast-filter"
-               v-for="item in quickFilterVariants"
-               v-bind:key="item"
-               v-on:click="quickFilter = item"
-               v-bind:class="[
+            <button class="fast-filter" v-for="item in quickFilterVariants" v-bind:key="item"
+               v-on:click="quickFilter = item" v-bind:class="[
                   quickFilter == item || quickFilter == 'All Weapons'
                      ? 'active'
                      : '',
-               ]"
-            >
+               ]">
                {{ item }}
             </button>
          </div>
          <div v-if="quickFilterRunesEnabled">
             <div>
-               <button
-                  class="fast-filter"
-                  v-on:click="quickFilterRuneSelected = ''"
-               >
+               <button class="fast-filter" v-on:click="quickFilterRuneSelected = ''">
                   All Runes
                </button>
-               <button
-                  class="fast-filter"
-                  v-for="item in quickRunes"
-                  v-bind:key="item"
-                  v-on:click="quickFilterRuneSelected = item"
-                  v-bind:class="[
+               <button class="fast-filter" v-for="item in quickRunes" v-bind:key="item"
+                  v-on:click="quickFilterRuneSelected = item" v-bind:class="[
                      quickFilterRuneSelected == item ? 'active' : '',
-                  ]"
-               >
+                  ]">
                   {{ item }}
                </button>
             </div>
@@ -131,12 +90,12 @@
          </div>
          <SkeletonRuneWordsTable v-if="loading" />
          <template v-else>
-         <div v-for="(item, index) in filteredJson" :key="index" class="items-row">
-            <div class="index">{{ index + 1 }}</div>
-            <div class="name" v-html="item.name"></div>
-            <div class="stats" v-html="item.description"></div>
-            <div class="comments" v-html="item.Comments"></div>
-         </div>
+            <div v-for="(item, index) in filteredJson" :key="index" class="items-row">
+               <div class="index">{{ index + 1 }}</div>
+               <div class="name" v-html="item.name"></div>
+               <div class="stats" v-html="item.description"></div>
+               <div class="comments" v-html="item.Comments"></div>
+            </div>
          </template>
       </div>
    </div>
@@ -146,11 +105,16 @@
 <script>
 import axios from "axios";
 import SkeletonRuneWordsTable from "../components/SkeletonRuneWordsTable.vue";
+import SearchBar from "../components/SearchBar.vue";
+import { useLanguage } from "../composables/useLanguage";
 
 export default {
    name: "RuneWords",
-   components: { SkeletonRuneWordsTable },
-
+   components: { SkeletonRuneWordsTable, SearchBar },
+   setup() {
+      const { t } = useLanguage()
+      return { t }
+   },
    data: function () {
       return {
          loading: true,
@@ -274,7 +238,7 @@ export default {
          return true;
       },
    },
-   mounted() {},
+   mounted() { },
    created() {
       axios
          .get(`${import.meta.env.BASE_URL}json/qr.json`)
@@ -283,7 +247,7 @@ export default {
                this.qrJson = response.data;
             }
          })
-         .catch(() => {})
+         .catch(() => { })
          .finally(() => {
             this.loading = false;
          });
@@ -295,9 +259,11 @@ export default {
 #filter {
    text-align: left;
 }
+
 .items_header {
    display: table-header-group;
-   & > .items_header_h {
+
+   &>.items_header_h {
       display: table-cell;
       background: transparent;
       border: none;
@@ -308,14 +274,17 @@ export default {
       padding-right: 1em;
    }
 }
+
 .items {
    width: 100%;
    display: table;
    margin-top: 1em;
    margin-bottom: 2em;
-   & > .items-row {
+
+   &>.items-row {
       display: table-row;
-      & > div {
+
+      &>div {
          text-align: left;
          padding-top: 1em;
          padding-left: 1em;

@@ -24,12 +24,10 @@ export default {
 
 <style scoped>
 .skeleton-pulse {
-  background: linear-gradient(
-    90deg,
-    #1a1a1a 0%,
-    #2d2d2d 45%,
-    #1a1a1a 100%
-  );
+  background: linear-gradient(90deg,
+      #1a1a1a 0%,
+      #2d2d2d 45%,
+      #1a1a1a 100%);
   background-size: 200% 100%;
   animation: skeleton-shimmer 1.15s ease-in-out infinite;
 }
@@ -38,6 +36,7 @@ export default {
   0% {
     background-position: 100% 0;
   }
+
   100% {
     background-position: -100% 0;
   }

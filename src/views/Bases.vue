@@ -1,80 +1,52 @@
 <template>
   <div class="RuneWords">
-    <h2>ITEM BASES</h2>
+    <h2>{{ t('itemBases') }}</h2>
     <div id="filter">
       <!-- SEARCH BLOCK START -->
       <div class="inline_view_controls">
-        <div>
-          <span>Search by:</span>
-          <input type="text" v-model="search" />
-        </div>
+        <SearchBar v-model="search" :label="t('searchBy')" name="search" id="search-input" />
       </div>
       <!-- SEARCH BLOCK END -->
       <!-- FILTER CONTROLLER SHOW/HIDE BLOCK START -->
       <div class="inline_filter_control">
         <button class="fast-filter" v-on:click="showFilter = !showFilter">
-          <template v-if="!showFilter">show filter</template>
-          <template v-else>hide filter</template>
+          <template v-if="!showFilter">{{ t('showFilter') }}</template>
+          <template v-else>{{ t('hideFilter') }}</template>
         </button>
-        <button
-          class="fast-filter"
-          v-if="filter !== ''"
-          v-on:click="filter = ''"
-        >
-          clear filter
+        <button class="fast-filter" v-if="filter !== ''" v-on:click="filter = ''">
+          {{ t('clearFilter') }}
         </button>
       </div>
       <!-- FILTER CONTROLLER SHOW/HIDE BLOCK END -->
       <!-- FILTER CONTROLLER BLOCK START -->
       <div class="filterlist_wrapper" v-show="showFilter">
         <div class="filterlist_row">
-          <span>Armors :</span>
-          <button
-            v-on:click="setFilter(wfilter.name)"
-            class="fast-filter"
-            v-for="wfilter in ArmorsList"
-            :key="wfilter.name"
-            v-bind:class="[ wfilter.name == filter ? 'active' : '']"
-          >
+          <span>{{ t('armors') }}</span>
+          <button v-on:click="setFilter(wfilter.name)" class="fast-filter" v-for="wfilter in ArmorsList"
+            :key="wfilter.name" v-bind:class="[wfilter.name == filter ? 'active' : '']">
             {{ wfilter.name }}
           </button>
         </div>
         <div class="filterlist_row">
-          <span>Weapons :</span>
-          <button
-            v-on:click="setFilter(wfilter)"
-            class="fast-filter"
-            v-for="wfilter in WeaponsList"
-            :key="wfilter"
-            :class="((dontIgnoreList.indexOf(wfilter) !== -1)? '':'not-ready',wfilter == filter ? 'active' : '')"
-
-          >
+          <span>{{ t('weapons') }}</span>
+          <button v-on:click="setFilter(wfilter)" class="fast-filter" v-for="wfilter in WeaponsList" :key="wfilter"
+            :class="((dontIgnoreList.indexOf(wfilter) !== -1) ? '' : 'not-ready', wfilter == filter ? 'active' : '')">
             {{ wfilter }}
           </button>
         </div>
         <div class="filterlist_row">
-          <span>Class-specific Armor :</span>
-          <button
-            v-on:click="setFilter(wfilter)"
-            class="fast-filter"
-            v-for="wfilter in ClassSpecificArmor"
+          <span>{{ t('classSpecificArmor') }}</span>
+          <button v-on:click="setFilter(wfilter)" class="fast-filter" v-for="wfilter in ClassSpecificArmor"
             :key="wfilter"
-            
-            :class="((dontIgnoreList.indexOf(wfilter) !== -1)? '':'not-ready',wfilter == filter ? 'active' : '')"
-          >
+            :class="((dontIgnoreList.indexOf(wfilter) !== -1) ? '' : 'not-ready', wfilter == filter ? 'active' : '')">
             {{ wfilter }}
           </button>
         </div>
         <div class="filterlist_row">
-          <span>Class-specific Weapons :</span>
-          <button
-            v-on:click="setFilter(wfilter)"
-            class="fast-filter"
-            v-for="wfilter in ClassSpecificWeapons"
+          <span>{{ t('classSpecificWeapons') }}</span>
+          <button v-on:click="setFilter(wfilter)" class="fast-filter" v-for="wfilter in ClassSpecificWeapons"
             :key="wfilter"
-            
-            :class="((dontIgnoreList.indexOf(filter) !== -1)? '':'not-ready',wfilter == filter ? 'active' : '')"
-          >
+            :class="((dontIgnoreList.indexOf(filter) !== -1) ? '' : 'not-ready', wfilter == filter ? 'active' : '')">
             {{ wfilter }}
           </button>
         </div>
@@ -82,49 +54,37 @@
       <!-- FILTER CONTROLLER BLOCK END -->
     </div>
     <!-- ITEMS STYLED GRID -->
-    <div class="grid-header grid">
-      <div class="col-1 normal_items">Normal</div>
-      <div class="col-2 exceptional_items">Exceptional</div>
-      <div class="col-3 elite_items">Elite</div>
+    <div class="grid-header bases-grid">
+      <div class="col-1 normal_items">{{ t('normal') }}</div>
+      <div class="col-2 exceptional_items">{{ t('exceptional') }}</div>
+      <div class="col-3 elite_items">{{ t('elite') }}</div>
     </div>
-    <div id="items-wrapper" v-if="displayStyle == 'grid'" class="grid">
+    <div v-if="displayStyle == 'grid'" class="bases-grid">
       <div class="col-1 normal_items">
-        <div
-          v-for="(item, index) in normalItems"
-          v-bind:key="item.Name + item.GroupTag"
-          v-show="filteredJson(index)"
-          class="item_wrapper"
-        >
-          <div class="item__image">
-            <img :src="publicPath + item.Image" :alt="item.Name" />
+        <div v-for="(item, index) in normalItems" v-bind:key="item.Name + item.GroupTag" v-show="filteredJson(index)"
+          class="item_wrapper">
+          <div class="item__image" :style="{ minHeight: '100px' }">
+            <img :src="publicPath + item.Image" :alt="item.Name" loading="lazy" />
           </div>
           <div class="item__name">{{ item.Name }}</div>
           <div v-html="getItemData(item)" class="item__info"></div>
         </div>
       </div>
       <div class="col-2 exceptional_items">
-        <div
-          v-for="(item, index) in exceptionalItems"
-          v-bind:key="item.Name + item.GroupTag"
-          v-show="filteredJson(index)"
-          class="item_wrapper"
-        >
-          <div class="item__image">
-            <img :src="publicPath + item.Image" :alt="item.Name" />
+        <div v-for="(item, index) in exceptionalItems" v-bind:key="item.Name + item.GroupTag"
+          v-show="filteredJson(index)" class="item_wrapper">
+          <div class="item__image" :style="{ minHeight: '100px' }">
+            <img :src="publicPath + item.Image" :alt="item.Name" loading="lazy" />
           </div>
           <div class="item__name">{{ item.Name }}</div>
           <div v-html="getItemData(item)" class="item__info"></div>
         </div>
       </div>
       <div class="col-3 elite_items">
-        <div
-          v-for="(item, index)  in eliteItems"
-          v-bind:key="item.Name + item.GroupTag"
-          v-show="filteredJson(index)"
-          class="item_wrapper"
-        >
-          <div class="item__image">
-            <img :src="publicPath + item.Image" :alt="item.Name" />
+        <div v-for="(item, index) in eliteItems" v-bind:key="item.Name + item.GroupTag" v-show="filteredJson(index)"
+          class="item_wrapper">
+          <div class="item__image" :style="{ minHeight: '100px' }">
+            <img :src="publicPath + item.Image" :alt="item.Name" loading="lazy" />
           </div>
           <div class="item__name">{{ item.Name }}</div>
           <div v-html="getItemData(item)" class="item__info"></div>
@@ -167,24 +127,22 @@ import NecromancerShrunkenHeads from "../assets/bases/NecromancerShrunkenHeads.j
 import AmazonWeapons from "../assets/bases/AmazonWeapons.json";
 import AssassinKatars from "../assets/bases/AssassinKatars.json";
 import SorceressOrbs from "../assets/bases/SorceressOrbs.json";
+import SearchBar from "../components/SearchBar.vue";
+import { useLanguage } from "../composables/useLanguage";
 
-
-Array.prototype.unique = function() {
-    var a = this.concat();
-    for(var i=0; i<a.length; ++i) {
-        for(var j=i+1; j<a.length; ++j) {
-            if(a[i] === a[j])
-                a.splice(j--, 1);
-        }
-    }
-
-    return a;
-};
+// Функция для получения уникальных значений массива
+function uniqueArray(arr) {
+  return [...new Set(arr)];
+}
 
 export default {
   name: "ItemBases",
   components: {
-    //popper: Popper
+    SearchBar
+  },
+  setup() {
+    const { t } = useLanguage()
+    return { t }
   },
   data: function () {
     return {
@@ -196,8 +154,8 @@ export default {
       search: "",
       showFilter: false,
       displayStyle: "grid",
-      dontIgnoreList: ['1h-Axes', '2h-Axes', 'Bows', 'Crossbows', 'Daggers', 'Javelins', 'Maces','Polearms', 'Scepters', 'Spears', 'Staves', 'Swords', 'Throwing', 'Wands',
-      'Barbarian Helms', 'Druid Pelts', 'Paladin Shields', 'Necromancer Shrunken Heads', 'Amazon Weapons', 'Assassin Katars', 'Sorceress Orbs'],
+      dontIgnoreList: ['1h-Axes', '2h-Axes', 'Bows', 'Crossbows', 'Daggers', 'Javelins', 'Maces', 'Polearms', 'Scepters', 'Spears', 'Staves', 'Swords', 'Throwing', 'Wands',
+        'Barbarian Helms', 'Druid Pelts', 'Paladin Shields', 'Necromancer Shrunken Heads', 'Amazon Weapons', 'Assassin Katars', 'Sorceress Orbs'],
       ArmorsList: [
         { name: "Helms" },
         { name: "Armor" },
@@ -246,25 +204,25 @@ export default {
     eliteItems: function () {
       return this.checkItemsToDiffAndFilter("Elite");
     },
-    searchIndexes: function(){
-      if (this.search !== ''){
+    searchIndexes: function () {
+      if (this.search !== '') {
         let searchText = this.search;
         let normalIndexes = this.getAllIndexes(this.normalItems, searchText);
         let exceptionalIndexes = this.getAllIndexes(this.exceptionalItems, searchText);
         let eliteIndexes = this.getAllIndexes(this.eliteItems, searchText);
-        let result = [...normalIndexes,...exceptionalIndexes,...eliteIndexes];
-        result = result.unique();
+        let result = [...normalIndexes, ...exceptionalIndexes, ...eliteIndexes];
+        result = uniqueArray(result);
         return result
       }
       return null;
     }
   },
   methods: {
-    getAllIndexes: function(arr, searchText) {
+    getAllIndexes: function (arr, searchText) {
       var indexes = [], i;
-      for(i = 0; i < arr.length; i++)
-          if (arr[i].Name.toLowerCase().indexOf(searchText.toLowerCase()) !== -1)
-              indexes.push(i);
+      for (i = 0; i < arr.length; i++)
+        if (arr[i].Name.toLowerCase().indexOf(searchText.toLowerCase()) !== -1)
+          indexes.push(i);
       return indexes;
     },
     checkItemsToDiffAndFilter: function (inDiff) {
@@ -284,14 +242,14 @@ export default {
       }
     },
     filteredJson: function (inIndex) {
-      if (this.searchIndexes){
-        if (this.searchIndexes.indexOf(inIndex) !== -1){
+      if (this.searchIndexes) {
+        if (this.searchIndexes.indexOf(inIndex) !== -1) {
           return true;
         } else {
           return false;
         }
       } else
-      return true;
+        return true;
     },
     getItemData: function (inItem) {
       var output = "";
@@ -322,39 +280,42 @@ export default {
       return inProp;
     },
   },
-  mounted() {},
+  mounted() { },
   created() {
     this.dJson = belts.concat(beltsElite, boots, bootsElite, gloves, Shields, Armor, Helms, o1hAxes,
-    o2hAxes, Bows, Crossbows, Daggers, Javelins, Maces, Polearms, Scepters, Spears, Staves, o1hSwors, o2hSwors, Throwing, Wands,
-    BarbarianHelms, DruidPelts, PaladinShields, NecromancerShrunkenHeads, AmazonWeapons, AssassinKatars, SorceressOrbs);
+      o2hAxes, Bows, Crossbows, Daggers, Javelins, Maces, Polearms, Scepters, Spears, Staves, o1hSwors, o2hSwors, Throwing, Wands,
+      BarbarianHelms, DruidPelts, PaladinShields, NecromancerShrunkenHeads, AmazonWeapons, AssassinKatars, SorceressOrbs);
   },
 };
 </script>
 
 <style lang="scss">
-
-.grid {
+.bases-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 1fr;
   grid-gap: 20px;
   padding: 20px 0;
+
   .col-1,
   .col-2,
   .col-3 {
     max-width: 100%;
     display: grid;
     grid-auto-rows: 1fr;
-    & > div {
+
+    &>div {
       margin-top: 20px;
       word-break: break-all;
       margin-bottom: 20px;
     }
   }
 }
-.grid-header{
+
+.grid-header {
   padding-bottom: 0;
 }
+
 .item_wrapper {
   background: #020202;
   margin-left: auto;
@@ -366,22 +327,37 @@ export default {
   justify-content: center;
   transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   cursor: pointer;
-  &:hover{
+
+  &:hover {
     transform: translateY(-30px);
   }
 }
+
 .item__image {
   padding-bottom: 15px;
+  min-height: 100px;
+
+  img {
+    display: block;
+    max-width: 100%;
+    max-height: 118px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    object-fit: contain;
+  }
 }
+
 .item__name {
   padding-bottom: 10px;
-
   font-weight: 600;
 }
+
 .item__info {
   line-height: 1.4;
 }
-.not-ready{
+
+.not-ready {
   text-decoration: line-through;
 }
 </style>
