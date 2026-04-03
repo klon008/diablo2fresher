@@ -62,7 +62,7 @@
     <template v-else>
       <div id="items-wrapper" v-if="displayStyle == 'grid'">
         <div v-for="item in dJson" v-bind:key="item.id" v-show="filteredJson(item)">
-          <VDropdown :triggers="['hover']" placement="top">
+          <VDropdown :triggers="['hover']" placement="auto" :unmount-on-hide="true" :container="false">
             <div class="pop-item">
               <div class="item-img">
                 <img :src="(publicPath + item.img)" v-bind:alt="item.name" loading="lazy" />
