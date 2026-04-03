@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://diablo2fresher.github.io/sitemap.xml
