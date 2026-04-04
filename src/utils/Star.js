@@ -18,7 +18,7 @@ export class Star {
   }
 }
 
-export function createStars(canvas, count = 60, speeds = [0.001, 0.0022, 0.0045]) {
+export function createStars(canvas, count = 60, speeds = [0.1, 0.2, 0.5]) {
   const stars = [];
   const speedsCount = speeds.length;
   const starsPerSpeed = Math.floor(count / speedsCount);
