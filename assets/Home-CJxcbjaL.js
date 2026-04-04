@@ -1,0 +1,1 @@
+import{_ as e,N as o,c as s,o as t}from"./index-tCeI_g9_.js";const n={name:"Home",components:{NavigationMenu:o}},c={class:"home"};function a(r,_,m,p,i,d){return t(),s("div",c)}const l=e(n,[["render",a]]);export{l as default};
